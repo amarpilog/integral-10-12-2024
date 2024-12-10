@@ -1,0 +1,38 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Dec, 2021, 12:14:56 PM
+    Author     : Santhosh.K
+*/
+
+.dark-mode .dxpLoginHeader{
+
+    background: var(--overlay1-dark);
+    border-bottom: 1px solid var(--dark-border-color);
+    z-index: 1030;
+}
+.dark-mode .searchMainWrap .has-search input.form-control{
+    background: #252830;
+    border: 1px solid #5f5f64;
+    color: #f1f1f1;
+}
+.dark-mode .icon-maximize:before {
+    content: "\e908";
+    color: #f1f1f1;
+}
+.dark-mode .mobileHeader .navbar-toggler-icon{
+   background-image: url(../../darkimages/mobileMenuIcon.png) !important;
+}
+.dark-mode .mobileHeader .navbar-toggler{
+      border: 1px solid #5f5f64 !important;
+}
+.dark-mode .searchFeildToggleIcon .searchFeildIconandText {
+	/* border: 1.4px solid #fff; */
+}
+
+.dark-mode .searchFeildToggleIcon .searchText {
+	color: var(--text-color-primary) !important;
+}

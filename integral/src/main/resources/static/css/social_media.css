@@ -1,0 +1,54 @@
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    /* width: 30px; */
+    text-align: center;
+    text-decoration: none;
+    /* margin: 5px 2px; */
+    border-radius: 10%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #fff;
+    color: #3b5998;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.soci_icons {
+    display: flex;
+    margin: 10px;
+}
+
+.soci_icon {
+    margin-left: 8px;
+}
+
+.reports reports_1 {
+    display: flex;
+}
+
+.bg_col {
+    /* background-image: linear-gradient(to right, #0b4a99 0%, #cb1618 100%); */
+    background-color: #f57ec6;
+}
+
+.show {
+    display: contents;
+}
+
+.weeks {
+    display: none;
+}

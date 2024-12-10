@@ -1,0 +1,299 @@
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 17, 2023, 5:14:59 PM
+    Author     : PiLog
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation : portrait){
+ 
+    .defaultShowCards .dridHomePageCards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,48%) !important;
+        gap: 5px 10px;
+    }
+    .searchResultCardViewMainSection .createText{
+        margin-top: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+/*    .dxpPageWrapper{
+    margin-top: inherit !important;
+   }  */
+    .visualizationDashboardView .plot-container .modebar-container{
+        width: 100%
+    }
+    .expendInOutDivClass {
+        position: fixed !important;
+        left: 51.8% !important;
+        top: 60px !important;
+    }
+    .menutabClass {
+        display: flex;
+        align-items: center;
+        padding: 4px 2px;
+        border: 1px solid #0b4a99;
+        color: #0b4a99;
+        border-radius: 20px;
+        margin-top: -6px;
+        position: relative;  
+        top: -6px;
+    }
+    .defaultShowCards {
+        height: 85% !important;
+        overflow-y: auto !important;
+    }  
+    .searchDiv{
+        margin-left:5px !important;
+    } 
+    .visualizationMainDivwrapper , .leftFileUploads{
+        width: 30% !important;
+    }
+    .footer{
+        z-index: 9999;
+    }
+    .dxpLoginHeader .navbar-collapse ul li{
+        position:inherit !important;
+        border-bottom: 1px solid #ddd;
+        padding: 6px;
+        display: flex;
+        gap: 40px;
+        font-weight: 600;
+        color: #12134d;
+        
+    }
+    .dxpLoginHeader .navbar-collapse .navbar-nav .searchSettingIcon{
+        position: absolute !important;
+        right: 110px;
+        top: 48px;
+        border-bottom: inherit !important;
+    }
+    .dxpLoginHeader .navbar-collapse .navbar-nav .DXPlLanguageSelectionClass{
+        position: absolute !important;
+        right: 25px;
+        top:42px;
+        border-bottom: inherit !important;
+    }
+    .dxpLoginHeader .headerOptionTitle{
+        display:block !important;
+    }
+    .dxpLoginHeader .navbar-collapse .navbar-nav{
+        background-color: #fff;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+    .dxpPageWrapper{
+        margin-top:50px !important;
+    }
+    .dxpLoginHeader .navbar-light .navbar-toggler-icon{
+        background-image: url(../images/mobileMenuIcon.png);
+    }
+    .dxpLoginHeader button:hover{
+        background-color: transparent !important;
+        border: none !important;
+    } 
+    .searchResultCardViewMainSection .filterButtonrow .iconMenuNavNext{
+        z-index: 1010;
+    }
+    .dxpLoginHeader .defultSearchBar{
+        position: relative;
+        display: block !important;
+    }
+    .dxpLoginHeader .defultSearchBar .has-search{
+        position: absolute;
+        width: 300px;
+        top: -15px;
+        
+        left: 60px;
+    }
+    .dxpLoginHeader .defultSearchBar .has-search input{
+        border: 1px solid #0b4a99;
+        height: 30px;
+        border-radius: 10px;
+    }
+    
+    .dxpLoginHeader .searchMainWrap .has-search{
+        width: 415px !important;
+    }
+    
+}
+
+/*screen size 1024px */
+
+
+@media screen and (max-width: 1024px) and (orientation : landscape){                   
+    .dxpLoginHeader .massSearchListItem {
+        position: absolute;
+        right: 42% !important;
+        top: -15px;
+    }
+    .dxpLoginHeader .searchSettingIcon {
+        position: absolute;
+        right: 38% !important;
+        top: -14px;
+    }
+    .menutabClass{
+        margin-top: 0;
+    }
+    .defaultShowCards{
+        height:100%;
+        overflow-y:auto;
+    }
+    .dataDxpSplitterValue .modal-dialog {
+        height: 450px;
+        z-index:9999;     
+    }
+    .dataDxpSplitterValue .modal-body{
+        height: 350px;
+        overflow-y: auto; 
+    }
+    .formDxpDuplicates {
+        z-index: 99;
+    }
+    .charAccordianMaindiv .card .card-body label{
+        display: contents;
+    }
+    .searchtempleteClass .searchDiv{
+        margin-left: 175px; 
+    }
+    .searchtempleteClass .searchSetting{
+        margin-right: 35px !important;
+    }
+    .searchResultCardViewMainSection .createText{
+        margin-top: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .searchResultCardViewMainSection .createText:hover{
+        white-space: inherit;
+    }
+    .defaultShowCards .dridHomePageCards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,32%);
+        gap: 5px 10px;
+    }
+    body:has(.signInpopUp) .dxpPageWrapper{
+        display: none ! important;
+    }
+    .searchLanguage{ 
+        margin-right:5.5%;    
+    }
+    .searchSetting{
+        position: absolute;
+        right: 26.9%;
+        top: 40px;
+    }  
+    .visualizationDashboardView .plot-container .modebar-container{
+        width: 100%
+    }
+
+
+}
+
+@media screen and (min-width: 1280px) and (max-width:1365px){
+    .expendInOutDivClass {
+        position: fixed;
+        left: 54.8%;
+        top: 60px;
+    }
+    .dxpLoginHeader .massSearchListItem {
+        position: absolute;
+        right: 42% !important;
+        top: -15px;
+    }
+    .dxpLoginHeader .searchSettingIcon {
+        position: absolute;
+        right: 38% !important;
+        top: -14px;
+    }
+    .menutabClass{
+        margin-top: 0;
+    }
+    .defaultShowCards{
+        height:100%;
+        overflow-y:auto;
+    }
+    .dataDxpSplitterValue .modal-dialog {
+        height: 450px;
+        z-index:9999;     
+    }
+    .dataDxpSplitterValue .modal-body{
+        height: 350px;
+        overflow-y: auto; 
+    }
+    .formDxpDuplicates {
+        z-index: 99;
+    }
+    .charAccordianMaindiv .card .card-body label{
+        display: contents;
+    }
+    .searchtempleteClass .searchDiv{
+        margin-left: 175px; 
+    }
+    .searchtempleteClass .searchSetting{
+        margin-right: 35px !important;
+    }
+    .searchResultCardViewMainSection .createText{
+        margin-top: 5px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .searchResultCardViewMainSection .createText:hover{
+        white-space: inherit;
+    }
+    .defaultShowCards .dridHomePageCards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,32%);
+        gap: 5px 10px;
+    }
+    body:has(.signInpopUp) .dxpPageWrapper{
+        display: none ! important;
+    }
+    .searchLanguage{ 
+        margin-right:5.5%;    
+    }
+    .searchSetting{
+        position: absolute;
+        right: 26.9%;
+        top: 40px;
+    }  
+    .visualizationDashboardView .plot-container .modebar-container{
+        width: 100%
+    }
+
+}
+
+@media screen and (max-width: 1920px){
+    .smartBILoginMain{
+        height: calc(100vh - 50rem);
+    } 
+}
+@media(max-width:1199px){
+	.visionCardViewClass .visionHomeCardViewClass {
+    	flex-basis: 25%;
+	}
+}
+@media(max-width:1150px){
+	.visionCardViewClass .visionHomeCardViewClass {
+	    flex-basis: 20%;
+	}
+}
+@media(max-width:992px){
+	.visionCardViewClass .visionHomeCardViewClass {
+	    flex-basis: 25%;
+	}
+}
+@media(max-width:768px){
+	.footer .container{
+		max-width:100%;
+	}
+	.visionCardViewClass .visionHomeCardViewClass {
+	    flex-basis: 30%;
+	}
+}

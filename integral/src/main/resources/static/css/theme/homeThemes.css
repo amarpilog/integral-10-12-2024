@@ -1,0 +1,309 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Dec, 2021, 12:14:56 PM
+    Author     : Santhosh.K
+*/
+/*.dxpHeader, .dxpLoginHeader {
+	position: sticky;
+	width: 100%;
+	top: 0;
+	left: 0;
+ 	background: #69c2e6; 
+	 border-bottom: 1px solid #5f5f64; 
+	z-index: 1030;
+}*/
+
+.lightBlue .searchMainWrap .has-search input.form-control {
+	background: #69c2e6;
+	border: 1px solid #5f5f64;
+	color: #f1f1f1;
+}
+
+.lightBlue .icon-maximize:before {
+	content: "\e908";
+	color: #f1f1f1;
+}
+
+.lightBlue .mobileHeader .navbar-toggler-icon {
+	background-image: url(../../darkimages/mobileMenuIcon.png) !important;
+}
+
+.lightBlue .mobileHeader .navbar-toggler {
+	border: 1px solid #5f5f64 !important;
+}
+
+.lightBlue .searchFeildToggleIcon .searchFeildIconandText {
+	border: 1.4px solid #fff;
+}
+
+.lightBlue .searchFeildToggleIcon .searchText {
+	color: #fff;
+}
+
+/* applying home themes by Rajasekhar on 19-12-2022 */
+.settingPannel .listofSettingDiv ul .ThemesIcon .innerThemes ul {
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.settingPannel .listofSettingDiv ul .ThemesIcon .innerThemes ul li {
+	/* margin: 5px; */
+	border-bottom: none;
+}
+.settingPannel .listofSettingDiv ul .ThemesIcon .innerThemes ul li img{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+
+.settingPannel .listofSettingDiv ul .ThemesIcon .innerThemes li span {
+	font-size: 10px;
+}
+
+.settingPannel .listofSettingDiv ul .ThemesIcon .innerThemes li .defaultColor
+	{
+	width: 35px;
+	height: 35px;
+	background-color: #fff;
+	border: 1px solid #000;
+	border-radius: 4px;
+}
+
+.settingPannel .listofSettingDiv ul .ThemesIcon .innerThemes li .primaryColor
+	{
+	width: 35px;
+	height: 35px;
+	background-color: #69c2e6;
+	border: 1px solid #69c2e6;
+	border-radius: 4px;
+}
+
+.settingPannel .listofSettingDiv ul .ThemesIcon .innerThemes li .secondaryColor
+	{
+	width: 35px;
+	height: 35px;
+	background-color: #707576;
+	border: 1px solid #707576;
+	border-radius: 4px;
+}
+
+.settingPannel .listofSettingDiv ul .ThemesIcon .innerThemes li .basicColor
+	{
+	width: 35px;
+	height: 35px;
+	background-color: #c4e3ff;
+	border: 1px solid #c4e3ff;
+	border-radius: 4px;
+}
+
+.settingPannel .listofSettingDiv ul .ThemesIcon .innerThemes li .darkedColor {
+    width: 35px;
+    height: 35px;
+    background-color: #4481b9;
+    border: 1px solid #4481b9;
+    border-radius: 4px;
+}
+
+.settingPannel .listofSettingDiv ul .ThemesIcon .innerThemes li .lightDarkColor {
+    width: 35px;
+    height: 35px;
+    background-color: #0c3c68;
+    border: 1px solid #0c3c68;
+    border-radius: 4px;
+}
+
+/* applying home themes ends by Rajasekhar on 19-12-2022 */
+
+/* applying home themes starts by Rajasekhar on 20-12-2022 */
+.lightthemeColors {
+	/* width: 35px; */
+	/* height: 35px; */
+}
+
+.defaultColor .dxpLoginHeader, .defaultColor .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.defaultColor .footer {
+	background: #fff;
+}
+
+.primaryColor .dxpLoginHeader, .primaryColor .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.primaryColor .footer {
+	background: #69c2e6;
+}
+
+.secondaryColor .dxpLoginHeader, .secondaryColor .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.secondaryColor .footer {
+	background: #707576;
+}
+
+.basicColor .dxpLoginHeader, .basicColor .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.basicColor .footer {
+	background: #c4e3ff;
+}
+
+.darkedColor .dxpLoginHeader, .basicColor .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.darkedColor .footer {
+	background: #4481b9;
+}
+
+.lightDarkColor .dxpLoginHeader, .basicColor .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.lightDarkColor .footer {
+	background: #0c3c68;
+}
+ 
+
+.defaultHomeTheme .dxpLoginHeader, .defaultHomeTheme .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.defaultHomeTheme .footer {
+	background-image: url(../../images/home_Theme1.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.primaryHomeTheme .dxpLoginHeader, .primaryHomeTheme .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.primaryHomeTheme .footer {
+	background-image: url(../../images/home_Theme2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.secondaryHomeTheme .dxpLoginHeader, .secondaryHomeTheme .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.secondaryHomeTheme .footer {
+	background-image: url(../../images/home_Theme3.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.basicHomeTheme .dxpLoginHeader, .basicHomeTheme .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.basicHomeTheme .footer {
+	background-image: url(../../images/home_Theme4.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+/* applying home themes ends by Rajasekhar on 20-12-2022 */
+
+/* applying more home themes starts by Rajasekhar on 22-12-2022 */
+.settingPannel .listofSettingDiv ul .ThemesIcon .moreThemesShowDiv
+	{
+	font-weight: 700;
+    font-size: 12px;
+}
+
+.settingPannel .listofSettingDiv ul .ThemesIcon .moreThemes ul {
+	display: flex;
+}
+
+.settingPannel .listofSettingDiv ul .ThemesIcon .moreThemes ul li {
+	margin: 5px;
+	border-bottom: none;
+}
+
+.settingPannel .listofSettingDiv ul .ThemesIcon .moreThemesHideDiv
+	{
+	font-weight: 700;
+    font-size: 12px;
+}
+
+.moreHomeThemeOne .dxpLoginHeader, .moreHomeThemeOne .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.moreHomeThemeOne .footer {
+	background-image: url(../../images/themebg_1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.moreHomeThemeTwo .dxpLoginHeader, .moreHomeThemeTwo .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.moreHomeThemeTwo .footer {
+	background-image: url(../../images/themebg_2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.moreHomeThemeThree .dxpLoginHeader, .moreHomeThemeThree .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.moreHomeThemeThree .footer {
+	background-image: url(../../images/themebg_3.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.moreHomeThemeFour .dxpLoginHeader, .moreHomeThemeFour .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.moreHomeThemeFour .footer {
+	background-image: url(../../images/themebg_4.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.moreHomeThemeFive .dxpLoginHeader, .moreHomeThemeFive .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.moreHomeThemeFive .footer {
+	background-image: url(../../images/themebg_5.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.moreHomeThemeSix .dxpLoginHeader, .moreHomeThemeSix .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.moreHomeThemeSix .footer {
+	background-image: url(../../images/themebg_6.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.moreHomeThemeSeveen .dxpLoginHeader, .moreHomeThemeSeveen .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.moreHomeThemeSeveen .footer {
+	background-image: url(../../images/themebg_7.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.moreHomeThemeEight .dxpLoginHeader, .moreHomeThemeEight .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.moreHomeThemeEight .footer {
+	background-image: url(../../images/themebg_8.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.moreHomeThemeNine .dxpLoginHeader, .moreHomeThemeNine .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.moreHomeThemeNine .footer {
+	background-image: url(../../images/themebg_9.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.moreHomeThemeTen .dxpLoginHeader, .moreHomeThemeTen .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.moreHomeThemeTen .footer {
+	background-image: url(../../images/themebg_10.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.moreHomeThemeEleven .dxpLoginHeader, .moreHomeThemeTen .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.moreHomeThemeEleven .footer {
+	background-image: url(../../images/themebg_11.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.moreHomeThemeTwelve .dxpLoginHeader, .moreHomeThemeTen .sidebar-wrapper .sidebar-menu ul li .waves-effect,
+	.moreHomeThemeTwelve .footer {
+	background-image: url(../../images/themebg_12.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+/* applying more home themes ends by Rajasekhar on 22-12-2022 */

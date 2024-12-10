@@ -1,0 +1,76 @@
+/* style bubbles */
+.bubble,
+.bubble-typing {
+  color: #fff;
+  /* background: rgba(255, 255, 255, 0.84); */
+  /* background: rgba(64, 135, 94, 0.9); */
+  /* background: rgba(168, 162, 64, 1);  */
+  /* background: rgba(240, 171, 0, 0.9); */
+   background: rgba(2, 76, 157, 0.8); 
+  /*background: #40875E;*/
+  padding: 5px 5px;
+  font-weight: 400;
+  text-transform: none;
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: .5px;
+  margin: 0 0 2px 0;
+  width: 90%;
+  float: none;
+  clear: both;
+  font-size: 11px;
+  line-height: 1.4;
+  word-break: break-word;
+  transform-origin: left top;
+  transition: all 200ms;
+  box-sizing: content-box;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+      background: #f7f7f7;
+    color: #021b6c;
+    font-weight: 500;
+    font-size: 13px !important;
+    box-shadow: 0 0 2px #000;
+    /* border: 1px solid #ddd; */
+    margin: 6px 0;
+}
+.bubble .bubble-content {
+  transition: opacity 150ms;
+}
+.bubble:not(.say) .bubble-content {
+  opacity: 0;
+}
+/*.bubble-typing.imagine,
+.bubble.imagine {
+  transform: scale(0);
+  transition: all 200ms, height 200ms 1s, padding 200ms 1s;
+}*/
+.bubble-typing.imagine{
+	width:auto !important;
+}
+.bubble.imagine {
+  margin: 0;
+  height: 0;
+  padding: 0;
+}
+
+/* style media that's inside bubbles */
+.bubble .bubble-content img {
+  width: calc(100% + 32px);
+  margin: -8px -16px;
+  overflow: hidden;
+  display: block;
+  border-radius: 5px 15px 15px 15px;
+}
+
+/* interaction recall styles */
+.bubble.history,
+.bubble.history .bubble-content,
+.bubble.history .bubble-content .bubble-button,
+.bubble.history .bubble-content .bubble-button:hover {
+  transition: all 0ms !important;
+}
+.bubble.history {
+  opacity: .25;
+}

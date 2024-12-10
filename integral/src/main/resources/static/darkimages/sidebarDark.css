@@ -1,0 +1,417 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 Dec, 2021, 12:05:49 PM
+    Author     : Santhosh.K
+*/
+
+@keyframes swing {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(10deg);
+    }
+
+    30% {
+        transform: rotate(0deg);
+    }
+
+    40% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    60% {
+        transform: rotate(5deg);
+    }
+
+    70% {
+        transform: rotate(0deg);
+    }
+
+    80% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes sonar {
+    0% {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+
+.dxpPageWrapper .sidebar-wrapper,
+.sidebar-wrapper .sidebar-brand>a,
+.sidebar-wrapper .sidebar-dropdown>a:after,
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li a:before,
+.sidebar-wrapper ul li a i,
+.dxpPageWrapper .dxpPageContent,
+.sidebar-wrapper .sidebar-search input.search-menu,
+.sidebar-wrapper .sidebar-search .input-group-text,
+.sidebar-wrapper .sidebar-menu ul li a,
+#show-sidebar,
+#close-sidebar {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.dxpPageWrapper .dxpSideMenuClass .dxpMenuImageClass img{
+    width: 25px;
+}
+.dxpTheme .sidebar-wrapper {
+    background: #fff;
+    border-right: 1px solid #f1f1f1;
+}
+
+
+/*----------------toggeled sidebar----------------*/
+
+.dxpPageWrapper #sidebar.toggled .sidebar-content{
+    min-width: 60px;
+    max-width: 60px;
+}
+.dxpPageWrapper #sidebar.toggled .menuTitle{
+    display: none;
+}
+.dxpPageWrapper #sidebar.toggled .sidebar-dropdown .sidebar-submenu, .dxpPageWrapper #sidebar.toggled .sidebar-dropdown .active .sidebar-submenu{
+    display: none !important;
+}
+
+/* @media screen and (min-width: 768px) {
+  .dxpPageWrapper.toggled .dxpPageContent {
+    padding-left: 300px;
+  }
+} */
+/*----------------show sidebar button----------------*/
+#show-sidebar {
+    border-radius: 0 4px 4px 0px;
+    width: 20px;
+    transition-delay: 0.3s;
+}
+
+/*----------------sidebar-wrapper----------------*/
+
+.dark-mode .sidebar-wrapper .sidebar-content{
+    width: 270px;
+    border-right: 1px solid #5f5f64;
+}
+
+.sidebar-wrapper ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-wrapper a {
+    text-decoration: none;
+}
+
+.sidebar-wrapper .dxpMenuImageClass{
+    margin-right: 10px; 
+}
+#sidebar.toggled .dxpMenuImageClass{
+    margin-right: inherit; 
+}
+
+
+
+/*----------------sidebar-content----------------*/
+
+
+
+.dark-mode .sidebar-content {
+    /*max-height: calc(100% - 30px);*/
+    height: calc(100vh - 50px - 40px);
+    overflow-y: hidden;
+    position: fixed;
+    z-index: 999;
+    background: #3e3e42;
+}
+.sidebar-content:hover{
+overflow-y: auto;
+}
+
+/*.sidebar-content.desktop 298
+
+    overflow-y: hidden;
+}*/
+
+/*--------------------sidebar-brand----------------------*/
+
+.sidebar-wrapper .sidebar-brand {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-wrapper .sidebar-brand>a {
+    text-transform: uppercase;
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+.sidebar-wrapper .sidebar-brand #close-sidebar {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*--------------------sidebar-header----------------------*/
+
+.sidebar-wrapper .sidebar-header {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.sidebar-wrapper .sidebar-header .user-pic {
+    float: left;
+    width: 60px;
+    padding: 2px;
+    border-radius: 12px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.sidebar-wrapper .sidebar-header .user-pic img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.sidebar-wrapper .sidebar-header .user-info {
+    float: left;
+}
+
+.sidebar-wrapper .sidebar-header .user-info>span {
+    display: block;
+}
+
+.sidebar-wrapper .sidebar-header .user-info .user-role {
+    font-size: 12px;
+}
+
+.sidebar-wrapper .sidebar-header .user-info .user-status {
+    font-size: 11px;
+    margin-top: 4px;
+}
+
+.sidebar-wrapper .sidebar-header .user-info .user-status i {
+    font-size: 8px;
+    margin-right: 4px;
+    color: #5cb85c;
+}
+
+/*-----------------------sidebar-search------------------------*/
+
+.sidebar-wrapper .sidebar-search>div {
+    padding: 10px 20px;
+}
+
+/*----------------------sidebar-menu-------------------------*/
+
+.sidebar-wrapper .sidebar-menu {
+    padding-bottom: 10px;
+}
+
+.sidebar-wrapper .sidebar-menu .header-menu span {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px 20px 5px 20px;
+    display: inline-block;
+}
+
+.dark-mode .sidebar-wrapper .sidebar-menu ul li a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+    padding: 10px 6px;
+    text-align: inherit;
+    color: #f1f1f1;
+    border-bottom: 1px solid #5f5f64;
+}
+.dark-mode .sidebar-wrapper .sidebar-menu ul li.active>a{
+    background-color: #040404;
+}
+#sidebar.toggled .sidebar-menu ul li.active>a{
+    background-color: inherit;
+}
+#sidebar.toggled .sidebar-menu ul li a {
+    border-bottom: inherit;
+}
+#sidebar.toggled .sidebar-menu ul li a {
+    border-bottom: inherit;
+}
+
+
+#sidebar.toggled .sidebar-menu ul li a{
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    padding: 12px 6px;
+}
+#sidebar.toggled .sidebar-menu .dxpHomeMenuIconClass{
+    margin-right: inherit;
+}
+.sidebar-wrapper .sidebar-menu .dxpHomeMenuIconClass{
+    margin-right: 10px;  
+}
+
+.sidebar-wrapper .sidebar-menu ul li a i {
+    margin-right: 10px;
+    font-size: 21px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.sidebar-wrapper .sidebar-menu ul li a:hover>i::before {
+    display: inline-block;
+    animation: swing ease-in-out 0.5s 1 alternate;
+}
+
+.dark-mode .sidebar-wrapper .sidebar-menu .sidebar-dropdown>a:after, .sidebar-wrapper .sidebar-menu .level2dropdown>a:after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    font-style: normal;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    background: 0 0;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: #f1f1f1;
+}
+.sidebar-wrapper .sidebar-menu .level3dropdown>a:after, .sidebar-wrapper .sidebar-menu .level4dropdown>a:after{
+     font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    font-style: normal;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    background: 0 0;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+    color: #0b4a99;
+}
+
+#sidebar.toggled .sidebar-menu .sidebar-dropdown>a:after{
+    display: none;
+}
+
+/*.sidebar-wrapper .sidebar-menu .sidebar-dropdown .dxpMaxMinMenuClass, .sidebar-wrapper .sidebar-menu .level2dropdown .dxpMaxMinSecondClass{
+    float: right;
+    transition: 300ms ease all;
+    transform: rotate(90deg);
+}
+.sidebar-wrapper .sidebar-dropdown.active .dxpMaxMinMenuClass{
+    transition: 300ms ease all;
+    transform: rotate(90deg);
+}
+.sidebar-wrapper .level2dropdown.active .dxpMaxMinSecondClass{
+    transition: 300ms ease all;
+    transform: rotate(90deg);
+}
+.sidebar-wrapper .level3dropdown.active .dxpMaxMinThirdClass{
+    transition: 300ms ease all;
+    transform: rotate(90deg);
+}
+.sidebar-wrapper .level4dropdown.active .dxpMaxMinFourthClass{
+    transition: 300ms ease all;
+    transform: rotate(90deg);
+}
+
+.sidebar-wrapper .sidebar-menu .level3dropdown .dxpMaxMinThirdClass{
+    float: right;
+     transition: 300ms ease all;
+}
+.sidebar-wrapper .sidebar-menu .level4dropdown .dxpMaxMinFourthClass{
+    float: right;
+     transition: 300ms ease all;
+}
+#sidebar.toggled .sidebar-menu .sidebar-dropdown .dxpMaxMinMenuClass{
+    display: none;
+}*/
+
+.sidebar-wrapper .sidebar-submenu{
+    display: none;
+}
+
+
+
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li {
+    padding-left: 38px;
+    font-size: 13px;
+}
+.sidebar-wrapper .sidebar-menu .level2dropdown .level2submenu li {
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+
+
+.sidebar-wrapper .sidebar-menu ul li a span.label,
+.sidebar-wrapper .sidebar-menu ul li a span.badge {
+    float: right;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li a .badge,
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li a .label {
+    float: right;
+    margin-top: 0px;
+}
+
+
+
+.sidebar-wrapper .level2submenu {
+    display: none;
+}
+
+.sidebar-wrapper .sidebar-menu .sidebar-dropdown.active>a:after, .sidebar-wrapper .sidebar-menu .level2dropdown.active>a:after{
+    transform: rotate(90deg);
+    /*right: 17px;*/
+}
+.sidebar-wrapper .sidebar-menu .level3dropdown.active>a:after,.sidebar-wrapper .sidebar-menu .level4dropdown.active>a:after{
+    transform: rotate(90deg);
+    /*right: 17px;*/
+}

@@ -1,0 +1,145 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Jul, 2023, 4:05:45 PM
+    Author     : PiLog
+*/
+
+
+.arabic-body-app .login-header {
+  flex-direction: row-reverse;  
+}
+
+ .arabic-body-app .login-header .pilog-logo{
+    flex-direction: row-reverse;
+}
+.arabic-body-app .login-header .pilog-logo .languageSelect .arabicLanguage ,.arabic-body-app .login-header .pilog-logo .languageSelect .englishLanguage {
+    cursor: pointer;
+    color: #00ab67;
+}
+.arabic-body-app .login-header .pilog-logo .languageSelect span:hover{
+    color: #337ab7;
+    transition: 400ms;
+}
+.arabic-body-app .login-body-content .row{
+    flex-direction: row-reverse;
+}
+.arabic-body-app .login-body-content .wrapper .logo{
+   background-position: 97% 9px;
+    border-right: 4px solid #9af185;
+    border-left: 0;
+}
+.arabic-body-app .wrapper .btn{
+    background-color: #00ab67 !important;
+    border: none !important;
+    border-radius: 5px 0 0 5px !important;
+    border: 1px solid #e5e5e5 !important;
+}
+.arabic-body-app .wrapper .form-field input{
+    border-radius: 5px 0 0 5px !important;
+    border: 1px solid #e5e5e5 !important;
+}
+
+.arabic-body-app .wrapper .login-text , .arabic-body-app .wrapper a , .arabic-body-app .wrapper .vendorOnBoardRegisterForm , .arabic-body-app .login-custom-card .service_header h5{
+    color:#00ab67 !important;
+}
+.arabic-body-app .service-statistics i , .arabic-body-app  .login-custom-card .service_header h5 i {
+    color:#00ab67 !important;
+}
+.arabic-body-app .login-custom-card .card-body p{
+    color:#00ab67 !important;
+}
+.arabic-body-app .login-custom-card .card-body h5{
+   color:#676767 !important;
+   justify-content: center !important;
+}
+.pilog-announce.mt-2:not(last-child) h5.arabic-text {
+    justify-content: space-between !important;
+}
+.arabic-body-app .login-custom-card .card-body h5,
+.arabic-body-app .login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news h6,
+.arabic-body-app .login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news p, 
+.arabic-body-app .pilog-announce .service_header h5,
+.arabic-body-app .pilog-appointments .card.custom-card .card-title,
+.arabic-body-app .pilog-clients .card.custom-card .card-title,
+.arabic-body-app .login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-date .clander_bg span{
+   color:#00ab67 !important;
+}
+.arabic-body-app #carouselExampleIndicators .carousel-indicators li.active {
+    background: #00ab67;
+}
+.arabic-body-app #carouselExampleIndicators .carousel-indicators li{
+    border: 1.5px solid #00ab67;
+}
+ .arabic-text{
+    display: none !important;
+}
+.arabic-body-app .english-text{
+    display: none !important;
+}
+.arabic-body-app .arabic-text{
+    display: block !important;
+    /*color:#00ab67;*/
+    color:#fff;
+}
+.arabic-body-app .login-body-content .wrapper .signupClass a,
+.arabic-body-app .login-body-content .wrapper .logo,
+.arabic-body-app .wrapper .vendorOnBoardRegisterForm{
+    flex-direction: row-reverse;
+    width:100%;
+}
+.arabic-body-app h5.arabic-text,
+.arabic-body-app .pilog-announce.awards .service_header h5{
+    display:flex !important;
+    flex-direction: row-reverse;
+    justify-content: flex-start !important;
+}
+
+.arabic-body-app h5.arabic-text img,
+.arabic-body-app .pilog-announce.awards .service_header h5 img{
+    margin-left:10px !important;
+}
+.arabic-body-app h5.arabic-text span,
+.arabic-body-app .pilog-announce .service_header h5 span.arabic-text{
+    margin-left:0;
+    /*margin-right:12px !important;*/
+}
+
+.arabic-body-app h5.arabic-text i{
+    margin-left:12px;
+    margin-right:0px !important;
+}
+.arabic-body-app .login-body-content .wrapper .logo{
+    margin-left:0;
+}
+.arabic-body-app .login-custom-card .custom-card h5.arabic-text{
+    justify-content:center;
+}
+.pilog-appointments .card.custom-card .card-body .mainKsaimage img{
+    margin:0 auto 8px;
+    width:45px;
+}
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-date .clander_bg span:nth-child(2) {
+    top: 44px;
+    left: 8px;
+}
+.arabic-body-app .login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-date .clander_bg span:nth-child(2) {
+    display: none;
+}
+.arabic-body-app .wrapper .form-field {
+    flex-direction: row-reverse;
+}
+.arabic-body-app .wrapper .form-field input{
+    text-align: right;
+}
+
+.arabic-body-app .login-body-content .login-custom-card .service-statistics .login-custom-card .card-title{
+    display:flex;
+    align-items: center;
+}
+.arabic-body-app .login-body-content .login-custom-card .service-statistics .login-custom-card .card-title span.arabic-text {
+    margin-left:8px;
+}

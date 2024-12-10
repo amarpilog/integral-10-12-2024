@@ -1,0 +1,1436 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 Jan, 2024, 5:30:18 PM
+    Author     : KiranRaj
+*/
+
+.OpenAisection .overlay {
+	height: calc(100vh - 37px);
+	width: 0;
+	position: fixed;
+	z-index: 9998;
+	top: 50px;
+	right: 5px;
+	border-radius: 10px;
+	display: flex;
+	overflow-x: hidden;
+	transition: 0.5s;
+}
+
+.OpenAisection .overlay-content {
+	width: 100%;
+	padding: 4px;
+	font-size: 14px;
+	color: #0b4a99;
+}
+
+
+
+.openAiButton {
+	position: absolute;
+	top: 50px;
+	right: 5px;
+	z-index: 999;
+	/*background: #fff;*/
+	/*border-radius: 5px;*/
+	/*padding: 0px 4px;*/
+	/*border: 1px solid #f1f1f1;*/
+}
+
+.openAiButton span {
+	font-size: 18px !important;
+}
+
+.pannelAIwrapper {
+	border: 1px solid #f1f1f1;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	background-color: #fff;
+}
+
+.closeAibutton {
+	padding: 10px;
+	background-color: #fcfcfc;
+	border-bottom: 1px solid #fcfcfc;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.closeAibutton a {
+	font-size: 18px;
+	color: #0b4a99;
+	padding: 0px 8px;
+	font-weight: 600;
+	border: 1px solid #0b4a99;
+	border-radius: 5px;
+}
+
+.OpenAisection .overlay-content .searchAiBarDiv input {
+	border-radius: 20px;
+}
+
+.aiWelcometext ul {
+	margin-bottom: 0;
+	font-size: 18px;
+	color: #0b4a99;
+	/*#00186a*/
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.aiWelcometext .ailensicon img {
+	width: 50px;
+	/*transform: rotate(-45deg);*/
+}
+
+.aiWelcometext .ailensTitle {
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	color: #0b4a99;
+}
+
+.aicontentArea::-webkit-scrollbar {
+	width: 5px;
+}
+
+.aicontentArea::-webkit-scrollbar-thumb {
+	background-color: #ddd !important;
+	border-radius: 8px;
+	border: 1px solid #ddd !important;
+	height: 30px !important;
+}
+
+.userAIInputText {
+	position: sticky;
+	bottom: 10px;
+	width: 63%;
+}
+
+.userAIInputText img {
+	position: absolute;
+	width: 28px;
+	right: 0px;
+	top: 1px;
+	padding: 9px 5px;
+	background: #ebebeb;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	filter: opacity(0.4);
+}
+
+.userAIInputText input {
+	border-radius: 10px;
+	padding-right: 35px;
+}
+
+/*.ainotification{
+    position: absolute;
+    top: 10px;
+    right: 60px; 
+}*/
+.userAIInputBottomWidget {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.userAIInputBottomWidget .moreaiOptions ul {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0;
+	gap: 3px;
+	justify-content: flex-end;
+}
+
+.userAIInputBottomWidget .moreaiOptions ul li img {
+	width: 26px;
+	cursor: pointer
+}
+
+.aigridrow {
+	display: grid;
+	grid-template-columns: repeat(3, 30%);
+	column-gap: 4px;
+	row-gap: 3px;
+	/*justify-content: center;*/
+}
+
+.aigridrow>.aigridcolumn {
+	padding: 8px;
+	border-radius: 4px;
+	min-height: 60px;
+}
+
+.aigridcolumn {
+	float: left;
+	width: 100%;
+	display: none;
+}
+
+.aigridrow:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.aigridcolumn {
+	background-color: white;
+	padding: 10px;
+}
+
+.aishow {
+	display: block;
+	/*border: 1px solid #f1f1f1;*/
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 2px 0px;
+	margin: 3px 2px;
+}
+
+.aidiscovermorePopup {
+	z-index: 9999 !important;
+}
+
+.aidiscovermorePopup .modal-dialog {
+	margin: 0 auto;
+}
+
+/*.aiButtongroup button,.convai-left-message button ,.aiPrevCopilotCls button, .aiLensHomeDivClass button{
+    border: 1px solid #ddd;
+        color: #0b4a99;
+        padding: 4px 6px;
+        border-radius: 20px;
+}*/
+.aiButtongroup button:focus {
+	box-shadow: none;
+}
+
+.aiButtongroup .btn.active,
+.convai-left-message .btn.active {
+	/*background-color: #0b4a99;*/
+	background-image: linear-gradient(to right, #ffffff, #6a82fb);
+	border: 1px solid #0b4a99;
+	/*color: #fff;*/
+	color: #0b4a99;
+}
+
+.aigridcolumn .content h4 {
+	font-size: 14px;
+	margin-bottom: 2px;
+	font-weight: 600;
+}
+
+.aigridcolumn .content p {
+	margin-bottom: 0;
+	display: -webkit-box;
+	width: 98%;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.aitabscontainerClass {
+	box-shadow: inherit !important;
+	margin-top: 10px;
+	font-family: segeo-ui, -apple-system, Roboto, Helvetica Neue, sans-serif;
+}
+
+.aitabscontainerClass .ui-widget.ui-widget-content {
+	box-shadow: inherit !important;
+}
+
+.aitabscontainerClass .ui-widget-content .ui-state-default,
+.aitabscontainerClass .ui-widget-header .ui-state-default {
+	border: 1px solid #0b4a99 !important;
+	color: inherit !important;
+	border-radius: inherit !important;
+	background: #fff !important;
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+	border-bottom: none !important;
+}
+
+.aitabscontainerClass .ui-widget-header {
+	background: inherit;
+	border: none;
+	border-bottom: 1px solid #0b4a99;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	padding-bottom: 0px;
+	position: sticky;
+	top: 0;
+	padding-left: 0;
+}
+
+.aitabscontainerClass .ui-state-active a,
+.aitabscontainerClass .ui-state-active a:link,
+.aitabscontainerClass .ui-state-active a:visited {
+	color: #fff;
+	background-color: #0b4a99;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.aitabscontainerClass .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+	padding: 4px 8px !important;
+}
+
+.aitabscontainerClass .ui-tabs-anchor {
+	font-weight: 600 !important;
+}
+
+.aiButtongroup {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.aiButtongroup button,
+.convai-left-message button,
+.aiPrevCopilotCls button,
+.aiLensHomeDivClass button {
+	display: flex;
+	gap: 5px;
+	text-align: justify;
+	font-size: 12px;
+	color: #0b4a99;
+	font-weight: 500;
+	border: 1px solid #0b4a99;
+	border-radius: 12px;
+	padding: 4px;
+	margin: 2px;
+}
+
+.aigridcolumn .content img {
+	width: 22px;
+}
+
+.aipanelRightIconsDiv ul {
+	display: flex;
+	align-items: center;
+	gap: 18px;
+	margin-bottom: inherit !important;
+}
+
+.dragLeftArrowDiv {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.dragRightArrowDiv {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.listItemsText {
+	/*    font-weight: bold;
+        font-size: 20px;*/
+}
+
+.aiLensImageDataClass {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding: 6px;
+	border-top: 1px solid #f1f1f1;
+	margin-top: 6px;
+}
+
+.aiChatgptResponseContainer {
+	margin: 10px 0px;
+}
+
+.aiLensMainResultBoxClass {
+	padding: 7px;
+	border: 1px solid #f1f1f1;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	width: 97%;
+	margin: 0 auto;
+
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.aiChatgptResponseContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 0 10px;
+}
+
+.aiChatgptResponseContainer .aiAppendSenderDataClass {
+	align-self: flex-end;
+	padding: 5px 10px;
+	border: 1px solid #0b4a99;
+	background-color: #0b4a99;
+	color: #fff;
+	border-radius: 10px;
+
+}
+
+.aiChatgptResponseContainer .airesponseWrapperDiv {
+	align-self: flex-start;
+}
+
+/* search bar ai code start */
+.overlay-content .searchAiBarDiv {
+	position: relative;
+	width: 100%;
+	margin-bottom: 4px;
+	padding: 4px;
+}
+
+.overlay-content .searchAiBarDiv .aiSearh-input {
+	padding-left: 30px;
+}
+
+.overlay-content .searchAiBarDiv .aiSearchIconMainDiv {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.aiSearchClearBtn {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.aiUserNotif {
+	font-size: 14px;
+	font-weight: 600;
+	color: #0b4a99;
+	word-spacing: 1px;
+}
+
+#aiLensMainResultBoxClass {
+	/*display: flex;*/
+	/*flex-direction: column-reverse;*/
+}
+
+/* search bar ai code end */
+
+/*24-01-2024 start*/
+.threeDotsLoader img {
+	width: 70px;
+}
+
+.aibottomMessageContainer {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	/* display: contents; */
+	padding: 6px;
+
+}
+
+.aibottomMessageContainer .stopresponding {
+	margin-bottom: 5px;
+}
+
+.aibottomMessageContainer .stopresponding {
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.aibottomMessageContainer .userAIInputBottomWidget {
+	width: 100%
+}
+
+.aibottomMessageContainer .userAIInputBottomWidget .userAIInputText {
+	/* position: relative; */
+	/* width: 55%; */
+	/* bottom: inherit; */
+	flex: 1;
+}
+
+.stopresponding .btn-primary {
+	border: 1px solid #0b4a99 !important;
+}
+
+.stopresponding .btn-primary:hover {
+	border: 1px solid #0b4a99 !important;
+}
+
+.stopresponding .stopIcon i {
+	color: #0b4a99;
+}
+
+.stopresponding .stopText {
+	color: #0b4a99;
+}
+
+/*24-01-2024 end*/
+
+.OpenAisection .overlay .aiPromtDataDiv {
+	position: relative;
+	color: #0b4a99;
+	width: 250px;
+	padding: 10px;
+	border-right: 1px solid #f1f1f1;
+}
+
+.OpenAisection .overlay .aiPromtDataDiv .isNewChatBtn {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	border: 1px solid #c2c2c2;
+	border-radius: 8px;
+	padding: 4px;
+	margin: 10px 0px;
+	background-color: #fff;
+}
+
+.OpenAisection .overlay .aiPromtDataDiv .isNewChatBtn span {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.OpenAisection .overlay .defultShowAIDiv {
+	width: 100%;
+}
+
+.aiPromtDataDiv .aiRecentSearchList ul {
+	margin-bottom: 0;
+}
+
+.aiPromtDataDiv .aiRecentSearchList ul li {
+	padding: 4px;
+	border-bottom: 1px solid #f1f1f1;
+	margin-bottom: 2px;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	white-space: nowrap;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.aiPromtDataDiv .aiRecentSearchList {
+	margin: 5px 0px;
+}
+
+.aiPromtDataDiv .recntTitle {
+	background: #0b4a99;
+	padding: 4px;
+	border-radius: 5px;
+	color: #98c6ff;
+	text-align: center;
+}
+
+.aiPromtDataDiv .aiRecentSearchList ul li .aimessageIcon img {
+	width: 14px !important;
+}
+
+.aiPromtDataDiv .aiRecentSearchList ul li .aimessageText {
+	font-weight: 600;
+}
+
+.dxpDictPropetyDetailsClass .carousel-item.dictonaryCarouselitem img {
+	width: 168px;
+	display: flex;
+}
+
+.dictonaryCarouselitemImg {
+	height: 195px !important;
+}
+
+/*.aiButtongroup button:last-child{
+    border: 1px solid transparent;
+}
+.aiButtongroup button:last-child:hover{
+    border: 1px solid #0b4a99; 
+}*/
+.AILensRefApiDataClass .AILensRefTableClass tbody {
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.AILensRefApiDataClass .AILensRefTableClass tr {
+	border-bottom: 1px solid #ddd;
+}
+
+.AILensRefApiDataClass .AILensRefTableClass {
+	border-collapse: separate;
+	border-spacing: 25px 9px;
+}
+
+.successmsg {
+	color: #0b4a99;
+	text-align: left;
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.showAILensUpdatedTableClass {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 2em;
+	height: 100px;
+	overflow-y: auto;
+}
+
+.showAILensUpdatedTableClass table thead tr th {
+	background-color: #f1f1f1;
+	border: 1px solid #ddd;
+	padding: 4px;
+	color: #0b4a99;
+}
+
+.tg-wrap .tg tr:hover {
+	cursor: url('../images/AIlensMouseHover.png'), auto !important;
+}
+
+.visionParamSearchCover .param_td:hover {
+	cursor: url('../images/AIlensMouseHover.png'), auto !important;
+}
+
+.dxpDictPropetyDetailsClass .card .card-body {
+	cursor: url('../images/AIlensMouseHover.png'), auto !important;
+}
+
+.overlay-content .introGuiderAi {
+	width: 80%;
+	margin: 20px auto;
+	border-radius: 12px;
+	text-align: center;
+	padding: 12px;
+}
+
+.overlay-content .introGuiderAi p {
+	font-size: 14px;
+	font-weight: 600;
+	color: #0b4a99;
+}
+
+.overlay-content .introGuiderAi .navigateBtn button {
+	border: none;
+	color: #0b4a99;
+	width: 60px;
+	height: 30px;
+	border-radius: 4px;
+
+}
+
+.overlay-content .introGuiderAi .navigateBtn button:hover {
+	border: 1px solid #0b4a99;
+	cursor: pointer;
+}
+
+.alLensConfiramtionMessage {
+	margin-left: 111px;
+}
+
+.statuspopupMessage {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.alLensConfSubSpanYesClass,
+.alLensConfSubSpanNoClass {}
+
+.yes-button,
+.no-button,
+.viewDataButton {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #0b4a99;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 15%;
+	font-weight: 600;
+	font-size: 12px;
+
+}
+
+.yes-button:hover,
+.viewDataButton:hover,
+.no-button:hover {
+	background-color: #45a049;
+}
+
+.confmsg {
+	margin-left: 20%;
+}
+
+.confSuccessmsg {
+	margin-left: 70%;
+}
+
+.overlay-content .aiToggleBtn {
+	position: absolute;
+	left: 0;
+	top: 55%;
+	z-index: 1;
+	cursor: pointer;
+	background-image: linear-gradient(#005a8f 0%, #f6f7fd 100%);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 3px;
+	width: 40px;
+	font: normal normal 6px Arial;
+	transition: all .25s ease;
+	display: flex;
+	align-items: center;
+	border: 2px solid #0093E9;
+	border-radius: 50px;
+	transition: all .2s ease-in-out;
+}
+
+.overlay-content .aiToggleBtn:hover {
+	transform: scale(1);
+	transition: width 1s;
+	width: 40%;
+}
+
+.overlay-content .aiToggleBtn .aiTextHint {
+	color: #fff !important;
+	text-align: center;
+	cursor: pointer;
+	display: none;
+}
+
+.overlay-content .aiToggleBtn:hover .aiTextHint {
+	display: block;
+}
+
+.overlay-content .aiToggleBtn .aiTextHint .aiBrand {
+	background: linear-gradient(50deg, #CB1614, #0b4a99);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 600;
+}
+
+/*AI lens Spend Analysis view start 21-02-2024*/
+.listItemsViews {
+	padding-left: 0 !important;
+	margin-bottom: 0 !important;
+	list-style-type: none;
+}
+
+.listItemsViews li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 3px;
+	font-size: 14px;
+	border-bottom: 4px solid #fcfcfc;
+}
+
+.listItemsViews li .textContent {
+	width: 50%;
+	white-space: nowrap;
+	/* width: 50px; */
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.listItemsViews li .viewData {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.listItemsViews li .viewData {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	border: 1px solid transparent;
+	padding: 4px;
+	border-radius: 5px;
+	font-weight: 500;
+	color: #0b4a99;
+}
+
+.listItemsViews li .viewData:hover {
+	border: 1px solid #0b4a99;
+
+}
+
+.listItemsViews li .viewData .viewIcon img {
+	width: 15px;
+}
+
+.aiAnalyticsBasedOnAnalysis {
+	position: relative;
+	height: 261px;
+	overflow-y: auto;
+}
+
+.aiAnalyticsBasedOnAnalysis table {
+	text-align: center;
+	font-size: 12px;
+}
+
+.aiAnalyticsBasedOnAnalysis table thead {
+	position: sticky;
+	top: 0;
+	background-color: #fcfcfc;
+}
+
+
+/*AI lens Spend Analysis view end 21-02-2024*/
+.overlay-content .introGuiderAiCls {
+	width: 80%;
+	margin: 0 20px auto;
+	border-radius: 12px;
+	text-align: center;
+	padding: 12px;
+}
+
+.overlay-content .introGuiderAiCls div {
+	font-size: 14px;
+	font-weight: 500;
+	color: #0b4a99;
+}
+
+
+.modalFileAILensChartsCardsClass.row {
+	padding-left: 16px;
+	margin-bottom: 8px;
+}
+
+.niicExploreData {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 250px;
+	max-height: 155px;
+	min-height: 80px;
+	overflow-y: auto;
+	box-shadow: 0 0 3px #000;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.niicExploreData a {
+	width: 44%;
+	display: flex;
+	align-items: center;
+	margin: 7px 0;
+	padding-left: 5px;
+	text-decoration: none;
+}
+
+.niicExploreData span p {
+	margin: 0;
+	padding: 2px 0px 0 12px;
+	color: #646464;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.niicExploreData::-webkit-scrollbar {
+	width: 4px;
+}
+
+/* Track */
+.niicExploreData::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+.niicExploreData::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+.niicExploreData::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.aiChatContainer .modalFileAILensChartsClass .col-md-6.col-sm-6.col-lg-4.fileChartsBorder {
+	max-width: 71%;
+	flex: 0 0 100%;
+	margin: 0px;
+	padding: 0;
+}
+
+.aiChatContainer .modalFileAILensChartsClass {
+	margin: 0;
+}
+
+.aiChatContainer .col-md-12.col-sm-12.col-lg-12.fileChartsBorder {
+	max-width: 100%;
+	flex: 0 0 100%;
+	margin: 0px;
+	padding: 0;
+}
+
+.aiPrevCopilotCls {
+	display: flex;
+	flex-wrap: wrap;
+	position: sticky;
+	top: 0;
+	left: 0;
+	background: #fff;
+	z-index: 1;
+}
+
+.aiHeaderContainerClass {
+	/* position: sticky;
+	top:0;
+	left:0; */
+	background: #fff;
+	/* z-index: 99; */
+}
+
+
+
+
+.summarizeSaleClasssId .convai-right-message {
+	width: 300px;
+	margin-lefT: auto;
+	background: transparent;
+	padding: 0;
+	border-radius: 6px 6px 0 0;
+}
+
+.summarizeSaleClasssId .convai-right-message .userTableNamesAILensDivClass {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.summarizeSaleClasssId .convai-right-message .userTableNamesAILensDivClass .AILensInsightsClass {
+	width: 100%;
+	text-align: left;
+	/*padding: 7px;*/
+	border-radius: 6px 6px 0 0;
+}
+
+.summarizeSaleClasssId .convai-right-message .userTableNamesAILensDivClass .AILensInsightsClass input {
+	width: 100%;
+	padding: 5px 10px;
+	padding-left: 30px;
+	background: #e4e4e4;
+	border-radius: 5px 5px 0 0;
+
+
+}
+
+.summarizeSaleClasssId .convai-right-message .userTableNamesAILensDivClass .userAILensInsightsTableNamesDivClass {
+	display: flex;
+	align-items: center;
+	padding: 3px 8px 8px;
+	width: 100%;
+	background: #f1f1f1;
+	border-radius: 0 0px 5px 5px;
+	border: 1px solid #ddd;
+}
+
+.summarizeSaleClasssId .convai-right-message .userTableNamesAILensDivClass .userAILensInsightsTableNamesDivClass .userTableNameAILensClass {
+	background: #0b4a99;
+	gap: 5px;
+	margin-right: 5px;
+	margin-top: 3px;
+	border-radius: 4px;
+	font-size: 14px;
+	padding: 0px 8px;
+	cursor: pointer;
+}
+
+.aicontentArea {
+	height: calc(100vh - 170px);
+	overflow-y: auto;
+	padding: 0 4px 0 15px;
+}
+
+.defultShowAIDiv.quickAnalyticsQuestionsEnables .aicontentArea {
+	height: calc(100vh - 435px);
+	overflow-y: auto;
+}
+
+.aicontentArea .aiTabsContainer .aiPrevCopilotCls .btn.active {
+	background: #0b4a99;
+	color: #fff;
+}
+
+.summarizeSaleClasssId .convai-right-message .userTableNamesAILensDivClass .AILensInsightsClass:before {
+	content: "\f002";
+	font-family: "FontAwesome";
+	position: absolute;
+	right: 275px;
+	top: 4px;
+	color: #000;
+}
+
+.OpenAisection p {
+	font-size: 14px;
+	margin: 0;
+}
+
+.tableClumnsClassId .convai-right-message {
+	background: transparent;
+	box-shadow: none;
+}
+
+.tableClumnsClassId button {
+	font-size: 14px;
+	background: #0b4a99;
+	border: 0;
+	border-radius: 4px;
+	color: #ffffff;
+	font-weight: 600;
+	padding: 4px 8px;
+}
+
+.tableClumnsClassId button:focus {
+	outline: 0;
+	box-shadow: none;
+}
+
+.aiLensHomeDivClass .convai_right_main_message {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.aibottomMessageContainer .moreaiOptions {
+	/* display: flex;
+    align-items: center;
+    gap: 6px;
+    justify-content: flex-end;
+    */
+	/* padding: 0; */
+	/*
+    width: 20%;*/
+
+}
+
+.aibottomMessageContainer .languageSelectionBoxLens {
+	/*height: 36px;*/
+	width: 42px;
+	/*height: 26px;*/
+	font-size: 12px;
+	padding: 4px 0px;
+}
+
+.aibottomMessageContainer .minMaxKeys {
+	display: flex;
+	flex-direction: column;
+}
+
+.aibottomMessageContainer .keyboardIconsMainDivLens {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+
+
+
+/*AI Lens Toogle button start*/
+.switch {
+	width: 60px;
+	height: 25px;
+	border-radius: 18px;
+	box-shadow: inset 0 -1px white, inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	cursor: pointer;
+
+}
+
+.switch-input {
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	display: none;
+}
+
+.switch-label {
+	position: relative;
+	display: block;
+	height: inherit;
+	font-size: 10px;
+	text-transform: uppercase;
+	background: #eceeef;
+	border-radius: inherit;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+}
+
+.switch-label:before,
+.switch-label:after {
+	position: absolute;
+	top: 50%;
+	margin-top: -.5em;
+	line-height: 1;
+	-webkit-transition: inherit;
+	-moz-transition: inherit;
+	-o-transition: inherit;
+	transition: inherit;
+}
+
+.switch-label:before {
+	content: attr(data-off);
+	right: 4px;
+	color: #aaaaaa;
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.switch-label:after {
+	content: attr(data-on);
+	left: 7px;
+	color: #FFFFFF;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+	opacity: 0;
+}
+
+.switch-input:checked~.switch-label {
+	background: #E1B42B;
+	/*  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);*/
+}
+
+.switch-input:checked~.switch-label:before {
+	opacity: 0;
+}
+
+.switch-input:checked~.switch-label:after {
+	opacity: 1;
+}
+
+.switch-handle {
+	position: absolute;
+	top: 1px;
+	right: 100px;
+	width: 25px;
+	height: 28px;
+	background: linear-gradient(to bottom, #FFFFFF 40%, #f0f0f0);
+	background-image: -webkit-linear-gradient(top, #FFFFFF 40%, #f0f0f0);
+	border-radius: 100%;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.switch-handle:before {
+	display: none;
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -6px 0 0 -6px;
+	width: 12px;
+	height: 12px;
+	background: linear-gradient(to bottom, #eeeeee, #FFFFFF);
+	background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF);
+	border-radius: 6px;
+	box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
+}
+
+.switch-input:checked~.switch-handle {
+	left: 50px;
+}
+
+/* transitions */
+.switch-label,
+.switch-handle {
+	transition: All 0.3s ease;
+	-webkit-transition: All 0.3s ease;
+	-moz-transition: All 0.3s ease;
+	-o-transition: All 0.3s ease;
+}
+
+.switch-flat {
+	padding: 0;
+	background: #FFF;
+	background-image: none;
+}
+
+.switch-flat .switch-label {
+	background: #FFF;
+	box-shadow: inset 0 0 0px 1px #d5d5d5;
+	position: relative;
+	top: 12px;
+}
+
+.switch-flat .switch-label:after {
+	color: #0088cc;
+}
+
+.switch-flat .switch-handle {
+	top: 13.5px;
+	left: 2px;
+	background: #dadada;
+	width: 22px;
+	height: 22px;
+	box-shadow: inset 0 0 0px 1px #d5d5d5;
+}
+
+.switch-flat .switch-handle:before {
+	background: #eceeef;
+}
+
+.switch-flat .switch-input:checked~.switch-label {
+	background: #FFF;
+	/* border-color: #0088cc; */
+}
+
+.switch-flat .switch-input:checked~.switch-handle {
+	left: 37px;
+	background: #ffffff;
+	box-shadow: inset 0 0 0px 1px #d5d5d5;
+}
+
+/*AI Lens Toogle button end*/
+
+
+.data-quickInsightsAnalyticsQuestionsClass {
+	height: calc(100vh - 458px);
+	overflow-y: auto;
+	position: absolute;
+	bottom: 60px;
+	right: 5px;
+	padding: 7px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 97%;
+	box-shadow: 0 0px 3px 0px #0b4a99;
+	/* display: flex; */
+	display: none;
+}
+
+.defultShowAIDiv.quickAnalyticsQuestionsEnables .data-quickInsightsAnalyticsQuestionsClass {
+	display: block;
+	height: calc(100vh - 458px);
+	overflow-y: auto;
+}
+
+.defultShowAIDiv .quickInsightsAnalyticsQuestionsToggleicon {
+	position: absolute;
+	/* background: #0b4a99; */
+	width: 20px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	right: 50%;
+	bottom: 8%;
+	z-index: 1;
+	transition: all 0.2s ease-in-out;
+}
+
+.defultShowAIDiv.quickAnalyticsQuestionsEnables .quickInsightsAnalyticsQuestionsToggleicon {
+	bottom: 45%;
+}
+
+.quickInsightsAnalyticsQuestionsToggleicon i {
+	color: #0b4a99;
+	font-size: 24px;
+}
+
+.data-quickInsightsAnalyticsQuestionsClass .quickInsightsAnalyticsQuestionsClass {
+	font-size: 13px;
+	/* background: #e9e9e9; */
+	margin: 0 0;
+	padding: 2px 6px;
+	border-radius: 4px;
+	/* border: 1px solid #0b4a99; */
+	font-weight: 500;
+	display: block;
+	/* white-space: nowrap; */
+	/* overflow: hidden; */
+	text-overflow: ellipsis;
+	box-shadow: 0 0 3px 0px #0b4a99;
+	margin-bottom: 6px;
+}
+
+.quickAnalyticsQuestionsClass .data-quickInsightsAnalyticsQuestionsClass {
+	display: none !important;
+}
+
+.quickAnalyticsQuestionsClass .quickInsightsAnalyticsQuestionsToggleicon {
+	bottom: 50px;
+}
+
+.quickAnalyticsQuestionsClass .quickInsightsAnalyticsQuestionsToggleicon {
+	/*transform: rotate(180deg);*/
+}
+
+.userAIlensAnalyticsExistTableNamesSearch {
+	display: flex;
+	align-items: center;
+}
+
+.userAIlensAnalyticsExistTableNamesButton {
+	width: 35px;
+	font-size: 12px;
+	font-weight: 500;
+	border: 0;
+	position: absolute;
+	right: 1px;
+	top: 2px;
+	border-radius: 5px;
+	background: #0b4a99;
+	color: #fff;
+	padding: 4px;
+}
+
+.overlay.pannelAIwrapper .btn:hover {
+	color: inherit;
+}
+
+.aicontentArea .aiChatgptResponseContainer,
+.aicontentArea .aiLensConvAIDivClass,
+.aicontentArea .aiLensHomeDivClass {
+	/*height: calc(100vh - 325px);*/
+	overflow-y: auto;
+	padding-right: 8px;
+	overflow-x: hidden;
+}
+
+.aicontentArea .aiLensAnalyticsDivClass {
+	/* height: calc(100vh - 300px); */
+	/* overflow-y: auto; */
+	padding-right: 8px;
+}
+
+.userAIlensAnalyticsExistTableNamesButton:hover {
+	background: #0b4a99;
+	color: #fff;
+	transition: all 0.2s ease-in-out;
+}
+
+.data-quickInsightsAnalyticsQuestionsClass .slick-arrow {
+	width: 22PX;
+	height: 30px;
+}
+
+.data-quickInsightsAnalyticsQuestionsClass .slick-prev {
+	width: 15px;
+	height: 15px;
+	right: 95%;
+	position: absolute;
+	top: 28%;
+	filter: grayscale(1);
+	border-radius: 50%;
+}
+
+.data-quickInsightsAnalyticsQuestionsClass .slick-next {
+	width: 15px;
+	height: 15px;
+	right: 0.5%;
+	top: 11px;
+	position: absolute;
+	filter: grayscale(1);
+	border-radius: 50%;
+}
+
+.data-quickInsightsAnalyticsQuestionsClass .slick-list {
+	width: 93%;
+	right: -4%;
+}
+
+#aiLensQuickAnalyticsDivId .userAILensAnalyticsTablesDivClass .aIlensAnalyticsExistUserTableNamesDivClass .userTableNameClass input {
+	margin-right: 4px;
+}
+
+.aibottomMessageContainer .moreaiOptions .integralMultiLanguageLensClass {
+	width: 100%;
+}
+
+/*@media(max-width:1920px){
+	.aiLensAnalyticsDivClass .data-quickInsightsAnalyticsQuestionsClass{
+		height: 260px;
+	}
+	.aiLensAnalyticsDivClass .quickInsightsAnalyticsQuestionsToggleicon {
+    bottom: 44.5%;
+    }
+}
+@media(max-width:1366px){
+	.aiLensAnalyticsDivClass .data-quickInsightsAnalyticsQuestionsClass{
+		height: 200px;
+	}
+	.aiLensAnalyticsDivClass .quickInsightsAnalyticsQuestionsToggleicon {
+    bottom: 41.5%;
+    }
+}*/
+
+.aiLensAnalyticsDivClass #aiLensQuickAnalyticsContentDivId {
+	display: flex;
+	flex-direction: column;
+}
+
+.aiLensAnalyticsDivClass #aiLensQuickAnalyticsContentDivId .convai-message {
+	align-self: flex-end;
+	width: 100%;
+}
+
+.aicontentArea .btn:focus {
+	box-shadow: inherit;
+}
+
+.aiWelcometext .ailensTitle img {
+	width: 70px !important;
+}
+
+.userAIlensAnalyticsExistTableNamesButton.userAIlensAnalyticsTableButton {
+	position: static !important;
+	width: 47%;
+	margin: 8px 4px;
+}
+
+.aiLensAnalyticsDivClass .quickInsightsAnalyticsQuestionsToggleicon {
+	bottom: 45% !important;
+}
+
+.aiLensAnalyticsDivClass.quickAnalyticsQuestionsClass .quickInsightsAnalyticsQuestionsToggleicon {
+	bottom: 50px !important;
+}
+
+.defultShowAIDiv .quickAnalyticsQuestionsEnables {
+	height: calc(100vh - 352px);
+}
+
+.aiLensAnalyticsDivClass .data-quickInsightsAnalyticsQuestionsClass .quickInsightsAnalyticsQuestionsClass:last-child {
+	margin-bottom: 0;
+}
+
+
+.convai-left-message.convai-left-description div {
+	overflow-x: auto;
+}
+
+.convai-left-message.convai-left-description div table,
+.convai-left-message.convai-left-description div table thead tr th,
+.convai-left-message.convai-left-description div table tbody tr td {
+	border: 1px solid #4444;
+	white-space: nowrap;
+}
+
+.aiLensConvAIDivClass .visionChartsAutoSuggestionUserClass>.replyIntelisenseView {
+	height: 200px !important;
+    overflow: hidden;
+}
+
+.userTableNamesDivClass.replyIntelisenseView  .userIntellisenseViewTableNamesDivClass  {
+	min-height: 150px !important;
+	max-height: 150px;
+}
+.aiLensConvAIDivClass .visionChartsAutoSuggestionUserClass>.replyIntelisenseView.userTableColumnsDivClass.flowchart-container  {
+	overflow-y:auto;
+}
+
+.aiLensConvAIDivClass .visionChartsAutoSuggestionUserClass>.replyIntelisenseView.visualIconDivImg {
+    height: auto !important;
+}

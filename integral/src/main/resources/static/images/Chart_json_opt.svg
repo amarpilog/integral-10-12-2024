@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F0AB00;}
+	.st1{fill:#40875E;}
+	.st2{fill:#A8A240;}
+	.st3{font-family:'Optima-Bold';}
+	.st4{font-size:5.7003px;}
+	.st5{font-family:'MyriadPro-Regular';}
+	.st6{font-size:0.4356px;}
+	.st7{font-size:0.4684px;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M17.6,14.6H0V5.9h17.6V14.6z M1.2,13.4h15.2V7H1.2V13.4z"/>
+	</g>
+</g>
+<polygon class="st1" points="22.3,0 3.4,0 3.4,5 5.4,5 5.4,2 20.2,2 20.2,6.2 24.6,6.2 24.6,28 5.4,28 5.4,15.3 3.4,15.3 3.4,30 
+	26.6,30 26.6,4.2 "/>
+<text transform="matrix(1 0 0 1 1.7376 11.8327)" class="st2 st3 st4">JSON</text>
+<rect x="8.5" y="24.3" class="st0" width="0.5" height="2.2"/>
+<rect x="9.4" y="20.9" class="st2" width="0.5" height="5.6"/>
+<rect x="8.9" y="20" class="st1" width="0.5" height="6.5"/>
+<rect x="10.9" y="23.4" class="st0" width="0.5" height="3.1"/>
+<rect x="11.8" y="20.7" class="st2" width="0.5" height="5.8"/>
+<rect x="11.3" y="18.4" class="st1" width="0.5" height="8.1"/>
+<rect x="21.5" y="23.4" class="st0" width="0.5" height="3.1"/>
+<rect x="22.4" y="20.7" class="st2" width="0.5" height="5.8"/>
+<rect x="21.9" y="18.4" class="st1" width="0.5" height="8.1"/>
+<rect x="13.4" y="25" class="st0" width="0.5" height="1.5"/>
+<rect x="14.2" y="22.3" class="st2" width="0.5" height="4.2"/>
+<rect x="13.8" y="20.5" class="st1" width="0.5" height="6"/>
+<rect x="15.9" y="22.7" class="st0" width="0.5" height="3.9"/>
+<rect x="16.7" y="20.1" class="st2" width="0.5" height="6.5"/>
+<rect x="16.3" y="17.6" class="st1" width="0.5" height="9"/>
+<rect x="18.5" y="22.1" class="st0" width="0.5" height="4.5"/>
+<rect x="19.4" y="19.2" class="st2" width="0.5" height="7.4"/>
+<rect x="18.9" y="16.4" class="st1" width="0.5" height="10.2"/>
+<polygon points="23.6,26.6 7.7,26.6 7.7,15.8 7.8,15.8 7.8,26.5 23.6,26.5 "/>
+<rect x="7.5" y="17.6" width="0.3" height="0"/>
+<rect x="7.5" y="19.4" width="0.3" height="0"/>
+<rect x="7.5" y="21.2" width="0.3" height="0"/>
+<rect x="7.5" y="23" width="0.3" height="0"/>
+<rect x="7.5" y="24.7" width="0.2" height="0"/>
+<rect x="8.6" y="26.6" width="0" height="0.2"/>
+<rect x="10" y="26.6" width="0" height="0.2"/>
+<rect x="11.5" y="26.6" width="0" height="0.2"/>
+<rect x="13" y="26.6" width="0" height="0.2"/>
+<rect x="14.4" y="26.6" width="0" height="0.2"/>
+<rect x="15.9" y="26.6" width="0" height="0.2"/>
+<rect x="17.4" y="26.6" width="0" height="0.2"/>
+<rect x="18.8" y="26.6" width="0" height="0.2"/>
+<rect x="20.3" y="26.6" width="0" height="0.2"/>
+<text transform="matrix(1 0 0 1 6.7581 17.8009)" class="st5 st6">50</text>
+<text transform="matrix(1 0 0 1 6.7581 19.5715)" class="st5 st6">40</text>
+<text transform="matrix(1 0 0 1 6.7581 21.3312)" class="st5 st6">30</text>
+<text transform="matrix(1 0 0 1 6.7581 23.1007)" class="st5 st6">20</text>
+<text transform="matrix(1 0 0 1 6.9994 24.923)" class="st5 st6">10</text>
+<text transform="matrix(1 0 0 1 7.2083 26.694)" class="st5 st6">0</text>
+<text transform="matrix(1 0 0 1 8.4456 27.2638)" class="st5 st7">1</text>
+<text transform="matrix(1 0 0 1 9.9691 27.2638)" class="st5 st7">2</text>
+<text transform="matrix(1 0 0 1 11.3929 27.2638)" class="st5 st7">3</text>
+<text transform="matrix(1 0 0 1 12.8324 27.2638)" class="st5 st7">4</text>
+<text transform="matrix(1 0 0 1 14.3304 27.2638)" class="st5 st7">5</text>
+<text transform="matrix(1 0 0 1 15.7835 27.2638)" class="st5 st7">6</text>
+<text transform="matrix(1 0 0 1 17.2523 27.2638)" class="st5 st7">7</text>
+<text transform="matrix(1 0 0 1 18.7132 27.2638)" class="st5 st7">8</text>
+<text transform="matrix(1 0 0 1 20.1751 27.2638)" class="st5 st7">9</text>
+<rect x="21.8" y="26.5" width="0" height="0.2"/>
+<text transform="matrix(1 0 0 1 21.663 27.2491)" class="st5 st7">10</text>
+<rect x="23.3" y="26.5" width="0" height="0.2"/>
+<text transform="matrix(1 0 0 1 23.2047 27.2491)" class="st5 st7">11</text>
+</svg>

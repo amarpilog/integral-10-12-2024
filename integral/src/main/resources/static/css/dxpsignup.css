@@ -1,0 +1,540 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Jan, 2022, 11:12:38 AM
+    Author     : Santhosh.K
+*/
+
+/* Sign-Up New Css Starts Here */
+html,body{
+    height: 100%;
+    font-family: segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif;
+}
+.signupBody{
+    position: relative; 
+    background-image: url(../images/signupbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wizard-v1-content{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}
+.signupLogo {
+    margin-bottom: 10px;
+}
+.signupLogo .pilogcloudLogo{ 
+    width: 150px !important; 
+}
+.signupBody .Maintitle{
+    margin-bottom: 10px;
+}
+.passwordSuggestion {
+  display: none;
+}
+.passwordSuggestion .gridd{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.passwordSuggestion .fa-times {
+  color: #ff0000;
+  font-weight: bold;
+}
+.passwordSuggestion .fa-check-circle {
+  color: #00b14a;
+  font-weight: bold;
+}
+.passwordSuggestion .gridd .errorDiv1{
+    margin-right: 20px;
+}
+.passwordSuggestion .gridd .fas{
+    margin-right: 3px;
+}
+.passwordSuggestion .gridd .text-body{
+    margin-right: 12px;
+}
+.wizard-v1-content .form-control:focus{
+    border:none;
+    border-radius:0;
+    height:auto;
+    box-shadow: none;
+    border-bottom: 1px solid #ddd;
+}
+.wizard-v1-content .form-control{
+    border-radius: 0;
+    height: auto;
+    border: none;
+}
+.wizard-v1-content .form-control input{
+    border:none;
+    border-bottom:1px solid #ddd;
+}
+
+
+/*6-7-2021*/
+.page-content {
+    width: 100%;
+    height: 100%; 
+    margin:  0 auto;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -o-justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -o-align-items: center;
+    -ms-align-items: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+.wizard-v1-content   {
+    background: #fff;
+    width: 500px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    margin: 10px 0;
+}
+.wizard-v1-content .wizard-form {
+    width: 100%;
+    padding: 10px 15px;
+}
+.wizard-form .wizard-header h3 {
+    color: #333;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+}
+.wizard-form .wizard-header p {
+    color: #666;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 6px 0 26px;
+}
+
+.signupBody .steps{
+    display: none;
+}
+.form-register .content {
+    padding: 5px;
+}
+.form-register .content h2 {
+    display: none;
+}
+.inner .form-row {
+    display: flex;
+    margin: 0 -13px;
+    position: relative;
+}
+.inner .form-row.form-row-2 {
+    width: 80.6%;
+}
+.inner .form-row .form-holder {
+    padding: 0 13px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.inner .form-row .form-holder.form-holder-2 {
+    width: 100%;
+    position: relative;
+}
+.inner .form-row .form-holder.form-holder-3 {
+    width: 100%;
+}
+.inner .form-row .form-holder label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    /*padding-bottom: 10px;*/
+    display: block;
+    margin-bottom: 0;
+}
+.inner .form-row .form-holder input,
+.inner .form-row .form-holder select {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: inherit !important;
+    width: 100%;
+    appearance: unset;
+    -moz-appearance: unset;
+    -webkit-appearance: unset;
+    -o-appearance: unset;
+    -ms-appearance: unset;
+    outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+    -o-outline: none;
+    -ms-outline: none;
+    font-family: segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif;
+    font-size: 14px;
+    color: #000;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+}
+.inner .form-row .form-holder input:focus,
+.inner .form-row .form-holder select:focus{
+    box-shadow: none;
+}
+
+.inner .form-row .form-holder select {
+    background: #fff url('../images/wizard_v2_icon.png') no-repeat scroll;
+    background-position: right 16px center;
+    z-index: 1;
+    cursor: pointer;
+    color: #000;
+    position: relative;
+}
+.inner .form-row .form-holder select option {
+    background: #fff;
+    color: #000;
+}
+.inner .form-row .form-holder.form-holder-2 .select-btn {
+    top: 27%;
+    right: 6.5%;
+}
+.inner .form-row .form-holder .ui-datepicker-trigger {
+    background: transparent;
+    border: none;
+    color: #666;
+    font-size: 12px;
+    position: absolute;
+    cursor: pointer;
+    right: 10.5%;
+    top: 27.5%;
+    outline: none;
+    -o-outline: none;
+    -ms-outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+}
+.inner h3 {
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 11px;
+}
+.inner .form-row.table-responsive {
+    border: none;
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 24px 26px 31px;
+    margin:  0;
+    margin-bottom: 22px;
+    background: #40875e;
+}
+.inner .table-responsive .table {
+    width: 100%;
+}
+.inner .table-responsive tbody {
+    text-align: left;
+}
+.inner .table-responsive tr.space-row > td,
+.inner .table-responsive tr.space-row > th {
+    padding-bottom: 18px;
+}
+.inner .table-responsive tbody th {
+    color: rgba(255,255,255,0.6);
+    font-size: 12px;
+    font-weight: 400;
+}
+.inner .table-responsive tbody td {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+}
+.actions ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 10px 0 0;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -o-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.actions ul li.disabled {
+    opacity: 0;
+}
+.actions ul li {
+    padding: 0;
+    border: none;
+    display: inline-flex;
+    /*    height: 50px;
+        width: 50px;*/
+    justify-content: center;
+    -o-justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -o-align-items: center;
+    -ms-align-items: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    font-family: segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+
+.actions ul li:hover {
+    background: #0b4a99;
+}
+.actions ul li:first-child {
+    background: transparent;
+    border-radius: 0;
+    -o-border-radius: 0;
+    -ms-border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.actions ul li:first-child a {
+    color: #fff;
+    background-color: #0b4a99;
+    padding: 0.275rem 0.75rem;
+}
+.actions ul li a i {
+    font-size: 12px;
+    vertical-align: middle;
+    padding-left: 0px;
+}
+
+
+.genOptionFeild .helper::after {
+    background-color: #fff !important;
+    border-color: #fff !important;
+}
+.genOptionFeild .helper::before {
+    border-color: #fff !important;
+}
+
+
+.optionTC .cr{
+    border: 2px solid #fff !important;
+}
+.optionTC .cr .cr-icon{
+    color: #0b4a99 !important;
+    font-size: 18px;
+}
+
+.optionTC .cr{
+    border: 2px solid #ddd !important;
+}
+
+.optionTC .cr-icon{
+    color: #fff !important;
+}
+.optionTC .icofont-ui-check:before {
+    content: "\2713";
+}
+
+#form-register label.error{
+    margin-top: 3px;
+    color: red !important;
+    background: url('../images/unchecked.gif') no-repeat;
+    background-size: 10px 10px;
+    background-position: 0 11px;
+    padding-left: 12px;
+    margin-left: .3em;
+    padding-top: 7px;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.wizard-form .home-btn{
+    margin-bottom: 12px;
+}
+.wizard-form .form-register .mandatoryStar{
+    color: red;
+    font-weight: 600;
+}
+.dxpBackTohomePage{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 650;
+    text-decoration: none;
+    color: #0b4a99;
+}
+.signupLogo {
+    margin-bottom: 10px;
+    display: flex; /*2222*/
+    justify-content: space-between;
+}
+/*.verify_mail{
+    display: none;
+    position: absolute;
+    right: 0.8rem;
+    top: 0.8rem;
+}*/
+/*6-7-2021*/
+/*End Registration Page CSS*/
+
+
+/* Sign-Up New Css Ends Here */
+/*otp verification css*/
+.verify_mail{
+    display: none;
+    position: absolute;
+    right: 0.8rem;
+    top: 0.8rem;
+    color: #0b4a99 !important;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+/*//18222*/
+
+.otp_textbox_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.otp_textfield{
+    width: 3rem !important;
+    display: none;
+    margin-top: 1rem;
+    /*border: 2px solid #3178d5 !important;*/
+    text-align: center;
+}
+
+#verifyOtpBtn{
+    display: none;
+    font-size: 0.9rem;
+    text-align: center;
+    background-color: #0b4a99;
+    border: 0;
+    font-weight: bolder;
+    margin-top: 1rem;
+    color: #f1f1f1;
+}
+
+.otp_status{
+    align-self: flex-start;
+    font-weight: bolder;
+}
+
+.otp_status_green{
+    color: #1faf1f;
+}
+.otp_status_red{
+    color: #ff2C2C;
+}
+
+.cooldown_textfiled{
+    display: none ;
+    width: 1.5rem !important;
+    cursor: none !important;
+    border: none !important;
+    font-size: 0.8rem !important;
+    color: #3420d8 !important;
+    margin-left: 2rem !important;
+}
+
+#again_otp{
+    display: none;
+    top: 0;
+    right: 0;
+    position: relative;
+    margin-left: 2rem;  
+    font-weight: 400;
+}
+cooldown_flex{  
+    display: flex;
+    margin-top: 1rem;
+    align-self: baseline
+}
+/*otp verification css*/
+
+.verify_mail{/*7322*/
+    display: none;    
+    color: #0b4a99 !important;
+    cursor: pointer;
+    font-weight: 600;
+}
+.verify_mail:hover{
+    color: #000 !important;
+}
+.verify_account_position{
+    position: absolute;
+    right: 0.8rem;
+    top: 0.8rem;
+}
+
+.activate_account_position{
+    position: absolute;
+    right: 0.8rem;
+    top: -0.2rem;
+}
+.otp_status .email_status{/*16322*/
+    align-self: flex-start;
+    font-weight: bolder !important;
+}
+.home_img{
+    width: 25px !important;
+
+}
+.redirectToActivateUser{
+    font-weight: bolder;
+    color: #0b4a99;
+    font-size: 1.5rem;
+}
+
+.email_status{/*16322*/
+    align-self: flex-start;
+}
+/*Registration Changes */
+.userWelcomeText{
+    color: #13478b;
+    font-weight: bolder;
+}
+/*15322*/
+.divSplitter{
+    display: flex;
+    /*background-color: #d4f3ed;*/
+}
+.bgiSize{
+    max-width: 15rem;
+}
+.welcomeContent{
+    padding-left: 1rem;
+}
+.secondaryWelcomeContent{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+/*Registration Changes */

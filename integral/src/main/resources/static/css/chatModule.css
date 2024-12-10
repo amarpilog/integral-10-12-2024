@@ -1,0 +1,520 @@
+.chatMain {
+	/*    width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;*/
+	
+}
+
+.contactsList {
+	height: 633px;
+	overflow-y: scroll;
+	background-color: #f2f2f2;
+}
+
+.chatContent {
+	/*    width: 100%;
+        height: 100%;*/
+	padding: inherit;
+}
+
+.contactInfoHeader {
+	width: 100%;
+	height: 60px;
+	/*    position: fixed;
+        top: 70px;*/
+	/*border-bottom: 1px solid #ddd;*/
+}
+
+.contactChatContent {
+	max-height: calc(100% - 120px);
+	overflow-y: scroll;
+	padding: 0px 10% !important;
+	margin-top: 60px !important;
+}
+
+.contactChatFooter {
+	/*border-top: 1px solid #ddd;*/
+	/*width: 100%;*/
+	height: 60px;
+	/*position: fixed;*/
+	bottom: 50px;
+	/*padding: inherit;*/
+}
+
+.chat-list {
+	margin: 0;
+}
+
+.chat-list li a {
+	position: relative;
+	display: block;
+	padding: 15px 20px;
+	color: #fdfdfd;
+	-webkit-transition: all .4s;
+	transition: all .4s;
+	border-top: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.d-flex {
+	display: flex !important;
+}
+
+.chat-user-img {
+	position: relative;
+}
+
+.chat-list li.typing .chat-user-message {
+	color: #7269ef;
+	font-weight: 500;
+}
+
+.chat-list li .chat-user-message {
+	font-size: 14px;
+}
+
+.font-size-11 {
+	font-size: 11px !important;
+}
+
+.chatInputOptions {
+	width: 1080px;
+	display: flex;
+}
+
+.fromChatMessage {
+	float: right;
+}
+
+.toChatMessage {
+	float: left;
+}
+
+.contactChatLog {
+	width: 100%;
+	position: relative;
+	top: 5px;
+	padding: 0px;
+	height: 480px;
+	overflow: auto;
+	margin: inherit;
+}
+
+/*communication css 29-08-2022*/
+.userImg img {
+	margin-right: 5px;
+	border: 1px solid #3a81e9;
+}
+
+.userImg .inUserImg {
+	background-color: #d1d1d1;
+}
+
+.userText h5 {
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.toChatMessage {
+	padding: 8px 30px;
+	background-color: #3a81e9;
+	border-radius: 8px 8px 8px 0;
+	color: #fff;
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.fromChatMessage {
+	padding: 8px 30px;
+	background-color: #f5f7fb; /*#7a7f9a; #7269ef*/
+	border-radius: 8px 8px 0 8px;
+	/*color: #fff;*/
+	position: relative;
+	margin-bottom: 5px;
+}
+
+.contactInfoHeader {
+	align-items: center;
+	display: flex;
+}
+
+.contactInfoHeader h5 {
+	/*margin-top: 15px;*/
+	
+}
+
+.contactInfoHeaderIcons ul li {
+	float: right;
+	padding: 10px 0px;
+	margin: 5px;
+}
+
+.mainInfoHeader {
+	border-bottom: 1px solid #ddd;
+}
+
+.chatInputOptions button {
+	border: none;
+}
+
+.contactInfoFooterIcons ul li {
+	/*    padding: 10px 20px;
+        margin: 5px;*/
+	align-items: center;
+}
+/**/
+/*30-08-2022*/
+.userIcons {
+	
+}
+
+.userFooterIcons .send {
+	background-color: #7269ef;
+	border: 1px solid #7269ef;
+}
+
+.userFromOptions {
+	float: right;
+}
+
+.contactsList .chat-list :hover {
+	background-color: #d1d1d1;
+}
+
+.contactInfoFooterIcons ul {
+	float: right;
+}
+
+.fromUserIcon {
+	float: right;
+	margin-top: 20px;
+}
+
+.fromUserIcon .user-status {
+	float: left;
+	margin-top: 25px;
+	margin-right: 15px;
+	font-weight: 600;
+}
+/**/
+/*31-08-2022*/
+.userFooterIcons button {
+	/*    border: 0px solid #d1d1d1;
+        background-color: #3a81e9;
+        padding: 4px 10px;*/
+	border-radius: 8px !important;
+}
+
+.userFooterIcons button:hover {
+	/*    border: 0px solid #d1d1d1;
+        background-color: #3a81e9;
+        padding: 4px 10px;*/
+	border-radius: 8px !important;
+}
+
+.userFooterIcons button:focus {
+	outline: none;
+}
+
+.col-auto img {
+	width: 20px !important;
+}
+/*.col-auto .playSend {
+    width: 12px !important;
+}*/
+.chatInputOptions input {
+	background-color: #d1d1d1 !important;
+	border-radius: 8px;
+	font-size: 16px;
+	/*font-weight: 600;*/
+}
+
+.contactChatFooter .chat-input-section {
+	align-items: center;
+}
+
+.contactsList {
+	padding: inherit;
+}
+/*.contactChatLog .fromChatMessage {
+    margin: 15px;
+}*/
+/**/
+
+/*profileContent  css  01-09-2022*/
+.profileContent .closebtn {
+	position: relative;
+	left: 90%;
+	font-size: 25px;
+	/*font-weight: 600;*/
+}
+
+.profileContent {
+	padding: inherit;
+	border-left: 1px solid #d1d1d1;
+	display: none;
+}
+
+.accordionBlocks .card {
+	background-color: #d1d1d1;
+}
+
+.accordionBlocks .card .card-header {
+	padding: inherit;
+	text-align: center;
+}
+
+.accordionBlocks .card .card-header h5 button {
+	color: #000;
+}
+
+/*01-09-2022*/
+.incommingCall {
+	display: none;
+	position: absolute;
+	z-index: 9999;
+	top: 250px;
+	left: 800px;
+	background: #000;
+	color: #fff;
+	width: 220px;
+	height: 250px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+}
+
+.outgoingCall {
+	display: none;
+	position: absolute;
+	z-index: 9999;
+	top: 250px;
+	left: 872px;
+	background: #000;
+	color: #fff;
+	width: 220px;
+	height: 250px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+}
+
+.asnwerCallIcon {
+	width: 50px;
+	position: relative;
+	top: 140px;
+	margin: 15px;
+	border-radius: 50%;
+	border-color: #000;
+	left: 22px;
+}
+
+.incommingLabel, .incommingCallUser {
+	text-align: center;
+	color: #fff;
+}
+
+.outgoingCall, .outgoingCallUser {
+	text-align: center;
+}
+
+.outGoingCallLabel, .incommingLabel {
+	font-size: 8px;
+	text-align: center;
+	color: #fff;
+}
+
+.hangCallIcon {
+	width: 50px;
+	position: relative;
+	top: 140px;
+	border-radius: 50%;
+	border-color: #fff;
+	left: 50px;
+}
+
+.hangCallIconOut {
+	width: 50px;
+	position: relative;
+	top: 140px;
+	border-radius: 50%;
+	border-color: #fff;
+	/*left: 75px;*/
+}
+
+#video-call-div {
+	/*    position: absolute;
+        top: 62px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;*/
+	position: absolute;
+	top: 132px;
+	left: 424px;
+	width: 72%;
+	height: 75%;
+	display: none;
+}
+
+#local-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 16px;
+	border-radius: 16px;
+	max-width: 20%;
+	max-height: 20%;
+	background: #ffffff;
+}
+
+#remote-video {
+	background: #000000;
+	width: 100%;
+	height: 100%;
+}
+
+.call-action-div {
+	position: absolute;
+	left: 45%;
+	bottom: 32px;
+}
+
+.callActionIcons {
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	border-radius: 50%;
+}
+
+.chat-list li .unread-message {
+	position: absolute;
+	display: inline-block;
+	right: 24px;
+	left: auto;
+	top: 33px;
+}
+
+.unread-message span {
+	font-size: 12px;
+}
+
+#dropzone {
+	display: none; position : absolute;
+	border: 5px dotted #000;
+	border-radius: 10px;
+	color: #000;
+	font: bold 24px/200px arial;
+	height: 200px;
+	text-align: center;
+	width: 1104px;
+	left: -964px;
+	top: -142px;
+	position: absolute;
+}
+
+#dropzone.hover {
+	border: 4px solid green;
+	color: green;
+}
+
+#dropzone.dropped {
+	background: #222;
+	border: 5px solid #444;
+}
+
+#dropzone div {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#dropzone img {
+	border-radius: 5px;
+	vertical-align: middle;
+	max-width: 95%;
+	max-height: 95%;
+}
+
+#dropzone [type="file"] {
+	cursor: pointer;
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.fileStoreDiv {
+	display: none;
+	position: absolute;
+	 top: -166px;
+	height: 170px;
+	background: #ddd;
+	width: 932px;
+	border-bottom: 1px solid;
+	border-top-right-radius: 11px;
+	border-top-left-radius: 10px;
+}
+
+.fileStoreDiv img {
+	display: inline;
+	width: 200px;
+	height: 150px;
+	left: 10px;
+	top: 10px;
+	margin: 10px;
+}
+
+.fileStoreDiv video {
+	display: inline;
+	width: 200px;
+	height: 150px;
+	left: 10px;
+	top: 10px;
+	margin: 10px;
+}
+
+.storeFile{
+	width: 220px;
+}
+
+.removeStoreFile{
+	position: relative;
+    top: -150px;
+    padding: 1px 3px 1px 4px;
+    left: 180px;
+    border: 1px solid #3a81e9;
+    text-align: center;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dowloadVideoIcon{
+	width: 50px;
+	height: 50px;
+    position: absolute;
+    top: 45px;
+    left: 105px;
+    cursor: pointer;
+}
+
+.downloadCMFileIcon{
+	width: 50px;
+	height: 50px;
+    position: absolute;
+    top: 45px;
+    left: 105px;
+    cursor: pointer;
+}
+
+.cmfileIcon{
+	width: 200px;
+    height: 150px;
+    opacity: 25%;
+}
+

@@ -1,0 +1,235 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Jul, 2022, 5:07:58 PM
+    Author     : Jagadish.R
+*/
+
+/*.votingAnalysis {
+    margin: 10px 0px;
+}
+.insightsVoteAnalyticFirstClass {
+    border: 1px solid #ddd;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.surveySocialMediaCard .card-header{
+    justify-content: inherit !important;
+    position: relative;
+}
+.surveySocialMediaCard .card-header .header-refresh{
+    position: absolute;
+    right: 3%;
+}
+.surveySocialMediaCard .card-header .header-filterCalendar{
+    position: absolute;
+    right: 11%;
+}
+.surveyDropdown {
+    list-style-type: none;
+}
+.surveyDropdown .dropdown-item{
+    padding: 4px;
+}
+
+
+
+.surveyDropdown .dropdown-menu li {
+    position: relative;
+}
+
+.surveySocialMediaCard .card-header .insightsSurveyAnalyticsFilterDataClass{
+    position: absolute;
+    top: 43px;
+    background: #fff;
+    right: 46px;
+    z-index: 9999;
+    width: 120px;
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
+.surveyDropdown li a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.surveyDropdown li a .surveyAnalyticImgClass{
+    width: 14px !important;
+}
+.surveyDropdown li{
+    border-bottom: 1px solid #f1f1f1;
+    position: relative;
+}
+.surveySocialMediaCard .card-header .SurveyChildDataClass{
+    position: absolute;
+    right: -77px;
+    top: 103%;
+    z-index: 9999;
+    width: 120px;
+    height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: none;
+}
+
+
+ Survey Dashboard Css Starts Here 29-07-2022 
+.surveyAnalyticChartsDataClass{
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.surveyAnalyticChartsDataClass .homeChartWrapDiv{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+.surveyAnalyticChartsDataClass .homeChartWrapDiv .plot-container .modebar-container{
+    top: -2px !important;
+    right: -2px !important;
+}
+
+.surveyAnalyticChartsDataClass .homeChartWrapDiv .js-plotly-plot .modebar.vertical{
+    display: inherit;
+    max-height: inherit !important;
+    height: 100%;
+     overflow-y: auto; 
+    background: #f1f1f1 !important;
+}
+
+.surveyAnalyticChartsDataClass .homeChartWrapDiv .plot-container .modebar-group {
+    display: block;
+    float: none;
+    padding-left: 0px;
+    padding-bottom: 8px;
+}
+.surveyAnalyticChartsDataClass .modebar-group {
+    padding-bottom: 0 !important;
+    background-color: inherit !important;
+}
+.surveyAnalyticChartsDataClass .js-plotly-plot .plotly .modebar.vertical .modebar-group .modebar-btn {
+    display: block;
+    text-align: center;
+}
+
+.surveyAnalyticChartsDataClass .js-plotly-plot .plotly .modebar-btn {
+    padding: 8px 4px !important;
+    height: 30px !important;
+    cursor: pointer;
+    line-height: normal;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ddd;
+}*/
+
+.surveyAnalyticPartyNameButtonsClass {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    border-bottom: 2px solid #ddd;
+    background-color: #f1f1f1;
+}
+.surveyAnalyticPartyNameButtonsClass:hover{
+    overflow-x: auto;
+    cursor: pointer;
+}
+.surveyAnalyticPartyNameButtonsClass::-webkit-scrollbar {
+    height: 8px;
+}
+.surveyAnalyticPartyNameButtonsClass .surveyAnalyticPartyNameButtons{
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-right: 3px;
+}
+.surveyAnalyticPartyNameButtonsClass .surveyPartyTitle .surveyPartyTitleSpanClass{
+    /*width: 150px;*/
+    display:block;
+    height:18px;
+    margin-left: 2px;
+    white-space: nowrap;
+}
+.surveyAnalyticPartyNameButtonsClass .surveyPartyTitle .surveyPartyTitleColonSpanClass{
+
+    margin-left: 2px;
+}
+.surveyPartyTitleSpanClass:nth-child(2) .surveyPartyTitleSpanClass{
+    width: 120px;
+}
+
+
+.surveyAnalyticPartyNameButtonsClass .surveyPartyTitle{
+    margin-right: 5px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.surveyAnalyticPartyNameButtonsClass .surveyAnalyticChartsDataQuestionsIdClass{
+    /*margin-right: 10px;*/
+    margin-left:3px;
+}
+.surveyAnalyticPartyNameButtonsClass .surveyAnalyticChartsDataQuestionsIdClass select{
+    font-size: 12px;
+    height: 30px;
+    width: 150px;
+}
+
+
+
+.surveyAnalyticPartyNameButtonsTwoClass {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    border-bottom: 2px solid #ddd;
+    background-color: #f1f1f1;
+}
+.surveyAnalyticPartyNameButtonsTwoClass:hover{
+    overflow-x: auto;
+    cursor: pointer;
+
+}
+.surveyAnalyticPartyNameButtonsTwoClass::-webkit-scrollbar {
+    height: 8px;
+}
+.surveyAnalyticPartyNameButtonsTwoClass .surveyAnalyticPartyNameButtons{
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-right: 3px;
+}
+.surveyAnalyticPartyNameButtonsTwoClass .surveyPartyTitle .surveyPartyTitleSpanClass{
+    /*width: 150px;*/
+    display:block;
+    height:18px;
+    margin-left: 2px;
+    white-space: nowrap;
+}
+.surveyAnalyticPartyNameButtonsTwoClass .surveyPartyTitle .surveyPartyTitleColonSpanClass{
+
+    margin-left: 2px;
+}
+.surveyAnalyticPartyNameButtonsTwoClass .surveyPartyTitle{
+    margin-right: 5px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.surveyAnalyticPartyNameButtonsTwoClass .surveyAnalyticChartsDataQuestionsIdClass{
+    /*margin-right: 10px;*/
+    margin-left:3px;
+}
+.surveyAnalyticPartyNameButtonsTwoClass .surveyAnalyticChartsDataQuestionsIdClass select{
+    font-size: 12px;
+    height: 30px;
+    width: 150px;
+}
+
+
+
+
+
+

@@ -1,0 +1,4736 @@
+@font-face {
+	font-family: segeo-ui;
+	src: url('../font/Segoe UI.ttf');
+}
+
+body {
+	background-color: #fff;
+	font-family: segeo-ui, -apple-system, Roboto, Helvetica Neue, sans-serif;
+}
+
+a {
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+}
+
+p {
+	font-size: 12px;
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+.content {
+	padding: 7rem 0;
+}
+
+.LanguageSelect .input-group-prepend span.input-group-text {
+	color: #13509c;
+}
+
+.LanguageSelect select {
+	padding: 7px;
+	margin-left: 0px;
+	width: 100%;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.smartBILoginMain .smartBIrow {
+	/* align-items: center;
+    height: calc(100vh - 40px); */
+	
+}
+
+.smartBIrow marquee {
+	margin-top: 10px;
+	color: #0b4a99;
+	font-size: 30px;
+}
+
+.twitterxicon a svg {
+	width: 12px;
+	fill: #0b4a99;/*#0b4a99;*/
+}
+
+.login-body-content .niic-center-wrapper {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+@media ( max-width : 991.98px) {
+	.half .bg {
+		height: 200px;
+	}
+}
+
+/* .half .contents {
+  background: #abc9e5; 
+} */
+.half .bg {
+	width: 60%;
+}
+
+.half .contents {
+	width: 40%;
+}
+
+@media ( max-width : 1199.98px) {
+	.half .contents, .half .bg {
+		width: 100%;
+	}
+}
+
+.half .contents .form-control, .half .bg .form-control {
+	border: none;
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	height: 54px;
+	background: #fff;
+}
+
+.half .contents .form-control:active, .half .contents .form-control:focus,
+	.half .bg .form-control:active, .half .bg .form-control:focus {
+	outline: none;
+	-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.half .bg {
+	background-size: cover;
+	background-position: center;
+}
+
+.half a {
+	color: #333;
+	text-decoration: underline;
+}
+
+.half .btn {
+	height: 54px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.half .forgot-pass {
+	position: relative;
+	top: 2px;
+	font-size: 14px;
+}
+
+.control {
+	display: block;
+	position: relative;
+	padding-left: 30px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.control .caption {
+	position: relative;
+	top: .2rem;
+	color: #333;
+}
+
+.control input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+.control__indicator {
+	position: absolute;
+	top: 2px;
+	left: 0;
+	height: 20px;
+	width: 20px;
+	background: #fff;
+	border-radius: 4px;
+}
+
+.control--radio .control__indicator {
+	border-radius: 50%;
+}
+
+.control:hover input ~.control__indicator, .control input:focus ~.control__indicator
+	{
+	background: #fff;
+	border: 1px solid #333;
+}
+
+.control input:checked ~.control__indicator {
+	background: #f48f8f;
+}
+
+.control:hover input:not([disabled]):checked ~.control__indicator,
+	.control input:checked:focus ~.control__indicator {
+	background: #f48f8f;
+}
+
+.control input:disabled ~.control__indicator {
+	background: #fff;
+	opacity: 0.9;
+	pointer-events: none;
+}
+
+.control__indicator:after {
+	font-family: 'icomoon';
+	content: '\e5ca';
+	position: absolute;
+	display: none;
+	font-size: 16px;
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+}
+
+.control input:checked ~.control__indicator:after {
+	display: block;
+	color: #fff;
+}
+
+.control--checkbox .control__indicator:after {
+	top: 50%;
+	left: 50%;
+	margin-top: -1px;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.control--checkbox input:disabled ~.control__indicator:after {
+	border-color: #7b7b7b;
+}
+
+.control--checkbox input:disabled:checked ~.control__indicator {
+	background-color: #7e0cf5;
+	opacity: .2;
+}
+
+.left-img-gird .card {
+	margin-bottom: 10px;
+	border: none;
+}
+
+.left-img-gird .card img {
+	width: 100%;
+}
+
+.contents input[type="submit"] {
+	color: #fff;
+	background-color: #f48f8f;
+	border-color: #f48f8f;
+}
+
+.contents input[type="submit"]:hover {
+	color: #fff;
+	background-color: #f48f8f;
+	border-color: #f48f8f;
+}
+/* .form-container{
+  padding: 15px;
+  background-color: #fff;
+} */
+.integral-logo {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Twitter Login Model Css Starts Here */
+.wrapper {
+	background-color: #fff;
+	border-radius: 2px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	padding: 12px 8px;
+}
+
+.logo img {
+	width: 30%;
+}
+
+.wrapper .name {
+	font-weight: 600;
+	font-size: 1.4rem;
+	letter-spacing: 1.3px;
+	padding-left: 10px;
+	color: #555;
+}
+
+.wrapper .form-field .fas {
+	color: #555;
+}
+
+.wrapper .form-field {
+	margin-bottom: 10px;
+}
+
+.wrapper .form-field input {
+	border: 1px solid #ced4da;
+	/*border-radius: 0.25rem;*/
+	border-top-right-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+}
+
+.wrapper .form-field input:focus {
+	border: 1px solid #ced4da;
+	/*border-radius: 0.25rem;*/
+	border-top-right-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+}
+
+.arabic-body-app .input-group-text {
+	border-top-left-radius: 0rem !important;
+	border-top-right-radius: 0.25rem !important;
+	border-bottom-right-radius: 0.25rem !important;
+	border-bottom-left-radius: 0rem !important;
+}
+
+.arabic-body-app .m-b-20 {
+	margin-bottom: 0;
+}
+
+.wrapper .btn {
+	box-shadow: none;
+	width: 100%;
+	height: 40px;
+	background-color: #0b4a99;
+	color: #fff;
+	/*border-radius: 25px;
+    border-radius: 4px !important;
+   /* box-shadow: 3px 3px 3px #b1b1b1,
+        -3px -3px 3px #fff; */
+	letter-spacing: 1.3px;
+}
+
+.wrapper .btn:hover {
+	background-color: #039BE5;
+}
+
+.wrapper a {
+	text-decoration: none;
+	font-size: 0.8rem;
+	color: #0b4a99;
+	font-weight: bold;
+}
+
+.wrapper a:hover {
+	color: #0b4a99;
+	font-weight: bold;
+}
+
+.loaderWait {
+	width: 160px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.loaderWait img {
+	width: 30px;
+}
+
+.justify-content-center {
+	justify-content: right !important;
+}
+
+@media ( max-width : 380px) {
+	.wrapper {
+		margin: 0px 0px;
+		padding: 40px 15px 15px 15px;
+	}
+}
+
+/* Twitter Login Model Css Starts Here */
+#verifyLoginSecurity .captchaRefreshBtn {
+	display: flex;
+	/*padding-left: 5px;*/
+	margin-bottom: 18px;
+	align-items: center;
+}
+
+.captchaRefreshBtn .CaptchaTxtField {
+	width: 100%;
+	margin-right: 7px;
+	box-shadow: rgb(0 0 0/ 24%) 0px 3px 8px;
+	/* border: 1px solid #ddd; */
+	border-radius: 22px;
+}
+
+.captchaRefreshBtn .CaptchaTxtField .capcode {
+	padding: 10px;
+	font-size: 1.2rem;
+	/*    font-size: 15px;
+        background-color: #a2c0ed;
+        border: 1px solid #a2c0ed;*/
+	border-radius: 4px;
+	/*text-align: center;*/
+	padding-left: 12px;
+}
+
+.captchaRefreshBtn .ReloadBtn {
+	width: 23px;
+}
+
+.enterTextCaptcha .CaptchaTxtField {
+	padding: 10px;
+	font-size: 1.2rem;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	box-shadow: rgb(0 0 0/ 24%) 0px 3px 8px;
+	width: 100%;
+	border-radius: 24px;
+	padding-left: 13px;
+}
+
+.enterTextCaptcha {
+	padding-bottom: 13px;
+}
+
+.loginSecurity .CaptchaOtpField {
+	padding: 10px;
+	font-size: 1.2rem;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	box-shadow: rgb(0 0 0/ 24%) 0px 3px 8px;
+	width: 100%;
+	border-radius: 24px;
+	padding-left: 13px;
+}
+
+/*.loginSecurity {
+    padding-bottom: 18px;
+}*/
+.timeSession {
+	width: 100%;
+	text-align: center;
+}
+
+#resenddiv {
+	margin-top: 10px;
+}
+
+#carouselExampleIndicators {
+	/*margin-top:14px !important;*/
+	
+}
+
+#carouselExampleIndicators .carousel-control-prev-icon,
+	#carouselExampleIndicators .carousel-control-next-icon {
+	filter: invert(0.5);
+}
+
+#carouselExampleIndicators .carousel-indicators li,
+	#carouselExampleIndicatorsLeft .carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+	margin: 0 5px;
+	border: 1.5px solid #211e8b;
+	opacity: 1;
+}
+
+#carouselExampleIndicators .carousel-indicators li.active,
+	#carouselExampleIndicatorsLeft .carousel-indicators li.active {
+	background-color: #211e8b;
+}
+
+.settingPannel, .scrollToBottom, .scrollToTop {
+	display: none;
+}
+
+.loaderwait #Layer1 {
+	display: none;
+}
+
+.loaderwait .loader-ring img {
+	width: 150px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* chatBot css by Abhishek*/
+.bubble, .row.chatBotHeaderTop .leftBotIcon  p, .row.chatBotHeaderTop .leftBotIcon  span p
+	{
+	font-size: 14px;
+}
+
+.row.chatBotHeaderTop .leftBotIcon  p, .row.chatBotHeaderTop .leftBotIcon  span p
+	{
+	font-weight: 400;
+}
+
+.row.chatBotHeaderTop .leftBotIcon  span:nth-child(2) {
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.row.chatBotHeaderTop .leftBotIcon>p {
+	padding-bottom: 0px;
+	margin-top: 0;
+}
+
+.bubble, .bubble-button {
+	/* text-transform: capitalize; */
+	
+}
+
+.mainHeader {
+	display: block;
+	position: relative;
+	height: auto;
+	line-height: 12px;
+}
+
+.leftBotIcon {
+	display: flex;
+	align-items: center;
+}
+
+.leftBotIcon>span:nth-child(1) {
+	flex-shrink: 0;
+	width: 10px;
+}
+
+.leftBotIcon>.chatbotMetaHeader {
+	flex-grow: 1;
+	width: 241px;
+	max-width: 241px;
+}
+
+.chatbotMetaHeader {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.chatbotMetaHeader>span {
+	display: inline-block;
+	margin-bottom: 6px;
+	margin-top: 5px;
+}
+
+.row.chatBotHeaderTop .leftBotIcon p, .row.chatBotHeaderTop .leftBotIcon span p
+	{
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.chatbotShrinked .chatbotMetaHeader {
+	display: none;
+}
+
+.mainHeader .rightIcons {
+	top: 15px;
+}
+
+.fluidWidth {
+	margin-left: inherit !important;
+}
+
+.chatBoxLargeSpaced {
+	bottom: 70px !important;
+	min-width: 400px !important;
+	min-height: 470px !important;
+}
+
+.chatbotShrinked {
+	bottom: 70px !important;
+	min-width: 300px !important;
+	min-height: 350px !important;
+}
+
+.chatbotShrinked .bubble-wrap, .chatbotShrinked .input-wrap {
+	display: none;
+}
+
+.chatbotShrinked {
+	min-height: auto !important;
+	max-width: 100px !important;
+	min-width: auto !important;
+}
+
+.chatbotShrinked .leftBotIcon>span:nth-child(2), .chatbotShrinked .leftBotIcon>p
+	{
+	display: none;
+}
+
+/* chatBot css by Abhishek*/
+.wrapper .visionLoginpageInner {
+	padding: 10px 0px;
+}
+
+/* Login Page Cards Design Css  */
+.login-custom-card .card-title {
+	text-align: center;
+	padding-top: 10px;
+	font-weight: bold;
+	/*border-top: 1px solid #f1f1f1;*/
+	font-size: 12px;
+	margin: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+login-custom-card .title {
+	color: #0b4a99;/*#0b4a99;*/
+	text-transform: uppercase;
+	margin: 35px 0;
+	white-space: nowrap;
+}
+
+.login-custom-card .custom-card {
+	box-shadow: 0px 0px 3px -1px #0b4a99;/*#0c4a99;*/
+	margin: 5px 8px;
+	min-height: 125px;
+}
+
+/* .custom-card .card-body {
+	padding: 10px;
+} */
+.login-custom-card .custom-card .card-cover {
+	position: relative;
+	background: none no-repeat center center/cover;
+}
+
+.login-custom-card .custom-card .circle-image {
+	text-align: center;
+}
+
+.circle-image img {
+	min-width: 50px;
+	max-width: 50px;
+	padding: 4px;
+	border-radius: 6px;
+	margin: 0 auto;
+	min-height: 50px;
+}
+
+.dxpPageWrapper .dxpPageContent, .dxpPageWrapper {
+	display: none !important;
+}
+
+/* New Login Page Css Starts Here */
+.login-header {
+	display: flex;
+	align-items: center;
+	border-color: #e7e7e7 !important;
+	padding: 5px 10px;
+	box-shadow: 4px 2px 20px 0 rgba(199, 199, 199, 0.5);
+	/* justify-content: space-between; */
+}
+
+.login-header .visionlogo img {
+	width: 60px;
+}
+
+.login-header .pilog-logo {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.login-header .pilog-logo img {
+	width: 250px;
+}
+
+.login-header .languageSelect span {
+	font-size: 14px;
+	font-weight: bold;
+	color: #0b4a99;/*#0b4a99;*/
+	padding: 0 6px;
+	cursor: pointer;
+}
+
+.login-header .languageSelect span:hover {
+	border-bottom: 2px solid #00ab67;
+}
+
+.beforeloginPagebody .carousel-inner img {
+	height: inherit !important;
+}
+
+.login-body-content {
+	padding-top: 15px;
+}
+
+.login-body-content .wrapper .logo {
+	display: flex;
+	align-items: center;
+	gap: 13px;
+	border-left: 4px solid #0b4a99;/*#0b4a99;*/
+	margin-left: -8px;
+	padding: 10px 12px;
+	cursor: pointer;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.login-body-content .wrapper .logo img {
+	width: 22px;
+	margin-left: 6px;
+}
+
+.login-body-content .wrapper  .login-text {
+	font-size: 14px;
+	font-weight: bold;
+	color: #0b4a99;/*#0b4a99*/
+}
+
+.login-body-content .wrapper .vendorOnBoardRegisterForm {
+	padding: 10px 12px;
+}
+
+.login-body-content .wrapper .signupClass a, .login-body-content .wrapper .vendorOnBoardRegisterForm
+	{
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.login-body-content .signupClass {
+	padding: 10px 12px;
+	border-bottom: 1px solid #f1f1f1;
+	display: flex;
+	align-items: center;
+}
+
+.login-body-content  .login-custom-card {
+	animation: login-custom-card 800ms ease 300ms backwards;
+}
+
+@keyframes login-custom-card {
+	from { 
+	opacity:0;
+	transform: translateY(-200px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+/* Muni Css Starts Here */
+.login-body-content .login-custom-card, .pilog-announce {
+	box-shadow: 0px 0px 3px -1px #0b4a99;/*#0c4a99;*/
+	border-radius: 4px;
+}
+
+.login-body-content .login-custom-card .service_header, .pilog-announce .service_header
+	{
+	padding: 6px;
+	border-bottom: 2px solid #eee;
+}
+
+.pilog-announce .announce-banner {
+	padding: 15px;
+	/* box-shadow: 4px 5px 6px 0 rgba(228,228,228,0.5); */
+	width: 140px !important;
+	margin: 0 auto;
+	display: block !important;
+}
+
+.pilog-announce .announce-banner img {
+	width: 100%;
+}
+
+.login-body-content .login-custom-card .service_header h5,
+	.pilog-announce .service_header h5 {
+	margin: 0;
+	font-weight: 600;
+	font-size: 13px;
+	/*display: flex;*/
+	align-items: center;
+	justify-content: space-between;
+	color: #696969;
+}
+
+.login-body-content .card .card-header .titleClass {
+	width: 50% !important;
+	margin: 0;
+	font-weight: 600;
+	font-size: 13px !important;
+	display: flex;
+	align-items: center;
+	color: #696969;
+}
+
+.arabic-body-app .login-body-content .card .card-header .titleClass {
+	width: fit-content !important;
+}
+
+.login-body-content .login-custom-card .service_header h5 i,
+	.pilog-announce .service_header h5 i {
+	font-size: 24px;
+	margin-right: 8px;
+	color: #0e4997;
+}
+
+.login-body-content .login-custom-card .service-statistics,
+	.login-body-content .login-custom-card .facts_stats {
+	padding: 15px;
+	box-shadow: 4px 5px 6px 0 rgba(228, 228, 228, 0.5);
+}
+/*.login-body-content .login-custom-card.statis-counts .service-statistics .card .card-body .circle-image,
+.login-body-content .login-custom-card.statis-counts .facts_stats .card .card-body .circle-image{
+    display: flex;
+    align-items:center;
+}*/
+.login-body-content .login-custom-card.statis-counts .service-statistics .card .card-body .circle-image .card-title,
+	.login-body-content .login-custom-card.statis-counts .facts_stats .card .card-body .circle-image .card-title
+	{
+	margin: 0;
+	padding-top: 0;
+	text-align: center;
+	text-wrap: nowrap;
+	padding-top: 3px;
+}
+
+.login-body-content .login-custom-card.statis-counts .service-statistics .card .card-body .circle-image i,
+	.login-body-content .login-custom-card.statis-counts .facts_stats .card .card-body .circle-image i
+	{
+	font-size: 28px;
+	margin-right: 15px;
+	color: #0b4a99;/*#0c4a99;*/
+}
+
+.login-body-content .login-custom-card.statis-counts .service-statistics .card .card-body .circle-image h5,
+	.login-body-content .login-custom-card.statis-counts .facts_stats .card .card-body .circle-image h5
+	{
+	color: #0b4a99;/*#0c4a99;*/
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.login-body-content .login-custom-card.statis-counts .service-statistics .card,
+	.login-body-content .login-custom-card.statis-counts .facts_stats .card
+	{
+	align-content: center;
+	justify-content: center;
+	box-shadow: none;
+}
+
+.login-body-content .login-custom-card.statis-counts .service-statistics .card p,
+	.login-body-content .login-custom-card.statis-counts .facts_stats .card p
+	{
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 0;
+}
+
+.service-statistics .slick-prev, .facts_stats .slick-prev {
+	left: 7px;
+	top: 50%;
+	transform: translate(-18%, -50%);
+	width: 20px;
+	height: 20px;
+}
+
+.service-statistics .slick-next, .facts_stats .slick-next {
+	top: 50%;
+	right: 9px;
+	transform: translate(5px, -50%);
+	width: 20px;
+	height: 20px;
+}
+
+.cartboard_file {
+	position: fixed;
+	bottom: 55px;
+	left: 55px;
+	width: 70px;
+	height: 70px;
+}
+
+.cartboard_file img {
+	width: 100%;
+	height: 100%;
+}
+
+.pilog-announc {
+	border: 1px solid #efefef;
+	box-shadow: 4px 5px 6px 0 rgba(228, 228, 228, 0.5);
+}
+
+.pilog-news-wrapper .pilog-date-news {
+	padding: 20px 22px;
+	border: 1px solid rgba(6, 96, 88, .2);
+	cursor: pointer;
+	transition: transform 0.3s;
+	border-radius: inherit !important;
+}
+
+.pilog-news-wrapper .pilog-date-news .pilog-date {
+	border-right: 0;
+}
+
+.pilog-news-wrapper .pilog-date-news .pilog-news {
+	
+}
+
+.pilog-news-wrapper .pilog-date-news .pilog-news h6 {
+	font-size: 12px;
+	font-weight: blod;
+}
+
+.pilog-news-wrapper .pilog-date-news .pilog-news p {
+	margin: 0;
+	font-size: 11px;
+}
+
+.pilog-news-wrapper .pilog-date-news .pilog-news a {
+	font-weight: 500;
+	color: #0b4a99;/*#0b4a99;*/
+	font-size: 12px;
+}
+
+#v-pills-dataMigration ul h4{
+	font-size:16px;
+	font-weight:600;
+}
+#v-pills-dataMigration ul h5{
+	font-size:15px;
+	font-weight:500;
+}
+/* Muni Css Ends Here */
+
+/* New Login Page Css  Here */
+@media screen and (max-width: 768px) {
+	.login-custom-card .custom-card .card-cover {
+		background: none;
+	}
+	/*    .login-custom-card .custom-card .circle-image {
+            position: relative;
+            bottom: inherit;
+            top: 20px;
+            left: 10px;
+            transform: none;
+        }*/
+	.login-custom-card .custom-card .circle-image:before {
+		box-shadow: none;
+	}
+	.login-custom-card {
+		margin-top: 10px;
+	}
+	.pilog-announce .carousel.slide.pointer-event .carousel-inner .carousel-item img
+		{
+		height: 250px;
+		width: 100%;
+		object-fit: cover;
+	}
+	.niic-center-wrapper:last-child {
+		padding-bottom: 0;
+	}
+	.footer-wrapper.container .vision-footer-content, .vision-login-footer .vision-social-content .vision-social-icons .footer-social-icons
+		{
+		text-align: center;
+		justify-content: center;
+	}
+	ul.vision-footer-links {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.eventCardMainDiv .evenTitleAnd_Date {
+        width: 34%;
+    }
+    .login-custom-card .card-body {
+        padding: 8px 15px;
+    }
+    .login-body-content .login-custom-card .service-statistics {
+        padding: 5px 8px !important;
+    }
+}
+
+.vendorOnBoardRegisterForm {
+	padding: 12px 15px;
+	font-size: 0.9rem !important;
+	font-weight: 600 !important;
+	color: #0b4a99 !important;
+}
+/* Login Page Cards Design Css  */
+
+/*new styles*/
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper
+	{
+	display: flex;
+	align-items: center;
+	padding: 15px 10px;
+	box-shadow: 4px 5px 6px 0 rgba(228, 228, 228, 0.5);
+	gap: 8px;
+}
+
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news
+	{
+	display: flex;
+	align-items: center;
+	box-shadow: 0 0 6px -1px #d1d1d1;
+	padding: 15px 15px 15px 5px;
+	border-radius: 4px;
+}
+
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-date
+	{
+	padding: 0;
+}
+
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news
+	{
+	border-left: 1px solid #ddd;
+}
+
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-date .clander_bg
+	{
+	position: relative;
+	background-image: url('./../images/state-calender.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 40px;
+	width: 40px;
+	margin: 0 auto;
+}
+
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-date .clander_bg span
+	{
+	display: block;
+	position: absolute;
+	font-weight: bold;
+}
+
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-date .clander_bg span:first-child
+	{
+	top: 17px;
+	right: 14px;
+}
+
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-date .clander_bg span:last-child
+	{
+	bottom: -22px;
+	right: 8px;
+}
+/*.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news:first-child{
+    margin-right: 15px !important;
+}*/
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news h6
+	{
+	color: #696969;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news p
+	{
+	color: #696969;
+}
+
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news a
+	{
+	color: #0b4a99;/*#0c4a99;*/
+	font-weight: bold;
+}
+/*new styles end here*/
+.login-body-content .visionLoginpageInner .input-group-prepend span {
+	background-color: transparent;
+	height: 38px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.arabic-body-app .wrapper .visionLoginpageInner .input-group-prepend span
+	{
+	background-color: transparent;
+	height: 38px;
+}
+
+.login-body-content .visionLoginpageInner .input-group-prepend span {
+	background-color: transparent;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	padding: 8px;
+}
+
+.arabic-body-app .wrapper .visionLoginpageInner .input-group-prepend span
+	{
+	background-color: transparent;
+	height: 38px;
+}
+
+.login-body-content .visionLoginpageInner .input-group-prepend span img
+	{
+	width: 20px;
+}
+
+/* new styles here  */
+.arabic-body-app .login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-date .clander_bg
+	{
+	background-image: url('./../greenimages/state-calender.png');
+}
+
+.arabic-body-app .login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news
+	{
+	flex-direction: row;
+}
+
+.pilog-appointments .card.custom-card, .pilog-clients .card.custom-card
+	{
+	margin: 8px !important;
+	text-align: center;
+	box-shadow: 0px 0px 3px -1px #0b4a99;/*#0c4a99;*/
+}
+
+.pilog-appointments .card.custom-card .card-body .mainKsaimage img {
+	margin: 0 auto;
+}
+
+.arabic-body-app .login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news a
+	{
+	color: #00ab67
+}
+
+.pilog-clients .card.custom-card img {
+	margin: 0 auto;
+}
+
+mainKsaimage h6 {
+	font-size: 13px;
+}
+
+.login-custom-card .card-body {
+	position: relative;
+}
+
+.login-custom-card {
+	z-index: inherit;
+}
+
+.login-custom-card .card-body:hover .showMaterialpopUpBox {
+	display: none;
+	top: 0;
+}
+
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper h5
+	{
+	padding-right: 15px;
+	margin: 0;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper span
+	{
+	padding-left: 4px;
+}
+
+.pilog-news-wrapper {
+	display: flex;
+	align-items: center;
+	padding: 8px 8px;
+	box-shadow: 4px 5px 6px 0 rgba(228, 228, 228, 0.5);
+}
+
+.pilog-news-wrapper h5 {
+	padding-right: 15px;
+	margin: 0;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.custom-card .allServicesClass .card-icons-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4px;
+}
+
+.custom-card .allServicesClass .card-icons-wrapper a {
+	margin: 6px 6px 0;
+	cursor: pointer;
+}
+
+.custom-card .allServicesClass .card-icons-wrapper a img {
+	width: 20px;
+	height: 20px;
+}
+
+.custom-card .allServicesClass .card-icons-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4px;
+}
+
+.custom-card .allServicesClass .card-icons-wrapper a {
+	margin: 6px;
+	cursor: pointer;
+}
+
+.custom-card .allServicesClass .card-icons-wrapper a img {
+	width: 20px;
+	height: 20px;
+}
+
+.pilog-appointments .card.custom-card {
+	background: #f1f1f1;
+}
+
+.pilog-appointments .card.custom-card:hover {
+	box-shadow: 0px 0px 4px 0px #8b96a3;
+	border: 1px solid #0b4a99;/*#0b4a99;*/
+	background: #f1f1f1;
+}
+
+.pilog-clients .card.custom-card:hover {
+	border: 1px solid #0b4a99;/*#0b4a99;*/
+	box-shadow: 0px 0px 4px 0px #8b96a3;
+	transform: scale(1.03);
+}
+
+.pilog-appointments .card.custom-card .mainKsaimage {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	color: #0b4a99;/*#0b4a99;*/
+}
+
+.pilog-appointments .card.custom-card .mainKsaimage h6 {
+	font-size: 12px;
+	font-weight: 600;
+	margin: 0;
+}
+
+.pilog-news-wrapper .pilog-date-news:hover {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+	transform: scale(1.001);
+}
+
+.pilog-news-wrapper .pilog-date-news:active {
+	border: 1px solid #0b4a99;/*#0b4a99;*/
+}
+
+.eventCardMainDiv {
+	/*    width: 100%;*/
+	/*height: 100px;*/
+	display: flex;
+	flex-direction: row;
+	margin: 5px auto 5px 20px;
+	position: relative;
+	background-color: #fff;
+	border: 1px solid #0b4a99  !important;/*#0b4a99  !important;*/
+}
+
+.eventCardMainDiv .evenTitleAnd_Date {
+	font-size: 20px;
+	font-weight: 600;
+	background: #0b4a99;/*#0b4a99;*/
+	/*background: #00a1de;*/
+	color: #fff;
+	width: 35%;
+	padding-bottom: 6px;
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+.eventCardMainDiv .evenTitleAnd_Date .titleClass {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6px;
+}
+
+.eventCardMainDiv .evenTitleAnd_Date .dateShow {
+	text-align: center;
+	color: #fff;
+	padding: 5px;
+	line-height: 1;
+}
+
+.eventCardMainDiv .evenTitleAnd_Date .dateShow span {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.eventCardMainDiv .eventDiscriptionDiv .bottomClass {
+	text-align: center;
+	color: #0b4a99;/*#0b4a99;*/
+	position: absolute;
+	bottom: 15px;
+	font-weight: 600;
+}
+
+.eventCardMainDiv .evenTitleAnd_Date .calIcon {
+	text-align: center;
+}
+
+.eventCardMainDiv .modal-dialog .modal-content .modal-header {
+	padding: 5px 15px 5px 15px !important;
+	align-items: center;
+}
+
+.modal-content .modal-header .close {
+	background: #f2f2f2;
+	border-radius: 50%;
+	padding: 5px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	margin: 0 !important;
+}
+
+@media ( min-width : 576px) {
+	.modal-dialog {
+		margin: 90px auto 0 !important;
+	}
+}
+
+#calendar {
+	max-width: 600px;
+	margin: 40px auto;
+	padding: 0 10px;
+}
+
+.showEventCalendar {
+	width: 100%;
+	height: 250px;;
+	background-color: #f1f1f1;
+	border: 1px solid #ddd;
+}
+
+.showEventCalendar input, .showEventCalendar textarea {
+	width: 90%;
+	margin: 15px 30px;
+}
+
+.arabic-body-app .eventCardMainDiv .evenTitleAnd_Date {
+	background: #00ab67 !important;
+}
+
+.arabic-body-app .eventCardMainDiv {
+	border: 1px solid #00ab67 !important;
+}
+
+.arabic-body-app .eventCardMainDiv .eventDiscriptionDiv .bottomClass {
+	color: #00ab67;
+}
+
+/* Home Page Twitter Cards Css Starts Here */
+.login-body-content .trendsCols .card-header {
+	display: flex;
+	align-items: center;
+	/*justify-content: space-between;*/
+}
+
+.login-body-content .card .card-header .titleClass {
+	font-size: 16px;
+	width: 50% !important;
+	margin-top: inherit;
+	font-weight: 600;
+}
+
+#mediaCardImageClassT img {
+	width: 25px;
+	height: 25px;
+}
+
+.login-body-content .trendsCols .Twit_Likes {
+	padding: 4px;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #f1f1f1;
+	width: 100%;
+}
+
+.login-body-content .dxpSocialImageClass {
+	width: 18px;
+}
+
+.login-body-content .trendsCols .card-body {
+	max-height: 235px;
+	overflow-y: auto;
+}
+
+.login-body-content .trendsCols .card {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border: 1px solid #ddd;
+	border-radius: 6px;
+	margin: 0;
+}
+
+.Twit_Likes .countsDiv, .video_Likes .countsDiv, .facebook_Likes .countsDiv
+	{
+	flex-basis: 0;
+	flex-grow: 1;
+}
+
+.feedback-item .review-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 8px 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+.feedback-item .review-item  span:first-child {
+	display: inline-block;
+	width: 390px;
+	font-size: 10px;
+	font-weight: 600;
+}
+
+.feedback-item .review-item .jqx-widget {
+	height: auto !important;
+}
+
+.reviewclass .review-item {
+	display: flex;
+	flex-direction: row;
+}
+
+.reviewclass .review-item span {
+	/*flex:1;*/
+	display: inline-block;
+	width: 58%;
+}
+
+.reviewclass .customer-feedback {
+	display: flex;
+	flex-direction: column;
+}
+
+.reviewclass .customer-feedback-form label {
+	width: 35%
+}
+
+.reviewclass .customer-feedback-form {
+	display: flex;
+}
+
+.error-message {
+	color: red;
+	font-size: small;
+	margin-top: 5px;
+}
+
+/*muni css code start*/
+#pilog-eventId .card .eventCardMainDiv .evenTitleAnd_Date .calIcon i {
+	font-size: 16px;
+}
+
+.login-body-content .trendsCols .card-header {
+	padding: 0.2rem 0.25rem !important;
+}
+
+#SocialMediaCardT .card-footer {
+	padding-bottom: 2px !important;
+	padding-top: 8px !important;
+}
+
+.login-custom-card .service_header .english-text img,
+	#mediaCardImageClassT img {
+	margin-right: 10px;
+	width: 22px;
+}
+
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news p.english-text,
+	.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news p.arabic-text,
+	.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news h6
+	{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-date .showNewsData .english-text img
+	{
+	width: 100% !important;
+	padding: 3px;
+}
+
+#carouselExampleIndicators1 {
+	box-shadow: 0px 0px 3px -1px #0b4a99;/*#0c4a99;*/
+	padding: 0px 0;
+	border-radius: 4px;
+}
+
+#chatBoatTogglerId {
+	display: none;
+}
+
+.pilog-announce .service_header h5.feed-back-flex {
+	display: flex;
+}
+
+.pilog-announce .service_header h5.feed-back-flex button {
+	margin: 0 !important;
+}
+
+.pilog-announce.mt-2:not(last-child), #carouselExampleIndicators1 {
+	margin-bottom: 20px !important;
+	margin-top: 0 !important;
+}
+
+/*Jumbotron footer css by sami */
+.beforeloginPagebody .vision-login-footer .footer-wrapper .vision-footer-aboutUs,
+	.beforeloginPagebody .vision-login-footer .footer-wrapper  .vision-footer-contact,
+	.beforeloginPagebody .vision-login-footer .footer-wrapper  .vision-footer-links
+	{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.vision-footer-links li, .vision-footer-contact li,
+	.vision-footer-aboutUs li {
+	/* font-size: 12px; */
+	padding: 4px 0px;
+	line-height: 1;
+	color: #777;
+	transition: all .2s ease-in-out;
+	font-size: 13px;
+}
+
+.vision-footer-links li:hover, .vision-footer-contact li:hover,
+	.vision-footer-aboutUs li:hover {
+	color: #0b4a99;/*#0b4a99;*/
+	cursor: pointer;
+	/*font-weight:600;*/
+}
+
+.beforeloginPagebody .vision-login-footer .footer-wrapper .vision-footer-aboutUs>h6,
+	.beforeloginPagebody .vision-login-footer .footer-wrapper  .vision-footer-contact>h6,
+	.beforeloginPagebody .vision-login-footer .footer-wrapper  .vision-footer-links>h6
+	{
+	color: #676767;
+}
+
+/*.beforeloginPagebody .vision-login-footer  .vision-social-icons{
+    margin:10px 0px;
+}*/
+.vision-login-footer .vision-social-content .vision-social-icons .footer-social-icons
+	{
+	margin: 15px 0px;
+}
+
+footer.vision-login-footer {
+	/*border-top: 1px solid #f1f1f1;*/
+	border-top: 1px solid #d6d6d6;
+	/*margin-top: 15px;*/
+	padding: 15px 0px 0px;
+	bottom: inherit !important;
+}
+
+.vision-login-footer .vision-social-content .vision-social-icons .footer-social-icons  li:first-child
+	{
+	margin-left: 0px;
+}
+
+.vision-login-footer .vision-social-content .vision-social-icons .footer-social-icons  li
+	{
+	margin: 0px 4px;
+}
+
+.vision-footer-secondWrapper {
+	padding: 8px;
+	/*border-top: 1px solid #f1f1f1;*/
+	background-color: #fbfbfb;
+	box-shadow: none;
+}
+
+.vision-social-content h6, h6 {
+	/*    color: #696969;
+        font-weight: 600;
+        font-size: 14px;*/
+	/* color: #696969; */
+	color: #000;
+	font-size: 14px;
+	font-weight: bold !important;
+	margin-top: 8px;
+	margin-bottom: 6px;
+	font-family: inherit;
+}
+
+.arabic-body-app .vision-login-footer .arabic-text {
+	color: #676767;
+	font-size: 13px;
+	font-weight: inherit;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	font-family: inherit;
+}
+
+.vision-footer-secondWrapper .vision-footer-copyRights>p {
+	margin-bottom: 0;
+	font-weight: bold;
+	color: #8b8b8b;
+}
+
+ul.vision-footer-links {
+	margin: 0px;
+}
+
+ul.vision-footer-links li {
+	padding: 1px;
+}
+
+.login-custom-card .service-statistics .slick-prev.slick-arrow {
+	position: absolute;
+}
+
+.login-custom-card .service-statistics .slick-next.slick-arrow {
+	position: absolute;
+}
+
+/*Jumbotron footer css by sami ends*/
+@media ( max-width :1920px) {
+	.circle-image img {
+		min-width: 70px;
+		max-width: 70px;
+		padding: 4px;
+		border-radius: 6px;
+		margin: 0 auto;
+		min-height: 70px;
+	}
+	.login-custom-card .card-title {
+		font-size: 13px;
+	}
+	/*.login-body-content .login-custom-card.statis-counts .service-statistics .card .card-body .circle-image h5,
+    .login-body-content .login-custom-card.statis-counts .facts_stats .card .card-body .circle-image h5{
+        font-size: 24px;
+    }*/
+	.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news h6,
+		.login-body-content .login-custom-card.statis-counts .service-statistics .card p,
+		.login-body-content .login-custom-card.statis-counts .facts_stats .card p
+		{
+		font-size: 13px;
+	}
+	.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news p.english-text,
+		.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news p.arabic-text
+		{
+		font-size: 12px;
+	}
+	/*    #carouselExampleIndicators1 img {
+            height: 228px;
+            object-fit: contain;
+        }*/
+	/*.login-body-content .trendsCols .card-body {
+        max-height: 205px;
+    }*/
+	.custom-card .allServicesClass .card-icons-wrapper a img {
+		width: 25px;
+		height: 25px;
+	}
+	/*.login-body-content .trendsCols .card-header {
+        padding: 0.75rem 0.25rem  !important;
+    }*/
+	.login-body-content .login-custom-card .service_header {
+		padding: 13px;
+	}
+	.login-body-content .login-custom-card .service_header h5,
+		.pilog-announce .service_header h5, .login-body-content .card .card-header .titleClass
+		{
+		font-size: 14px !important;
+	}
+	/*.login-header {
+        padding: 20px 10px;
+    }*/
+	.login-custom-card .service_header h5 span, .pilog-announce .service_header h5 span
+		{
+		font-size: 14px;
+	}
+	.login-body-content .wrapper .login-text {
+		font-size: 14px;
+	}
+	.login-body-content .login-custom-card .service_header, .pilog-announce .service_header
+		{
+		padding: 10px;
+	}
+	.login-body-content .wrapper .vendorOnBoardRegisterForm,
+	 .login-body-content .wrapper .logo {
+		padding: 15px 12px;
+	}
+	.trendsCols .listofTrendsOuter .postedBy .postedDate, .trendsCols .listofTrendsOuter ul li a
+		{
+		font-size: 14px;
+	}
+	.eventCardMainDiv {
+		/*    margin: 5px auto 4px 15px;*/
+		padding: 10px;
+		margin: 9px;
+	}
+	#carouselExampleIndicators1 {
+		/*        height: 180px;*/
+		overflow: hidden;
+	}
+	/*    .pilog-announce.mt-2:last-child {
+            height: 235px;
+            max-height: 100%;
+            overflow-y: auto;
+        }*/
+}
+
+/*@media(max-width:1451px){
+    #carouselExampleIndicators1 img {
+    height: 230px;
+}
+.custom-card .allServicesClass .card-icons-wrapper a img {
+    width: 20px;
+    height: 20px;
+}
+}*/
+@media ( max-width :1401px) {
+	.login-header {
+		padding: 5px 10px;
+	}
+	.login-body-content .login-custom-card.statis-counts .service-statistics .card .card-body .circle-image h5,
+		.login-body-content .login-custom-card.statis-counts .facts_stats .card .card-body .circle-image h5
+		{
+		font-size: 18px;
+	}
+	/*.login-body-content .wrapper .vendorOnBoardRegisterForm, .login-body-content .signupClass, .login-body-content .wrapper .logo {
+        padding: 13px 12px;
+    }*/
+	/*    #carouselExampleIndicators1 img {
+            height: 205px;
+            object-fit: contain;
+        }*/
+	.login-body-content .login-custom-card .service-statistics,
+		.login-body-content .login-custom-card .facts_stats {
+		/*    padding: 4px 15px;*/
+		
+	}
+}
+
+@media ( min-width :1401px) {
+	.niic-center-flex {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	/*#carouselExampleIndicators img,
+    #carouselExampleIndicators1 img{
+        height: 205px;
+        object-fit: contain;
+    }*/
+	#carouselExampleIndicators1 {
+		padding: 3.5px 0;
+	}
+	/*.circle-image img {
+        min-width: 60px;
+        max-width: 60px;
+        padding: 4px;
+        border-radius: 6px;
+        margin: 0 auto;
+        min-height: 60px;
+    }*/
+}
+
+@media ( max-width :1366px) {
+	.niic-center-flex {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.login-body-content .wrapper .vendorOnBoardRegisterForm,
+		.login-body-content .signupClass{
+		padding: 8px 12px;
+	}
+	.login-body-content .wrapper .login-text {
+		font-size: 12px;
+	}
+	.login-body-content .login-custom-card .service_header h5,
+		.pilog-announce .service_header h5, .login-body-content .card .card-header .titleClass
+		{
+		font-size: 12px !important;
+	}
+	.trendsCols .listofTrendsOuter .postedBy .postedDate, .trendsCols .listofTrendsOuter ul li a
+		{
+		font-size: 12px;
+	}
+	.login-body-content .trendsCols .card-header {
+		padding: 7px 0.25rem !important;
+	}
+	.login-body-content .trendsCols .card-body {
+		max-height: 180px;
+	}
+	.trendsCols .listofTrendsOuter .postedBy .postedName {
+		font-size: 11px;
+	}
+	.trendsCols .listofTrendsOuter .postedBy .postedDate, .trendsCols .listofTrendsOuter ul li a
+		{
+		font-size: 11px;
+	}
+	.login-body-content .login-custom-card .service_header, .pilog-announce .service_header
+		{
+		padding: 8px !important;
+	}
+	.login-custom-card .card-title {
+		font-size: 12px;
+	}
+	.login-custom-card .service_header h5 span, .pilog-announce .service_header h5 span
+		{
+		font-size: 12px;
+	}
+	.login-body-content .login-custom-card.statis-counts .service-statistics .card .card-body .circle-image h5,
+		.login-body-content .login-custom-card.statis-counts .facts_stats .card .card-body .circle-image h5
+		{
+		font-size: 16px;
+	}
+	.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news h6,
+		.login-body-content .login-custom-card.statis-counts .service-statistics .card p
+		{
+		font-size: 11px;
+	}
+	.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news p.english-text,
+		.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news p.arabic-text
+		{
+		font-size: 11px;
+	}
+	/*#carouselExampleIndicators1 img {
+         height: 120px;
+    overflow: hidden;
+    }*/
+	.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news h6,
+		.login-body-content .login-custom-card.statis-counts .service-statistics .card p,
+		.login-body-content .login-custom-card.statis-counts .facts_stats .card p
+		{
+		font-size: 12px;
+	}
+	.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper  .fa
+		{
+		font-size: 14px;
+	}
+	.circle-image img {
+		min-width: 50px;
+		max-width: 50px;
+		padding: 4px;
+		border-radius: 6px;
+		margin: 0 auto;
+		min-height: 50px;
+	}
+	.login-body-content .login-custom-card .service-statistics {
+		padding: 5px 20px;
+	}
+	.login-body-content .login-custom-card .facts_stats {
+		padding: 10px 15px;
+	}
+	.facts_stats .card.login-custom-card {
+		margin: 0;
+	}
+	.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news
+		{
+		padding: 14px 15px 8px 5px;
+	}
+	.login-custom-card .service_header .english-text img,
+		#mediaCardImageClassT img {
+		margin-right: 10px;
+		width: 22px;
+		height: 22px;
+		max-width: 18px;
+		height: 18px;
+	}
+	.card .card-header span {
+		margin-top: 0;
+	}
+	h5.english-text.feedback-flex button#feedbackButton {
+		padding: 4px 5px;
+		margin: 0;
+	}
+	.custom-card .allServicesClass .card-icons-wrapper a img {
+		width: 20px;
+		height: 20px;
+	}
+	.eventCardMainDiv .evenTitleAnd_Date {
+		font-size: inherit;
+		width: 40%;
+    	padding: 12px 7px 12px 7px;
+	}
+	.eventCardMainDiv .evenTitleAnd_Date .dateShow {
+		line-height: 1;
+		padding: 11px 5px;
+	}
+	.eventCardMainDiv {
+		padding: 12px 8px;
+        margin: 9px;
+	}
+	/*    #carouselExampleIndicators1 img {
+            height: 165px;
+            object-fit: contain;
+        }*/
+	#carouselExampleIndicators {
+		height: 120px;
+		overflow: hidden;
+	}
+	/*    .pilog-announce.mt-2:last-child {
+            height: 175px;
+            max-height: 100%;
+            overflow-y: auto;
+        }*/
+	.arabic-body-app .wrapper {
+		padding: 0;
+	}
+	.arabic-body-app #showCaseCardT .trendscolumn #SocialMediaCardT .card-header
+		{
+		flex-direction: row-reverse;
+		justify-content: flex-start;
+	}
+	.login-body-content .signupClass,
+	 .login-body-content .wrapper .logo {
+		padding: 18.5px 12px;
+	}
+	#carouselExampleIndicatorsLeft{
+	    height: 122px;
+        overflow: hidden;
+        }
+    .eventCardMainDiv .eventDiscriptionDiv .bottomClass {
+    	bottom: 40px;
+	}
+}
+
+@media ( max-width :1311px) {
+	.login-custom-card .card-title {
+		-webkit-line-clamp: 1;
+	}
+}
+
+@media ( max-width :1199px) {
+	.feedback-item .review-item span:first-child {
+		width: 375px;
+		max-width: 100%;
+	}
+	.eventCardMainDiv .evenTitleAnd_Date {
+        width: 50%;
+    }
+    .login-custom-card .card-body {
+    position: relative;
+    padding: 6px 8px;
+}
+}
+/* @media ( max-width :1142px) {
+	.feedback-item .review-item span:first-child {
+		padding: 12px 0px 12px 0px;
+	}
+} */
+
+@media ( max-width :1024px) {
+	.feedback-item .review-item {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.feedback-item .review-item .jqx-widget {
+		width: 100% !important;
+	}
+}
+
+@media ( max-width :991px) {
+	.login-custom-card .card-title {
+		-webkit-line-clamp: 2;
+	}
+	.eventCardMainDiv .evenTitleAnd_Date {
+        padding: 12px 0px 12px 0px;
+    }
+}
+
+@media ( max-width :767px) {
+	.login-body-content .trendsCols .card-body {
+		max-height: 175px;
+	}
+	.eventCardMainDiv .evenTitleAnd_Date {
+		font-size: 20px;
+		width:30% !important;
+	}
+	#carouselExampleIndicators1 img, 
+	#carouselExampleIndicators,
+	#carouselExampleIndicatorsLeft {
+		height: auto;
+	}
+	.feedback-item .review-item {
+		flex-direction: row;
+	}
+	.niic-center-wrapper:last-child {
+		padding-left: 8px;
+		padding-right: 8px;
+		margin-top: 8px;
+	}
+	.niic-center-wrapper:first-child {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.footer .container .footer-social-icons {
+		padding-top: 0;
+	}
+}
+@media(max-width:600px){
+	.login-body-content .login-custom-card .service-statistics {
+        padding: 5px 24px !important;
+    }
+        .pilog-announce .carousel.slide.pointer-event .carousel-inner .carousel-item img {
+        height: 180px;
+    }
+}
+
+
+@media ( max-width :575px) {
+	.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news
+		{
+		flex-direction: column;
+	}
+	.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper .pilog-date-news .pilog-news
+		{
+		border-left: none;
+		padding: 6px !important;
+	}
+	.niic-center-wrapper .modal.fade .modal-dialog {
+		-webkit-transform: translate(0, 0%);
+	}
+}
+
+@media ( max-width :425px) {
+	.footer.HideFooter .row, .footer .row {
+		justify-content: center !important;
+	}
+}
+
+.arabic-body-app .niic-center-wrapper:first-child {
+	padding-right: 25px !important;
+	padding-left: 0 !important;
+}
+
+.arabic-body-app .niic-center-wrapper:last-child {
+	padding-left: 25px !important;
+	padding-right: 0 !important;
+}
+
+.arabic-body-app .niic-center-wrapper:nth-child(2) {
+	padding: 0 20px !important;
+}
+
+.hoverme {
+	cursor: pointer;
+}
+
+.niic-center-wrapper .modal {
+	display: none;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1050;
+	-webkit-overflow-scrolling: touch;
+	outline: 0;
+}
+
+.niic-center-wrapper .modal.fade .modal-dialog {
+	-webkit-transform: translate(0, -25%);
+	-ms-transform: translate(0, -25%);
+	-o-transform: translate(0, -25%);
+	transform: translate(0, -25%);
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	-o-transition: -o-transform 0.3s ease-out;
+	transition: transform 0.3s ease-out;
+}
+
+.niic-center-wrapper .modal.in .modal-dialog {
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	-o-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+
+.niic-center-wrapper .modal-open .modal {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.niic-center-wrapper .modal-dialog {
+	position: relative;
+	width: auto;
+	margin: 10px;
+}
+/*.niic-center-wrapper .modal-content {
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    outline: 0;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+}*/
+.niic-center-wrapper .modal-backdrop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1040;
+	background-color: #000000;
+}
+
+.niic-center-wrapper .modal-backdrop.fade {
+	opacity: 0;
+	filter: alpha(opacity = 0);
+}
+
+.niic-center-wrapper .modal-backdrop.in {
+	opacity: 0.5;
+	filter: alpha(opacity = 50);
+}
+
+.niic-center-wrapper .modal-header {
+	padding: 15px;
+	border-bottom: 1px solid #e5e5e5;
+	min-height: 16.42857143px;
+}
+
+.niic-center-wrapper .modal-header .close {
+	margin-top: -2px;
+}
+
+.niic-center-wrapper .modal-body {
+	position: relative;
+	padding: 15px;
+}
+
+.hide {
+	display: none !important;
+}
+
+.show {
+	display: block !important;
+}
+
+.niic-center-wrapper .img-responsive-height {
+	display: block;
+	width: auto;
+	max-height: 100%
+}
+
+.niic-center-wrapper .img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+/*.niic-center-wrapper .modal-dialog {
+    width: 900px !important;
+    max-width: 100%;
+    margin: 30px auto;
+    margin-top: 250px !important;
+}*/
+.mb-8 {
+	margin-bottom: 20px;
+}
+
+h5.english-text.feedback-flex {
+	display: flex;
+}
+
+/*#niic_FeedBack_formId .review-item .jqx-widget div div{
+    width:15px !important;
+    height:15px;
+}
+#niic_FeedBack_formId .review-item .jqx-widget div div:last-child{
+ position: absolute;
+}
+#niic_FeedBack_formId .review-item .jqx-widget div:first-child{
+    width:15px !important;
+    height:15px;
+}
+#niic_FeedBack_formId .review-item .jqx-widget img{
+    width:100% !important;
+    height:100% !important;
+}*/
+.hovermodelpoup .modal-header {
+	background: transparent !important;
+	border-bottom: 0;
+}
+
+.hovermodelpoup .modal-header h4 {
+	visibility: hidden;
+}
+
+.hovermodelpoup.modal .modal-header .close {
+	color: #000 !important;
+}
+
+.hovermodelpoup.modal .modal-footer {
+	display: none;
+}
+/*muni css code end*/
+
+/* Modal Popup Unique Css by SANK*/
+.modal {
+	padding-top: 0 !important;
+}
+
+.modal .modal-header, .modal .modal-footer, .modal .modal-body {
+	padding: 6px !important;
+}
+
+.modal .modal-header {
+	background-color: #0b4a99;/*#0b4a99;*/
+	border-radius: 0;
+	align-items: center;
+}
+
+.modal .modal-header h4 {
+	font-size: 16px;
+	color: #fff;
+}
+
+.modal .modal-header .close {
+	opacity: inherit !important;
+	color: #fff;
+	font-weight: 400 !important;
+	padding: 0 !important;
+	outline: 0;
+	background: transparent;
+	height: inherit !important;
+}
+
+.modal .modal-header .close:focus {
+	outline: inherit !important;
+}
+
+.modal-footer button {
+	width: inherit !important;
+	height: inherit !important;
+}
+
+.modal-footer button:hover {
+	background-color: #0b4a99  !important;/*#0b4a99  !important;*/
+	color: #fff;
+}
+/* Modal Popup Unique Css by SANK*/
+@media ( max-width :1366px) {
+	/*    #carouselExampleIndicators1 {
+            padding: 10px 0;
+        }*/
+	.wrapper {
+		padding: 0px 8px;
+	}
+	.login-body-content .login-custom-card.statis-counts .pilog-news-wrapper
+		{
+		padding: 12px 10px;
+	}
+	.feedback-item .review-item {
+		padding: 6px 15px;
+	}
+	.login-custom-card #pilog-eventId .card-body h5 {
+		font-size: 14px;
+		font-weight: 600;
+	}
+}
+
+#expendFooterInOutDivClass1 {
+	display: none;
+}
+
+.niic-center-wrapper #visionLoginpageInner .modal-dialog .modal-header {
+	display: flex;
+}
+
+.niic-center-wrapper #visionLoginpageInner .modal-dialog .modal-body {
+	padding: 15px 25px !important;
+}
+
+.footer.HideFooter p, .footer p {
+	margin: 0
+}
+
+#showCaseCardT .trendscolumn #SocialMediaCardT .card-header {
+	background: transparent;
+}
+
+.key_cods {
+	margin: 0;
+	padding: 0;
+}
+
+.key_cods li {
+	display: flex !important;
+	align-items: baseline;
+	border-bottom: 1px solid #ddd;
+	padding: 4px 15px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+/*muni css code end*/
+.arabic-body-app .login-header .pilog-logo .languageSelect span.arabic-text:hover
+	{
+	border-bottom: 2px solid #0b4a99;/*#0b4a99;*/
+}
+
+.key_cods li i {
+	margin-right: 6px;
+}
+
+.arabic-body-app .key_cods.arabic-text li {
+	color: #00ab67 !important;
+}
+
+.arabic-body-app .carousel-item.active.popover__content, .carousel-item.active.popover__content
+	{
+	height: 145px !important;
+}
+
+.arabic-text #feedbackButton {
+	border: 1px solid #00ab67 !important;
+	color: #00ab67 !important;
+	margin: 0;
+}
+
+.arabic-text #feedbackButton:hover {
+	background: #00ab67 !important;
+	color: #fff !important;
+}
+/* .feedback-item .review-item span{
+     color: #00ab67 !important;
+}*/
+.footer.HideFooter {
+	display: none !important;
+}
+
+.facts_stats .card.login-custom-card .card-body {
+	padding: 0;
+}
+
+.niic-center-wrapper:last-child .pilog-announce:last-child .service_header
+	{
+	padding: 6px !important;
+	background: #fff;
+	position: sticky;
+	top: 0;
+	z-index: 9;
+}
+
+#niic_FeedBack_formId {
+	height: 152px;
+	max-height: 100%;
+	overflow-y: auto;
+}
+
+span {
+	font-size: 12px;
+}
+/*som*/
+.dialogFactsAndStatsDiv .ui-dialog-titlebar-close:after {
+	content: "\00d7";
+}
+
+.dialogFactsAndStatsDiv .ui-dialog-titlebar-close {
+	background-color: #0b4a99;/*#0b4a99;*/
+	border: #0b4a99;/*#0b4a99;*/
+}
+
+.dialogFactsAndStatsDiv .ui-dialog-title {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.dialogFactsAndStatsDiv .dialogFactsAndStatsCloseBtn {
+	border-radius: 4px;
+	height: 30px;
+}
+
+#multiImgFactsAndStatsPopupDiv .jqx-window-close-button {
+	margin-top: 0px !important;
+}
+
+#multiImgFactsAndStatsPopupDiv .jqx-widget-header {
+	padding: 1px 2px !important;
+}
+
+.charttypeId .visionVisualizeChartsTabsClass img {
+	margin: 1px 1px 1px 1px;
+}
+
+/*.footer {
+	width: 100%;
+	bottom: inherit !important;
+}*/
+/* Twitter css  */
+.trendsCols .listofTrendsOuter {
+	width: 100%;
+}
+
+.trendsCols .listofTrendsOuter ul {
+	padding-left: 0;
+	margin-bottom: inherit;
+}
+
+.trendsCols .listofTrendsOuter ul li a {
+	text-decoration: none;
+	color: #333;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.trendsCols .listofTrendsOuter ul li a:hover {
+	text-decoration: underline;
+	color: #007bff;
+}
+
+.trendsCols .listofTrendsOuter ul li {
+	padding: 4px;
+	border-bottom: 1px solid #ddd;
+	list-style: none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.trendsCols .listofTrendsOuter ul li:last-child {
+	border-bottom: inherit;
+}
+
+.trendsCols .listofTrendsOuter .postedBy {
+	margin-bottom: 2px;
+	color: rgb(95, 93, 93);
+	position: relative;
+}
+
+.trendsCols .listofTrendsOuter .postedBy .postedName {
+	font-size: 13px;
+}
+
+.trendsCols .listofTrendsOuter .postedBy .postedDate {
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+
+.iVisionPilogHomePageOptions {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+.iVisionsalectHomeCardData {
+	margin-right: 10px;
+}
+
+.iVisionHomeSelectBox {
+	height: 30px !important;
+}
+
+.listofTrendsOuter #myNodeContainer div {
+	width: 100%;
+}
+
+.homeSocialTrends .trendsCols .card {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	min-height: 307px;
+	border: 2px solid #3a81e9;
+	border-radius: 8px;
+}
+
+.list-body .list-group .listofFilters .themeModeDark {
+	width: 20px;
+}
+
+.list-body .main-list-group-card-div {
+	position: sticky;
+	top: 0;
+	float: right;
+	right: 0;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+
+.list-body .main-list-group-card-div ul li {
+	padding: 1px;
+	border-bottom: 1px solid #e5d9d9;
+}
+
+.myNodeContainer {
+	display: flex;
+}
+
+.infotechImgListofTrendsOuter .infotechCarouselMainDiv {
+	display: flex;
+}
+
+.ic-maximize {
+	max-width: 100% !important;
+	flex: auto !important;
+}
+
+.infotechCarouselMainDiv .infotechCarouselInnerChildDiv img {
+	height: 100% !important;
+}
+
+.ic-maximize .card-body {
+	max-height: 100% !important;
+}
+
+.showMaterialpopUpBox {
+	display: none;
+	width: 250px;
+	/* height: 106px; */
+	border: solid #ddd 1px;
+	position: absolute;
+	left: 80%;
+	top: 40%;
+	z-index: 9999;
+	background-color: #f6f7ff;
+	border-radius: 12px;
+	padding: 5px;
+}
+
+.footer-social-icons {
+	display: flex;
+	margin-bottom: inherit;
+}
+
+.vision-login-footer .vision-social-content .vision-social-icons .footer-social-icons
+	{
+	margin: 15px 0px;
+}
+
+ul {
+	padding-left: 0;
+	list-style-type: none;
+	margin-bottom: 0;
+}
+
+.footer-social-icons li a {
+	/* padding: 5px 6px; */
+	border: 1px solid #0b4a99;/*#0b4a99;*/
+	border-radius: 50%;
+	font-size: 11px;
+	/* background: #f1f1f1; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 25px;
+	height: 25px;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+	background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+	background: #ddd !important;
+	border: 1px solid #f1f1f1 !important;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	background: #fff;
+	border: 1px solid #f1f1f1 !important;
+	border-radius: 0;
+}
+/*som*/
+
+/*change password styles starts here*/
+.btn-primary {
+	background-color: #0b4a99  !important;/*#0b4a99  !important;*/
+	border-color: #0b4a99  !important;/*#0b4a99  !important;*/
+	border-radius: 4px !important;
+	margin: 6px 15px 6px 0;
+	font: normal 12px/16px "Helvetica Neue", Helvetica, Arial,
+		sans-serif !important;
+}
+
+.btn-primary:hover {
+	background-color: #0b4a99  !important;/*#0b4a99  !important;*/
+	border-color: #0b4a99  !important;/*#0b4a99  !important;*/
+	color: #fff !important;
+	/* border-radius: inherit !important; */
+}
+
+.modal .modal-header, .modal .modal-footer, .modal .modal-body {
+	padding: 6px !important;
+}
+
+h4.modal-title.text-center {
+	font-size: 14px !important;
+}
+
+.changepassword .titlepasswordClass.row {
+	margin: 0;
+	margin-top: 15px;
+}
+
+.changepassword .titlepasswordClass.row #loginOtpMsg, .changepassword .titlepasswordClass.row #otpStatusMsg
+	{
+	font-size: 12px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.changepassword .titlepasswordClass.row #otp-wrapper {
+	width: 100%;
+}
+
+.updatepasswordClass .changepassword label {
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: inherit;
+	position: inherit;
+	top: inherit;
+	margin-bottom: 0 !important;
+}
+
+.changepassword .titlepasswordClass.row .col-md-8.form-group .user-wrapper
+	{
+	display: flex;
+	align-items: center;
+}
+
+.changepassword .titlepasswordClass.row .col-md-8.form-group .user-wrapper input
+	{
+	margin-right: 8px;
+}
+
+.titlepasswordClass input {
+	transition: border 0.1s, box-shadow 0.1s;
+	background-color: #FFF;
+	color: #404040;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) inset;
+	padding: 4px;
+	font-size: 12px;
+	line-height: 12px;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.changepassword .titlepasswordClass.row .col-md-8.form-group .user-wrapper button
+	{
+	padding: 6px;
+	text-wrap: nowrap;
+	margin: 0;
+}
+
+#userNameError {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.updatepasswordClass .col-md-8.form-group.eye_icon i {
+	position: absolute;
+	top: 1px;
+	right: 5%;
+	font-size: 20px;
+	padding: 5px;
+	background: #f1f1f1;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	color: #0b4a99;/*#0b4a99;*/
+}
+
+.changepassword .titlepasswordClass .all_errors {
+	color: red;
+	display: none;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: .8px;
+}
+/*change password styles ends here*/
+
+/* Modal PopUp Animation Css Starts Here */
+.opacity-animate3 {
+	animation: opt-animation3 1s;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+@-webkit-keyframes opt-animation3 { 0% {
+	opacity: 0;
+	transform: scale(0.75);
+	}
+	100%{
+	opacity:1;
+	transform:scale(1);
+	}
+}
+@-moz-keyframes opt-animation3 { 0% {
+	opacity: 0;
+	transform: scale(0.75);
+	}
+	100%{
+	opacity:1;
+	transform:scale(1);
+	}
+}
+@-o-keyframes opt-animation3 { 
+	0% {
+	opacity: 0;
+	transform: scale(0.75);
+	}
+	100%{
+	opacity:1;
+	transform:scale(1);
+	}
+}
+@keyframes opt-animation3 { 
+	0% {
+	opacity: 0;
+	transform: scale(0.75);
+	}
+	100%{
+	opacity:1;
+	transform:scale(1);
+	}
+}
+
+/* Modal PopUp Animation Css Ends Here */
+.pilog-announce .service_header .feed-back img {
+	width: 18px !important;
+	height: 18px !important;
+}
+
+/*NEW integral login page CSS Start here by MUni 31-07-2024 */
+@charset "utf-8";
+/* CSS Document */
+
+/*---------- Google Fonts ----------*/
+
+* {
+    font-family: 'sf_pro_displayregular';
+}
+
+body {
+    font-family: 'sf_pro_displayregular' !important;
+    font-size: 20px;
+    line-height: 125%;
+    /* color: #697C84; */
+    color: #212529;
+    background: #EFEFEF !important;
+}
+
+.loginMainClass .wrapper {
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+
+.loginMainClass .wrapper a,
+.loginMainClass .vendorOnBoardRegisterForm {
+    font-weight: 400 !important;
+}
+
+.loginMainClass figure {
+    margin: 0;
+    width: fit-content;
+}
+
+.light-mode-img {
+    display: inline !important;
+}
+
+.dark-mode-img {
+    display: none !important;
+}
+
+strong,
+b {
+    font-family: 'sf_pro_displaybold' !important;
+    font-weight: normal !important;
+}
+
+a,
+input,
+button,
+textarea {
+    outline: none !important;
+}
+
+a {
+    text-decoration: none;
+    color: #006D99;
+    transition: all ease-in-out 300ms;
+    -webkit-transition: all ease-in-out 300ms;
+    -ms-transition: all ease-in-out 300ms;
+    -o-transition: all ease-in-out 300ms;
+    -moz-transition: all ease-in-out 300ms;
+}
+
+a:hover {
+    color: #440997;
+}
+
+p {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+ol,
+ul {
+    margin-bottom: 20px;
+}
+
+ol ol,
+ol ul,
+ul ol,
+ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ol li,
+ul li {
+    font-family: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+}
+
+.container-fluid,
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.row>* {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.font-family-sf_pro_displayregular {
+    font-family: 'sf_pro_displayregular' !important;
+}
+
+.font-family-sf_pro_displaymedium {
+    font-family: 'sf_pro_displaymedium' !important;
+}
+
+.font-family-sf_pro_displaybold {
+    font-family: 'sf_pro_displaybold' !important;
+}
+
+/* section-title */
+.loginMainClass .section-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'sf_pro_displaybold';
+    font-size: 22px;
+    line-height: 125%;
+    color: #0b4a99 !important;
+    margin-bottom: 18px;
+}
+
+.loginMainClass .section-title .title-icon figure img,
+.main-sidebar-section .pilog-announce .service_header h5.feed-back-flex .feed-back img {
+    width: 28px !important;
+    height: 28px;
+}
+
+.loginMainClass .wrapper .form-field .form-control {
+    font-size: 14.5px !important;
+    border-radius: 0;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.loginMainClass .wrapper .form-field .form-control:focus {
+    box-shadow: none;
+    outline: 0;
+}
+
+.loginMainClass .wrapper .form-field.showorHidePassword {
+    margin-bottom: 5px;
+}
+
+.loginMainClass .section-title * {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.loginMainClass .section-title a {
+    text-decoration: none;
+}
+
+.loginMainClass .section-title a:hover {
+    color: #440997;
+}
+
+.loginMainClass .section-title .title-icon {
+    margin-right: 10px;
+}
+
+/* section-title */
+
+/* buttons */
+.loginMainClass .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'sf_pro_displayregular';
+    font-size: 17px;
+    line-height: 125%;
+    padding: 8px 25px;
+    border: 2px solid transparent;
+    box-shadow: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.loginMainClass .btn-small {
+    padding: 5px 15px;
+}
+
+.loginMainClass .btn-simple-primary {
+    color: #01B0E1 !important;
+    background: transparent !important;
+    border-color: #01B0E1 !important;
+}
+
+.loginMainClass .btn-simple-primary:active,
+.loginMainClass .btn-simple-primary:focus {
+    color: #01B0E1 !important;
+    background: transparent !important;
+    border-color: #01B0E1 !important;
+}
+
+.loginMainClass .btn-simple-primary:active:focus,
+.loginMainClass .btn-simple-primary:hover {
+    color: #ffffff !important;
+    background: #01B0E1 !important;
+    border-color: #01B0E1 !important;
+}
+
+.loginMainClass .wrapper .btn-primary,
+.loginMainClass .wrapper .btn-primary:hover {
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.confrimPopupClassId .visionLoginHandlerTable span {
+    font-size: 12px !important;
+    color: #000000;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.confrimPopupClassId .modal-body {
+    padding: 15px 25px !important;
+}
+
+.confrimPopupClassId .modal-title.text-center {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.confrimPopupClassId .modal-footer .btn.btn-primary,
+.confrimPopupClassId .modal-footer .btn.btn-primary:hover {
+    font-size: 12px;
+    background-color: #0b4a99 !important;
+    color: #fff;
+    /*padding: 8px;*/
+}
+
+/*
+.loginMainClass .btn-primary {
+    color: #ffffff !important;
+    background: #00B3E3 !important;
+    border-color: #01B0E1 !important;
+}
+
+.loginMainClass .btn-primary:active,
+.loginMainClass .btn-primary:focus {
+    color: #ffffff !important;
+    background: #01B0E1 !important;
+    border-color: #01B0E1 !important;
+}
+
+.loginMainClass .btn-primary:active:focus,
+.loginMainClass .btn-primary:hover,
+.wrapper .btn:hover,
+dark-mode-theme .arabic-body-app .loginMainClass .wrapper .btn,
+dark-mode-theme .arabic-body-app .loginMainClass .wrapper .btn:hover,
+.arabic-body-app .wrapper .btn {
+    color: #fff !important;
+    background: #01B0E1 !important;
+    border-color: #01B0E1 !important;
+}
+*/
+
+.loginMainClass .btn-simple-secondary {
+    color: #221C35 !important;
+    background: transparent !important;
+    border-color: #221C35 !important;
+}
+
+.loginMainClass .btn-simple-secondary:active,
+.loginMainClass .btn-simple-secondary:focus {
+    color: #221C35 !important;
+    background: transparent !important;
+    border-color: #221C35 !important;
+}
+
+.loginMainClass .btn-simple-secondary:active:focus,
+.loginMainClass .btn-simple-secondary:hover {
+    color: #ffffff !important;
+    background: #221C35 !important;
+    border-color: #221C35 !important;
+}
+
+.loginMainClass .btn-secondary {
+    color: #ffffff !important;
+    background: #221C35 !important;
+    border-color: #221C35 !important;
+}
+
+.loginMainClass .btn-secondary:active,
+.loginMainClass .btn-secondary:focus {
+    color: #ffffff !important;
+    background: #221C35 !important;
+    border-color: #221C35 !important;
+}
+
+.loginMainClass .btn-secondary:active:focus,
+.loginMainClass .btn-secondary:hover {
+    color: #221C35 !important;
+    background: transparent !important;
+    border-color: #221C35 !important;
+}
+
+/* buttons */
+
+/* common-social-icons */
+.loginMainClass .common-social-icons ul {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -7px !important;
+    padding: 0 !important;
+    list-style-type: none;
+}
+
+.loginMainClass .common-social-icons ul li {
+    display: inline-flex !important;
+    align-items: center;
+    margin: 0 7px !important;
+    padding: 0 !important;
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 125%;
+    color: #00B3E3 !important;
+}
+
+.loginMainClass .common-social-icons ul li a {
+    color: inherit;
+}
+
+.loginMainClass .common-social-icons ul li a:hover {
+    color: #006D99 !important;
+}
+
+/* slick-slider */
+.loginMainClass .slick-slider .slick-slide {
+    outline: none !important;
+}
+
+.loginMainClass .slick-slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 9;
+    width: 30px;
+    height: 30px;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+}
+
+.loginMainClass .slick-slider .slick-arrow.slick-prev {
+    left: 0;
+}
+
+.loginMainClass .slick-slider .slick-arrow.slick-next {
+    right: 0;
+}
+
+.loginMainClass .slick-slider .slick-arrow:hover svg .circle-icon {
+    fill: #232323;
+}
+
+.loginMainClass .slick-slider .slick-arrow.slick-disabled {
+    cursor: default;
+    opacity: 0.5;
+}
+
+.loginMainClass .slick-slider .slick-arrow.slick-disabled svg .circle-icon {
+    fill: #515254;
+}
+
+.loginMainClass .slick-slider .slick-dots {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -2px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.loginMainClass .slick-slider .slick-dots li {
+    position: relative;
+    left: 0;
+    display: inline-flex;
+    align-items: center;
+    margin: 0 2px;
+    padding: 0;
+    list-style-type: none;
+    width: 5px;
+    height: 5px;
+    cursor: pointer;
+    background: #CFCFCF;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    border: 0 !important;
+}
+
+.loginMainClass .slick-slider .slick-dots li.slick-active {
+    width: 30px;
+    background: #0b4a99;
+    border: 0 !important;
+}
+
+.loginMainClass .slick-slider .slick-dots li button {
+    display: none;
+}
+
+/* slick-slider */
+
+/*==================================================================*/
+/*========== Header Start ==========*/
+/*==================================================================*/
+.loginMainClass .header {
+    position: relative;
+    padding: 13px 0;
+    /* padding: 0; */
+    background: #fff;
+    z-index: 100;
+}
+
+.loginMainClass .header .h-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loginMainClass .header .h-content>* {
+    flex: 0 0 auto;
+    max-width: 100%;
+}
+
+.loginMainClass .header .h-logo {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.loginMainClass .header .h-logo>* {
+    margin: 0 8px;
+}
+
+.loginMainClass .header .h-logo>*:first-child {
+    margin-left: 0;
+}
+
+.loginMainClass .header .h-logo>*:last-child {
+    margin-right: 0;
+}
+
+.loginMainClass .header .h-logo a {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.loginMainClass .header .h-logo a>* {
+    margin: 0 8px;
+}
+
+.loginMainClass .header .h-logo a>*:first-child {
+    margin-left: 0;
+}
+
+.loginMainClass .header .h-logo a>*:last-child {
+    margin-right: 0;
+}
+/*==================================================================*/
+/*========== Header End ==========*/
+/*==================================================================*/
+
+
+
+/*==================================================================*/
+/*========== New Class Add Start ==========*/
+/*==================================================================*/
+.loginMainClass .content {
+    padding-top: 20px !important;
+    padding-bottom: 0px !important;
+}
+
+.loginMainClass .main-content-wrapper-section .main-wrapper-description {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0;
+}
+
+.loginMainClass .main-content-wrapper-section .main-wrapper-description>* {
+    /* flex: 1 0 0; */
+    flex: 0 0 auto;
+    max-width: 100%;
+}
+
+.loginMainClass .main-content-wrapper-section .main-wrapper-description .main-sidebar-part {
+    flex: 0 0 auto;
+    width: 342px;
+    padding-right: 20px;
+}
+
+.loginMainClass .main-content-wrapper-section .main-wrapper-description .main-wrapper-content-part {
+    flex: 0 0 auto;
+    width: calc(100% - 372px);
+}
+
+/* login-sidebar */
+.loginMainClass .login-sidebar-block {
+    /* padding: 25px 20px !important; */
+    overflow:hidden;
+    margin-bottom: 22px;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0px 0.2px 20px 4px rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.loginMainClass .login-sidebar-block:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 25px;
+    width: 4px;
+    height: 50px;
+    background: #0b4a99;
+}
+
+.loginMainClass .login-sidebar-block .section-title {
+    color: #006D99;
+    margin-bottom: 40px;
+}
+
+
+
+.loginMainClass .login-sidebar-block .register-forgot-block {
+    padding-top: 30px;
+    border-top: 1px solid #EBEBEB;
+}
+
+
+.loginMainClass .login-sidebar-block .register-forgot-block ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.loginMainClass .login-sidebar-block .register-forgot-block ul li {
+    display: block;
+    margin: 0 0 12px;
+    padding: 0;
+    list-style-type: none;
+    font-family: 'sf_pro_displaymedium';
+    font-size: 14px;
+    line-height: 125%;
+}
+
+.loginMainClass .login-sidebar-block .register-forgot-block ul li:last-child {
+    margin-bottom: 0;
+}
+
+.loginMainClass .login-sidebar-block .register-forgot-block ul li a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 0.5px 10px 0px rgba(0, 0, 0, 0.10);
+    color: inherit;
+    background: #ffffff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.loginMainClass .login-sidebar-block .register-forgot-block ul li a .icon {
+    margin-right: 10px;
+}
+
+.loginMainClass .login-sidebar-block .register-forgot-block ul li a:hover {
+    color: #01B0E0;
+}
+
+/* login-sidebar */
+/* about-us */
+.loginMainClass .about-us-section {
+    padding: 33px 20px;
+    background: #ffffff;
+    box-shadow: 0px 0.2px 20px 4px rgba(0, 0, 0, 0.10);
+    margin-bottom: 20px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.loginMainClass .about-us-section .about-us-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.loginMainClass .about-us-section .about-us-content>* {
+    flex: 1 0 0;
+    max-width: 100%;
+}
+
+.loginMainClass .about-us-section .section-title {
+    margin-bottom: 4px;
+    font-family: 'Bartomes';
+}
+
+.loginMainClass .about-us-section .about-us-content .about-us-right {
+    flex: 0 0 auto;
+    width: 395px;
+    max-width:100%;
+    margin-left: 15px;
+}
+
+.loginMainClass .about-benefits-slider {
+    padding: 20px;
+    /*background: #00B3E3;*/
+    background: #0b4a99;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.loginMainClass .about-benefits-carousel {
+    opacity: 0;
+}
+
+.loginMainClass .about-benefits-carousel .slick-dots li {
+    background: #ffffff;
+}
+
+.loginMainClass .about-benefits-carousel .slick-dots li.slick-active {
+    background: #ffffff;
+}
+
+.loginMainClass .about-benefits-carousel.slick-initialized {
+    opacity: 1;
+}
+
+.loginMainClass .about-benefits-carousel .slick-track {
+    display: flex;
+}
+
+.loginMainClass .about-benefits-carousel .slick-slide {
+    height: inherit;
+}
+
+.loginMainClass .about-benefits-carousel .about-benefits-block {
+    max-width: 225px;
+}
+
+.loginMainClass .about-benefits-slider .benefits-title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'sf_pro_displaybold';
+    font-size: 18px;
+    line-height: 125%;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.loginMainClass .about-benefits-slider .benefits-title * {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.loginMainClass .about-benefits-slider .benefits-title .title-icon {
+    margin-right: 8px;
+}
+
+.loginMainClass .about-benefits-slider .benefits-title a {
+    text-decoration: none;
+}
+
+.loginMainClass .about-benefits-slider .benefits-title a:hover {
+    color: #410296;
+}
+
+.loginMainClass .about-benefits-block .section-title {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.loginMainClass .about-benefits-block .section-title a:hover {
+    color: #410296;
+}
+
+/* about-us */
+
+/* fact-stats */
+.loginMainClass .fact-stats-section {
+    padding: 18px;
+    background: #ffffff;
+    box-shadow: 0px 0.2px 20px 4px rgba(0, 0, 0, 0.10);
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+
+.loginMainClass .register-vendor-block {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* flex-direction: column; */
+     padding: 18px 30px;
+    height: calc(100% - 25px);
+    margin-bottom: 20px;
+    background: #ffffff;
+    box-shadow: 0px 0.2px 20px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+}
+
+.loginMainClass .register-vendor-block::first-child {
+    margin-bottom: 20px;
+}
+
+.loginMainClass .register-vendor-block::last-child {
+    margin-bottom: 0px;
+}
+.loginMainClass .register-vendor-block>* {
+    flex: 1 0 0;
+    max-width: 100%;
+}
+
+.loginMainClass .register-vendor-block .vendor-image {
+    flex: 0 0 auto;
+    /*width: 190px;*/
+    margin-right: 15px;
+    margin-left: -15px;
+    text-align: center;
+}
+
+.loginMainClass .register-vendor-block .vendor-main-detail {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.loginMainClass .register-vendor-block .vendor-detail {
+    font-family: 'sf_pro_displaybold' !important;
+    color: #402B57;
+    /* margin-top: 20px; */
+}
+
+.loginMainClass .register-vendor-block .vendor-detail * {
+    margin: 0;
+    font-family: 'sf_pro_displaybold';
+    font-size: 14px;
+}
+
+.loginMainClass .register-vendor-block .vendor-detail span {
+    display: block;
+    font-size: 18px;
+    color: #0b4a99;
+    text-align: left;
+    padding-left: 0px;
+    font-family: 'BaiJamjuree';
+}
+
+/* register-vendor */
+/*==================================================================*/
+/*========== New Class Add End ==========*/
+/*==================================================================*/
+
+
+.loginMainClass .arabic-text {
+    display: none !important;
+}
+
+.loginMainClass .wrapper .logo img,
+.loginMainClass .wrapper .signupClass .login-icon img,
+.loginMainClass .wrapper .vendorOnBoardRegisterForm .login-icon img {
+    width: 18px;
+}
+
+.loginMainClass .wrapper .logo,
+.loginMainClass .wrapper .signupClass,
+.loginMainClass .wrapper .vendorOnBoardRegisterForm {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+         padding: 17px 20px;
+    box-shadow: 0px 0.5px 10px 0px rgba(0, 0, 0, 0.10);
+    color: inherit;
+    background: #ffffff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+.loginMainClass .wrapper .visionLoginpageInner {
+    padding: 0px 0px 12px !important;
+}
+
+.loginMainClass .wrapper .visionLoginpageInner span {
+    font-size: 12px;
+}
+
+.loginMainClass .wrapper .vendorOnBoardRegisterForm {
+    margin-bottom: 0px;
+}
+
+.loginMainClass .pilogcloudLogo {
+    margin-left: 0;
+}
+
+.loginMainClass .wrapper .logo .login-text,
+.loginMainClass .wrapper .visionLoginpageInner .login-text,
+.loginMainClass .wrapper .signupClass .login-text,
+.loginMainClass .wrapper .vendorOnBoardRegisterForm .login-text {
+    font-size: 18px;
+}
+
+.loginMainClass .wrapper .logo .login-icon,
+.loginMainClass .wrapper .signupRegisterClass .span:first-child,
+.loginMainClass .wrapper .signupClass .login-icon,
+.loginMainClass .wrapper .vendorOnBoardRegisterForm .login-icon {
+    margin-right: 10px;
+}
+
+.loginMainClass .visionLoginpageInner .input-group-prepend span img {
+    width: 18px;
+}
+
+.loginMainClass .userNameInputMainDiv .input-group-prepend .input-group-text,
+.loginMainClass .input-group-prepend .input-group-text {
+    padding: 8px 4px;
+    border-radius: 4px 0 0 4px;
+    width: 36px;
+    min-width: 36px;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.loginMainClass .LanguageSelect select {
+    padding: 6px;
+    margin-left: 0px;
+    width: 100%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 17px;
+    border: 1px solid #ced4da;
+}
+
+.loginMainClass .LanguageSelect select:focus-visible {
+    outline: none;
+}
+
+.loginMainClass .visionLoginpageInner .userNameInputMainDiv {
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.loginMainClass .visionLoginpageInner .userNameInputMainDiv input {
+    border-radius: 0 4px 4px 0;
+}
+
+.loginMainClass .visionLoginpageInner .userNameInputMainDiv input:focus {
+    box-shadow: none;
+}
+
+.loginMainClass .login-text.english-text {
+    font-family: 'BaiJamjuree';
+    color: #0b4a99;
+    font-weight: 600;
+}
+
+.loginMainClass footer .f-detail .common-social-icons i,
+.loginMainClass footer .f-detail .common-social-icons i::before {
+    font-size: 20px;
+    color: #00B3E3 !important;
+}
+
+.loginMainClass .slick-dots {
+    position: static !important;
+}
+
+.loginMainClass .about-us-section .about-us-description .about-us-content .about-us-left .about-us-block .about-us-detail p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2em;
+    margin: 0;
+     font-family: 'BaiJamjuree';
+    font-size: 20px;
+}
+
+/*.main-sidebar-part.collapse.navbar-collapse.collapse:not(.show){
+    display: block !important;
+    position: static;
+}*/
+
+.arabic-body-app {
+    direction: rtl !important;
+}
+
+.arabic-body-app .loginMainClass .main-content-wrapper-section .main-wrapper-description .main-sidebar-part {
+    padding-right: 0px;
+    padding-left: 30px;
+}
+
+.arabic-body-app .loginMainClass .about-us-section .about-us-content .about-us-right {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+.arabic-body-app .loginMainClass .section-title .title-icon {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+/*.arabic-body-app .slick-initialized .slick-slide{
+    display: block !important;
+}*/
+.arabic-body-app .loginMainClass .wrapper .logo .login-icon,
+.arabic-body-app .loginMainClass .wrapper .signupRegisterClass .span:first-child,
+.arabic-body-app .loginMainClass .wrapper .signupClass .login-icon,
+.arabic-body-app .loginMainClass .wrapper .vendorOnBoardRegisterForm .login-icon {
+    margin-right: 0px;
+    margin-left: 18px;
+}
+
+.arabic-body-app .loginMainClass .about-us-section .about-us-description .about-us-content .about-us-left .about-us-block .about-us-detail p,
+.arabic-body-app .loginMainClass .about-benefits-carousel .about-benefits-block p {
+    text-align: right;
+}
+
+.arabic-body-app .loginMainClass .about-benefits-slider .benefits-title .title-icon {
+    margin-right: 0px;
+    margin-left: 8px;
+}
+
+.arabic-body-app .register-vendor-block .more-info-icon {
+    right: auto;
+    left: 15px;
+}
+
+.arabic-body-app .loginMainClass .register-vendor-block .vendor-detail,
+.arabic-body-app .loginMainClass .news-feed-block {
+    text-align: right;
+}
+
+.arabic-body-app .loginMainClass .slick-slider .slick-arrow.slick-prev {
+    transform: rotate(180deg);
+    left: auto;
+    right: 0;
+}
+
+.arabic-body-app .loginMainClass .slick-slider .slick-arrow.slick-next {
+    left: 0;
+    right: auto;
+    transform: rotate(180deg);
+}
+
+.arabic-body-app .loginMainClass .help-support-sidebar-block .help-support-block .help-icon {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+.arabic-body-app .loginMainClass .f-block .f-detail,
+.arabic-body-app .loginMainClass .f-block {
+    text-align: right;
+}
+
+.arabic-body-app .wrapper .vendorOnBoardRegisterForm {
+    flex-direction: row !important;
+}
+
+.arabic-body-app .arabic-text {
+    display: block !important;
+}
+
+.arabic-body-app .english-text {
+    display: none !important;
+}
+
+.arabic-body-app .loginMainClass .f-block.f-important-links-block .f-detail ul li a img {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+.arabic-body-app .loginMainClass .visionLoginpageInner .userNameInputMainDiv,
+.arabic-body-app .loginMainClass .wrapper .form-field {
+    flex-direction: row;
+}
+
+.arabic-body-app .loginMainClass .LanguageSelect select {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.arabic-body-app .loginMainClass .wrapper .btn {
+    margin: 0;
+    border-radius: 4px !important;
+}
+
+.arabic-body-app .englishLanguage.arabic-text {
+    color: #ffffff !important;
+}
+
+/*.arabic-body-app .slick-initialized .slick-slide {
+    display: inherit !important;  Ensure slides are always displayed
+}*/
+
+
+.arabic-body-app .slick-slider {
+    direction: ltr;
+}
+
+.arabic-body-app .loginMainClass .about-benefits-carousel .about-benefits-block {
+    float: right;
+}
+
+.loginMainClass .about-benefits-carousel .about-benefits-block p {
+    color: #fff !important;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.2em;
+    margin: 0;
+    font-family: 'BaiJamjuree';
+    font-size: 21px;
+
+}
+
+
+.loginMainClass .collapse:not(.show) {
+    display: block !important;
+}
+
+
+
+.modal-backdrop {
+    display: none !important;
+}
+
+.confrimPopupClassId .modal-dialog {
+    z-index: 1024;
+}
+
+.loaderwait {
+    /* display: none; */
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    left: 0px !important;
+    right: 0px !important;
+    top: 0px !important;
+    bottom: 0px !important;
+    margin: auto !important;
+    z-index: 999999 !important;
+    border-style: none;
+    opacity: 0.99;
+    background: transparent;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+.loaderwait>img {
+    width: 100px;
+}
+
+/* Modal Popup Unique Css by SANK*/
+
+.modal {
+    padding-top: 0 !important;
+}
+
+.modal .modal-header,
+.modal .modal-footer,
+.modal .modal-body {
+    padding: 6px !important;
+}
+
+.modal .modal-header {
+    background-color: #0b4a99;
+    border-radius: 0 !important;
+    align-items: center !important;
+}
+
+.modal .modal-header h4 {
+    font-size: 16px;
+    color: #fff;
+}
+
+.modal .modal-header .close {
+    opacity: inherit !important;
+    color: #fff;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.modal .modal-header .close:focus {
+    outline: inherit !important;
+}
+
+.modal-footer button {
+    width: inherit !important;
+    height: inherit !important;
+}
+
+.modal-footer button:hover {
+    background-color: #0b4a99 !important;
+    color: #fff;
+}
+
+.modal .close span {
+    font-size: 20px;
+}
+
+/* Modal Popup Unique Css by SANK*/
+/*forgot password css new code start*/
+.changepassword .titlepasswordClass.row .col-md-8.form-group .user-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.changepassword .titlepasswordClass.row .col-md-8.form-group .user-wrapper input {
+    margin-right: 8px;
+}
+
+.changepassword .titlepasswordClass.row .col-md-8.form-group .user-wrapper button,
+.updatepasswordClass .modal-dialog.modal-md .modal-footer button {
+    padding: 6px;
+    text-wrap: nowrap;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.3;
+    background-color: #0b4a99 !important;
+    border-color: #0b4a99 !important;
+    font-family: inherit !important;
+}
+
+.updatepasswordClass .modal-dialog.modal-md .modal-footer button:last-child {
+    margin-left: 8px;
+}
+
+#userNameError {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.modalLoader {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999999;
+}
+
+.changepassword .titlepasswordClass.row {
+    margin: 0;
+    margin-top: 15px;
+}
+
+.changepassword .titlepasswordClass.row #loginOtpMsg,
+.changepassword .titlepasswordClass.row #otpStatusMsg {
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.changepassword .titlepasswordClass.row #otp-wrapper {
+    width: 100%;
+}
+
+/*forgot password css new code end*/
+/* Update Password css Starts Here */
+
+
+.titlepasswordClass input {
+    transition: border 0.1s, box-shadow 0.1s;
+    background-color: #FFF;
+    color: #404040;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) inset;
+    padding: 4px;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.changepassword .titlepasswordClass .all_errors {
+    color: red;
+    display: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .8px;
+
+}
+
+.updatepasswordClass {
+    padding-top: inherit !important;
+}
+
+/*.updatepasswordClass .modal-header{
+    padding: 18px;
+    background-color: #f1f1f1;
+}*/
+
+.updatepasswordClass .modal-body {
+    padding: 25px 25px 8px;
+}
+
+.updatepasswordClass .modal-footer {
+    padding: 15px 25px;
+}
+
+.updatepasswordClass .modal-header h6 {
+    font-weight: 800;
+    position: relative;
+    left: 75px;
+}
+
+.updatepasswordClass .modal-header button {
+    height: inherit !important;
+    padding-left: inherit !important;
+}
+
+.updatepasswordClass .modal-header button:hover {
+    background-color: inherit !important;
+    padding-left: 0 !important;
+}
+
+.updatepasswordClass .changepassword label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: inherit;
+    position: inherit;
+    top: inherit;
+    margin-bottom: 0 !important;
+}
+
+.passwordDecription .fa-times {
+    color: #ff0000;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.passwordDecription .fa-check-circle {
+    color: #00b14a;
+    font-weight: bold;
+}
+
+.updatepasswordClass .modal-header .logo {
+    width: 50px;
+    position: absolute;
+}
+
+.updatepasswordClass .col-md-8.form-group.eye_icon {
+    position: relative;
+}
+
+.updatepasswordClass .col-md-8.form-group.eye_icon i {
+    position: absolute;
+    top: 1px;
+    right: 5%;
+    font-size: 20px;
+    padding: 5px;
+    background: #f1f1f1;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0b4a99;
+}
+
+.passwordDecription .gridd span {
+    padding: 0 3px;
+    font-size: 12px;
+}
+
+.materialBasketClass {
+    color: #0071c5;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+.visionTask .visionTaskActionItemsTable .visionTaskActionItemsData .visionTaskItemsWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+}
+
+.backGroundOpacity {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    top: 0;
+    z-index: 1030;
+    left: 0;
+}
+
+.backGroundOpacityModal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    top: 0;
+    left: 0;
+}
+
+.changepassword .titlepasswordClass.row label {
+    color: #212529;
+}
+
+/*.btn-primary:hover {
+    background-color: #0b4a99 !important;
+    border-color: #0b4a99 !important;
+    color: #fff !important;
+}*/
+
+.visionChangePasswordButton:hover,
+button:hover {
+    cursor: pointer;
+    font-size: 1em !important;
+    background: #0071C5;
+    color: #fff;
+    outline: 0;
+    font: normal 12px / 16px "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.text-body {
+    color: #212529 !important;
+}
+
+/* Update Password css Ends Here */
+
+#dxpMultiUserMainDiv .dxpSelectUsersList {
+    margin: 0;
+    padding: 8px 0;
+}
+
+#dxpMultiUserMainDiv .dxpSelectUsersList li {
+    padding: 5px 16px;
+}
+
+#dxpMultiUserMainDiv .dxpSelectUsersList li .userImgIcon {
+    margin-right: 4px;
+}
+
+#dxpMultiUserMainDiv .jqx-popover-content {
+    padding: 0;
+}
+
+#vendorOnBoardingStatusErrorPopup .modal-content .modal-body {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.arabic-body-app #vendorOnBoardingStatusErrorPopup .modal-content .modal-body {
+    text-align: right;
+}
+
+.arabic-body-app #vendorOnBOardFormMainId fieldset .form-card .justify-content-center h5 {
+    justify-content: center !important;
+}
+
+.main-sidebar-section .pilog-announce {
+    background-color: #fff;
+    border: 0 !important;
+    border-radius: 16px;
+    box-shadow: 0px 0.2px 20px 4px rgba(0, 0, 0, 0.10);
+    padding: 10px 25px 25px;
+    height: 200px !important;
+}
+
+.main-sidebar-section .pilog-announce .review-item {
+    padding: 8px;
+    margin: 0;
+}
+
+.main-sidebar-section .pilog-announce .review-item .reviewDiscription {
+    font-size: 14px;
+    color: #212529;
+    line-height: 1.5;
+}
+
+.main-sidebar-section .pilog-announce .review-item>div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-sidebar-section .pilog-announce .service_header {
+    padding: 8px 0 !important;
+}
+
+.main-sidebar-section .pilog-announce .service_header h5.feed-back-flex button {
+    padding: 2px 4px;
+    font-weight: 600 !important;
+    border: 1px solid #01b0e1;
+    border-radius: 3px;
+    color: #00b3e3;
+}
+
+.main-sidebar-section .pilog-announce .service_header h5.feed-back-flex button:hover {
+    color: #fff;
+}
+
+.main-sidebar-section .pilog-announce .service_header h5.feed-back-flex .feed-back .dxpTitleAnnoncements {
+    font-family: 'sf_pro_displaybold';
+    font-size: 22px;
+    line-height: 125%;
+    color: #006D99 !important;
+}
+
+.main-sidebar-section .pilog-announce .service_header h5.feed-back-flex .feed-back {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main-sidebar-section .pilog-announce .review-item svg {
+    color: #00B3E3;
+}
+
+.loginMainClass .wrapper .visionLoginpageInner .reviewclass .review-item {
+    margin: 0;
+}
+
+.loginMainClass .wrapper .visionLoginpageInner .reviewclass {
+    padding: 10px 20px;
+}
+
+.loginMainClass .wrapper .visionLoginpageInner .reviewclass .customer-feedback-form label {
+    font-weight: 600;
+    font-size: 16px;
+    color: #697c84;
+}
+
+.loginMainClass .wrapper .visionLoginpageInner .reviewclass .customer-feedback-form .customer-feedback {
+    width: 75%;
+}
+
+.loginMainClass .wrapper .visionLoginpageInner .reviewclass .review-item .jqx-widget {
+    width: auto !important;
+}
+
+.loginMainClass .wrapper .visionLoginpageInner .reviewclass .review-item {
+    align-items: center;
+}
+
+.loginMainClass .wrapper .visionLoginpageInner .reviewclass .review-item span {
+    width: 31% !important;
+    font-weight: 600;
+    font-size: 14px;
+    color: #697c84;
+}
+
+.loginMainClass .wrapper .visionLoginpageInner .modal-dialog {
+    border-radius: 6px;
+   box-shadow: 0 0 8px 0px #4d4d4d;
+}
+
+.updatepasswordClass .col-md-8.form-group.eye_icon i,
+.updatepasswordClass .col-md-8.form-group.eye_icon svg {
+    position: absolute;
+    top: 1px;
+    right: 5%;
+    font-size: 20px;
+    width: 35px;
+    height: 30px;
+    padding: 5px;
+    background: #f1f1f1;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0b4a99;
+}
+
+.arabic-body-app .changepassword .titlepasswordClass.row .col-md-8.form-group .user-wrapper input {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.arabic-body-app .updatepasswordClass .modal-dialog.modal-md .modal-footer button:last-child {
+    margin-right: 8px !important;
+}
+
+.arabic-body-app .updatepasswordClass .col-md-8.form-group.eye_icon i {
+    left: 5%;
+    right: auto;
+}
+
+.loginMainClass .visionLoginpageInner1 .modal-body {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.loginMainClass .wrapper .visionLoginpageInner .modal-dialog .modal-content .modal-footer button {
+    background-color: #0b4a99 !important;
+    border: none !important;
+    border: 1px solid #e5e5e5 !important;
+    margin: 0 !important;
+    color: #fff;
+    letter-spacing: 1.3px;
+    padding: .275rem .75rem;
+}
+
+.arabic-body-app .loginMainClass .wrapper .visionLoginpageInner .modal-dialog .modal-content .modal-footer button {
+    background-color: #696969 !important;
+}
+
+.arabic-body-app .main-sidebar-section .pilog-announce .service_header #feedbackButton {
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+.loginMainClass .page-content .wizard-v1-content .wizard-form .form-register .wizard .content {
+    padding: 0 !important;
+}
+
+.loginMainClass .page-content .wizard-v1-content .wizard-form .form-register .wizard .content .inner .otp_textbox_div .email_status.otp_status_red {
+    font-size: 12px;
+    color: #f00;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.2;
+    padding-top: 4px;
+}
+
+.arabic-body-app .verify_account_position {
+    left: 1.5rem;
+    right: auto;
+    top: 5px;
+}
+
+.verify_account_position {
+    position: absolute;
+    right: 1.5rem;
+    top: 0.2rem;
+}
+
+.email_status.otp_status_green,
+.otp_status.otp_status_green {
+    font-size: 12px;
+}
+
+.visionLoginpageInnerFeedBack .modal-dialog .modal-content .modal-body .reviewclass .review-item {
+    margin: 0;
+}
+
+
+.loginMainClass .header .h-logo a figure:last-child img {
+    width: 335px;
+    padding: 4px 0;
+}
+
+.wrapper .btn {
+    height: auto !important;
+}
+
+.fact-stats-slider .slick-arrow svg path:first-child {
+    fill: #0b4a99 !important;
+}
+
+.fact-stats-slider .slick-arrow svg path:last-child {
+    fill: #fff !important;
+}
+
+.register-vendor-description .register-vendor-content .register-vendor-list .row {
+    display: block;
+}
+
+.register-vendor-description .register-vendor-content .register-vendor-list .row .col-sm-6.col-md-6.col-lg-6.col-xl-6.col-xxl-6 {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.register-vendor-description .register-vendor-content .register-vendor-list .row .col-sm-6.col-md-6.col-lg-6.col-xl-6.col-xxl-6:last-child .register-vendor-block {
+    margin: 0;
+}
+
+.loginMainClass .register-vendor-block .vendor-image figure img {
+    width: 43px;
+    height: 43px;
+}
+
+.loginMainClass .about-benefits-slider .benefits-title span {
+    font-weight: 600;
+    font-family: 'Bartomes';
+    font-size: 20px;
+}
+
+.loginMainClass .wrapper .signupClass:last-child {
+    margin-bottom: 0;
+}
+
+.loginMainClass .header .h-content .h-right {
+    display: none;
+}
+
+.loginMainClass .register-vendor-list .nav-pills button ,
+.loginMainClass .register-vendor-list .nav-pills .nav-item .nav-link.active,
+.loginMainClass .register-vendor-list .nav-pills .nav-item .nav-link:hover{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: 0;
+    background-color: transparent !important;
+}
+
+.loginMainClass .register-vendor-list .nav-pills .nav-item .nav-link{
+    padding: 0;
+    border: 0;
+    width: 100%;;
+}
+
+.loginMainClass .register-vendor-list .nav-pills .nav-item .nav-link.active .register-vendor-block {
+    background: #0b4a99;
+}
+
+.loginMainClass .register-vendor-list .nav-pills .nav-item .nav-link.active .register-vendor-block .vendor-main-detail .vendor-detail p span {
+    color: #fff;
+}
+.loginMainClass .register-vendor-list .nav-pills .nav-item .nav-link .register-vendor-block .vendor-main-detail .more-info-icon span img{
+    width:35px;
+    height: 35px;
+}
+
+.loginMainClass .register-vendor-list .nav-pills .nav-item .nav-link.active .register-vendor-block .vendor-main-detail .more-info-icon span img {
+    filter: brightness(0) invert(1);
+}
+
+.loginMainClass .register-vendor-list .nav-pills .nav-item:last-child button .register-vendor-block {
+    margin: 0;
+}
+
+.loginMainClass .fact-stats-description .tab-content ul::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+}
+
+.loginMainClass .fact-stats-description .tab-content ul::-webkit-scrollbar-thumb {
+    background: #0b4a99 !important;
+    border-radius: 5px;
+}
+.loginMainClass .fact-stats-description .tab-content ul::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.loginMainClass .fact-stats-description .tab-content ul li {
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    list-style: none;
+    border: 2px solid #0b4a99;
+}
+
+.loginMainClass .fact-stats-description .tab-content ul li h5 {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 4px;
+     font-family: 'BaiJamjuree';
+}
+
+.loginMainClass .fact-stats-description .tab-content ul li p {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: 'BaiJamjuree';
+
+}
+
+.loginMainClass .register-vendor-list ul {
+    border: 0;
+}
+.updatepasswordClass.dataDxpSplitterValue .modal-body{
+    height:auto !important;
+}
+.loginMainClass .fact-stats-description .tab-content ul {
+   max-height: calc(5 * 45.5px + 2 * 0px);
+    overflow-y: auto;
+    padding-right: 5px;
+    padding-left: 6px;
+}
+.loginMainClass .about-us-section .section-title h2{
+    font-family: 'Bartomes';
+    font-size:18px;
+    font-weight:600;
+}
+
+.loginMainClass .register-vendor-list .nav-pills .nav-item .nav-link.active .register-vendor-block .vendor-image img{
+	filter: brightness(0) invert(1);
+} 
+.modal .modal-footer .btn,
+.modal .modal-footer .btn:hover{
+    background-color: #0b4a99;
+    color:#fff;
+    margin:0;
+}
+/* footer styles  */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    font-family: segeo-ui, -apple-system, Roboto, Helvetica Neue, sans-serif;
+    box-shadow: 2px -3px 4px 0 rgba(43, 43, 43, 0.1);
+    padding: 5px;
+    background: #fff;
+    z-index: 9;
+}
+.footer-social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: inherit;
+    margin-top: 0;
+}
+.footer-social-icons li {
+    margin: 0px 10px;
+}
+.footer-social-icons a.linkedin_Icon {
+    padding: 4px 6px;
+}
+.footer-social-icons li a {
+    padding: 4px 5px;
+    border: 1px solid #0b4a99;
+    border-radius: 50%;
+    font-size: 11px;
+    /* background: #f1f1f1; */
+}
+.footer .text-right p {
+    margin-bottom: inherit;
+    padding: 4px;
+    color: #0b4a99;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: 'BaiJamjuree';
+}
+.footer .row{
+	align-items:center;
+}
+.footer-social-icons a.twitter_icon svg {
+    fill: #0b4a99;
+}
+/* footer styles  */
+.loginMainClass .login-sidebar-block .login-scroll-wrapper {
+    padding: 25px 20px !important;
+    overflow-y: auto;
+    height: 265px;
+}
+
+@media(max-width:1920px) {
+    .container {
+        max-width: 1460px;
+    }
+}
+@media(max-width:1540px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+@media(max-width:1366px) {  
+    .container {
+        max-width: 1140px;
+    }
+}
+@media(max-width:1366px) {
+    .loginMainClass .fact-stats-description .tab-content ul {
+        max-height: calc(3* 60px + 2* 10.5px);
+    }
+    .loginMainClass .wrapper .logo .login-text,
+    .loginMainClass .wrapper .visionLoginpageInner .login-text,
+    .loginMainClass .wrapper .signupClass .login-text,
+    .loginMainClass .wrapper .vendorOnBoardRegisterForm .login-text {
+        font-size: 14px;
+    }
+    .loginMainClass .register-vendor-block .vendor-detail span {
+        font-size: 16px;
+    }
+    .loginMainClass .register-vendor-block {
+       padding: 12px 30px;
+    }
+    .loginMainClass .about-us-section .about-us-description .about-us-content .about-us-left .about-us-block .about-us-detail p{
+        font-size: 18px;
+        -webkit-line-clamp: 5;
+    }
+    .loginMainClass .about-benefits-carousel .about-benefits-block p, .loginMainClass .about-benefits-slider .benefits-title span {
+        font-size: 19px;
+    }
+    .loginMainClass .fact-stats-section {
+        padding: 10px 15px;
+    }
+    .loginMainClass .wrapper .logo, .loginMainClass .wrapper .signupClass, .loginMainClass .wrapper .vendorOnBoardRegisterForm{
+        padding: 8px 20px;
+        padding: 10px 20px;
+    }
+    .loginMainClass .about-us-section .about-us-content .about-us-right {
+        width: 315px;
+    }
+    .loginMainClass .fact-stats-description .tab-content ul li h5 {
+        font-size: 15px;
+    }
+    .loginMainClass .fact-stats-description .tab-content ul li p {
+        font-size: 16px;
+    }
+    .loginMainClass .main-content-wrapper-section .main-wrapper-description .main-sidebar-part {
+        width: 372px;
+    }
+    .loginMainClass .main-content-wrapper-section .main-wrapper-description .main-wrapper-content-part {
+        width: calc(100% - 372px);
+    }
+    .loginMainClass .about-benefits-slider .benefits-title span{
+        font-size: 14px;
+    }
+    .loginMainClass .about-benefits-carousel .about-benefits-block p {
+    -webkit-line-clamp: 3;
+    }
+    .loginMainClass .wrapper .logo, .loginMainClass .wrapper .signupClass, .loginMainClass .wrapper .vendorOnBoardRegisterForm {
+    padding: 8px 20px;
+    margin-bottom: 13px;
+	}
+	.loginMainClass .login-sidebar-block .login-scroll-wrapper {
+	    height: 200px;
+	}
+	.loginMainClass .about-benefits-carousel .about-benefits-block p, .loginMainClass .about-benefits-slider .benefits-title span {
+	    font-size: 16px;
+	}
+	.loginMainClass .about-benefits-slider {
+	    padding: 10px 20px;
+	}
+	.loginMainClass .about-us-section {
+	    padding: 30px 20px;
+	}
+
+
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .loginMainClass .about-us-section .about-us-content .about-us-right {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 8px;
+    }
+
+    .loginMainClass .about-us-section .about-us-content {
+        display: block;
+    }
+    .loginMainClass .register-vendor-list .nav-pills .nav-item .nav-link .register-vendor-block .vendor-main-detail .more-info-icon span img {
+        width: 28px;
+        height: 28px;
+    }
+    .loginMainClass .main-content-wrapper-section .main-wrapper-description .main-sidebar-part {
+        width: 315px;
+    }
+    .loginMainClass .main-content-wrapper-section .main-wrapper-description .main-wrapper-content-part {
+        width: calc(100% - 315px);
+    }
+}
+
+@media(max-width:767px){
+    .loginMainClass .main-content-wrapper-section .main-wrapper-description .main-sidebar-part{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .loginMainClass .main-content-wrapper-section .main-wrapper-description .main-wrapper-content-part {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .loginMainClass .fact-stats-description .tab-content ul {
+        max-height: 100%;
+    }
+    .loginMainClass .content{
+        padding-bottom: 60px;
+    }
+    .loginMainClass .main-content-wrapper-section .main-wrapper-description {
+        display: block;
+    }
+}
+
+@media(max-width:575px){
+    .loginMainClass .wrapper .logo, .loginMainClass .wrapper .signupClass, .loginMainClass .wrapper .vendorOnBoardRegisterForm {
+        padding: 10px 20px;
+    }
+    .loginMainClass .register-vendor-block .vendor-image figure img {
+        width: 40px;
+        height: 40px;
+    }
+    .loginMainClass .register-vendor-block {
+        padding: 8px 25px;
+    }
+    .loginMainClass .register-vendor-block .vendor-detail span {
+        font-size: 14px;
+    }
+    .loginMainClass .register-vendor-list .nav-pills .nav-item .nav-link .register-vendor-block .vendor-main-detail .more-info-icon span img {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media(max-width:480px){
+    .loginMainClass .register-vendor-list .nav-pills .nav-item .nav-link .register-vendor-block .vendor-main-detail .more-info-icon span img {
+        width: 20px;
+        height: 20px;
+    }
+    .loginMainClass .register-vendor-block .vendor-main-detail .more-info-icon {
+        top: 8px;
+        right: 11px;
+    }
+    .loginMainClass .register-vendor-block ,
+    .loginMainClass .login-sidebar-block,
+    .loginMainClass .main-content-wrapper-section .main-wrapper-description .main-wrapper-content-part,
+    .loginMainClass .about-us-section{
+        margin-bottom: 12px;
+    }
+    .loginMainClass .main-content-wrapper-section .main-wrapper-description .main-wrapper-content-part {
+        margin-top: 12px;
+    }
+    .loginMainClass .about-us-section .about-us-description .about-us-content .about-us-left .about-us-block .about-us-detail p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    .loginMainClass .fact-stats-description .tab-content ul li h5 {
+        font-size: 13px;
+    }
+    .loginMainClass .fact-stats-description .tab-content ul li p {
+        font-size: 15px;
+        line-height: 1.3;
+    }
+    .loginMainClass .about-benefits-carousel .about-benefits-block p, .loginMainClass .about-benefits-slider .benefits-title span{
+        font-size: 16px;
+    }
+    .loginMainClass .fact-stats-section {
+        padding: 8px 15px 1px;
+    }
+}
+
+.statusFlagErrorMessage {
+    position: absolute;
+    top: 0;
+    left: 6px;
+    font-size: 16px;
+}
+
+
+
+
+/*NEW integral login page CSS End here by MUni 31-07-2024 */

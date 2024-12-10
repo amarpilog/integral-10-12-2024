@@ -1,0 +1,2325 @@
+
+
+/***********ETL CSS START*********/
+
+
+/*FLOWCHART WORKSPACE CSS START*/
+.dark-mode .flowchart-example-container {
+    /*    width: 800px;*/
+    width: 100%;
+    /*height: 400px;*/
+    height: 438px;
+    /*overflow-y: auto;*/
+    background: #252830;
+    margin-bottom: 10px;
+}
+/*FLOWCHART WORKSPACE CSS END*/
+
+/* FLOWCHART WORKSPACE TABS CSS */
+
+.etl-page-body .jqx-tabs-title-selected-top-ui-redmond, .etl-page-body .jqx-fill-state-pressed-ui-redmond{
+    border-color: #0b4a99 !important;
+    border-bottom: 2px solid #0b4a99 !important;
+    background-color: #f1f1f1 !important;
+    color: #fff !important;
+}
+
+.etl-page-body .jqx-widget-header{
+    background: #fff;
+}
+
+.flowChartTabs{
+    /*position: fixed;*/
+    width:100%;
+    /*height: 9%;*/
+}
+
+.etl-page-body .jqx-tabs-title-selected-top-ui-redmond{
+    background: #fff !important;
+    color: #0b4a99 !important;
+    border: inherit;
+    font-weight: bold !important;
+}
+
+.etl-page-body .jqx-rc-t-ui-redmond{
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.flowChartJobTabs{
+    /*margin-top: -31px;*/
+    margin-top: 3px;
+    border: 1px solid #a4bed4;
+    background-color: #e0e9f5;
+    display: block;
+    width: 100%;
+    position: absolute;
+
+
+}
+.flowChartJobTabs ul{
+    /*display: flex;*/
+    list-style-type: none;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+
+.flowChartDesignTab {
+    cursor: pointer;
+    background-color: #0071c5;
+    margin: 5px;
+    float: left;
+    font-family: segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif; 
+    width: 110px;
+    height: 6px;
+    margin-right: 0px;
+    text-align: center;
+    color: #fff;
+    padding: 6px 1px 14px 1px;
+}
+
+.etl-page-body .jqx-widget-header-ui-redmond{
+    height:22px !important;
+    margin-top: 0px !important;
+    padding-top: 1px ! important;
+    border-color: inherit;
+    border-bottom: inherit;
+    background: #fff !important;
+    border: none;
+}
+.etl-page-body .jqx-rc-t-ui-redmond{
+    height:16px!important;
+    font: 12px/16px segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif; 
+}
+
+/* FLOWCHART WORKSPACE TABS CSS */
+
+/*FILE UPLOAD POPUP CSS START*/
+.dark-mode .visionTreeDMFileUploadclass{
+    /*width: 96%;*/
+    height: 260px;
+    background-color: #252830;
+    border: 1px solid #5f5f62;
+    border-radius: 3px;
+    text-align: center;
+    overflow: auto;
+}
+
+.dark-mode.VisionDMUploadFileContent{
+    padding: 105px;
+    font-size: 12px;
+    color:#fff;
+}
+
+/*FILE UPLOAD POPUP CSS START END*/
+
+
+.page-body-content{
+    height: 100%;
+    width: 100%;
+    /*display: flex;*/
+}
+
+.etl-page-body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.etl-page-body .visionJqxWidgetsClass{
+    width: 100%;
+}
+.dark-mode .etl-page-body .jqx-widget-content{
+    background: #252830;
+}
+
+.showEtlIcons ul{
+    margin-bottom: 0;
+}
+.showEtlIcons ul li{
+    display: inline;
+    padding: 2px;
+}
+
+.connectionsPane{
+    height: 596px;
+}
+
+.visionEtlTabIcons {
+    width: 14px;
+    height: 14px;
+}
+
+/*ETL BOTTOM TABS START*/
+
+.dark-mode .visionETLDesignTabHeadingsDiv{
+    margin-top: -31px;
+    border: 1px solid #5f5f64;
+    background-color:#252830; 
+    display: block;
+    width: 100%;
+    position: absolute;
+
+
+}
+.visionETLDesignTabHeadingsDiv ul{
+    /*display: flex;*/
+    list-style-type: none;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+
+.dark-mode .visionETLDesignTab {
+    cursor: pointer;
+    background-color: #fff;
+    margin: 5px;
+    float: left;
+    width: 110px;
+    height: 27px;
+    margin-right: 0px;
+    text-align: center;
+    color:  #000000;
+    padding: 6px 1px 14px 1px;
+}
+.dark-mode .visionETLDesignTabHighLight{
+    margin: 2px;
+    margin-right: -2px;
+    border: 1px solid #5f5f64;
+    border-top: 2px solid #5f5f64;
+    background: #3e3e42;
+    color: #f1f1f1;
+    padding: 6px 1px 13px 1px;
+    font-weight: bold;
+}
+.visionETLDesignTabContent{
+    width:100%;
+    height:100%;
+}
+/*ETL BOTTOM TABS END*/
+
+/*AVAILABLE TOOLS START*/
+.availableETLToolsDiv{
+    float:right;
+    /*border: 1px solid #a4bed4;*/
+    /*background-color: #e0e9f5;*/ 
+}
+.availableETLToolsDiv img{
+    padding:2px;
+}
+
+/*AVAILABLE TOOLS END*/
+
+
+/* Available Connection tabs css starts here by SANK*/
+.savedConnectionsIconsDiv{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+.savedConnectionsIconsDiv div{
+    margin-right: 15px;
+}
+.availableFileParentDiv{
+    display: flex;
+    border-bottom: 1px solid #ddd;
+}
+.availableFileParentDiv div{
+    margin-right: 15px;
+}
+
+
+/* Connection Css Starts Here by SANK */
+
+.connectionDivClass {
+    display: flex;
+    padding: 5px;
+}
+
+.etlConnImgs{
+    width:60px;
+    text-align: center;
+    margin: 2px;
+    min-height: 50px;
+    position: relative;
+    background-color: #0071c5; /*for compatibility with older browsers*/
+    /*background-image: linear-gradient(#0071c5,#EAF4FD);*/
+    background-image: linear-gradient(#ffffff,#EAF4FD);
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px -2px #333;
+    /*    text-shadow: 0px -1px #333;*/
+}
+.etlConnImgs:after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+.etlConnImgs:hover, .etlConnImgs1:hover, .etlConnImgs2:hover, .etlConnImgs3:hover, .etlConnImgs4:hover{
+    background: linear-gradient(#ffffff,#88ccff);
+}
+
+
+.etlConnImgs img{
+    width: 20px !important;
+    height: inherit !important;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-12%, -41%);
+    z-index: 9999;
+}
+.etlConnImgs p{
+    margin: 0;
+    /*background-color: #EAF4FD;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    /*border: 1px solid #EAF4FD;*/
+    width: 100%;
+}
+.savedConnectionsModifiedInnerClass .connTitle{
+    background-color: #EAF4FD;
+    padding: 5px;
+}
+.dark-mode .previousButtonDivClass {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    /*background: #EAF4FD;*/
+    padding: 5px;
+    font-size: 12px;
+    color:#f1f1f1;
+    border-bottom: 1px solid #5f5f64;
+}
+.savedConnectionsModifiedInnerClass .previousIconSpan {
+    margin-right: 10px;
+}
+.savedConnectionsModifiedInnerClass .previousIconSpan img{
+    padding: inherit;
+
+}
+.previousIconSpan img{
+    margin-right: 8px;
+}
+.filterObjDiv{
+    width: 99%;
+}
+.filterObjDiv input{
+    width: 100%;
+    height: 27px;
+}
+.schemaTablesObject{
+    background: #EAF4FD;
+    width: 99%;
+}
+
+.schemaTablesObjDivClass {
+
+    overflow: scroll;
+    height: 517px;
+}
+.schemaTablesObjDivClass .visionTableIcon{
+    margin-left: 0;
+}
+.schemaTablesObjDivClass .visionObjectNameDivClass{
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    background-color:#EAF4FD;
+    border-bottom: 1px solid #0071c5;
+}
+.schemaTablesObjDivClass .visionObjectNameDivClass:hover{
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    background-color: #0071c5;
+    border-bottom: 1px solid #EAF4FD;
+    color:#fff;
+}
+.schemaTablesObjDivClass .visionObjectNameDivClass span{
+    margin-left: 8px;
+}
+.schemaTablesObjDivClass {
+
+    overflow: scroll;
+    height: 517px;
+}
+
+
+
+
+
+.etlConnImgs1{
+    width:120px;
+    text-align: center;
+    margin: 2px;
+    min-height: 80px;
+    position: relative;
+    background-color: #0071c5; /*for compatibility with older browsers*/
+    background-image: linear-gradient(#ffffff,#EAF4FD);
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px -2px #333;
+    /*    text-shadow: 0px -1px #333;*/
+}
+.etlConnImgs1:after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+
+.etlConnImgs1 img{
+    width: 50px !important;
+    height: inherit !important;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-12%, -41%);
+    z-index: 9999;
+}
+.etlConnImgs1 p{
+    margin: 0;
+    /*background-color: #EAF4FD;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    /*border: 1px solid #EAF4FD;*/
+    width: 100%;
+}
+.etlConnImgs2{
+    width:80px;
+    text-align: center;
+    margin: 2px;
+    min-height: 60px;
+    position: relative;
+    background-color: #0071c5; /*for compatibility with older browsers*/
+    background-image: linear-gradient(#ffffff,#EAF4FD);
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px -2px #333;
+    /*    text-shadow: 0px -1px #333;*/
+}
+.etlConnImgs2:after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+
+.etlConnImgs2 img{
+    width: 30px !important;
+    height: inherit !important;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-12%, -41%);
+    z-index: 9999;
+}
+.etlConnImgs2 p{
+    margin: 0;
+    /*background-color: #EAF4FD;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    /*border: 1px solid #EAF4FD;*/
+    width: 100%;
+}
+.etlConnImgs3{
+    width:60px;
+    text-align: center;
+    margin: 2px;
+    min-height: 50px;
+    position: relative;
+    background-color: #0071c5; /*for compatibility with older browsers*/
+    background-image: linear-gradient(#ffffff,#EAF4FD);
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px -2px #333;
+    /*    text-shadow: 0px -1px #333;*/
+}
+.etlConnImgs3:after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+.etlConnImgs3 img{
+    width: 30px !important;
+    height: inherit !important;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-12%, -41%);
+    z-index: 9999;
+}
+.etlConnImgs3 p{
+    margin: 0;
+    /*background-color: #EAF4FD;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    /*border: 1px solid #EAF4FD;*/
+    width: 100%;
+}
+
+
+/* Available Connection tabs css Ends here by SANK */
+
+/* etl icons toggle css start*/
+.etlIconGroup{
+    display: none;
+}
+
+.dark-mode .etlIconGroup{
+    top: 50px;
+    height: 260px;
+    position: fixed;
+    right: 25px;
+    background: #252830;
+    padding: 10px;
+    border-radius: 3px;
+    z-index: 99999;
+    border: 1px solid #5f5f64;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    overflow-y: scroll;
+
+}
+.etlIconGroup .mappingIconClassVertical .visionETLIcons{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.etlIconGroup .mappingIconClassVertical{
+    width: 70px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.etlIconGroup .mappingIconClassVertical:hover{
+
+    box-shadow: 1px 1px 10px 2px #ddd;
+}
+.dark-mode .etlIconGroup .mappingIconClassVertical p{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    /*font-size: 9px;*/
+    font:12px/16px segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif;
+    /*font-weight: 600;*/
+    text-transform: capitalize;
+    color:#f1f1f1;
+}
+.innerMain{
+    display: flex;
+    padding: 5px;
+}
+.scriptsExecute{
+    display: none;
+}
+
+/* etl icons toggle css end */
+
+
+
+/* Dialog Box  start*/
+
+.dark-mode .ui-dialog{
+    border: 1px solid #5f5f64;
+    background-color: #252830;
+    border-radius: 4px;
+}
+.dark-mode .ui-dialog-titlebar{
+    padding: 4px;
+    border: 1px solid #5f5f64;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #f1f1f1;
+    background-color: #3e3e42;
+}
+.ui-dialog .ui-dialog-titlebar-close{
+    float: right;
+}
+.ui-dialog .ui-dialog-buttonpane{
+    text-align: center;
+}
+.ui-dialog-buttonpane button{
+    color: #000;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    text-align: center;
+    margin: 3px;
+    border: 1px solid #ddd;
+    outline: none !important;
+    font-size: 16px !important;
+}
+.dark-mode .ui-dialog .ui-dialog-content {
+    padding: 8px;
+    font-size: 12px;
+    font-family:segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif;
+    overflow:hidden;
+    color:#f1f1f1;
+}
+.ui-dialog-titlebar-close{
+    border: 0px solid #000;
+    background: none;
+}
+.ui-dialog-titlebar-close:after{
+    content: "\00d7";
+}
+
+.visionERPDbTr {
+    text-align: center;
+}
+.visionERPEtlTable {
+    width: 100%;
+}
+.visionDbConnectBtn {
+    text-align: center;
+}
+.visionInputDbFields {
+    width: 100%;
+    border: 1px solid #f1f1f1;
+}
+
+.ui-widget.ui-widget-content {
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+.ui-dialog {
+    padding: 0px !important;
+}
+
+/* Dialog Box  end*/
+
+/* css for the personalise */
+img.navIcon.gear 
+{
+    background-position: -34px -72px;
+    background-image: url('../images/app_sprite_4_2.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    vertical-align: top;
+    width: 16px;
+}
+.personaliseoption .ui-accordion-header1
+{
+    font-size:12px;    
+    font-family: segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif; 
+    padding: .3em 0.3em 0.3em 0;
+    text-align: center;
+    margin:0;
+}
+.personaliseoption
+{
+    float: right;
+}
+.dark-mode .personaliseoption .layoutoptions.ui-accordion
+{
+    width: 100%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #f1f1f1;
+    cursor: pointer;
+    background: #0b4a99 none repeat scroll 0 0;
+    font: normal 12px/16px segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif;
+    font-weight: bold;
+    height:27px;
+}
+.personaliseoption .ui-accordion .ui-accordion-header1 .ui-icon1 
+{
+    left: 0%;
+    margin-top: -2px;
+    position: relative;
+    top: 50%;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -99999px;
+    background-image: url("../images/jquery-ui-theme/ui-icons_ffffff_256x240.png");
+    height: 16px;
+    width: 16px;
+}
+.personaliseoption .ui-accordion .ui-accordion-header1 .ui-icon-triangle-1-e {
+    background-position: -32px -16px;
+}
+.personaliseoption .ui-accordion .ui-accordion-header1 .ui-icon-triangle-1-s {
+    background-position: -64px -16px;
+}
+.personaliseoption .settings_panel 
+{
+    display: none;
+    border: 1px solid #dddddd;
+    width: 20%;
+    position: absolute;
+    z-index: 10000;
+    cursor: auto;
+    font-family: segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif; 
+    font-size: 12px;
+    right: 4%;
+}
+.settings_panel .savedSearch 
+{
+    margin:3px;
+}
+.settings_panel span 
+{
+    font: normal 12px/16px segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif; 
+    font-weight: bold;
+    vertical-align: sub;
+}
+.dark-mode .personalize_tbl
+{
+    width:100%;
+    border-collapse: separate;
+    border: solid #5f5f64 1px;
+    border-radius: 3px;
+    border-spacing: 0;
+    background:#252830;
+}
+.personalize_tbl tr td:nth-child(1) 
+{
+    width:40%;
+    font-weight: bold;
+    padding-left: 1%;
+}
+.personalize_tbl tr td:nth-child(2),.personalize_tbl tr td:nth-child(3),.personalize_tbl tr td:nth-child(4) 
+{
+    width:20%;
+    text-align: center;
+}
+.dark-mode .personalize_tbl thead th 
+{
+    padding: 2%;
+    text-align:center; 
+    background: #3e3e42;
+}
+.dark-mode .personalize_tbl td 
+{
+    padding: 1%;
+    border:1px solid #5f5f64;
+    overflow: hidden;
+    word-break: normal;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+.personalize_tbl td:last-child 
+{
+    border-right: 0px;
+}
+.personalize_tbl td,.personalize_tbl input
+{
+    vertical-align:middle
+}
+.personalize 
+{
+    margin-top: 3px;
+    text-align: left;
+}
+/*  */
+.dark-mode .personalize_pdr_tbl
+{
+    width:100% !important;
+    /*border-collapse: separate !important;*/
+    border: solid #5f5f64 1px !important; 
+    border-radius: 3px !important;
+    border-spacing: 0 !important;
+    background:#252830;
+}
+.personalize_pdr_tbl tr td:nth-child(1) 
+{
+    width:40%;
+    font-weight: bold;
+    padding-left: 1%;
+}
+.personalize_pdr_tbl tr td:nth-child(2),.personalize_pdr_tbl tr td:nth-child(3),.personalize_pdr_tbl tr td:nth-child(4) 
+{
+    width:20%;
+    text-align: center;
+}
+.personalize_pdr_tbl thead th 
+{
+    padding: 2%;
+    text-align:center; 
+    background: #0071c5;
+    color: #fff;
+}
+.personalize_pdr_tbl td 
+{
+    padding: 1% !important;
+    border:1px solid #0071c5 !important;
+    overflow: hidden;
+    word-break: normal;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+.personalize_pdr_tbl td:last-child 
+{
+    border-right: 0px;
+}
+.personalize_pdr_tbl td,.personalize_pdr_tbl input
+{
+    vertical-align:middle
+}
+
+/*  */
+.savedSearchText,.savedSearchView,.savedSearchDropdown,.savedSearchImages
+{
+    float:left;
+}
+.savedSearchText
+{
+    width:40%;
+}
+.savedSearchView
+{
+    width:58%;
+    margin-bottom: 3px;
+}
+.savedSearchDropdown
+{
+    width:89%;
+}
+.savedSearchImages
+{
+    width:10%;
+}
+.savedSearchText,.savedSearchView,.savedSearchDropdown
+{
+    padding-right:1%;
+}
+.savedsearchddw
+{
+    width:60%;
+    border-bottom: 1px solid #ddd;
+}
+.savedSearchImages img
+{
+    width:16px;
+    height:16px;
+    vertical-align:middle;
+    cursor:pointer;
+}
+.visionSearchPersonalise .sticky-wrap
+{
+    margin:0px;
+    height:200px;
+}
+.visionPersonaliseSticky .sticky-wrap
+{
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+.visionSearchPersonalise .sticky-wrap th
+{
+    padding:2%;
+}
+.visionStickyThead th:first-child{
+    width:40% !important; 
+}
+.visionStickyThead th{
+    width:20% !important;
+}
+/* end of  css for the personalise */
+
+
+/*flowchart operator css start*/
+
+.visionMapOperator{
+    /*padding: 8px 0px;*/ 
+    font-size: 12px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+.flowchart-operator-connector-label{
+    display:none;
+}
+.flowchart-operator-title{
+    display:none;
+}
+
+.visionOpLabelDiv { /*03-11-2020*/
+    padding: 12px 0px; 
+    font-size: 6px;
+    overflow: hidden;
+}
+
+/*flowchart operator css end*/
+/*Schema objects div start*/
+.visionObjectNameDiv{
+    cursor: default;
+}
+
+.visionSchemaObjectsListDiv{
+    margin-top: 30px;
+}
+.visionFilterObjectsDiv{
+    position: absolute;
+    width: 100%;
+}
+
+.visionFilterObjectsInput{
+    position: fixed;
+    width: 100%;
+    height: 25px;
+}
+
+.visionSchemaObjects{
+
+    position: absolute;
+}
+
+/*Schema objects div end*/
+
+
+/*transformation rules css start*/
+
+/*scroll bar css*/
+.visionColMappScrollDiv1{
+    width : 100% !important;
+
+}
+.visionColMappScrollDiv1{
+    overflow-y: auto;
+    height: auto;
+
+}
+.visionColMappScrollDiv1 thead th{
+    position: sticky;  top: 0; 
+}
+
+.visionEtlMappingTablesDiv{
+    overflow-y: auto;
+    height: auto;
+    overflow-x: hidden;
+
+}
+.visionEtlMappingTablesDiv thead th{
+    position: sticky; top: 0;   
+}
+.visionEtlJoinClauseTablesDiv{
+    overflow-y: auto;
+    height: auto;
+
+}
+.visionEtlJoinClauseTablesDiv thead th{
+    position: sticky; top: 0; 
+}
+.visionEtlJoinClauseTablesDivScroll{
+    overflow-y: auto;
+    height: auto;
+
+
+}
+.visionEtlJoinClauseTablesDivScroll  thead th{
+    position: sticky; top: 0;
+
+}
+.visionEtlMappingMain{
+    display:flex;
+}
+.visionEtlMappingTablesDiv{
+    width:100%;
+}
+
+.visionEtlMappingTablesMainDiv{
+    width:37%; 
+    /*display: grid;*/
+}
+
+.visionSqlViewQuery1{
+    overflow-y: auto;
+    height: auto;
+
+
+}
+.visionSqlViewQuery1 thead th {
+    position: sticky; top: 0;   
+}
+/*26-11-2020*/
+/*.viewJoinQueryDivClass{
+    overflow-y: auto;
+    height: auto; 
+    height: 35px
+}*/
+.visionEtlSourceDestColsTable1 tbody{
+    /*height:0px !important;*/
+}
+
+.visionEtlJoinrClauseTablesDiv{
+    overflow-y: auto;
+    height: auto;
+    overflow-x: hidden;
+
+}
+.visionEtlJoinrClauseTablesDiv thead th{
+    position: sticky; 
+    top: 0;   
+    background: #f1f1f1 !important;
+    color: #000 !important;
+    border:1px solid #f1f1f1;
+}
+.visionEtlJoinrClauseTablesDiv{
+    width:100%;
+}
+
+.visionEtlwhereClauseTablesDiv{ 
+    overflow-y: auto;
+    height: auto;
+    overflow-x: hidden;   
+}
+.visionEtlwhereClauseTablesDiv thead th{ 
+    position: sticky; top: 0;   
+}
+.joinMapColumnsDivIdmain1{
+    width:62%;
+}
+.visionSqlViewQuery1 thead th {
+    position: sticky; top: 0;   
+}
+.viewJoinQueryOuterDivClass{
+    overflow-y: auto;
+    height: auto; 
+    overflow-x: hidden;
+}
+/*scroll bar css END*/
+.selectedTabs span{
+    background-color:#0071c5;
+    color:white;
+    cursor:pointer;
+    /*padding:2px;*/
+    border-radius:4px;
+}
+.showRowsCount{
+    margin-top:-40px;
+}
+.showRowsCount p{
+    color:red;
+}
+.visionTableName{
+    text-align: left;
+}
+
+
+.dark-mode .personaliseoption .VisionETLSettings_panel{
+    border: 1px solid #5f5f64;
+    width: 300px;
+    position: absolute;
+    z-index: 10000;
+    cursor: auto;
+    font-family: segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif; 
+    font-size: 12px;
+    right: 0px;
+    background-color: #252830;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+.VisionETL-tg-wrap{
+    padding-top: 0px;  
+}
+.VisionETL-tg-wrap thead th{
+    position: sticky; top: 0;
+}
+.ui-widget-overlay{ 
+    z-index: 998 ;
+}
+
+/*transformation rules css end*/
+
+/*ravi css transformationrules start*/ 
+
+.joinMapColumnsDivClass{
+    width: 100%;
+    float: left;
+    /*border: 1px solid #0071c5;*/
+    margin: 4px;
+}
+.viewJoinQueryDivClass{
+    /*    max-height: 200px;
+        overflow-y: auto;*/
+    text-align: left;
+}
+
+.viewJoinQueryDivClass ul li{
+    list-style-type:none;
+    margin: 2px;
+}
+.viewJoinQueryDivClass ul{
+    /*padding-inline-start: 6px;*/
+    padding-left: 3px !important;
+}
+
+.visionEtlMappingTablesDiv{
+    /*width: 34%;*/
+    float: left;
+    margin-top: 4px;
+}
+.visionETLColMapImage {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-left: 5px;
+    vertical-align: inherit;
+    cursor:pointer;
+
+}
+/*.visionColMappingInput,.visionColJoinMappingInput{
+    width:88%;
+
+}*/
+.visionColMappingImgTd,.visionColMappingImgTh{
+    width: 24px !important;
+}
+
+.visionEtlFileHeaderTablesDiv{
+    overflow-y: auto; 
+    height: auto;
+    max-height: 190px ;
+}
+.visionEtlFileHeaderTablesDiv  thead th{
+    position: sticky; top: 0;
+}
+.visionEtlFileHeaderTablesDiv table{
+    width:100%;
+
+}
+/*.visionHeaderEtlAddRowIcon{
+    margin-left:-248px;   
+}*/
+.selecttb{
+    display:none;
+}
+.analyticscompId{
+    display:none;
+}
+
+/* HTML Column Resize*/
+#sourceDestColsTableId{
+    width : 99% !important;
+}
+#etlJoinClauseTable{
+    width : 99% !important;
+}
+#selectedTables{
+    width : 99% !important;
+}
+#fromTablesWhereCauseTable{
+    width : 99% !important;
+}
+#fromTablesOrderCauseTable{
+    width : 100% !important;
+}
+#fromTablesGroupCauseTable{
+    width : 100% !important;
+}
+
+/* firebox row isuue*/
+#sourceDestColsTableId tbody{
+    height : 0px !important;
+}
+.visionEtlJoinClauseTable {
+    overflow-y: auto;
+}
+.visionEtlMappingTablesDiv{
+    overflow-y: auto;
+}
+
+.visionEtlMappingTables { 
+    /*aswini*/
+    /*width: auto !important*/
+}
+
+.visionEtlJoinClauseTablesDiv{
+    overflow-y: auto;
+    margin-top: 30px;
+}
+/* HTML Column Resize*/
+
+
+.visionAvailableJobsDiv.jqx-widget-content{
+    border-color: #ffff !important;
+}
+table.visionEtlSourceDestColsTable1 tbody  td, 
+table.visionEtlJoinClauseTable tbody  td{
+    padding:4px;
+    background:#fff;
+}
+
+table.visionEtlSourceDestColsTable1 thead  th,table.visionEtlJoinClauseTable thead  th{
+    padding:4px;
+}
+
+table.visionEtlSourceDestColsTable1 thead  th{
+    padding:4px;
+    font-size: 12px;
+    font-weight:400;
+    color:#000 !important;
+    background-color:#f1f1f1 !important;
+    border-color:#ddd !important;
+}
+
+table.visionEtlSourceDestColsTable1 tbody  td input[type="text"]{
+    border: 1px solid #ddd !important;
+    padding-top: 5px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    padding-bottom: 5px;
+}
+
+table.visionEtlJoinClauseTable tbody  td input[type="text"]{
+    border: 1px solid #ddd !important;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-radius: 3px;
+    height:27px;
+}
+
+table.visionEtlJoinClauseTable tbody  td select{
+    /*margin-top: -10px;*/
+    height: 27px; 
+}
+
+.dataMigrationTabsHeader .jqx-tabs-title-ui-redmond {
+    font-weight: normal;
+    font-family: segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif;
+}
+
+
+/*ravi css transformationrules end*/ 
+
+/*COLUMN SELECTION POPUP CSS START*/
+.treeSearchValueInput{
+    width: 91%;
+    margin-left: 5px;
+    /*    margin-top: 10px;*/
+    height: 20px !important; 
+}
+
+.treeSearchInputDiv{
+    margin-bottom: 10px;
+    margin-right: 121px;
+    width: 100%;
+}
+
+
+/*COLUMN SELECTION POPUP CSS END*/
+
+.etl-body-content{
+    font-family:segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif; 
+}
+
+/* Connection Tab Design by SANK */
+
+.showEtlIcons ul{
+    margin-bottom: 5px;
+    padding: 7px;
+}
+.showEtlIcons ul li{
+    display: inline;
+    padding-right: 13px;
+    padding-left: 13px;
+    padding-bottom: 7px;
+}
+.showEtlIcons ul li img{
+    padding-bottom: 4px;
+}
+.showEtlIcons .visionHighlightEtlIcons{
+    border-bottom: 2px solid red;
+}
+
+.connectionsPane{
+    height: 596px;
+}
+
+.visionEtlTabIcons{
+    width: 16px !important;
+    height: inherit !important;
+}
+/* Connection Tab Design by SANK */
+
+
+
+.etl-page-body .jqx-hideborder {
+    border: inherit !important;
+    border-bottom: 1px solid #ddd;
+    padding: 1px;
+}
+
+.etl-page-body .jqx-fill-state-hover-ui-redmond,.etl-page-body .jqx-tabs-title-ui-redmond{
+    border-color: inherit;
+    background: inherit !important;
+    border: inherit;
+}
+
+
+/* saved sources css SANK starts here */
+
+#connectionsTabs{
+    height: 100%;
+    overflow: auto;
+}
+
+.jqx-tree{
+    border-style: inherit !important; 
+}
+
+
+/*process log view css start*/
+
+
+table.logtable thead  th:nth-child(1) {
+    width:18px !important; 
+}
+table.logtable thead  th:nth-child(2) {
+    width:200px !important; 
+}
+table.logtable thead  th:nth-child(3) {
+    width:300px !important; 
+}
+table.logtable tbody  td:nth-child(1) {
+    width:30px !important; 
+}
+table.logtable tbody  td:nth-child(2) {
+    width:200px !important; 
+}
+table.logtable tbody  td:nth-child(3) {
+    width:300px !important; 
+}
+
+table.logtable tbody {
+    height:300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+table.logtable tbody  td{
+    text-align: center;
+    padding:2px;
+    height: 31px;
+}
+table.logtable thead  th{
+    text-align: center;
+    padding:2px;
+    background-color:#f1f1f1 !important;
+    border:1px solid #ddd !important;
+    color:#000 !important;
+}
+table.logtable tbody,table.logtable thead tr{
+    display:block;
+}
+
+.logtable
+{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.visionETLLogInfo{
+    color:green; 
+}
+.visionETLLogError{
+    color:red; 
+}
+.visionETLLogWarning{
+    color:orange;
+}
+
+#processlogJobScheduleTable.logtable tbody {
+    height:575px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+/*process log view css start*/
+
+/*splitter colors start*/
+.etl-page-body .jqx-splitter-splitbar-horizontal,.etl-page-body .jqx-splitter-splitbar-vertical{
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+    -ms-touch-action: none !important;
+    font-family: segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif; 
+    font-style: normal !important;
+    font-size: 12px !important;
+    background: #f1f1f1 !important;
+    border-color: #f1f1f1 !important;
+}
+
+.etl-page-body .jqx-splitter-splitbar-horizontal{
+    cursor: row-resize !important;
+}
+
+.etl-page-body .jqx-splitter-splitbar-vertical {
+    cursor: col-resize !important;
+}
+
+/*splitter colors end*/
+
+/* saved sources scroll css SANK Starts here */
+.etl-page-body .savedSourcesClass{
+    border-color: inherit !important;
+    border: inherit !important;
+}
+
+/* saved sources scroll css SANK ends here */
+
+/* Tree Tab with Search Feild  CSS in Available Connections*/
+.visionObjectsListDiv {
+    overflow: auto;
+    height: 100%;
+}
+
+.visionSchemaObjects .visionObjectsListDiv .visionFilterObjectsDiv input{
+    width: 100%;
+    height: 27px;
+}
+.dark-mode .visionSchemaObjects .visionObjectsListDiv .visionObjectNameDiv{
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    background-color: #3e3e42;
+    border-bottom: 1px solid #5f5f64;
+}
+.dark-mode .visionSchemaObjects .visionObjectsListDiv .visionObjectNameDiv:hover {
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #5f5f64;
+    color: #000;
+}
+
+.visionSchemaObjects .visionObjectsListDiv .visionObjectNameDiv span{
+    margin-left: 8px;
+}
+.visionSchemaObjects .visionObjectsListDiv .treeTableList{
+    margin-top: 27px;
+}
+/* Tree Tab with Search Feild  CSS Ends here in Available Connections*/
+
+
+/*Saved Connections Starts Here by SANK*/
+.dataMigrationTabs .dataMigrationTabsHeader li .jqx-tabs-titleWrapper img{
+    width: 16px !important;
+    height: inherit !important;
+}
+.dataMigrationTabs .dataMigrationTabsHeader li .jqx-tabs-titleWrapper span{
+    vertical-align: inherit !important;
+    font-size: 12px;
+}
+.dataMigrationsTabsInner #colMappinAddIconDiv{
+    padding: 4px;
+}
+
+/*Saved Connections Starts Here by SANK*/
+
+.draggableOperator{
+    z-index: 9999;
+}
+/* saved sources scroll css SANK ends here */
+
+/* Mapping PopUp Designs Starts Here by SANK */
+.sqlPopupDivClass{
+    height: 100%;
+    width: 100%;
+}
+.dark-mode .sqlFromTableTreeDivClass {
+    float: left;
+    width: 45%;
+    height: 100%;
+    border: 1px solid #5f5f64;
+    height: 100%;
+}
+.dark-mode .sqlMoveButtonsDivClass {
+    width: 5%;
+    border: 1px solid #5f5f64;
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 100%;
+    position: relative;
+}
+.sqlMoveButtonsClass {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.dark-mode .sqlToTableDivClass {
+    width: 48%;
+    border: 1px solid #5f5f64;
+    float: left;
+    height: 100%;
+}
+.sqlMapColToTableColumnsDivClass {
+    height: 254px;
+    overflow: auto;
+}
+/* Mapping PopUp Designs ends Here by SANK */
+
+
+/* Connection Css Starts Here by SANK */
+.connectionDivClass {
+    display: flex;
+    padding: 5px;
+}
+
+.etlConnImgs{
+    width:60px;
+    text-align: center;
+    margin: 2px;
+    min-height: 50px;
+    position: relative;
+    background-color: #0071c5; /*for compatibility with older browsers*/
+    /*background-image: linear-gradient(#0071c5,#EAF4FD);*/
+    background-image: linear-gradient(#ffffff,#EAF4FD);
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px -2px #333;
+    /*    text-shadow: 0px -1px #333;*/
+}
+.etlConnImgs:after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+.etlConnImgs:hover, .etlConnImgs1:hover, .etlConnImgs2:hover, .etlConnImgs3:hover, .etlConnImgs4:hover{
+    background: linear-gradient(#ffffff,#88ccff);
+}
+
+
+.etlConnImgs img{
+    width: 20px !important;
+    height: inherit !important;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-12%, -41%);
+    z-index: 9999;
+}
+.dark-mode .etlConnImgs p{
+    margin: 0;
+    /*background-color: #EAF4FD;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    /*border: 1px solid #EAF4FD;*/
+    width: 100%;
+    font-size: 12px;
+    color:#000;
+}
+.dark-mode .savedConnectionsModifiedInnerClass .connTitle{
+    background-color: #3e3e42;
+    padding: 5px;
+    color:#f1f1f1;
+}
+.dark-mode .previousButtonDivClass {
+    display: flex;
+    align-items: center;
+    /*background: #EAF4FD;*/
+    padding: 5px;
+    font-size: 12px;
+    border-bottom: 1px solid #5f5f64;
+    color:#f1f1f1;
+
+}
+.savedConnectionsModifiedInnerClass .previousIconSpan {
+    margin-right: 10px;
+}
+.savedConnectionsModifiedInnerClass .previousIconSpan img{
+    padding: inherit;
+
+}
+.previousIconSpan img{
+    margin-right: 8px;
+}
+.filterObjDiv{
+    width: 99%;
+}
+.filterObjDiv input{
+    width: 100%;
+    height: 27px;
+    /*position: fixed;*/
+    top: 129px;
+}
+.schemaTablesObject{
+    background: #EAF4FD;
+    width: 99%;
+}
+.schemaTablesObjDivClass .visionTableIcon{
+    margin-left: 0;
+}
+.dark-mode .schemaTablesObjDivClass .visionObjectNameDivClass{
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    background-color:#3e3e42;
+    border-bottom: 1px solid #5f5f64;
+}
+.dark-mode .schemaTablesObjDivClass .visionObjectNameDivClass:hover{
+    cursor: pointer;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #5f5f64;
+    color:#000;
+}
+.dark-mode .schemaTablesObjDivClass .visionObjectNameDivClass span{
+    margin-left: 8px;
+}
+
+
+.etlConnImgs1{
+    width:60px;
+    text-align: center;
+    margin: 2px;
+    min-height: 50px;
+    position: relative;
+    background-color: #0071c5; /*for compatibility with older browsers*/
+    background-image: linear-gradient(#ffffff,#EAF4FD);
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px -2px #333;
+    float: left;
+    /*text-shadow: 0px -1px #333;*/
+}
+.etlConnImgs1:after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+
+.etlConnImgs1 img{
+    width: 20px !important;
+    height: inherit !important;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-12%, -41%);
+    z-index: 9999;
+}
+.dark-mode .etlConnImgs1 p{
+    margin: 0;
+    /*background-color: #EAF4FD;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    /*border: 1px solid #EAF4FD;*/
+    width: 100%;
+    font-size: 12px;
+    color:#000;
+}
+.etlConnImgs2{
+    width:60px;
+    text-align: center;
+    margin: 2px;
+    min-height: 50px;
+    position: relative;
+    background-color: #0071c5; /*for compatibility with older browsers*/
+    background-image: linear-gradient(#ffffff,#EAF4FD);
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px -2px #333;
+    float: left;
+    /*    text-shadow: 0px -1px #333;*/
+}
+.etlConnImgs2:after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+
+.etlConnImgs2 img{
+    width: 16px !important;
+    height: inherit !important;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-12%, -41%);
+    z-index: 9999;
+}
+.dark-mode .etlConnImgs2 p{
+    margin: 0;
+    /*background-color: #EAF4FD;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    /*border: 1px solid #EAF4FD;*/
+    width: 100%;
+    color:#000;
+}
+.etlConnImgs3{
+    width:60px;
+    text-align: center;
+    margin: 2px;
+    min-height: 50px;
+    position: relative;
+    background-color: #0071c5; /*for compatibility with older browsers*/
+    background-image: linear-gradient(#ffffff,#EAF4FD);
+    border-radius: 3px;
+    box-shadow: 0px 1px 4px -2px #333;
+    float: left;
+
+    /*    text-shadow: 0px -1px #333;*/
+}
+.etlConnImgs3:after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+.etlConnImgs3 img{
+    width: 16px !important;
+    height: inherit !important;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-12%, -41%);
+    z-index: 9999;
+}
+.dark-mode .etlConnImgs3 p{
+    margin: 0;
+    /*background-color: #EAF4FD;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    /*border: 1px solid #EAF4FD;*/
+    width: 100%;
+    color:#000;
+
+}
+/*.conTabsClass .jqx-widget-header{
+    background: #c7e8ff;
+}*/
+
+/* Available Connection tabs css Ends here by SANK */
+
+/* Connection Tabs Header redesign */
+
+.dark-mode .conTabsClass .jqx-widget-header{
+    background: #3e3e42;
+    border: none;
+}
+.conTabsClass .jqx-widget-header .jqx-tabs-title-selected-top{
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+.conTabsClass .jqx-tabs-content{
+    margin-top: 5px;
+}
+
+/* Connection Tabs ends here Header redesign */
+
+.visionDMTreePopup{
+    z-index:999;  
+    /*width: 1260px !important;*/
+    /*min-width: 1260px !important;*/
+
+}
+.visionTableIcon{
+    width:15px !important;
+    height:15px !important;
+}
+
+
+
+/* Mapping PopUp Designs Starts Here by SANK */
+
+
+/*query component text area start*/
+
+.visionEtlQueryTextArea{
+    width:99%;
+}
+/*query component text area end*/
+
+/*etl jqxtree css start*/
+
+
+/*etl jqxtree css end*/
+
+
+
+/*Column Maping Css starts here by SANK*/
+
+.visionEtlJoinClauseTable tbody td {
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+.visionColMappingTextarea{
+    width:100%;
+    border:1px solid #B6B6B4;
+    overflow:hidden;
+    resize: none;
+    height: 47px;
+    border-radius: 3px;
+}
+.jqx-hideborder {
+    overflow-y:hidden !important;
+}
+/*Column Maping Css Ends here*/
+
+/* Unique JQX Tree Scroll  Customization*/
+
+
+
+/* Joins and Groupbby and filter css starts Here by SANK */
+.sourceJoinColsTd select{
+    height:27px;
+    border-left: 1px solid #ddd !important;
+    border-right: 1px solid #ddd !important;
+    border-top: 1px solid #ddd !important;
+    border-bottom:1px solid #ddd !important;;
+}
+.visionEtlMappingTables tr td{
+    border:1px solid #ddd;
+}
+.visionEtlJoinClauseTable thead th{
+    border:1px solid #ddd;
+    background:#f1f1f1 !important;
+    color:#000 !important;
+
+}
+#OPERATOR_TYPE{
+    width:100%;
+    border: 1px solid #ddd !important;
+    border-radius:3px;
+}
+#joinType{
+    border:1px solid #ddd;
+}
+#visionEtlSaveIcon{
+    margin-left: 3px;
+}
+#andOrOpt{
+    width: 100%;
+    border: 1px solid #ddd !important;
+    border-radius:3px; 
+}
+
+
+
+/* Create Table Popup Grid and table css starts here by SANK/Raja */
+.dark-mode #sqlToDataSourceName {
+    width: 83% !important;
+    border: 1px solid #5f5f64;
+}
+#sqlToTableName {
+    width: 100% !important;
+}
+.sqlToTableColumnsDivClass
+{
+    height: 181px;
+    overflow-y: auto;
+}
+.columnMappingTree {
+    height: 180px;
+    overflow-y: auto !important;
+    border: 1px solid #ddd !important;
+    margin-left: 5px;
+    width: auto !important;
+    overflow-x:hidden;
+}
+/* Create Table Popup Grid and table css Ends here by SANK/Raja */
+
+
+/* Joins and Groupbby and filter css Ends Here by SANK */
+/* Unique JQX Tree Scroll  Customization*/
+
+/*processJob loader css start*/
+/*.etlJobProcessingLoader {
+  color: green;
+  text-align: center;}
+.etlJobProcessingLoader:after {
+  content: ' .';
+  animation: dots 1s steps(5, end) infinite;
+}*/
+
+/*@keyframes dots {
+  0%, 20% {
+    color: rgba(0,0,0,0);
+    text-shadow:
+      .25em 0 0 rgba(0,0,0,0),
+      .5em 0 0 rgba(0,0,0,0);}
+  40% {
+    color: green;
+    text-shadow:
+      .25em 0 0 rgba(0,0,0,0),
+      .5em 0 0 rgba(0,0,0,0);}
+  60% {
+    text-shadow:
+      .25em 0 0 green,
+      .5em 0 0 rgba(0,0,0,0);}
+  80%, 100% {
+    text-shadow:
+      .25em 0 0 green,
+      .5em 0 0 green;}
+}*/
+
+
+/**
+ * ==============================================
+ * Dot Flashing
+ * ==============================================
+ */
+.dot-flashing {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: green;
+    animation: dotFlashing 1s infinite linear alternate;
+    animation-delay: .5s;
+}
+
+.dot-flashing::before, .dot-flashing::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+.dot-flashing::before {
+    left: -15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: green;
+    animation: dotFlashing 1s infinite alternate;
+    animation-delay: 0s;
+}
+
+.dot-flashing::after {
+    left: 15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: green;
+    color: green;
+    animation: dotFlashing 1s infinite alternate;
+    animation-delay: 1s;
+}
+
+@keyframes dotFlashing {
+    0% {
+        background-color: green;
+    }
+    50%,
+    100% {
+        background-color: #ebe6ff;
+    }
+}
+
+
+/*processJob loader css end*/
+
+.setConnectionPopup{
+    z-index: 999 !important;
+}
+.visionInputDbUpdateButton{
+    margin-right:10px;
+}
+.dark-mode .visionEtlCreateSQLTable th{
+    background: #252830 !important;
+    color: #f1f1f1 !important;
+    text-align: center;
+    border: 1px solid #5f5f64;
+}
+.visionEtlCreateSQLTable thead tr th {
+    position: sticky;
+    top: 0;
+}
+.dark-mode .visionEtlCreateSQLDS td{
+    border:1px solid #5f5f64;  
+}
+.dark-mode .visionEtlCreateSQLTable td{
+    border:1px solid #5f5f64; 
+}
+
+.visionEtlCreateSQLTable .editable input{
+    border:1px solid #ddd;
+}
+
+/*.dark-mode .visionDeNormalizeOptions select,input{
+    border-bottom:1px solid #ddd;
+    border-left:1px solid #ddd;
+    border-right:1px solid #ddd;
+    border-top:1px solid #ddd;
+    height:27px;
+}*/
+.visionColMappingInput{
+    width:100%;
+    border:1px solid #ddd;
+}
+label{
+    position:relative;
+    top:-9px;
+}
+
+.visionDeleteReason{
+    width: 97%;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    resize: none;
+}
+
+.visionETLExportTable select {
+    width: auto;
+    height: 27px;
+    margin-right: -5px;
+    margin-top: 5px;
+}
+
+.dark-mode .visionETLExportButton {
+    width: auto;
+    height: 27px;
+    padding: 8px;
+    padding-left: 28px;
+    margin-left: 9px;
+    background-position: 5px center;
+    margin-bottom: 3px;
+    background-repeat: no-repeat;
+    border: 1px solid #5f5f64;
+}
+
+.visionETLImportButton {
+    width: 20%;
+    height: 27px;
+}
+
+.dark-mode .dataMigrationsTabsInner th{
+    background: #3e3e42 none repeat scroll 0 0 !important;
+    color: #000 !important;
+    text-align: center !important;
+    border:1px solid #5f5f64;
+}
+
+.dark-mode .dataMigrationsTabsInner td{
+    border:1px solid #5f5f64;
+}
+
+.dataMigrationsTabsInner thead{
+    position:sticky;
+    top:0;
+}
+
+.dark-mode .visionOperatorType select{
+    border:1px solid #5f5f64;
+    height:27px;
+    position: relative;
+    top: -32px;
+    left: 94px;
+}
+.visionOperatorType{
+    margin-bottom:-17px;
+}
+.visionUniqueColsDiv{
+    height: 150px;
+    overflow-y: scroll;
+    /*    width: 223px;*/
+    overflow-x:hidden;
+}
+.visionMergeColsTableDiv{
+    height: 150px;
+    overflow-y: scroll;
+    width: 250px;
+    overflow-x:hidden;
+}
+.visionSCDTypesRadioButton{
+    /*   margin-bottom: 10px;*/
+    padding:5px;
+}
+.visionSCDTypesRadioButton label{
+    top:0px;
+    margin-right: 4px;
+}
+
+.visionSCDTypeColsDiv{
+    height: 110px;
+    overflow-y: auto;
+    overflow-x:hidden;
+    width: 215px;
+}
+
+input.importClass {
+    background-image: url(../images/import_icon_blue.png);
+}
+input.importClass:hover {
+    background-image: url(../images/import_icon_blue.png);
+}
+.dark-mode .visionSearchImportButton {
+    width: auto;
+    height: 27px;
+    padding: 8px;
+    padding-left: 28px;
+    margin-left: -4px;
+    background-position: 5px center;
+    margin-bottom: 3px;
+    background-repeat: no-repeat;
+    border: 1px solid #5f5f64;
+    margin-right: 10px;
+}
+.visionMergeOperatorType{
+    padding: 10px;
+}
+.etl-page-body #jqxScrollBtnUppanelsavedSourcesverticalScrollBar{
+    left:3px !important;
+}
+.etl-page-body #jqxScrollThumbpanelsavedSourcesverticalScrollBar{
+    left:7px !important;
+    width:5px !important;
+}
+.etl-page-body #jqxScrollBtnDownpanelsavedSourcesverticalScrollBar{
+    left:3px !important;
+}
+.etl-page-body #jqxScrollThumbpanelsavedConnectionsverticalScrollBar{
+    left: 7px !important;
+    width: 5px !important;
+}
+.etl-page-body #jqxScrollBtnUppanelsavedConnectionsverticalScrollBar{
+    left: 3px !important;
+}
+.etl-page-body #jqxScrollBtnDownpanelsavedConnectionsverticalScrollBar{
+    left: 3px !important;
+}
+.visionEtlFileHeaderTablesDiv th{
+    background: #f1f1f1 none repeat scroll 0 0 !important;
+    color: #000 !important;
+    text-align: center !important;
+    border:1px solid #ddd;
+}
+
+.visionEtlFileHeaderTablesDiv td{
+    border:1px solid #ddd;
+}
+
+#selectFileTypeId{
+    border:1px solid #ddd;
+}
+
+.dark-mode .jqx-item select, .dark-mode .jqx-grid-cell input{
+    border-top:1px solid #5f5f64;
+    border-left:1px solid #5f5f64;
+    border-right:1px solid #5f5f64;
+    border-bottom:0;
+    background:none;
+    color:#f1f1f1;
+}
+.dark-mode .savedConnectionsClass .jqx-tabs-content .visionObjectNameDiv{
+    cursor: pointer;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    background-color: #3e3e42;
+    border-bottom: 1px solid #5f5f64;  
+}
+
+.dark-mode .savedConnectionsClass .jqx-tabs-content .visionObjectNameDiv:hover {
+    cursor: pointer;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 1px solid #5f5f64;
+    color: #000;
+}
+
+.savedConnectionsClass .jqx-tabs-content .visionObjectNameDiv span {
+    margin-left: 8px;
+}
+
+.dark-mode .savedConnectionsModifiedInnerClass{
+    height: 500px;
+    overflow-y: auto;
+}
+
+
+.dark-mode .etl-page-body .jqx-tabs-title-selected-top{
+    color:#0b4a99 !important;
+    font-weight:bold;
+    border-left: 0 !important;
+    border-right: 0px !important;
+    border-top: 0 !important;
+    border-bottom: 2px solid #fff !important;
+}
+.etl-page-body .jqx-fill-state-hover-ui-redmond{
+    color:#000;
+}
+
+.visionEtlTreeFolders img{
+    margin-right: 4px;
+}
+.etl-page-body .jqx-disableselect .jqx-tabs-close-button{
+    visibility: hidden;
+}
+.etl-page-body .jqx-tabs-close-button-selected{
+    visibility: visible !important;
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{
+    float:initial;
+}
+
+.visionETLXlsxFileSelectClass {
+    width: 200px;
+    display:inline;
+}
+
+.VisionETLXlsxFileNameClass{
+    width:257px;
+}
+.dark-mode .etl-page-body .jqx-fill-state-hover{
+    background:#fff;
+    border:0;
+    color:#000;
+}
+
+.visionSCDTypesRadioButton input,label{
+    margin-top: 10px;
+}
+
+.etl-page-body .jqx-checkbox-hover{
+    background:#f1f1f1;
+    border:1px solid #ddd;
+}
+
+.etl-page-body .jqx-grid-cell-hover{
+    background:#f1f1f1;
+    border:1px solid #ddd;
+}
+
+.dark-mode .jqx-menu .jqx-menu-ul{
+    background-color: #252831;
+    border: none;
+    padding: 0;
+    color: #f1f1f1;
+}
+.jqx-menu-ul li{
+    border:none;
+    margin:0px;
+    border-radius:0;
+    margin-bottom: 2px;
+}
+.dark-mode .jqx-menu-wrapper .jqx-menu-vertical {
+    background-color: #252830;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    height: auto !important;
+    border: 1px solid #5f5f64;
+}
+.jqx-menu-popup{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /*    width:150px !important;   */
+}
+.jqx-menu-popup ul {
+    border:none; 
+    padding:0 !important;
+}
+.jqx-menu-popup ul li{
+    border:none; 
+    border-radius:0;
+    margin:0;
+}
+/*Dark tabs css Starts here by pavani*/
+.dark-mode .etl-page-body .jqx-rc-t-ui-redmond ul{
+    margin-top:-4px !important;
+}
+
+.dark-mode .showEtlIcons{
+    background:#3e3e42;
+}
+.dark-mode .jqx-tree-item{
+    color:#f1f1f1;
+}
+.dark-mode .jqx-tree-item-selected{
+    color:#000;
+}
+.dark-mode .jqx-tabs-title-selected-top {
+    background:none;
+}
+.dark-mode .jqx-tabs-content-element{
+    color:#f1f1f1;
+}
+.dark-mode .ui-widget-content {
+    border: 1px solid #5f5f64;
+    background: #252830;
+    color: #f1f1f1;
+}
+.dark-mode .jqx-widget-header{
+    background: #252830;
+    color:#f1f1f1;
+}
+.dark-mode .jqx-grid-cell{
+    color:#f1f1f1;
+}
+.dark-mode .ui-widget-content .visionTreeDMFilesInput{
+    border:1px solid #5f5f64;
+}
+/*Dark tabs css Ends here by pavani*/
+/*ETL CSS END*/

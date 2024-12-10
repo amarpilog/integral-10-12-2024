@@ -1,0 +1,1316 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Dec, 2021, 12:14:56 PM
+    Author     : Santhosh.K
+*/
+.dxpHeader,
+.dxpLoginHeader {
+	position: sticky;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #fff;
+	border-bottom: 1px solid #f1f1f1;
+	z-index: 1030;
+}
+
+.dxpHeader .navbar-wrapper,
+.dxpLoginHeader .navbar-wrapper {
+	width: 100%;
+}
+
+.icon-chevron-down:before {
+	color: #0b4a99;
+}
+
+.DXPlLanguageSelectionClass select {
+	width: inherit;
+}
+
+.dxpHeader .navbar-toggler-icon,
+.dxpLoginHeader .navbar-toggler-icon {
+	background-image: url("../images/mobileMenuIcon.png") !important;
+	width: 20px;
+	height: 20px;
+}
+
+.dxpHeader .leftNavList,
+.dxpLoginHeader .leftNavList {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0;
+}
+
+.dxpHeader .navbar-brand img,
+.dxpLoginHeader .navbar-brand img {
+	width: 80px;
+}
+
+.dxpHeader .navbar,
+.dxpLoginHeader .navbar {
+	padding: 6px 16px;
+}
+
+.dxpHeader .navbar-brand,
+.dxpLoginHeader .navbar-brand {
+	margin-left: 16px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.dxpHeader .navbar-collapse,
+.dxpLoginHeader .navbar-collapse {
+	position: relative;
+}
+
+.dxpHeader .navbar-collapse .signinIconItem {
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+
+.dxpHeader .navbar-collapse .getStartedItem {
+	position: absolute;
+	right: 2%;
+	top: -12px;
+	cursor: pointer;
+}
+
+.dxpHeader .navbar-collapse .helpIconItem {
+	position: absolute;
+	right: 5%;
+	top: -12px;
+	cursor: pointer;
+}
+
+.dxpLoginHeader .navbar-collapse .themeChangeIcon {
+	position: absolute;
+	right: 16%;
+	cursor: pointer;
+}
+
+.dxpLoginHeader .navbar-collapse .organizationIcon {
+	position: absolute;
+	right: 13%;
+	cursor: pointer;
+}
+
+.dxpLoginHeader .navbar-collapse .feedbackIcon {
+	position: absolute;
+	right: 6%;
+	cursor: pointer;
+}
+
+.dxpLoginHeader .navbar-collapse .shoppingIcon {
+	position: absolute;
+	right: 3%;
+	cursor: pointer;
+}
+
+.headerShoppingCart {
+	width: 20px;
+}
+
+.headerProfile,
+.headerSettings {
+	width: 20px;
+}
+
+.settingsIconList {
+	margin: 0 6px;
+}
+
+.searchMainWrap .has-search .searchResultsDiv {
+	width: 80%;
+}
+
+.dxpPageWrapper .firstDxpSplitter .jqx-splitter-splitbar-vertical,
+.dxpPageWrapper .firstDxpSplitter .jqx-splitter-collapse-button-vertical {
+	width: 3px !important;
+}
+
+.dxpPageWrapper .jqx-scrollbar-mobile .jqx-scrollbar-thumb-state-normal,
+.dxpPageWrapper .jqx-scrollbar-mobile .jqx-scrollbar-thumb-state-normal-horizontal {
+	background: #c7e0f4 !important;
+	border-color: #c4c1c1 !important;
+}
+
+.signOutpopUp .signoutLogo img {
+	width: 120px;
+}
+
+/* Before Login Header Css Changes 23-08-2022 */
+.visionLoginpageInner .signInBtnDiv,
+.visionLoginpageInner .signUpBtnDiv {
+	display: flex;
+	align-items: center;
+}
+
+.visionLoginpageInner .signINIcon,
+.visionLoginpageInner .signINIcon {
+	margin-right: 5px;
+}
+
+.visionLoginpageInner .signINLabel,
+.visionLoginpageInner .signUpLabel a,
+.helpandgetstartedIconDiv .mobileTitle {
+	font-size: 13px;
+	color: #0b4a99;
+	/*#0c4a99;*/
+	font-weight: 600;
+}
+
+.visionLoginpageInner {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	/*border: 1px solid red;*/
+}
+
+.visionLoginpageInner .form-group,
+.visionLoginpageInner .form-primary {
+	margin-bottom: inherit;
+}
+
+.visionLoginpageInner .form-control {
+	font-size: 12px;
+}
+
+.visionLoginpageInner>div {
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+.next-btn button,
+.signin-btn button {
+	background-color: inherit !important;
+	border: 2px solid #0b4a99 !important;
+	/*#0b4a99 !important;*/
+	color: #0b4a99 !important;
+	/*#0b4a99 !important;*/
+	font-size: 13px;
+	border-radius: 4px !important;
+	font-weight: 600;
+	padding: 2px 10px;
+}
+
+.next-btn button:hover,
+.signin-btn button:hover {
+	font-size: 13px;
+	border-radius: 4px !important;
+}
+
+.loginErrorsMsgs p,
+.signUpBtnDiv p {
+	font-size: 12px;
+	color: red;
+	margin-bottom: inherit;
+}
+
+.firstListItem {
+	position: absolute;
+	right: 30%;
+	top: -8px;
+}
+
+#isBlinkText {
+	font-size: 20px;
+	font-weight: bold;
+	color: #2d38be;
+	transition: 0.5s;
+}
+
+/* Before Login Header Css Changes 23-08-2022 */
+.searchFeildToggleIcon {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	right: 5px;
+}
+
+.searchFeildToggleIcon .searchFeildIconandText {
+	display: flex;
+	align-items: center;
+	padding: 4px;
+	border: 1.4px solid #ddd;
+	border-radius: 20px;
+	width: 120px;
+}
+
+.searchFeildToggleIcon .searchIcon img {
+	width: 16px !important;
+}
+
+.searchFeildToggleIcon .searchText {
+	font-size: 12px;
+	margin-left: 8px;
+	color: #0b4a99
+		/* #00186a;*/
+	;
+	font-weight: 600;
+}
+
+.searchFeildToggleIcon .fa-times:before {
+	color: #0b4a99;
+	/*#044fba !important;*/
+	;
+}
+
+/* signOutpopUp css changes starts here by Rajasekhar on 16-09-2022*/
+.sidepanel {
+	width: 0;
+	position: fixed;
+	z-index: 9999;
+	height: 100px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 8px 0px 20px;
+	overflow: hidden;
+	background-color: #fff;
+	/*border: 1px solid #3a81e9;*/
+	transition: 0.3s;
+	/*padding-top: 5px;*/
+	box-shadow: rgb(0 0 0/ 24%) 0px 3px 8px;
+	border-top-left-radius: 20px !important;
+	border-bottom-right-radius: 20px !important;
+	border-radius: 8px;
+}
+
+.sidepanel p {
+	padding: 8px 8px 8px 8px;
+	text-decoration: none;
+	font-size: 12px;
+	color: #000;
+	display: block;
+	transition: 0.3s;
+	/*font-weight: 500;*/
+	margin: 5px;
+	/**/
+	text-align: center;
+}
+
+.logoutButtons button {
+	font-size: 12px;
+	border-radius: 8px !important;
+	margin: 0 5px;
+}
+
+.logoutButtons {
+	padding: 2px 25px 2px 25px;
+	display: flex;
+	/**/
+	align-items: center;
+	justify-content: center;
+}
+
+/* 07-12-2022 Santhosh Header Changes Css Starts Here */
+
+
+
+
+.dxpLoginHeader .navbar-collapse .userProfileIcon .userMainProfile {
+	border: 1px solid #0b4a99;
+	/*#0c4a99;*/
+	width: 22px;
+	height: 22px;
+}
+
+.mobileBlock,
+.smLangSelectClass {
+	display: none;
+}
+
+.collapse .rightIcons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.collapse .rightIcons .lgLangSelectClass {
+	margin-right: 15px;
+}
+
+.collapse .rightIcons ul {
+	width: 100%;
+}
+
+
+
+
+/* 07-12-2022 Santhosh Header Changes Css Ends Here */
+@media only screen and (max-width: 767px) {
+	.sidepanel {
+		position: fixed;
+		z-index: 9999;
+		height: 100px;
+		top: 34px !important;
+		right: 0;
+	}
+}
+
+/**/
+/* signOutpopUp css changes starts here by Rajasekhar on 16-09-2022*/
+@media (max-width : 769px) {
+	.dxpHeader .navbar-collapse .signinIconItem {
+		position: inherit;
+		right: inherit;
+	}
+
+	.dxpHeader .navbar-collapse .getStartedItem {
+		position: inherit;
+		right: inherit;
+	}
+
+	.dxpHeader .navbar-collapse .helpIconItem {
+		position: inherit;
+		right: inherit;
+	}
+
+	.dxpHeader .navbar {
+		padding: 4px 5px 4px 4px;
+	}
+
+	.searchMainWrap {
+		margin-left: inherit;
+		position: relative;
+		display: flex;
+		align-items: center;
+		width: 100%;
+	}
+
+	.searchMainWrap .has-search {
+		width: 100% !important;
+		border-radius: inherit;
+		margin-bottom: inherit;
+	}
+
+	.dxpHeader .navbar-collapse,
+	.dxpLoginHeader .navbar-collapse {
+		padding: 4px;
+		border-top: 1px solid #f1f1f1;
+		box-shadow: -2px 6px 10px 0 rgb(43 43 43/ 10%);
+		margin-bottom: 10px;
+	}
+
+	.searchMainWrap .form-group select {
+		width: 50px;
+		padding: 2px;
+	}
+
+	.searchMainWrap {
+		margin-left: inherit !important;
+	}
+
+	.searchMainWrap .searchbutton {
+		display: none;
+	}
+
+	.searchMainWrap .has-search input.form-control {
+		padding-left: 3px;
+	}
+
+	.dxpHeader .navbar-brand img,
+	.dxpLoginHeader .navbar-brand img {
+		width: 100px;
+	}
+
+	.navbar-toggler {
+		padding: 4px !important;
+		font-size: 15px !important;
+	}
+
+	.searchMainWrap .dxpAdavanceSearchClass .dxpAdavanceSearchOptions {
+		width: 130px;
+	}
+
+	.navbar-collapse .navbar-nav li.firstListItem {
+		border-bottom: inherit !important;
+	}
+
+	.navbar-collapse .navbar-nav li {
+		padding: 3px;
+		border-bottom: 1px solid #f1f1f1;
+	}
+
+	.settingsIconList {
+		margin: inherit;
+	}
+
+	.DXPlLanguageSelectionClass select {
+		width: 100%;
+		background: #fff;
+	}
+
+	.mobileTitle {
+		margin-left: 5px;
+	}
+
+	.firstListItem {
+		position: inherit;
+		right: inherit;
+	}
+
+	.forgotPasswordBtnDiv a {
+		font-size: 10px;
+	}
+
+	.next-btn button,
+	.signin-btn button {
+		background-color: inherit !important;
+		border: 2px solid #0b4a99 !important;
+		/*#0b4a99 !important;*/
+		color: #0b4a99 !important;
+		/*#0b4a99 !important;*/
+		font-size: 12px;
+		border-radius: 4px !important;
+		font-weight: 600;
+		padding: 2px 10px;
+	}
+
+	.visionLoginpageInner {
+		display: block;
+	}
+
+	.visionLoginpageInner>div {
+		padding-right: inherit;
+		padding-left: inherit;
+	}
+
+	.visionLoginpageInner .signInBtnDiv,
+	.visionLoginpageInner .signUpBtnDiv {
+		padding: 4px;
+	}
+
+	.visionLoginpageInner .next-btn {
+		margin: 5px 0px;
+	}
+
+	/* LoiginHeader Mobile by SANK*/
+	.dxpLoginHeader .navbar-collapse .themeChangeIcon {
+		position: inherit;
+		right: inherit;
+		cursor: pointer;
+	}
+
+	.dxpLoginHeader .navbar-collapse .organizationIcon {
+		position: inherit;
+		right: inherit;
+		cursor: pointer;
+	}
+
+	.dxpLoginHeader .navbar-collapse .feedbackIcon {
+		position: inherit;
+		right: inherit;
+		cursor: pointer;
+	}
+
+	.dxpLoginHeader .navbar-collapse .shoppingIcon {
+		position: inherit;
+		right: inherit;
+		cursor: pointer;
+	}
+
+	.dxpLoginHeader .navbar-collapse .logoutIcon {
+		position: inherit;
+		right: inherit;
+		cursor: pointer;
+	}
+
+	/* .dxpPageWrapper {
+		margin-top: 42px !important;
+		height: calc(100vh - 42px - 72px) !important;
+	} */
+	.sidebar-content {
+		height: calc(100vh - 115px) !important;
+	}
+
+	/* .footer {
+		position: inherit !important;
+		bottom: inherit !important;
+	} */
+	.footer .container {
+		max-width: 100%;
+	}
+
+	.searchFeildToggleIcon {
+		display: none;
+	}
+
+	.innerSearchDiv {
+		display: inherit !important;
+		width: 100%;
+	}
+
+	.fontSizeChangeIcon {
+		position: inherit;
+		right: inherit;
+	}
+
+	.fontChangeIcon {
+		position: inherit;
+		right: inherit;
+	}
+
+	/* LoiginHeader Mobile by SANK*/
+}
+
+/* iPad Air on 20-09-2022*/
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
+	.searchMainWrap {
+		margin-left: 20px !important;
+	}
+
+	#show-sidebar,
+	#IntelliSenseFs,
+	.searchIcon img,
+	#collapsibleNavbar ul li img {
+		width: 14px !important;
+	}
+
+	.replacedSearchButton {
+		display: none;
+	}
+
+	.dxpHeader .navbar-brand img,
+	.dxpLoginHeader .navbar-brand img {
+		width: 111px !important;
+	}
+
+	.searchFeildToggleIcon {
+		display: none !important;
+	}
+
+	.searchMainWrap .innerSearchDiv {
+		display: inherit !important;
+	}
+
+	.searchMainWrap .has-search {
+		width: 240px !important;
+	}
+
+	.searchMainWrap .has-search input.form-control {
+		height: 22px;
+		padding-left: 24px;
+	}
+
+	.searchMainWrap .innerSearchDiv .searchbutton {
+		position: absolute;
+		left: 6px;
+		top: -2px;
+	}
+
+	.searchMainWrap .form-group select {
+		width: 62px;
+		height: 22px !important;
+		padding: 2px;
+	}
+
+	.searchResultsDiv .ac-items .media-body p {
+		width: 190px !important;
+	}
+
+	.searchMainWrap .innerSearchDiv .filterDownArrowIcon {
+		position: absolute;
+		right: 5px;
+	}
+
+	.fontSizeChangeIcon {
+		position: absolute;
+		right: 23%;
+	}
+
+	.fontChangeIcon {
+		position: absolute;
+		right: 26%;
+	}
+}
+
+/* iPad Air on 20-09-2022*/
+@media (min-width : 769px) {
+	.dxpLoginHeader .mobileTitle {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 990px) and (max-width: 1024px) {
+	.searchMainWrap .has-search {
+		width: 340px !important;
+	}
+
+	.searchMainWrap {
+		margin-left: 10px !important;
+	}
+
+	.dxpLoginHeader .navbar-collapse .themeChangeIcon {
+		position: absolute;
+		right: 16%;
+		cursor: pointer;
+	}
+
+	.dxpLoginHeader .navbar-collapse .organizationIcon {
+		position: absolute;
+		right: 135px;
+		cursor: pointer;
+	}
+
+	.dxpLoginHeader .navbar-collapse .shoppingIcon {
+		position: absolute;
+		right: 65px;
+		cursor: pointer;
+	}
+
+	.dxpLoginHeader .navbar-collapse .feedbackIcon {
+		position: absolute;
+		right: 6%;
+		cursor: pointer;
+	}
+
+	.dxpLoginHeader .navbar-collapse .logoutIcon {
+		position: absolute;
+		right: 0;
+		cursor: pointer;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1290px) {
+	.searchMainWrap .has-search {
+		width: 300px !important;
+	}
+
+	.searchMainWrap .form-group select {
+		width: 55px;
+	}
+
+	.searchMainWrap .dxpAdavanceSearchClass .dxpAdavanceSearchOptions {
+		width: 130px;
+	}
+}
+
+@media only screen and (min-width: 1291px) and (max-width: 1365px) {
+	.searchMainWrap {
+		margin-left: 70px !important;
+	}
+
+	.searchMainWrap .has-search {
+		width: 400px !important;
+	}
+
+	.searchMainWrap .form-group select {
+		width: 55px;
+	}
+
+	.searchMainWrap .dxpAdavanceSearchClass .dxpAdavanceSearchOptions {
+		width: 130px;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1224px) {
+	.firstListItem {
+		position: absolute;
+		right: 28%;
+	}
+
+	.dxpHeader .navbar-collapse .helpIconItem {
+		position: absolute;
+		right: 10%;
+	}
+
+	.visionLoginpageInner .signINLabel,
+	.visionLoginpageInner .signUpLabel a,
+	.helpandgetstartedIconDiv .mobileTitle {
+		font-size: 12px;
+		color: #0b4a99;
+		/*#0c4a99;*/
+		font-weight: 600;
+	}
+}
+
+@media (min-width: 769px) {
+	.dxpLoginHeader .navbar-expand-md .navbar-collapse {
+		display: inherit !important;
+		transition: all .3s ease-in-out;
+	}
+}
+
+@media (min-width: 769px) {
+	.navbar-expand-md .navbar-collapse {
+		flex-basis: 100% !important;
+	}
+}
+
+@media(max-width:1150px) {
+	.mobileBtnLangClass .form-group.smLangSelectClass .form-control {
+		padding: 2px 8px;
+		height: auto;
+	}
+
+	.mobileBtnLangClass .navbar-toggler {
+		padding: 0;
+	}
+
+	.smLangSelectClass {
+		display: block;
+	}
+
+	.navbar-expand-md .navbar-toggler {
+		display: block !important;
+	}
+
+	.navbar-expand-md .navbar-toggler:focus {
+		outline: none;
+		box-shadow: none;
+	}
+
+	.navbar.navbar-expand-md.navbar-dark {
+		justify-content: space-between;
+		flex-flow: wrap !important;
+	}
+
+	.dxpLoginHeader .navbar .navbar-collapse {
+		width: 100% !important;
+		justify-content: flex-start !important;
+		align-items: flex-start;
+		flex-direction: column;
+		position: fixed;
+		top: 43px;
+		bottom: 0;
+		right: -250px;
+		width: 250px !important;
+		height: calc(100vh - 43px) !important;
+		box-shadow: 0px 3px 5px 2px #d8d8d8;
+		background: #fff;
+		transition: right 0.3s ease;
+		z-index: 1024;
+	}
+
+	.dxpLoginHeader .navbar .collapse:not(.show) {
+		display: none !important;
+	}
+
+	.dxpLoginHeader .navbar .collapse.show {
+		right: 0;
+	}
+
+	.navbar-expand-md .navbar-collapse {
+		flex-basis: 100%;
+	}
+
+	.navbar-nav {
+		flex-direction: column !important;
+	}
+
+	.searchFeildToggleIcon,
+	.lgLangSelectClass {
+		display: none !important;
+	}
+
+	.innerSearchDiv {
+		display: inherit !important;
+		width: 100%;
+	}
+
+	.searchMainWrap .has-search {
+		width: 100% !important;
+	}
+
+	.searchMainWrap .innerSearchDiv .searchbutton {
+		left: 24px;
+		top: 10px;
+	}
+
+	.dxpLoginHeader .globalSearchBar {
+		margin: 0;
+		width: 100%;
+	}
+
+	li.userProfileIcon.newUser {
+		position: absolute;
+		/* left: 25px; */
+		bottom: 0px;
+		border-top: 1px solid #ccc !important;
+	}
+
+	.mobileBlock {
+		display: block;
+	}
+
+	.dxpLoginHeader .navbar-nav {
+		align-items: flex-start !important;
+	}
+
+	.rightIcons {
+		width: 100%;
+	}
+
+	.rightIcons .navbar-nav li {
+		display: flex;
+		align-items: center;
+		border-bottom: 1px solid #ccc;
+		width: 100%;
+		padding: 8px 15px;
+	}
+
+	.searchMainWrap .has-search {
+		padding: 8px 15px 0;
+	}
+
+	.rightIcons .navbar-nav li:last-child {
+		border: 0;
+	}
+
+	.rightIcons .navbar-nav li span {
+		margin-left: 12px;
+		font-weight: 600;
+		color: #0a4a99;
+	}
+
+	.dxpLoginHeader .navbar-nav {
+		gap: 0 !important;
+	}
+
+	.dxpLoginHeader .navbar-collapse #toggle+label {
+		margin: 0;
+	}
+
+	.mobileBtnLangClass {
+		display: flex;
+		align-items: center;
+	}
+
+	.mobileBtnLangClass .form-group {
+		margin: 0;
+	}
+
+	.mobileBtnLangClass .header-notification.smLangSelectClass {
+		margin: 0 25px;
+	}
+
+	.dark-mode .dxpLoginHeader .navbar .navbar-collapse.show {
+		box-shadow: 0px 4px 5px 3px #737373;
+		background: #2c2c2c;
+		border-top: 0;
+	}
+}
+
+@media(max-width:767px) {
+	.mobileBtnLangClass .form-group.smLangSelectClass {
+		display: none;
+	}
+
+	.globalSearchBar .searchMainWrap .innerSearchDiv .form-group.lgLangSelectClass {
+		display: block !important;
+	}
+
+	.globalSearchBar .searchMainWrap .innerSearchDiv .searchbutton {
+		display: block !important;
+		right: 22px !important;
+		top: 9px !important;
+		left: auto !important;
+	}
+}
+
+
+/* Nested DropdownList Starts Here */
+.fontSizeIcon .dropdown-menu .dropdown-toggle:after {
+	border-top: .3em solid transparent;
+	border-right: 0;
+	border-bottom: .3em solid transparent;
+	border-left: .3em solid;
+	position: absolute;
+	top: 34%;
+	right: 6px;
+	color: #3a81e9;
+}
+
+.fontSizeIcon .dropdown-menu {
+	margin: 0;
+	padding: 0;
+}
+
+.fontSizeIcon .dropdown-menu li {
+	position: relative;
+	padding: 1px 5px;
+	border-bottom: 1px solid #3a81e9;
+}
+
+.fontSizeIcon .dropdown-menu li:last-child {
+	border-bottom: inherit;
+}
+
+.fontSizeIcon .submenu {
+	display: none;
+	position: absolute;
+	left: 100%;
+	top: -7px;
+}
+
+.fontSizeIcon .show>.dropdown-menu {
+	overflow: inherit !important;
+}
+
+.fontSizeIcon .submenu-left {
+	right: 100%;
+	left: auto;
+}
+
+.fontSizeIcon .dropdown-menu>li:hover {
+	background-color: #f1f1f1
+}
+
+.fontSizeIcon .dropdown-menu>li:hover>.submenu {
+	display: block;
+}
+
+/* Nested DropdownList Ends Here */
+.fontChangeIcon .dropdown-menu .dropdown-toggle:after {
+	border-top: .3em solid transparent;
+	border-right: 0;
+	border-bottom: .3em solid transparent;
+	border-left: .3em solid;
+	position: absolute;
+	top: 34%;
+	right: 6px;
+	color: #3a81e9;
+}
+
+.fontChangeIcon .dropdown-menu {
+	margin: 0;
+	padding: 0;
+}
+
+.fontChangeIcon .dropdown-menu li {
+	position: relative;
+	padding: 1px 5px;
+	border-bottom: 1px solid #3a81e9;
+}
+
+.fontChangeIcon .dropdown-menu li:last-child {
+	border-bottom: inherit;
+}
+
+.fontChangeIcon .submenu {
+	display: none;
+	position: absolute;
+	left: 100%;
+	top: -7px;
+}
+
+.fontChangeIcon .show>.dropdown-menu {
+	overflow: inherit !important;
+}
+
+.fontChangeIcon .submenu-left {
+	right: 100%;
+	left: auto;
+}
+
+.fontChangeIcon .dropdown-menu>li:hover {
+	background-color: #f1f1f1
+}
+
+.fontChangeIcon .dropdown-menu>li:hover>.submenu {
+	display: block;
+}
+
+.step-indicator {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	padding: 0 100px;
+}
+
+.step {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	z-index: 1;
+}
+
+.step-indicator .step-icon {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background: #c2c2c2;
+	font-size: 10px;
+	text-align: center;
+	color: #ffffff;
+	position: relative;
+	line-height: 50px;
+	font-size: 20px;
+}
+
+.step.active .step-icon {
+	background: blue;
+}
+
+.step p {
+	text-align: center;
+	position: absolute;
+	bottom: -58px;
+	color: #3e3e42;
+	width: 120px;
+}
+
+.step.active p {
+	color: #000;
+	font-weight: bold;
+}
+
+.step.step2 p,
+.step.step3 p {
+	left: 50%;
+	transform: translateX(-50%);
+	display: inline;
+}
+
+.indicator-line {
+	width: 100%;
+	height: 2px;
+	background: #c2c2c2;
+	flex: 1;
+}
+
+@media screen and (max-width: 500px) {
+	.step p {
+		font-size: 11px;
+		bottom: -20px;
+	}
+}
+
+.heading {
+	margin-top: 50px;
+}
+
+#btn {
+	width: 180px;
+}
+
+.integralStepFormDiv .integralStepForm {
+	width: 80%;
+	margin: 10px auto;
+	padding: 10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Toggle icon css by samiuddin 19-12-2022*/
+
+
+
+
+.dxpLoginHeader .navbar-collapse #toggle {
+	max-height: 0;
+	max-width: 0;
+	opacity: 0;
+	display: none;
+	visibility: visible;
+}
+
+.dxpLoginHeader .navbar-collapse #toggle+label {
+	cursor: pointer;
+	display: block;
+	position: relative;
+	box-shadow: inset 0 0 0px 1px #0b4a99;
+	text-indent: -5000px;
+	height: 18px;
+	width: 36px;
+	border-radius: 15px;
+	top: 0;
+	margin: 0;
+}
+
+.dxpLoginHeader .navbar-collapse #toggle+label:before {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 18px;
+	width: 9px;
+	top: 0;
+	left: 0;
+	border-radius: 15px;
+	background: rgba(19, 191, 17, 0);
+	transition: .25s ease-in-out;
+}
+
+.dxpLoginHeader .navbar-collapse #toggle+label:after {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 18px;
+	width: 18px;
+	top: 0;
+	left: 0;
+	border-radius: 15px;
+	background: white;
+	box-shadow: inset 0 0 0 1px rgb(11 74 153), 0 2px 4px rgba(0, 0, 0, .2);
+	transition: .25s ease-in-out;
+}
+
+.dxpLoginHeader .navbar-collapse #toggle:checked+label:before {
+	width: 38px;
+	background: rgba(19, 191, 17, 1);
+}
+
+.dxpLoginHeader .navbar-collapse #toggle:checked+label:after {
+	left: 20px;
+	box-shadow: inset 0 0 0 1px rgba(19, 191, 17, 1), 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+/*new css for toggle*/
+
+.dxpLoginHeader .navbar-collapse .toggle-switch {
+	display: inline-block;
+	position: relative;
+	width: 60px;
+	height: 34px;
+}
+
+.dxpLoginHeader .navbar-collapse .toggle-input {
+	display: none;
+}
+
+.dxpLoginHeader .navbar-collapse .toggle-label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 36px;
+	height: 20px;
+	background-color: #ccc;
+	border-radius: 34px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	box-shadow: inset 0 0 0px 1px #d5d5d5;
+}
+
+.dxpLoginHeader .navbar-collapse .toggle-label:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 18px;
+	height: 20px;
+	background-color: #fff;
+	border-radius: 50%;
+	transition: transform 0.3s;
+}
+
+.dxpLoginHeader .navbar-collapse .toggle-input:checked+.toggle-label {
+	background-color: #4fbf26;
+
+}
+
+.dxpLoginHeader .navbar-collapse .toggle-input:checked+.toggle-label:before {
+	transform: translateX(26px);
+}
+
+/* Toggle icon css by samiuddin 19-12-2022*/
+.expendInOutDivClass {
+	position: fixed;
+	top: 92px;
+	left: 50%;
+	font-weight: 500;
+	background: transparent;
+	width: 20px;
+	height: 20px;
+	font-size: 11px;
+	text-align: center;
+	border-radius: 50%;
+	opacity: 0.6;
+	transform: translate(-50%, -50%);
+	transition: all 0.4s ease-in-out;
+	z-index: 9;
+	color: #0b4a99;
+	/*#0c4a99;*/
+}
+
+.expendInOutDivClass img {
+	width: 8px;
+}
+
+.expendInOutDivClass.toggleClassid img {
+	transform: rotate(180deg);
+}
+
+.expendInOutDivClass:hover {
+	opacity: 1 !important;
+	z-index: 999;
+}
+
+.shrinkSection {
+	display: none !important;
+}
+
+.expendInOutDivClass.top_down {
+	top: 55px;
+}
+
+
+
+/* Header Changes in the css start here 26-03-2024 */
+/*.dxpLoginHeader {
+	height: 50px;
+}*/
+.dxpLoginHeader .navbar {
+	max-height: 100%;
+}
+
+.dxpLoginHeader #collapsibleNavbar {
+	justify-content: space-between;
+	height: 100%;
+}
+
+.dxpLoginHeader .navbar-nav {
+	gap: 16px;
+	align-items: center;
+}
+
+.dxpHeader .leftNavList,
+.dxpLoginHeader .leftNavList {
+	/* width: 40%; */
+}
+
+.dxpLoginHeader .globalSearchBar {
+	margin: 0 auto;
+}
+
+/* Header Changes in the css Ends here */
+
+.searchMainWrap .closeSearchFeild {
+	font-size: 12px;
+	font-weight: 500px;
+	padding: 6px;
+}
+
+.dxpLoginHeader .navbar-brand img {
+	width: 290px;
+	margin-left: 15px;
+}
+
+.dxpLoginHeader .navbar-collapse #toggle+label:after {
+	box-shadow: inset 0 0 0 1px rgb(11 74 153), 0 2px 4px rgba(0, 0, 0, .2);
+	height: 18px;
+	width: 18px;
+}
+
+.dxpLoginHeader .navbar-collapse #toggle+label {
+	box-shadow: inset 0 0 0px 1px #0b4a99;
+	height: 18px;
+}
+
+.dxpLoginHeader .navbar-collapse #toggle+label:before {
+	height: 18px;
+}
+
+.dxpLoginHeader .navbar-collapse #toggle+label:after {
+	height: 18px;
+	width: 18px;
+}
+
+.searchFeildToggleIcon .searchFeildIconandText {
+	display: none;
+}

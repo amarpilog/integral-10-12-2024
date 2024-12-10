@@ -1,0 +1,450 @@
+
+
+.constituencyList .dxpUserImgSpanClass img{
+    width: 25px !important;
+    height: 25px !important;
+    border: inherit !important;
+    border-radius: inherit !important;
+}
+.constituencyList .dxpUserBasedTemplateSpanClass{
+    padding-left: 3px !important;
+}
+.ConstituencySection .constituencyTabContent .card-header{
+    padding: 8px;
+}
+.ConstituencySection .constituencyTabContent .card-header h3{
+    font-size: 15px;
+    margin-bottom: inherit;
+}
+
+
+.ConstituencySection, .constForm{
+    height: 100%;
+}
+
+.ConstituencySection .constForm .formTitle {
+    padding: 8px;
+    border-bottom: 2px solid #3a81e9;
+    background-color: #3a81e9;
+    color: #fff;
+}
+
+.ConstituencySection .constForm .formTitle h3 {
+    margin-bottom: inherit;
+    font-size: 18px;
+}
+
+.ConstituencySection .constForm .formDataMain{
+    margin: 10px 0px;
+}
+
+.ConstituencySection .constForm .formDataMain label{
+    font-weight: 600;
+    font-size: 13px;
+    position: inherit;
+    margin-top: inherit;
+    margin-bottom: 2px;
+    top: inherit;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ConstituencySection .constForm .formDataMain .form-control{
+    height: 30px;
+    font-size: 12px;
+}
+.ConstituencySection .constForm .formDataMain .form-group{
+    margin-bottom: 10px;
+}
+.ConstituencySection .constForm .formDataMain .form-control:focus{
+    border-color: #f1f1f1;
+    box-shadow: 0 0 0 .2remrgba(0,123,255,.25);
+} 
+
+
+.ConstituencySection .tab {
+    float: left;
+    border: 1px solid #ccc;
+    width: 20%;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+
+
+/* Style the buttons inside the tab */
+.ConstituencySection .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 13px 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px !important;
+    border-bottom: 1px solid #f1f1f1;
+    margin: inherit;
+    margin-bottom: 2px;
+    position: relative;
+    z-index: 0;
+    background-color: #f1f1f1;
+    background-image: linear-gradient(#f1f1f1,#ebe9e9);
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.ConstituencySection .tab button:after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    z-index: -1;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+
+/* Change background color of buttons on hover */
+.ConstituencySection .tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.ConstituencySection .tab button.active {
+    position: relative;
+    z-index: 0;
+    background-color: #3a81e9;
+    background-image: linear-gradient(#3a81e9,#3a81e9);
+    color: #fff;
+}
+.ConstituencySection .tab button.active:after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    z-index: -1;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+/* Style the tab content */
+.ConstituencySection .constituencyTabContent {
+    float: left;
+    padding: 0px 1px;
+    /*border: 1px solid #ccc;*/
+    width: 80%;
+    border-left: none;
+    margin-bottom: 10px;
+}
+.ConstituencySection .container-fluid{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.ConstituencySection .row{
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+
+
+.ConstituencySection .form-control:disabled, .form-control[readonly]{
+    background-color: #f1f1f1;
+}
+
+.ConstituencySection .constituencyTabContent .collabratorsContent {
+    float: left;
+    padding: 0px 1px;
+    /*border: 0px solid #ccc !important;*/
+    width: 80%;
+    border-left: none;
+}
+
+.ConstituencySection .constituencyTabContent .card-header {
+    background-color: #3a81e9;    
+}
+.ConstituencySection .constituencyTabContent .card {    
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: #fff;
+    min-height: 203px;
+}
+.ConstituencySection .constituencyTabContent .card-body {    
+    padding: 2px;
+}
+.ConstituencySection .constituencyTabContent .table td,.ConstituencySection .constituencyTabContent .table th {
+    padding: 11px;
+}
+
+.constituencyTabContent .personCollaMain{
+    position: relative;
+}
+.constituencyTabContent .personsCollaborator {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-45%, -45%);
+}
+.constituencyTabContent .personsCollaborator .intelCollaImage img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+}
+.constituencyTabContent .close1CollaMain .listofclose1 li:nth-of-type(2), .constituencyTabContent .close2CollaMain .listofclose2 li:nth-of-type(2), .constituencyTabContent .close3CollaMain .listofclose3 li:nth-of-type(2){
+    margin-left:14px;
+}
+.constituencyTabContent .close1CollaMain .listofclose1 li:nth-of-type(3), .constituencyTabContent .close2CollaMain .listofclose2 li:nth-of-type(3), .constituencyTabContent .close3CollaMain .listofclose3 li:nth-of-type(3){
+    margin-left:19px;
+}
+.constituencyTabContent .close1CollaMain .listofclose1 li:nth-of-type(4), .constituencyTabContent .close2CollaMain .listofclose2 li:nth-of-type(4), .constituencyTabContent .close3CollaMain .listofclose3 li:nth-of-type(4){
+    margin-left:18px;
+}
+.constituencyTabContent .close1CollaMain .listofclose1 li:nth-of-type(5), .constituencyTabContent .close2CollaMain .listofclose2 li:nth-of-type(5), .constituencyTabContent .close3CollaMain .listofclose3 li:nth-of-type(5){
+    margin-left:17px;
+}
+.constituencyTabContent .close1CollaMain .listofclose1 li:nth-of-type(6), .constituencyTabContent .close2CollaMain .listofclose2 li:nth-of-type(6), .constituencyTabContent .close3CollaMain .listofclose3 li:nth-of-type(6){
+    margin-left:10px;
+}
+.constituencyTabContent .close1CollaMain .listofclose1 li, .constituencyTabContent .close2CollaMain .listofclose2 li, .constituencyTabContent .close3CollaMain .listofclose3 li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+.constituencyTabContent .close1CollaMain .listofclose1 li .intelCollaImage img, .constituencyTabContent .close2CollaMain .listofclose2 li .intelCollaImage img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+}
+.constituencyTabContent .intelCollabaName{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 5px;
+}
+
+
+.constituencyTabContent .close1CollaMain{
+    position: relative;
+} 
+.constituencyTabContent .close1CollaMain .listofclose1{
+    position: absolute;
+    /*top: 90%;*/
+    transform: translate(-20%, 35%);
+}
+.constituencyTabContent .close2CollaMain{
+    position: relative;
+}
+.constituencyTabContent .close2CollaMain .intelCollabaView2{
+    position: absolute;
+    top: 23%;
+    left: 0;
+    transform: translate(-55%, 35%);
+}
+.constituencyTabContent .close3CollaMain{
+    position: relative;
+}
+.constituencyTabContent .close3CollaMain .intelCollabaView3{
+    position: absolute;
+    top: 49%;
+    left: 0;
+    transform: translate(-74%, 48%);
+}
+
+
+
+/* Toggle Switch Css Starts here by SANK */
+.toggleSwicthclass {
+    margin-top: 2px;
+    text-align: right;
+    margin-bottom: 3px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+}
+
+.toggleSwicthclass .switchTextTitle{
+    margin-left: 3px; 
+    margin-bottom: 6px;
+}
+.toggleSwicthclass .switchTextTitles{
+    margin-left: 3px; 
+    margin-bottom: 6px;
+}
+
+.toggleSwicthclass .switch{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px; 
+}
+.toggleSwicthclass label{
+    margin-top: inherit;
+    top: inherit;
+}
+
+.toggleSwicthclass .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggleSwicthclass .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.toggleSwicthclass .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.toggleSwicthclass input:checked + .slider {
+    background-color: #2196F3;
+}
+
+.toggleSwicthclass input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+.toggleSwicthclass input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.toggleSwicthclass .slider.round {
+    border-radius: 34px;
+}
+
+.toggleSwicthclass .slider.round:before {
+    border-radius: 50%;
+}
+
+#Top_Collabarators .tab{
+    height: inherit;
+}
+.ConstituencySection {
+    position: sticky;
+    top: 0;
+}
+
+/*.constituencyTabContent .overviewContent .descriptionsclass {
+    overflow-y: scroll;
+    height: 599px;
+}*/
+
+.constituencyTabContent .isChaRecommandations, .isAcLevelTrs, 
+.troubleTitle, .inactiveTitle,.factionTitle,.joiningTitle,
+.organizationTitle,.assessmentTitle,.economicalTitle,
+.politicalTitle,.majorTitle,.electrolTitle{
+    overflow-y: scroll;
+    height: 650px;
+}
+.showCaseCardT{
+    position: absolute;
+    right: 4px;
+    top: 40px;
+    z-index: 1;   
+}
+
+.toggleCollabarators {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collabarativeViewsClass{
+
+    margin-top: 50px;
+}
+
+
+
+#districtView{
+    height:500px;
+}
+
+.isIndudvalConstituencyClass{
+    height: 300px;
+}
+.detailsofConstituency .constituencyTitle{
+    margin-bottom: 1px;
+}
+.detailsofConstituency sub{
+    font-size: 12px;
+    color: #a19a9a;
+}
+.detailsofConstituency .constituencyDesc{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border-bottom: inherit;
+    border-top: 1px solid #ddd;
+    padding: inherit;
+}
+.constituencyWikiDetails{
+    font-size: 13px;
+    text-decoration: underline;
+    color: blue;
+    margin-bottom: 3px;
+} 
+.detailsofConstituency .listofDetails li{
+    margin-bottom: 4px;
+}
+.detailsofConstituency .listofDetails .listLabel{
+    font-weight: 600;
+    font-size: 13px;
+}
+.detailsofConstituency .listofDetails .listDescValue{
+    margin-left: 8px; 
+}
+.innerDescContent{
+    padding-bottom: 6px;
+    text-align: justify; 
+    font-size: 15px;
+    line-height: 1.8;
+}
+.isdropdown .innerDescImage{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #f1f1f1;
+    border-radius: 50%;
+
+}
+.isdropdown-content .row{
+    margin-right: -1px;
+    margin-left: -1px;
+}
+.isdropdown-content .row .col-6{ 
+    padding-right: 1px;
+    padding-left: 1px; 
+}
+
+/*.isdropdown-content .row .col-6 p{
+    white-space: nowrap; 
+    height: 200px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}*/
+

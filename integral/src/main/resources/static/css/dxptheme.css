@@ -1,0 +1,1163 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28 Dec, 2021, 2:35:54 PM
+    Author     : Santhosh.K
+*/
+.dxpPageContent {
+	margin-left: 60px;
+	overflow-y: auto;
+}
+
+.mainDxpSplitter, .page-body {
+	height: 100%;
+}
+
+.dxpPageWrapper .dxpPageContent {
+	width: 99.9%;
+}
+
+.dxpPageWrapper {
+	height: calc(100vh - 79px);
+}
+/* Modal PopUp Animation Css Starts Here */ 
+.opacity-animate3 {
+	animation: opt-animation3 1s;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+/* Modal PopUp Animation Css Ends Here */
+
+/*Social medias cards css stars by SANK on 15-07-2022*/
+.homeSocialTrends .trendsCols .card {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	min-height: 307px;
+	border: 2px solid #3a81e9;
+	border-radius: 8px;
+}
+
+.homeSocialTrends .trendsCols .card-header .titleClass {
+	font-size: 16px;
+	width: 50%;
+	margin-top: inherit;
+	font-weight: 600;
+}
+
+.homeSocialTrends .trendsCols .card-header .imageClass img {
+	width: 25px;
+	height: 25px;
+}
+
+.homeSocialTrends .trendsCols .card-header .header-3dots {
+	/*width: 50%;*/
+	text-align: right;
+}
+
+.homeSocialTrends .trendsCols .card-header, .homeSocialTrends .trendsCols .card-body,
+	.homeSocialTrends .trendsCols .card-footer {
+	padding: 6px;
+}
+
+.homeSocialTrends .trendsCols .card-body {
+	max-height: 229px;
+	overflow-y: auto;
+}
+
+.homeSocialTrends .trendsCols .card-footer, .homeSocialTrends .trendsCols .card-header
+	{
+	background-color: inherit;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.homeSocialTrends .trendsCols .card-footer {
+	justify-content: space-between;
+	border-top: 1px solid #ddd;
+	font-size: 14px;
+}
+
+.homeSocialTrends .trendsCols .card-header img, .homeSocialTrends .trendsCols .card-footer img
+	{
+	width: 20px;
+}
+
+.homeSocialTrends .trendsCols .card-header .threedotsImg,
+	.homeSocialTrends .trendsCols .card-footer .threedotsImg {
+	width: 16px;
+}
+
+.homeSocialTrends .trendsCols .topTrendsTwitter {
+	padding: 10px;
+	background-color: #1DA1F2;
+	color: #fff;
+	margin-bottom: 1px;
+	font-size: 16px;
+	position: relative;
+}
+
+.homeSocialTrends .trendsCols .topTrendsYoutube {
+	padding: 10px;
+	background-color: #FF0000;
+	color: #fff;
+	margin-bottom: 1px;
+	font-size: 16px;
+	position: relative;
+}
+
+.homeSocialTrends .trendsCols .topTrendsInstagram {
+	padding: 10px;
+	background-image: linear-gradient(186deg, #bc2a8d, #fbad50);
+	color: #fff;
+	margin-bottom: 1px;
+	font-size: 16px;
+	position: relative;
+}
+
+.homeSocialTrends .trendsCols .topTrendsFacebook {
+	padding: 10px;
+	background-color: #4267B2;
+	color: #fff;
+	margin-bottom: 1px;
+	font-size: 16px;
+	position: relative;
+}
+
+.homeSocialTrends .trendsCols .topTrendsNewsChannel, .topTrendsNewsPaper,
+	.topTrendsLiveUpdates, .topTrendsSurvey {
+	padding: 10px;
+	background-color: grey;
+	color: #fff;
+	margin-bottom: 1px;
+	font-size: 16px;
+	position: relative;
+}
+
+.trendsCols .listofTrendsOuter {
+	width: 100%;
+}
+
+.trendsCols .listofTrendsOuter ul {
+	padding-left: 0;
+	margin-bottom: inherit;
+}
+
+.trendsCols .listofTrendsOuter ul li a {
+	text-decoration: none;
+	color: #333;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.trendsCols .listofTrendsOuter ul li a:hover {
+	text-decoration: underline;
+	color: #007bff;
+}
+
+.trendsCols .listofTrendsOuter ul li {
+	padding: 4px;
+	border-bottom: 1px solid #ddd;
+	list-style: none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.trendsCols .listofTrendsOuter ul li:last-child {
+	border-bottom: inherit;
+}
+
+.trendsCols .listofTrendsOuter .postedBy {
+	margin-bottom: 2px;
+	color: rgb(95, 93, 93);
+	position: relative;
+}
+
+.trendsCols .listofTrendsOuter .postedBy .postedName {
+	font-size: 13px;
+}
+
+.trendsCols .listofTrendsOuter .postedBy .postedDate {
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+/*Social medias cards css ends by SANK on 15-07-2022*/
+
+/*HomePageFilters css starts by Rajasekhar on 19/07/2022*/
+.homeSocialTrends {
+	position: relative;
+}
+
+.homePageFilters {
+	margin-bottom: 3px;
+	/*background-color: #00acee;*/
+	box-shadow: rgb(99 99 99/ 20%) 0px 2px 8px 0px;
+}
+
+.homeSocialTrends .trendsCols {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.isHomePageFilters, .intelliSenseHomePageOptions {
+	border-radius: 8px;
+}
+
+.filterLabels {
+	font-weight: 600;
+	color: #0b4a99;
+	font-size: 12px;
+	margin-right: 5px;
+}
+
+.intelliSenseHomePageOptions .dashBoardType select {
+	height: 25px;
+	padding: 4px;
+	border-radius: 2px;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.isHomePageFilters .isDistrictName select {
+	height: 28px;
+	padding: 4px;
+	border-radius: 2px;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.isHomePageFilters .isDistrictName {
+	width: 100%;
+}
+
+.isDistrictName .jqx-fill-state-normal-energyblue, .isDistrictName .jqx-widget-header-energyblue
+	{
+	width: 99% !important;
+	background-color: #fff;
+}
+
+#listBoxpartyListListData {
+	width: 99% !important;
+}
+/*HomePageFilters css ends by Rajasekhar on 19/07/2022*/
+/*social media showcards css  20-07-2022*/
+.homeSocialTrends .trendsCols .topTrendsYoutube .youtubeLastUpdated {
+	position: absolute;
+	right: 4px;
+	top: 50%;
+	font-weight: bold;
+}
+
+.homeSocialTrends .trendsCols .topTrendsTwitter .twitterLastUpdated,
+	.facebookLastUpdated, .instagramLastUpdated {
+	position: absolute;
+	right: 4px;
+	top: 50%;
+	font-weight: bold;
+}
+
+.homeSocialTrends .trendsCols .topTrendsTwitter .instagramLastUpdated {
+	position: absolute;
+	right: 4px;
+	top: 50%;
+	font-weight: bold;
+}
+
+.homeSocialTrends .trendsCols .topTrendsTwitter .newsPaperLastUpdated {
+	position: absolute;
+	right: 4px;
+	top: 50%;
+	font-weight: bold;
+}
+
+.homeSocialTrends .trendsCols .topTrendsTwitter .newsChannelLastUpdated
+	{
+	position: absolute;
+	right: 4px;
+	top: 50%;
+	font-weight: bold;
+}
+
+.homeSocialTrends .trendsCols .topTrendsTwitter .latestUpdatesLastUpdated
+	{
+	position: absolute;
+	right: 4px;
+	top: 50%;
+	font-weight: bold;
+}
+
+.homeSocialTrends .trendsCols .topTrendsTwitter .surveyLastUpdated {
+	position: absolute;
+	right: 4px;
+	top: 50%;
+	font-weight: bold;
+}
+
+.homeSocialTrends .trendsCols .topTrendsTwitter .facebookLastUpdated,
+	.homeSocialTrends .trendsCols .topTrendsTwitter .instagramLastUpdated,
+	.newsPaperLastUpdated, .newsChannelLastUpdated, .surveyLastUpdated,
+	.latestUpdatesLastUpdated {
+	position: absolute;
+	right: 4px;
+	top: 50%;
+	font-weight: bold;
+}
+
+.isShowSelValueT {
+	/*padding-bottom: 5px;*/
+	border-bottom: 1px solid #ddd;
+}
+/*social media showcards css 20-07-2022*/
+/*Home page cards calendar css starts here by Rajasekhar on 21-07-2022*/
+.trendsCols  .calendarFlex {
+	margin-bottom: 2px;
+	display: flex;
+	align-items: center;
+}
+
+.trendsCols .form-group {
+	margin-bottom: 1rem;
+	flex-basis: 50%;
+	flex-grow: 1;
+	gap: 17px;
+	margin-right: 4px;
+	margin-bottom: 5px;
+}
+
+.trendsCols .calendarFlex .form-group label {
+	margin-top: inherit;
+	position: inherit;
+	top: inherit;
+	font-weight: 600;
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+
+/*Home page cards calendar css ends here by Rajasekhar on 21-07-2022*/
+.surveyDataTitle {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.surveyDataTitle p {
+	margin-bottom: inherit;
+}
+
+.surveyDataTitle .postedName {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.surveyDataTitle .postedName select {
+	width: 80%;
+	font-size: 12px;
+	padding: 4px;
+}
+
+.surveyDataTitle .postedBy {
+	position: relative;
+	padding-top: 2px;
+}
+
+.surveyDataTitle .postedDate {
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+
+/* survey changes 29-07-2022 */
+.surveyAnalyticChartsDataClass {
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.surveyAnalyticChartsDataClass .homeChartWrapDiv {
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 10px;
+}
+
+.surveyAnalyticChartsDataClass .homeChartWrapDiv .plot-container .modebar-container
+	{
+	top: -2px !important;
+	right: -2px !important;
+}
+
+.surveyAnalyticChartsDataClass .homeChartWrapDiv .js-plotly-plot .modebar.vertical
+	{
+	display: inherit;
+	max-height: inherit !important;
+	height: 100%;
+	/* overflow-y: auto; */
+	background: #f1f1f1 !important;
+}
+
+.surveyAnalyticChartsDataClass .homeChartWrapDiv .plot-container .modebar-group
+	{
+	display: block;
+	float: none;
+	padding-left: 0px;
+	padding-bottom: 8px;
+}
+
+.surveyAnalyticChartsDataClass .modebar-group {
+	padding-bottom: 0 !important;
+	background-color: inherit !important;
+}
+
+.surveyAnalyticChartsDataClass .js-plotly-plot .plotly .modebar.vertical .modebar-group .modebar-btn
+	{
+	display: block;
+	text-align: center;
+}
+
+.surveyAnalyticChartsDataClass .js-plotly-plot .plotly .modebar-btn {
+	padding: 8px 4px !important;
+	height: 30px !important;
+	cursor: pointer;
+	line-height: normal;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ddd;
+}
+
+/* survey changes 29-07-2022 */
+
+/*menu tool tip css starts by SAN.K*/
+.tooltip-inner {
+	background-color: #00186a !important;
+	color: #fff !important;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+	border-right-color: #00186a !important;
+	border-width: 8px;
+}
+/*menu tool tip css ends by SAN.K*/
+/* New Css for the Home page Filters Starts on 12-09-2022*/
+#intelliSenseSelectBoxHideShow {
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+.homePageFilters, .intelliSenseFilterMultiDropdowns {
+	margin-right: -1px !important;
+	margin-left: -1px !important;
+}
+
+.dashboardselectioncolDiv, .isHomePageFilters, #isMainPageDropdownBoxes
+	{
+	padding-left: 1px !important;
+	padding-right: 1px !important;
+}
+
+/* New Css for the Home page Filters Ends on 12-09-2022*/
+.fa-linkedin:before, .fa-facebook:before, .fa-instagram:before,
+	.fa-twitter:before, .fa-youtube-play:before {
+	color: #0b4a99;
+}
+
+.modal-dialog {
+	margin: 30px auto !important;
+}
+
+.scrollToTop {
+	position: fixed;
+	top: 16%;
+	z-index: 999;
+	right: 0.5%;
+}
+
+#bottom_arrow {
+	position: fixed;
+	bottom: 8%;
+	z-index: 1023;
+	right: 0.5%;
+}
+
+/*homeIntro*/
+.page-body .hintImage {
+		background-image: linear-gradient(160deg, #0093E9 0%, #0021ad 100%);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 3px;
+    width: 42px;
+    position: fixed;
+    left: 0px;
+    bottom: 18%;
+    z-index: 99999;
+    font: normal normal 10px Arial;
+    transition: all .25s ease;
+    display: flex;
+    align-items: center;
+    border: 2px solid #0093E9;
+    border-radius: 50px;
+    transition: all .2s ease-in-out;
+}
+.page-body .hintImage img{
+	transition-duration: 0.5s;
+}
+.page-body .hintImage img:hover{
+	animation: rotate 1s linear;
+}
+
+
+.hintImage .textHint {
+	color: #fff !important;
+	text-align: center;
+	/*   line-height: 43px!important; */
+	/*   vertical-align: top!important; */
+	cursor: pointer;
+	display:none;
+}
+
+.page-body .hintImage:hover {
+	    right: 0%;
+    transform: scale(1);
+    /* width: 14%; */
+    transition: width 1s;
+    width: 11%;
+    
+}
+ @keyframes rotate{
+        0%{
+            transform: rotate(0deg);
+        }
+        50%{
+            transform: rotate(180deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+.hintImage:hover .textHint{
+	display:block;
+}
+
+/*homeIntro*/
+
+/* Setting Pannel Css  starts here 07-12-2022*/
+.settingPannel {
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	/* 	height: 100vh; */
+	top: 50px;
+	right: 6px;
+	overflow-x: hidden;
+	background-color: #fff;
+	transition: 0.5s;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	/*border-left: 4px solid #0b4a99 !important;*/
+}
+
+.settingPannel .settingPannelInnerWrapper {
+	/*padding: 8px;*/
+	padding-top: 0;
+}
+
+.settingPannel .pannelTitle {
+	display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        background-color: #0b4a99;
+        height: 26px;
+        padding: 18px;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+}
+
+
+.settingPannel  .pannelTitle .spanTitle {
+	font-size: 18px;
+	color: #fff;
+}
+
+.settingPannel  .pannelTitle .spanCloseIcon {
+	font-size: 30px;
+        cursor: pointer;
+        color: #fff;
+        position: absolute;
+        right: 13px;
+
+}
+
+.settingPannel .closebtn {
+	text-align: right;
+}
+
+.settingPannel .listofSettingDiv ul {
+	margin-bottom: inherit;
+}
+
+.settingPannel .listofSettingDiv ul li {
+	padding: 6px;
+	border-bottom: 1px solid #ddd;
+}
+
+.settingPannel .listofSettingDiv ul li:last-child {
+	border-bottom: none;
+}
+.settingPannelPopPannel{
+	/* height: 100vh; */
+}
+
+/* Setting pannel css Ends here 07-12-2022*/
+
+
+
+
+/*samiuddin css hint*/
+.customTooltip .introjs-tooltip-title {
+	color: #ffff !important;
+        /* margin-left: -21px !important; */
+        width: 100%;
+        border-radius: 2px;
+        width: 100%;
+        height: auto;
+        line-height: 1;
+
+}
+
+.customTooltip .introjs-tooltip-header {
+/*  background: #2667A9;  */
+    border-radius: 2px;
+    width: 100%;
+    height: auto;
+}
+
+.customTooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.customTooltip .introjs-tooltiptext {
+
+    box-shadow: 2px -6px 14px -8px rgb(0 0 0);
+    border-radius: 4px 4px 0 0;
+    /* width: 102%; */
+    background: #195190FF;
+    color: white;
+    /* height: 51%; */
+    text-align: left;
+   
+}
+
+.customTooltip .introjs-nextbutton {
+	 border: 2px solid #fff !important;
+        color: white !important;
+        text-shadow: none !important;
+        text-shadow: none !important;
+       /*  position: absolute !important;
+        top: 84% !important;
+        left: 76% !important; */
+        background: inherit !important;
+
+}
+
+.customTooltip .introjs-prevbutton {
+	 border: 2px solid #fff !important;
+        color: #fff !important;
+        text-shadow: none !important;
+       /*  position: absolute !important;
+        left: 46% !important;
+        top: 84% !important; */
+        background: inherit;
+
+}
+
+ .customTooltip .introjs-bullets {
+ 
+ display:none !important;
+ }
+
+.customTooltip .introjs-tooltiptext .homeText{
+	color:#ffff !important;
+}
+.customTooltip .introjs-tooltip-title .imageText{
+	color:#ffff !important;
+	position: absolute !important;
+    right: 0 !important;
+    top: 60% !important;
+    font-size: 11px !important;
+    font-family: 'Avenir Next' !important;
+}
+ .customTooltip .introjs-tooltip-title .imageTextBottom{
+   color: #195190FF !important;
+    /* position: absolute !important;
+    right: 0 !important;
+    top: 54% !important; */
+    font-size: 11px !important;
+    font-family: 'Avenir Next' !important;
+
+ 
+ }
+ .customTooltip .introjs-button:hover{
+  background-color:inherit !important;
+ }
+
+
+.customTooltip .introjs-tooltipbuttons {
+	/* display: none !important; */
+            border-top: none !important;
+        background-color: #19518f;
+        padding-bottom: 25px;
+        border-radius: 0 0 4px 4px;
+
+}
+
+/* .customTooltip .introjs-tooltip-header { */
+/* 	display: none !important; */
+/* } */
+
+/* .customTooltip .introjs-tooltipbuttons{ */
+/* 	display: none !important; */
+/* } */
+.customTooltip {
+	line-height: 17px !important;
+        width: 320px !important;
+        background: #fff !important;
+        border-radius: 6px !important;
+        padding: 3px !important;
+        text-align: center !important;
+        /* color: #000; */
+        height: auto !important;
+}
+
+ .customTooltip .introjs-skipbutton{
+ 
+    top: -6% !important;
+    right: -11px !important;
+    color:#000 !important;
+ 
+ }
+  .customTooltip .introjs-tooltip-title .calenderText{
+   color: #195190FF !important;
+    position: absolute !important;
+    right: 13px !important;
+    top: 70% !important;
+    font-size: 11px !important;
+    font-family: 'Avenir Next' !important;
+ 
+ }
+ 
+ .customTooltip .introjs-tooltip-title .mainCardsText{
+   color: #195190FF !important;
+    position: absolute !important;
+    right: 13px !important;
+    top: 66% !important;
+    font-size: 11px !important;
+    font-family: 'Avenir Next' !important;
+ 
+ }
+ .customTooltip .introjs-tooltip-title .helpIconText{
+   color: #195190FF !important;
+    position: absolute !important;
+    right: 6px !important;
+    top: 71% !important;
+    font-size: 11px !important;
+    font-family: 'Avenir Next' !important;
+ 
+ }
+  .customTooltip .introjs-tooltip-title .profileIconText{
+    color: #195190FF !important;
+    position: absolute !important;
+    right: 6px !important;
+    top: 70% !important;
+    left: 0 !important;
+    font-size: 11px !important;
+    font-family: 'Avenir Next' !important
+ 
+}
+.customTooltip .introjs-tooltip-title .settingIconText{
+	color: #195190FF !important;
+    position: absolute !important;
+    right: 16% !important;
+    top: 65% !important;
+    font-size: 11px !important;
+    font-family: 'Avenir Next' !important;
+}
+.customTooltip .introjs-tooltip-title .leftThreeDots{
+	color: #195190FF !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 61% !important;
+    left: 0 !important;
+    font-size: 11px !important;
+    font-family: 'Avenir Next' !important;
+    line-break: anywhere;    
+}
+.languageLeftSide{
+     color: #195190FF !important;
+        /* position: absolute !important;  */
+        right: 0 !important;
+        top: 65% !important;
+        left: 0 !important;
+        font-size: 11px !important;
+        font-family: 'Avenir Next' !important;
+}
+.customTooltip .introjs-tooltip-title .toggleIconsDA{
+     color: #195190FF !important;
+   /* position: absolute !important;*/
+    font-size: 14px !important;
+    right: 0 !important;
+    top: 65% !important;
+    left: 0 !important;
+    font-family: 'Avenir Next' !important;  
+    /*line-break: anywhere;*/
+  
+}
+/*This is for css is for Home intro ends */
+/* samiuddin hint css*/
+
+
+/*Setting pannel css starts here by Rajasekhar on 09-12-2022*/
+.settingPannel .listofSettingDiv ul li a {
+	display: flex;
+    align-items: center;
+} 
+
+.settingPannel .listofSettingDiv ul li a .mobileTitle {
+margin-left: 15px;
+font-size: 13px; 
+}
+/*Setting pannel css ends here by Rajasekhar on 19-12-2022*/
+
+
+/*Setting pannel css starts here by Rajasekhar on 16-12-2022*/
+
+.settingPannel .pannelTitle .spanTitle {
+margin-left: 8px;
+    position: relative;
+}
+
+.float: right;
+     position: absolute;
+     right: 8px;
+     }
+/*Setting pannel css ends here by Rajasekhar on 16-12-2022*/
+
+.fluidWidth{
+	margin-left: inherit !important;  
+}
+.bubble, .bubble.reply {
+    width:80% !important;
+    max-width: 100% !important;
+}
+.bubble.reply.say .bubble-content .bubble-button {
+/*    width: 100% !important;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.bubble .bubble-content .bubble-button{
+	text-align:left;
+}
+.bubble.reply.say{
+    display:flex;
+    justify-content: right;
+    width: 100%;
+}
+.row.chatBotHeaderTop .leftBotIcon > span p{
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.row.chatBotHeaderTop .leftBotIcon > p{
+    line-height: 0.8rem;
+    margin-top: 2px;
+    font-weight: 600;
+}
+.chatBoxLargeSpaced{
+   bottom: 40px !important;
+    min-width: 400px !important;
+    min-height: 480px !important;
+}
+.chatbotShrinked{
+	bottom: 70px !important;
+    min-width: 300px !important;
+    min-height: 350px !important;
+}
+.chatbotShrinked .bubble-wrap, .chatbotShrinked .input-wrap{
+    display: none;
+}
+.chatbotShrinked{
+    min-height: auto !important;
+    max-width: 100px !important;
+    min-width: auto !important;
+}
+
+.chatbotShrinked .leftBotIcon > span:nth-child(2), .chatbotShrinked .leftBotIcon > p{
+   display: none;
+}
+.dxpLimitsPopOverDivParentClass {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+    /* flex-wrap: wrap; */
+    /* width: 300px; */
+            max-width: 100%;
+            margin: 0 auto;
+    padding-top: 8px;
+        }
+        .dxpLimitsPopOverDivParentClass div p{
+            margin:0;
+            text-align:center;
+        }
+
+        .dxpLimitsPopOverDivParentClass .limitsPopDivClass {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            /* height: 100px; */
+            border-radius: 50%;
+                padding: 6px 0 6px;
+                border: 0;
+        }
+
+        .dxpLimitsPopOverDivParentClass .progressLimitClass {
+            position: relative;
+            display: flex;
+            align-items: center;
+            /* justify-content: center;
+            flex-direction: column;
+            width: calc(100% - 50px); */
+            height: calc(100% - 50px);
+                border: 0;
+           /*  background-color: #00a1de   ;
+            box-shadow: 0 0 5px 3px #535a63; */
+        }
+
+        .dxpLimitsPopOverDivParentClass .progressLimitClass p {
+            margin: 0;
+        }
+
+        .dxpLimitsPopOverDivParentClass .progressLimitClass::before {
+            position: absolute;
+            content: '';
+            width: calc(100% + 28px);
+            height: calc(100% + 28px);
+            border-radius: 50%;
+            border: 1px solid #353535;
+            display:none;
+        }
+
+        .dxpLimitsPopOverDivParentClass .progressLimitClass .number span {
+            color: #000;
+        }
+
+        .dxpLimitsPopOverDivParentClass .progressLimitClass .number .num {
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .dxpLimitsPopOverDivParentClass .progressLimitClass .number .divider {
+            font-size: 14px;
+        }
+
+        .dxpLimitsPopOverDivParentClass .progressLimitClass .title {
+            font-size: 18px;
+            color: #0b4a99;
+        }
+
+        .dxpLimitsPopOverDivParentClass .dots {
+            display: block;
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            transition: 2s transform, 2s opacity ease;
+            display:none;
+        }
+
+        .dxpLimitsPopOverDivParentClass .dots::after {
+            position: absolute;
+            content: '';
+            width: 10px;
+            height: 10px;
+            top: 5px;
+            left: 50%;
+            border-radius: 50%;
+            background-color: #00a0dd;
+            box-shadow: 0 0 3px 1px #585858;
+            transform: translateX(-50%);
+            display:none;
+        }
+
+        .dxpLimitsPopOverDivParentClass .svg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            fill: none;
+            transform: rotate(-90deg);
+            display:none;
+        }
+
+        .dxpLimitsPopOverDivParentClass .circle {
+            stroke: url(#gradientStyle);
+            stroke-width: 4px;
+            stroke-dasharray: 503;
+            stroke-dashoffset: 503;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+            transition: 2s stroke-dashoffset;
+        }
+.planAndExpiryDataDivClass p{
+    margin-bottom:0;
+}
+.introjs-tooltipbuttons .introjs-prevbutton,
+.introjs-tooltipbuttons .introjs-nextbutton,
+.introjs-tooltipbuttons .introjs-prevbutton:hover,
+.introjs-tooltipbuttons .introjs-nextbutton:focus{
+        float: inherit;
+    background-color: #19518f !important;
+    cursor: pointer !important;
+}
+.customTooltip .introjs-tooltipbuttons a.introjs-prevbutton{
+        margin-right:8px;
+}
+.customTooltip .introjs-tooltip-title span{
+        padding: 8px 0;
+    display: block;
+    line-height: 1.5;
+}
+
+
+
+
+/* new styles here  */
+.dxpLimitsPopOverDivParentClass{
+	border: 1px solid #0b4a99;
+    border-top: 0;
+    padding-bottom: 8px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.dxpLimitsPopOverDivParentClass div{
+    padding: 0px 3px 0px;
+    border-right: 1px solid #0b4a99;
+}
+.dxpLimitsPopOverDivParentClass div:last-child{
+	border-right:0;
+}
+.dxpLimitsPopOverDivParentClass div p,
+.dxpLimitsPopOverDivParentClass .progressLimitClass .title span{
+	margin: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.dxpLimitsPopOverDivParentClass .progressLimitClass .title span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.dxpLimitsPopOverDivParentClass div div{
+	padding:0px
+}
+.dxpLimitsPopOverDivParentClass div p:nth-child(1){
+	    background: #ffffff;
+    /* margin: 4px; */
+    /* padding: 3px; */
+    border-radius: 4px;
+    color: #0a4a99;
+    font-size: 14px;
+    font-weight: 500;
+}
+.planAndExpiryDataDivClass p:last-child{
+	color:#f00;
+}
+.planAndExpiryDataDivClass p:first-child{
+	font-size:14px;
+	font-weight:500;
+}
+.planAndExpiryDataDivClass{
+    border: 1px solid #0b4a99 !important;
+    padding: 5px 8px !important;
+    background: #eee;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+#dxpLimitsPopOver .jqx-popover-content {
+	padding:8px !important;
+}
+.settingPannel .listofSettingDiv ul li a:hover{
+	color:#000;
+}
+
+/*new style 15-11-24*/
+.fontChangeIcon .dropdown-menu {
+    min-width: 6rem !important;
+    text-align: center !important;
+}
+.fontChangeIcon .dropdown-menu {
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+    margin-top: -23px;
+    background-color: #f7f6ff;
+    width: 91px;
+    border: 1px solid #f7f6ff;
+    border-radius: 4px;
+}
+.fontSizeIcon .dropdown-menu {
+    min-width: 6rem !important;
+}
+.fontSizeIcon .dropdown-menu {
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+    margin-top: -23px;
+    background-color: #f7f6ff;
+    width: 95px;
+    border: 1px solid #f7f6ff;
+    border-radius: 12px;
+}
+.settingPannelPopPannel .listofSettingDiv ul li.fontChangeIcon ul, 
+.settingPannelPopPannel .listofSettingDiv ul li.fontSizeIcon ul {
+    background-color: #d1d1d1 !important;
+    border-radius: 4px !important;
+}
+.fontChangeIcon .dropdown-menu>li:hover {
+    background-color: #f7f6ff;
+    border-radius: 5px;
+    text-align: center !important;
+}
+.listofSettingDiv .media-body .loginaccName {
+    font-size: 16px;
+}
+
+
+.LowerCase .sidebar-menu ul li, .LowerCase .listFiltersul .createText, .LowerCase .domain_sidebar_menu ul li, .LowerCase .searchResultsListDgm, .LowerCase .searchedDxpFirstSearchResults .searchResultMaterial, .LowerCase .rightPannelSettings, .LowerCase .dxpSplitterTabs
+{
+    text-transform: lowercase !important;
+}
+.UpperCase .sidebar-menu ul li, .UpperCase .listFiltersul .createText, .UpperCase .domain_sidebar_menu ul li, .UpperCase .searchResultsListDgm, .UpperCase .searchedDxpFirstSearchResults .searchResultMaterial, .UpperCase .rightPannelSettings, .UpperCase .dxpSplitterTabs{
+    text-transform: uppercase !important;
+}
+
+.Default .sidebar-menu ul li, .Default .listFiltersul .createText, .Default .domain_sidebar_menu ul li, .Default .searchResultsListDgm, .Default .searchedDxpFirstSearchResults .searchResultMaterial, .Default .rightPannelSettings, .Default .dxpSplitterTabs{
+    text-transform: capitalize !important;
+}
+.smallerFontClass *,.smallerFontClass ul,.smallerFontClass div,.smallerFontClass span,.smallerFontClass label{
+    font-size: 10px !important;
+}
+.mediumFontClass *,.mediumFontClass ul,.mediumFontClass div,.mediumFontClass span,.mediumFontClass label {
+    font-size: 14px !important;
+}
+.largeFontClass *,.largeFontClass ul,.largeFontClass div,.largeFontClass span,.largeFontClass label {
+    font-size: 16px !important;
+} 

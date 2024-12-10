@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36 36" style="enable-background:new 0 0 36 36;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7AB5F4;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#0B4A99;}
+	.st3{fill:#CB1618;}
+	.st4{fill:none;}
+	.st5{font-family:'Optima-Medium';}
+	.st6{font-size:3.6701px;}
+	.st7{opacity:0.25;}
+	.st8{fill:none;stroke:#0B4A99;stroke-width:3.000000e-02;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M25.7,22.4l7.1-3.9c0,0,2.7,3.3,2.7,8.5h-8.9C26.6,27,26,23.3,25.7,22.4z"/>
+<g>
+	<g>
+		<path class="st2" d="M25.3,23.3L25,22.7c-0.7-1.3-1.8-2.4-3.1-3.1l-0.6-0.3l5.3-8.4l0.5,0.3c2.7,1.6,4.9,3.9,6.5,6.7l0.3,0.5
+			L25.3,23.3z M23.1,18.9c1.1,0.7,2,1.6,2.7,2.7l6.5-3.6c-1.3-2.1-3.1-4-5.2-5.3L23.1,18.9z"/>
+	</g>
+	<g>
+		<path class="st2" d="M22.5,19.9l-0.5-0.3c-1.2-0.7-2.5-1-3.8-1l-0.6,0V8.6l0.6,0c3.2,0,6.4,0.9,9.1,2.5l0.6,0.3L22.5,19.9z
+			 M18.8,17.4c1.1,0.1,2.2,0.4,3.3,0.9l4-6.3c-2.2-1.2-4.7-1.9-7.3-2V17.4z"/>
+	</g>
+	<g>
+		<path class="st2" d="M35.4,27.4h-9.3l0-0.7c0-1.4-0.4-2.7-1-3.9l-0.3-0.5l8.7-4.8l0.3,0.5c1.5,2.7,2.3,5.7,2.3,8.8v0.6L35.4,27.4z
+			 M27.3,26.1h7.4c-0.1-2.5-0.7-4.9-1.8-7.1l-6.5,3.6C26.9,23.7,27.2,24.9,27.3,26.1z"/>
+	</g>
+	<g>
+		<path class="st2" d="M9.3,27.4H0v-0.6c0-3.3,0.8-6.4,2.4-9.1l0.3-0.5l8.6,4.9l-0.3,0.5c-0.7,1.2-1.1,2.7-1.1,4.1l0,0.6L9.3,27.4z
+			 M1.3,26.1h7.4c0.1-1.3,0.4-2.5,1-3.7l-6.5-3.7C2,21,1.3,23.5,1.3,26.1z"/>
+	</g>
+	<g>
+		<path class="st2" d="M13.8,19.7l-5.4-8.4L9,11c2.7-1.6,5.8-2.4,9-2.4h0.6l0.1,0.6v9.3l-0.6,0L18,18v0.6c-1.3,0-2.5,0.3-3.7,0.9
+			L13.8,19.7z M10.2,11.8l4,6.3c1-0.5,2.1-0.7,3.2-0.8V9.9C15,10,12.5,10.6,10.2,11.8z"/>
+	</g>
+	<g>
+		<path class="st2" d="M10.8,23.1l-8.6-4.9l0.3-0.5C4,14.9,6.3,12.6,9,11l0.5-0.3l5.4,8.4l-0.6,0.3c-1.4,0.7-2.5,1.7-3.3,3
+			L10.8,23.1z M3.9,17.7l6.5,3.7c0.7-1.1,1.7-2,2.8-2.7l-4-6.3C7,13.8,5.2,15.6,3.9,17.7z"/>
+	</g>
+	<circle class="st2" cx="18.4" cy="26.2" r="1"/>
+	<polygon class="st2" points="18.5,25.6 27.8,22.5 18.9,26.7 	"/>
+	<text transform="matrix(1 0 0 1 4.1528 24.7334)" class="st2 st5 st6">0</text>
+	<text transform="matrix(1 0 0 1 7.9834 18.3711)" class="st2 st5 st6">1</text>
+	<text transform="matrix(1 0 0 1 13.5913 14.7451)" class="st2 st5 st6">2</text>
+	<text transform="matrix(1 0 0 1 20.3638 14.6777)" class="st2 st5 st6">3</text>
+	<text transform="matrix(1 0 0 1 26.4507 18.2344)" class="st2 st5 st6">4</text>
+	<text transform="matrix(1 0 0 1 29.8027 24.3223)" class="st2 st5 st6">5</text>
+</g>
+</svg>

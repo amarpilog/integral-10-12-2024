@@ -1,0 +1,979 @@
+
+
+.IndiaVotesTemp .main-title {
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: inherit;
+    padding: 8px;
+}
+
+.IndiaVotesTemp .main-body{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.summarySection .tab {
+    overflow: hidden;
+    border: 1px solid #f1f1f1;
+    background-color: #f1f1f1;
+    border-radius: 5px 5px 0 0;
+
+}
+
+/* Style the buttons inside the tab */
+.summarySection .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.summarySection .tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.summarySection .tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.summarySection .tabcontentSummary {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #f1f1f1;
+    border-top: none;
+}
+
+/*.table-bordered .th-bg {
+    background-color: #3a81e9;
+    color: #fff;
+}*/
+
+.summarySection .tab .tablinksSummary {
+    background-color: #ddd;
+    color: #000;
+    margin-right: 2px;
+    margin-top: inherit;
+    margin-bottom: inherit;
+    padding: 8px 13px;
+    border-radius: 5px 5px 0 0;
+}
+
+.underlineOnHover{
+    cursor: pointer;
+}
+.underlineOnHover:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*.esri-ui-manual-container>.esri-component {
+    display: none !important;
+}*/
+
+.esri-ui-bottom-left>.esri-legend{
+    width: 150px;
+}
+#mapViewDiv {
+    padding: 0;
+    margin: 0;
+    height: 480px;
+    width: 100%;
+}
+
+#censusMapViewDiv{
+    padding: 0;
+    margin: 0;
+    height: 480px;
+    width: 100%;
+}
+
+/*#acpcDetails{
+    height: 550px;
+    overflow:scroll;
+}*/
+
+/*.chartAreaV #chartDiv0, #politicalSummaryInner #acpcDetails>div{
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+  
+}*/
+
+#politicalSummaryInner #mapViewDiv, #censusMapViewDiv, #politicalSummaryInner  #politicalSummaryInner  #politicalSummaryInner {
+    /*    border: 1px solid #f1f1f1;
+        padding: 10px;
+        box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+         background: url(../images/rightBoxBg.gif) left bottom repeat-x;*/
+    /*margin-bottom: 25px;*/
+
+    /*border: 2px solid #dad4d4;*/
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    background: url(../images/rightBoxBg.gif) left bottom repeat-x;
+}
+
+.tabcontentSummary .esri-view-root .esri-legend{
+    width: 150px !important;
+}
+
+
+.selectACPC {
+    margin-bottom: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    background: #bdbdbd;
+}
+.selectACPC .col-sm-3, .selectACPC .col-md-3, .selectACPC .col-lg-3{
+    padding: 10px;
+    border-right: 2px solid #fff;
+}
+.selectACPC .col-sm-3:last-child, .selectACPC .col-md-3:last-child, .selectACPC .col-lg-3:last-child{
+    padding: 10px;
+    border-right: inherit;
+}
+
+.esri-view-root{
+    cursor: pointer;
+}
+
+#politicalSummaryInner #acpcDetails{
+    /*    border: 2px solid #dad4d4;
+        border-radius: 10px;*/
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    background: url(../images/rightBoxBg.gif) left bottom repeat-x;
+}
+#politicalSummaryInner  .table-bordered{
+    width: 100%;
+}
+#politicalSummaryInner  .tableHeader{
+    background-color: #fff;
+    color: #000;
+    position: sticky;
+    top: 0;
+}
+#politicalSummaryInner  .tableHeader th{
+    max-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    text-transform: capitalize;
+    font-size: 18px;
+}
+#politicalSummaryInner .table th, #politicalSummaryInner  .table td{
+    padding: 6px;
+    max-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+
+.tableCellBlack {
+    padding: 5px 7px;
+    color: #fff;
+    border: 1px solid #e3e2e2;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 14px;
+    background-color: #3a81e9;
+}
+
+.tableHeaderCell {
+    padding: 5px 7px;
+    color: #fff;
+    /*border: 1px solid #e3e2e2;*/
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 14px;
+    /*background-color: #3a81e9;*/
+}
+
+#politicalSummaryDataView #subDataView1, #politicalSummaryDataView #subDataView2, #politicalSummaryDataView #subDataView3{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#dataDiv1{
+    max-height: 350px;
+}
+#dataDiv2{
+    max-height: 350px;
+}
+/*#subDataView3 #dataDiv3 .table th, #subDataView3 #dataDiv3 .table td{
+    padding: 8px;
+}*/
+.esri-component.esri-attribution.esri-widget{
+    display: none !important;
+}
+.esri-component.esri-popup.esri-popup--aligned-top-center.esri-popup--shadow{
+    display: none !important;
+}
+.esri-legend__layer-row{
+    cursor: pointer;
+}
+.esri-legend__layer-row:hover{
+    background: #E7E7E7;
+}
+
+.ascDescArrowsSpan{
+    width: 10px;
+
+}
+.ascDescArrowsSpan:hover{
+    cursor: pointer;
+    background: #E7E7E7;
+}
+.ascDescArrows{
+    float: right;
+    display: flex;
+}
+.candidateProfilePic{
+    cursor: pointer;
+    float: right;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+
+.tooltip-wrap {
+    position: relative;
+}
+.tooltip-wrap .tooltip-content {
+    display: none;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    background-color: #fff;
+    padding: .5em;
+    min-width: 10rem;
+}
+.tooltip-wrap:hover .tooltip-content {
+    display: block;
+}
+.imageTdDiv{
+    display: flex;
+}
+
+.popoverContentDiv{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+.candidatePopoverProfilePic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ecd8d8;
+    padding: 2px;
+}
+
+
+
+.voteAnalysisLoader {
+    /*  border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #3498db;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;  Safari 
+      animation: spin 2s linear infinite;
+    */
+    border: 5px solid #f3f3f3;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    border-top: 5px solid #555;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin:auto;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    position:fixed;
+}
+
+.voteAnalysisMapLoader {
+    /*  border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #3498db;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;  Safari 
+      animation: spin 2s linear infinite;
+    */
+    border: 5px solid #f3f3f3;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+    border-top: 5px solid #555;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin:auto;
+    left:-50px;
+    right:-50px;
+    top:0;
+    bottom:0;
+    position:absolute;
+}
+
+.candidateProfileInfo{
+    width: 350px;
+    /*height:400px;*/
+    overflow: scroll;
+}
+.politicalProfileImgDiv{
+    text-align: center; 
+}
+.candidateProfileCardHeader{
+    background: #ddd;
+    text-align: center;
+    width: 325px;
+}
+.candidateInfoTable{
+    width: 96%;
+}
+.candidateTableCellKeys{
+    /*color: #fff;*/
+    border: 1px solid #fff;
+    /*text-align: center;*/
+    border-collapse: collapse;
+    font-size: 14px;
+    background-color: #ddd;
+    width: 30%;
+}
+.candidateTableCellValues{
+    border: 1px solid #e3e2e2;
+    /*text-align: center;*/
+    border-collapse: collapse;
+    font-size: 14px;
+    background-color: #fff;
+    width: 70%;
+}
+
+/*.popover{
+    max-width: 350px;
+    min-height: 100px;
+}*/
+.indparty {
+    padding: 5px;
+    background-color: #ddd;
+    border-radius: inherit;
+}
+.pollingBoothIconDiv {
+    border: 2px solid #bebebe;
+    position: fixed;
+    width: 56px;
+    height: 55px;
+    top: 115px;
+    right: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    cursor: pointer;
+    background: #fff;
+    z-index: 1030;
+}
+.pollingBoothIcon {
+    width: 50px;
+    height: 50px;
+}
+
+.eaSelectedTab{
+    /*    background-color: #3a81e9 !important;
+        color: #fff !important;
+        border-bottom: 0px solid !important;*/
+}
+
+.eaSelectedTabSW{
+    /*    background-color: #3a81e9 !important;
+        color: #fff !important;
+        border-bottom: 0px solid !important;*/
+}
+
+#boothWiseData{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#strongWeekBooths{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.eaSelectbox{
+    /*    box-shadow: rgb(99 99 99 / 20%) 11px 0px 20px 2px;
+        padding: -1px;
+         top: 3px; 
+         margin: -7px; 
+        margin-left: -13px;
+        margin-top: -7px;
+        width: 106%;
+        position: fixed;
+        z-index: 999;
+        background: #fff;*/
+    margin-right: -5px;
+    margin-left: -5px;
+    padding: 8px;
+    /* background-color: #1f77b4; */
+    background-color: #fff;
+    color: #00186a;
+    position: sticky;
+    top: 0;
+    z-index: 1028;
+    
+    box-shadow: rgb(99 99 99 / 20%) 0px 0px 6px 0px;
+
+}
+.eaFilterInput{
+    width:100%;
+    border-radius: 15px;
+    /*padding: 20px;*/
+}
+.eaDataTable{
+    width:auto !important
+        overflow: scroll;
+}
+
+.eaDataTableDiv{
+    padding: 2px;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+/*.eaDataTable.table td, table.table th, table.table tr{
+   border-left:none !important;
+   border-right:none !important;
+}*/
+/*new table style start */
+.electrolAnalysis .mb-0 {
+    margin-bottom: 0px !important;
+}
+.eaDataTable.table thead th {
+    border-top: none !important;
+    border-bottom: none !important;
+    vertical-align: middle !important;
+}
+.eaDataTable.table td, .eaDataTable.table th {
+    border-top: 1px solid #e0e3e4 !important;
+    vertical-align: middle !important;
+    padding: 0.75rem 1.25rem !important;
+}
+.eaDataTable .pa-0 {
+    padding: 0px !important;
+}
+.electrolAnalysis .card {
+    margin-bottom: 14px !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(0,0,0,.125) !important;
+}
+/*.electrolAnalysis .span {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    font-size: 1rem  !important;
+    font-weight: 400 !important;
+}*/
+.electrolAnalysis {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+
+}
+.eaDataTable td, .eaDataTable td span {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    /* font-size: 15px; */
+    font-size: 1rem !important;
+    font-weight: 300 !important;
+}
+
+.eaDataTable th, .eaDataTable th span {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    /* font-size: 15px; */
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+}
+.aggrigateDataDiv{
+    border-bottom: 1px solid #dddd;
+    height: 55px;
+}
+.aggrigateDataValueSpan {
+    font-size: 28px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    /* font-size: 15px; */
+    font-size: 1rem !important;
+}
+.aggrigateDataValue span{
+    font-size: 28px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+
+}
+.aggrigateDataKey span{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    font-size: 1rem !important;
+}
+.aggrigateDataKey{
+    float: right;
+    margin-top: -13px;
+}
+.aggrigateDataValue{
+    height: 45px;
+}
+
+.slimScrollDiv{
+    overflow: hidden;
+    width: 230px;
+    height: 100%;
+    box-shadow: rgb(99 99 99 / 20%) 10px -10px 20px -10px;
+    position: fixed;
+}
+.nicescroll-bar{
+    overflow: hidden;
+    width: auto;
+    height: 100%;
+    outline: none;
+}
+.navbar-nav-wrap {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.navbar-nav .nav-item .nav-link {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+.navbar-nav .nav-item .nav-link-text {
+    display: inline-block;
+}
+
+.navbar-nav .nav-item .nav-link > .feather-icon {
+    min-width: 32px;
+    line-height: 25px;
+}
+.feather-icon {
+    font-size: 0 !important;
+}
+
+.nav-link-text{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    font-size: 1rem !important;
+}
+
+.eaTabs{
+    background: #f1f1f1;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.eaTabs:hover{
+    background: inherit;
+    border: 1px solid #3a81e9; 
+}
+
+.eaSelectedTab {
+    background: #3a81e9 !important;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #3a81e9 !important; 
+}
+.eaSelectedTab:hover{
+    background: #fff !important;
+    cursor: pointer;
+    color: #000;
+    border: 1px solid #3a81e9 !important; 
+}
+
+.sh-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    float: none!important;
+}
+
+.sh-nav-container {
+    position: relative;
+    margin-bottom: -1px;
+    margin-left: 25px;
+}
+
+.menu-item {
+    float: left;
+    padding: 0 15px;
+    border-bottom: 0 solid transparent;
+    margin-left: 10px;
+}
+
+.sh-nav>li>a:after {
+    font: normal normal normal 14px/1 FontAwesome!important;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    content: "\f078";
+    font-size: 10px!important;
+    margin-left: 4px;
+    top: -1px;
+}
+
+.menu-item>.jqx-widget-content{
+    border-color: #fff;
+}
+
+.menu-item .jqx-fill-state-normal{
+    border-color: #fff;
+    background: #fff;
+}
+#politicalSummaryInner, #censusSummaryInner{
+    /*margin-top: 80px;*/
+    margin-top: 8px;
+
+}
+#boothWiseData, #strongWeekBooths{
+    /*margin-top: 80px;*/
+    margin-top: 40px;
+}
+.aggrigateDataCard{
+
+    /*overflow-y: scroll;*/
+    height: 480px;
+    box-shadow: rgb(99 99 99 / 20%) 10px 10px 16px 0px !important;
+}
+.aggrigateDataDivHeading{
+    text-align: center;
+    padding: 8px;
+    height: auto;
+    border-bottom: 1px solid #dddd;
+}
+.electrolAnalysis{
+    /*background: aliceblue;*/
+}
+
+#mapViewDiv, #censusMapViewDiv{
+    background: #f4f4f4 !important;
+}
+
+.eaDataTableDiv thead{
+    /*background: #ddd;*/
+}
+
+.aggrigateDataCard{
+
+}
+
+
+.css-vwrpzw:hover .ak-navigation-resize-button {
+    opacity: 1;
+}
+.css-889cso:hover {
+    /*background-color: rgb(76, 154, 255);*/
+    background-color: #ddd;
+    color: white;
+    /*cursor: pointer;*/
+}
+.css-889cso {
+    z-index: 99;
+    cursor: pointer;
+    background: 0px center white;
+    border: 0px;
+    border-radius: 50%;
+    box-shadow: rgb(9 30 66 / 8%) 0px 0px 0px 1px, rgb(9 30 66 / 8%) 0px 2px 4px 1px;
+    color: rgb(107, 119, 140);
+    cursor: pointer;
+    height: 24px;
+    opacity: 1;
+    outline: 0px;
+    padding: 0px;
+    position: fixed;
+
+    transition: background-color 100ms linear 0s, color 100ms linear 0s, opacity 300ms cubic-bezier(0.2, 0, 0, 1) 0s, transform 300ms cubic-bezier(0.2, 0, 0, 1) 0s;
+    transform: translate(-50%);
+    width: 24px;
+    margin-left: 230px;
+    margin-top: 100px;
+}
+
+.css-pxzk9z {
+    display: inline-block;
+    flex-shrink: 0;
+    line-height: 1;
+}
+.css-pxzk9z > svg {
+    overflow: hidden;
+    pointer-events: none;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: bottom;
+}
+
+.aggTableHeader{
+    height: 30px !important;
+    /*background: #3a81e9 !important;*/
+    color: #fff !important;
+    /*border: 2px solid #3a81e9 !important;*/
+    border-top-left-radius: 6px !important;
+    border-top-right-radius: 6px !important;
+    background: linear-gradient(90deg, rgba(0,24,106,1) 0%, rgba(4,79,186,0.65) 100%);
+}
+
+.aggTableHeader tr th{
+    /*height: 30px !important;*/
+    padding: 4px !important;
+    text-align: center;
+
+}
+.aggDataTable td{
+    padding: 3px !important;
+}
+.aggTableHeader h5{
+    /*margin-bottom: inherit;*/
+}
+.aggTableCellValues{
+    text-align: right;
+    font-weight: 600;
+    /*border: 1px solid #3a81e9 !important;*/
+}
+
+.aggTableCellKeys{
+    font-weight: 600;
+    border: 1px solid #fff !important;
+    text-align: left;
+    width: 60%;
+    background: #f1f1f1 !important;
+    color: #00186a;
+    /*border-left: 1px solid #3a81e9 !important;*/
+}
+.eaDataTable td {
+    padding: 4px !important;
+    border-bottom: 1px solid #d1d1d1;
+}
+.eaDataTable thead{
+    /*border: 2px solid #3a81e9 !important;*/
+    background: linear-gradient(90deg, rgba(0,24,106,1) 0%, rgba(4,79,186,0.65) 100%);
+    color: #fff;
+}
+
+.firstThCell{
+    border-top-left-radius: 6px;
+    /*height: 58px;*/
+    width: 25px;
+}
+
+.lastThCell{
+    border-top-right-radius: 6px;
+}
+/*new table style end*/
+
+
+/* filterHeader Css by SANK */
+
+.eaSelectbox .colClass {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.eaSelectionOptionMain {
+    display: flex;
+    align-items: center;
+}
+
+.eaSelectionOptionMain .eaSelectionLabel {
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.eaSelectionOptionMain .jqx-combobox-state-normal {
+    width: 70% !important;
+    height: 30px !important;
+}
+.strongweakTabs{
+    display: flex;
+    padding: 2px;
+}
+td.checkBoxCell{
+    /*position: absolute;*/
+    width: 30px;
+    /*left: 0;*/
+    top: auto;
+    background: #fff;
+    border: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+th.tableHeaderCell.firstThCell.checkBoxCell {
+    /*position: absolute;*/
+    width: 30px;
+    /*left: 0;*/
+    top: auto;
+    background: #3a81e9;
+}
+.aggrigateValuesRow{
+    border-bottom: 1px solid #ddd;
+}
+
+.floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 30%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    line-height: 20px;
+    padding-left: 5px;
+    border-radius: 4px;
+}
+
+.selectLayer{
+    position: absolute;
+    top: 10px;
+    left: 72%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: "Roboto", "sans-serif";
+    line-height: 15px;
+    padding-left: 5px;
+    width: 134px;
+}
+
+#mapLayerlabel{
+    position:absolute;
+    background: #fff;
+    border: 2px solid #ddd;
+    /*border-radius: 10px;*/
+    text-align: center;
+}
+/*.gmnoprint{
+    display: none !important;
+}*/
+.gm-style-cc{
+    display: none;
+}
+/* Santhosh Css Edit Starts Here on 14-09-2022 */
+
+.eaSelectbox .jqx-fill-state-normal, .eaSelectbox .jqx-fill-state-hover{
+    background-color: #fff;
+}
+.aggTableCellKeys span{
+    font-size: 13px;
+}
+#subDataView1 table, #subDataView2 #dataDiv2 table{
+    width: 100% !important;
+}
+#subDataView1 table .tableHeaderCell, #subDataView2 #dataDiv2 table .tableHeaderCell{
+    text-align: left;
+}
+
+/* filterHeader Css by SANK */
+
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    #toggleEAtabsButton{
+        display: none;
+    }
+    .tabcontentSummary .floating-panel {
+        position: static !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+    .floating-panel input{
+        font-size: 15px !important;
+        margin: 3px !important;
+        font-weight: 600 !important;
+        padding: 5px !important;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .selectLayer {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        margin: 3px 0px !important;
+        width: 100%;
+    }
+    .tabcontentSummary .selectLayer {
+        display: none;
+    }
+
+/*    .plot-container .user-select-none{
+        position: relative !important;
+        width: 280px !important;
+        height: 350px !important;
+    }
+
+    .plot-container .user-select-none .main-svg{        
+        width: 337px !important;
+        height: 350px !important;
+    }*/
+
+    .eaSelectbox .jqx-fill-state-normal, .eaSelectbox .jqx-fill-state-hover {   
+        width: 100% !important;
+    }
+
+    .summarySection .tabcontentSummary {
+        padding: 6px 1px !important;
+    }
+
+    .slimScrollDiv {
+        width: 100% !important;
+        position: inherit !important;
+        box-shadow: inherit;
+        border: 1px solid #ddd;
+    }
+
+    .slimScrollDiv .nicescroll-bar .flex-column{
+        flex-direction: row !important;
+        gap: 3px;
+    }
+
+    .summarySection .ak-navigation-resize-button {
+        margin-left: 30px !important;
+        margin-top: 85px !important;
+    }
+    .summarySection .tabcontentSummary {
+        border: none !important;
+    }
+    .electrolAnalysis .navbar-nav .nav-item .nav-link {
+        padding: 4px !important;
+    }
+    .eaSelectedTab {
+        background: #3a81e9;
+        cursor: pointer;
+        color: #f1f1f1;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+    }
+    .eaSelectedTab :hover, .eaTabs:hover, .eaTabsSW:hover {
+         background: inherit !important; 
+        color: #fff !important;
+    }
+    .eaSelectionLabel{
+        display: none;
+    }
+    #mapViewDiv,#censusMapViewDiv{
+        height: 300px !important;
+    }
+    .floating-panel{
+        display: none;
+    }
+
+}

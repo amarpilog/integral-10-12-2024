@@ -1,0 +1,1903 @@
+.pricingCustomeTable {
+	width: 90%;
+}
+
+.pricingCustomeTable .table {
+	table-layout: fixed;
+	word-wrap: break-word;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.pricingCustomeTable .text-sm {
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+
+.pricingCustomeTable .PlanTitle {
+	font-size: 16px;
+}
+
+.pricingCustomeTable .price {
+	font-size: 16px;
+}
+
+.pricingCustomeTable .table thead {
+	position: sticky;
+	top: 0;
+	background-color: #fff;
+}
+
+.pricingCustomeTable .table thead th {
+	n padding: 0;
+	border: none;
+}
+
+.pricingCustomeTable .table thead .firstChildClass center {
+	box-shadow: inherit;
+	padding: inherit;
+}
+
+.pricingCustomeTable .table thead th center {
+	padding: 0;
+	background-color: #fafafa;
+	box-shadow: 1px 5px 5px rgb(0 0 0 / 15%);
+	padding: 4px;
+	margin: 4px;
+}
+
+.pricingCustomeTable .table thead th center h3 {
+	margin-bottom: inherit;
+	margin-bottom: 20px;
+}
+
+.pricingCustomeTable .table thead th center button {
+	font-size: 12px;
+}
+
+.pricingCustomeTable .collapse-row.collapsed+tr {
+	display: none;
+}
+
+.pricingCustomeTable .table .collapse-row.collapsed .subTitleClass:before {
+	content: "\f067";
+}
+
+.pricingCustomeTable .table .collapse-row .subTitleClass:before {
+	font-family: 'FontAwesome';
+	content: "\f068";
+	margin-right: 10px;
+}
+
+.headertittleclass {
+	margin-top: 20px;
+}
+
+.subscriptiontittleclass {
+	margin-left: 41%;
+	margin-top: -275px;
+}
+
+.imageLogoClass {
+	width: 67px;
+}
+
+.step-indicator {
+	margin-top: 0;
+	display: flex;
+	align-items: center;
+	padding: 0 100px;
+}
+
+.step {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	z-index: 1;
+}
+
+.step-indicator .step-icon {
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	background: #c2c2c2;
+	font-size: 10px;
+	text-align: center;
+	color: #ffffff;
+	position: relative;
+	font-size: 16px;
+}
+
+.successStage {
+	background: green !important;
+}
+
+.currentStage {
+	background: inherit !important;
+	border: 3px solid green;
+}
+
+.paymentDetailsCost .firstIndicatorLine {
+	background: green !important;
+}
+
+.paymentDetailsCost .secoundinitialStage {
+	background: inherit !important;
+	border: 3px solid green !important;
+}
+
+
+
+
+.step p {
+	text-align: center;
+	position: absolute;
+	bottom: -50px;
+	color: #3e3e42;
+	width: 180px;
+
+}
+
+.step.active p {
+	color: #000;
+	font-weight: bold;
+}
+
+.step.step2 p,
+.step.step3 p {
+	left: 50%;
+	transform: translateX(-50%);
+	display: inline;
+}
+
+.indicator-line {
+	width: 100%;
+	height: 3px;
+	background: #c2c2c2;
+	flex: 1;
+
+}
+
+@media screen and (max-width: 500px) {
+	.step p {
+		font-size: 11px;
+		bottom: -20px;
+	}
+}
+
+
+#btn {
+	width: 180px;
+}
+
+.integralStepFormDiv {
+	margin-top: 20px;
+	border: 1px solid #ddd;
+	padding-left: inherit !important;
+	padding-right: inherit !important;
+	border-radius: 8px;
+}
+
+.formContainer {
+	border-radius: 8px;
+}
+
+.imageLogoClass {
+	margin-left: 60px;
+}
+
+.ConfigurationId {
+	width: 79%;
+	margin: 55px auto;
+	padding: 36px;
+	box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+#pbtn {
+	width: 176px;
+}
+
+.subscriptionClass {
+	background-color: #fafafa;
+	box-shadow: 1px 5px 5px rgb(0 0 0 / 15%);
+	padding: 4px;
+	margin: 4px;
+	border: 1px solid #00a1de;
+	/*/ border-radius: 12px; /*/
+	min-height: 204px;
+	min-height: 195px;
+}
+
+.pricingCustomeTable .table thead th center {
+	background-color: #fafafa;
+	box-shadow: 1px 5px 5px rgb(0 0 0 / 15%);
+	padding: 4px;
+	margin: 4px;
+	border: 1px solid #00a1de;
+	/*     border-radius: 12px; /*/
+	min-height: 155px;
+}
+
+.firstChildClass {
+	vertical-align: middle !important;
+	margin-left: 20px;
+}
+
+.firstChildClass .expandClass {
+	margin-left: 10px;
+}
+
+.firstChildClass .expandClass img {
+	margin-right: 5px;
+}
+
+.firstChildClass .expandClass span {
+	color: #0078d4;
+}
+
+.verificationclass {
+	margin-top: 6%;
+	text-align: center;
+}
+
+.errorclass {
+	color: red;
+	font-size: 14px;
+
+}
+
+
+
+.billingClass .table {
+	margin-top: 8%;
+	text-align: center;
+}
+
+.BillingInformationClass {
+	margin-top: 8%;
+}
+
+.BillingInformationClass .table .collapse-row.collapsed .subTitleClass:before {
+	content: "\f067";
+	/*content: "\f068";*/
+}
+
+.BillingInformationClass .table .collapse-row .subTitleClass:before {
+	font-family: 'FontAwesome';
+	content: "\f068";
+	/*content: "\f067";*/
+	margin-right: 10px;
+}
+
+.pricingCustomeTable .table .collapse-row.collapsed .rowtitle:before {
+	content: "\f067";
+	/*/ content: "\f068"; /*/
+	margin-right: 10px;
+	-webkit-text-stroke: 1.5px white;
+}
+
+.pricingCustomeTable .table .collapse-row .rowtitle:before {
+	font-family: 'FontAwesome';
+	content: "\f068";
+	/*/ content: "\f067"; /*/
+	margin-right: 10px;
+	-webkit-text-stroke: 1.5px white;
+}
+
+.imageClass img {
+	float: right;
+	width: 20px;
+}
+
+.clickable td:nth-child(2),
+.clickable td:nth-child(3),
+.clickable td:nth-child(4) {
+	text-align: center;
+}
+
+.collapse.show td:nth-child(2),
+.collapse.show td:nth-child(3),
+.collapse.show td:nth-child(4) {
+	text-align: center;
+}
+
+.scbscriptionClass .crmCalendarCreateEvents .calendarCreateEventsTable {
+	width: 50%;
+	margin: 40px auto;
+	padding: 36px;
+	box-shadow: rgb(0 0 0 / 30%) 0px 5px 15px;
+	background: #fff;
+}
+
+.scbscriptionClass label {
+	margin-bottom: 0;
+	position: inherit;
+	top: inherit;
+	margin-top: inherit;
+	white-space: nowrap;
+	font-size: 14px;
+}
+
+.labelMandColorRed {
+	color: #FF0000;
+}
+
+.calendarCreateEventsTable {
+	height: 340px;
+}
+
+.calendarCreateEventsTable .btn {
+	transform: translate(400px, 3px);
+}
+
+.headertittleclass {
+	margin-top: -963px;
+}
+
+/*.collapse:not(.show) {
+    display: none;
+} */
+.BillingInformationClass .collapse-row.collapsed+tr {
+	display: none;
+}
+
+.scbscriptionClass {
+	background-color: #fff;
+	max-height: 40rem !important;
+	min-height: 30rem !important;
+	height: 100%;
+}
+
+/*.scbscriptionClass .integralStepFormDiv{
+    background-color: #242052;
+}*/
+
+.integralStepFormDiv .integralStepForm {
+	width: 100%;
+	padding: 12px;
+	background-color: #fff !important;
+
+}
+
+
+
+.contactNum {
+	/* margin-top: 16px; */
+	display: flex;
+	gap: 7px;
+}
+
+
+.otherheading {
+	margin-top: 40px;
+}
+
+.paymentReciptMainDailogClass .modal-content {
+	position: absolute;
+	top: -213px;
+	right: 11%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 70%;
+	pointer-events: auto;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, .2);
+	border-radius: 0.3rem;
+	outline: 0;
+
+}
+
+.paymentReciptMainDailogClass .modal-content .modal-header {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 2rem 1rem;
+	border-bottom: 1px solid #dee2e6;
+	border-top-left-radius: 0.3rem;
+	border-top-right-radius: 0.3rem;
+	background-color: #0b4a99 !important;
+	color: #fff;
+}
+
+.paymentReciptMainDailogClass #sectionheading {
+	padding: 7px 0 6px 14px;
+	margin: 0 !important;
+	position: relative;
+	line-height: 20px;
+	background-color: #0b4a99 !important;
+	color: #fff;
+}
+
+
+.paymentReciptMainDailogClass .modal-content .modal-header .close {
+	color: #fff !important;
+}
+
+.paymentReciptMainDailogClass .modal-content .modal-body {
+	margin-top: -42px !important;
+}
+
+.paymentReciptMainDailogClass .paymentResponse iframe {
+	border: none;
+	border-radius: 6px;
+	height: 435px !important;
+}
+
+.paymentReciptMainDailogClass .modal-content .modal-footer button {
+	background-color: #0b4a99 !important;
+	border: 0;
+	border-radius: 8px !important;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer !important;
+	margin: 5px;
+	padding: 6px 12px;
+	text-align: center;
+	user-select: none !important;
+	-webkit-user-select: none !important;
+	touch-action: manipulation;
+	height: 30px !important;
+	min-width: 100px !important;
+	max-width: 250px !important;
+
+}
+
+.paymentReciptMainDailogClass .modal-content .modal-footer button:hover {
+	background-color: #0b4a99 !important;
+	border-radius: 8px !important;
+
+}
+
+
+
+
+/*changes 13-06-2023 PRK*/
+.paymentSuccessfullInfoClass {
+	background-color: #f1f1f1;
+	border: 1px solid #242052;
+}
+
+.paymentSuccessfullInfoClass .card-header {
+	background-color: #244D61;
+	color: #fff;
+	text-align: center;
+	font-weight: 600;
+}
+
+.paymentSuccessfullInfoClass .infoMainCard {
+	padding-left: 1px !important;
+	padding-right: 1px !important;
+	height: 10rem;
+	min-width: 21rem;
+	margin: 0.6em;
+	border: 1px solid #ddd;
+}
+
+.paymentSuccessfullInfoClass .infoMainCard .card-header {
+	height: 30px;
+	padding: inherit !important;
+	border-bottom: 1px solid #000;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	box-shadow: 0 1px 0 0 #100f3f;
+
+}
+
+/*changes 13-06-2023 PRK*/
+
+
+.loaderwait .loader-ring img {
+	width: 150px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/*///sami*/
+.pageContainer {
+	display: flex;
+	flex-direction: row;
+	/* justify-content: center; */
+}
+
+
+/* .containerWrapper {
+    display:flex;
+    flex-direction:row;
+    padding: 10px 13px;
+    border: 2px solid #c5c5c5;
+    border-radius: 10px;
+    height: 695px;
+    width:75%;
+    justify-content:center;
+} */
+
+.leftSideContainer {
+	min-width: 265px;
+	display: flex;
+	flex-direction: column;
+	border-right: 1px solid #f1f1f1;
+	padding: 10px 0px 10px 10px;
+	width: 25%;
+}
+
+.RightContainer {
+	width: 75%;
+}
+
+
+.containerWrapper .leftSideContainer .logoHeader {
+	border-bottom: 1px solid #f1f1f1;
+    padding: 20px 15px;
+}
+
+.containerWrapper .leftSideContainer .logoHeader img {
+	margin-bottom: 10px;
+    width: 300px;
+}
+
+.progressbar {
+	text-align: center;
+	padding: 12px 20px;
+	border-bottom: 2px solid #f1f1f1;
+}
+
+.formWrapper {
+	display: flex;
+	flex-direction: column;
+	/* margin-top: 10px; */
+	padding: 10px 125px 0;
+
+}
+
+.RightContainer .formWrapper .checkoutBtns {
+	display: flex;
+	justify-content: end;
+	/* border-top:1px solid #c7c7c7; */
+	padding: 3px 9px;
+	gap: 15px;
+}
+
+/*.RightContainer .formWrapper .checkoutBtns div{
+    border:2px solid blue;
+    background-color: blue;
+    color:white;
+    padding:3px 10px;
+    border-radius: 4px;
+    cursor:pointer;
+}*/
+.RightContainer .formWrapper .TermC {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 5px 20px;
+}
+
+.mycard {
+	border: 1px solid #c7c7c7;
+	border-radius: 4px;
+	padding: 10px 12px;
+	box-shadow: 0px 1px 3px 2px rgba(0, 0, 0, .1);
+
+}
+
+.cardHeader {
+	font-size: 23px;
+	font-weight: 600;
+	border-bottom: 1px solid #f1f1f1;
+	margin-bottom: 10px;
+}
+
+/* ss */
+
+.planSection {
+	/* display: flex; */
+	/* flex-direction: column; */
+	gap: 15px;
+	padding-right: 9px;
+}
+
+.planSection .plansAccordian {
+	border: 1px solid #f2f2f2;
+	margin-top: 10px;
+	padding: 5px;
+	color: #fff;
+	font-weight: 600;
+	background-color: #0b4a99;
+	display: flex;
+	align-items: center;
+	border-radius: 4px;
+	gap: 5px;
+	/*justify-content: space-between;*/
+}
+
+.planSection .plansAccordian #selectedPlan {
+	font-size: 15px;
+	font-weight: inherit;
+	font-family: inherit;
+}
+
+.price1,
+.price2,
+.totalAmount {
+	display: flex;
+	justify-content: space-between;
+	padding: 4px 4px;
+}
+
+.firstRow {
+	display: flex;
+	align-items: center;
+	/* flex-wrap: wrap; */
+	width: 100%;
+	gap: 10px;
+	/* margin-bottom: 18px; */
+	/* border-bottom: 1px solid; */
+	/*padding: 0 20px 5px;*/
+	/* width: 100%; */
+	justify-content: space-between;
+	position: relative;
+	padding: 0 20px 0px;
+	margin-bottom: 8px;
+}
+
+.firstRow input,
+.secondRow input,
+.secondRow textarea,
+.ThirdRow input {
+	padding: 6px 9px;
+	outline: none;
+	border: 1px solid #c7c7c7;
+	border-radius: 5px;
+	/* background: #f7f7f7; */
+}
+
+.firstRow input:focus,
+.secondRow input:focus,
+.secondRow textarea:focus,
+.ThirdRow input:focus {
+	box-shadow: 0 0 0 1px #30419f;
+}
+
+.firstRow label {
+	/* width: 7%; */
+	/* line-height: 3px; */
+	/* height: 0px; */
+}
+
+/*.firstRow input{
+    width: 100%;
+}*/
+
+.secondRow .secondRowInnerWrapper {
+	display: flex;
+	/* width: 97%; */
+	gap: 10px;
+	margin-bottom: 18px;
+	padding: 10px 20px;
+	justify-content: space-between;
+}
+
+.secondRow .secondRowLeftSide,
+.secondRow .secondRowRightSide {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	gap: 10px;
+}
+
+.secondRow label {
+	width: 19%;
+	white-space: nowrap;
+}
+
+.secondRow .secondRowRightSide .PhoneNumberInputs {
+	display: flex;
+	justify-content: space-between;
+}
+
+.secondRow .secondRowRightSide .PhoneNumberInputs .CountryCode {
+
+	width: 19%;
+}
+
+.firstRow .checkboxLevelCLS {
+	display: flex;
+	align-items: center;
+	gap: 3px;
+	font-weight: 600;
+}
+
+.secondRow .secondRowRightSide .PhoneNumberInputs .CountryNumber {
+
+	width: 80%;
+}
+
+.scbscriptionClass {}
+
+.secondRow .secondRowLeftSide select,
+.secondRow .secondRowRightSide select {
+
+	padding: 2px 10px;
+	outline: none;
+	border: 2px solid #c7c7c7;
+}
+
+
+.ThirdRow {
+	display: flex;
+	/* align-items: center; */
+	gap: 10px;
+	padding: 10px 20px;
+	/* flex-direction: column; */
+}
+
+.ThirdRow .ThirdRowInnerWrapper {
+	display: flex;
+}
+
+.ThirdRow input {
+	flex: 1 0 68px;
+}
+
+.plansList {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+}
+
+.plansList li {
+	display: flex;
+	/* padding: 5px; */
+	align-items: center;
+	gap: 10px;
+	/* justify-content: space-between; */
+	padding: 3px 10px;
+	border-bottom: 1px solid #f1f1f1;
+	position: relative;
+	z-index: 0;
+	background-color: #f1f1f1;
+	background-image: linear-gradient(#f1f1f1, #ebe9e9);
+	margin-bottom: 1.5px;
+}
+
+.plansList li:after {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: calc(100% - 4px);
+	height: 50%;
+	z-index: -1;
+	background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+}
+
+.plansList li i {
+	color: #0b4a99;
+	font-size: 10px;
+	/* padding: 5px 5px; */
+	border: 2px solid #0b4a99;
+	border-radius: 50%;
+	/* background-color: #0b4a99; */
+	width: 20px;
+	text-align: center;
+	height: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+}
+
+
+.firstRow .firtRowName {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.firstRow .firstRowEmail {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+
+.RightContainer .formWrapper .firstRow .checkListLevelCLS {
+	width: 50%;
+}
+
+
+@media screen and (min-width:768px) {
+	.containerWrapper {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width:1117px) and (max-width:1328px) {
+	.firstRow label {
+		width: 19%;
+		line-height: 3px;
+		height: 0px;
+
+	}
+
+	.secondRow label {
+		width: 19%;
+		white-space: nowrap;
+		line-height: 3px;
+		height: 0px;
+
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:1091px) {
+	.firstRow label {
+
+		width: 19%;
+
+		line-height: 3px;
+
+		height: 0px;
+	}
+}
+
+/*_____________________________________*/
+
+/*.integralStepForm .inputBoxMainDiv span{
+    background-color:  #0c5cd9 ;
+    padding: 10px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    color: #fff;
+    min-width: 100px;
+    width: 250px;
+    height: 30px !important;
+    padding: 6px 4px;
+
+}*/
+
+.integralStepForm .inputBoxMainDiv {
+	display: flex;
+	flex-direction: column;
+	/*    align-items: center;*/
+}
+
+.scbscriptionClass .RightContainer h1 {
+	border-bottom: 2px solid #000;
+	text-align: initial;
+	font-weight: 300;
+	font-size: 2.5em;
+	margin: inherit;
+}
+
+.integralStepForm .inputBoxMainDiv .form-control {
+	height: 35px !important;
+}
+
+.configurationtittle {
+	font-size: 16px;
+	font-weight: 600;
+	color: #91a5c9;
+	border-bottom: 2px solid #ddd;
+}
+
+.scbscriptionClass .integralStepFormDiv .heading,
+.paymentFeatureHeading {
+	font-weight: 600;
+	font-size: 20px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 10px;
+	margin: 5px 40%;
+}
+
+.RightContainer .downBtnField .checkoutBtns {
+	border: 0;
+	box-shadow: rgba(0, 0, 0, .3) -2 2px 2px;
+	box-sizing: border-box;
+	cursor: pointer !important;
+	font-family: Montserrat, sans-serif !important;
+	font-size: 1em !important;
+	padding: 5px 12px;
+	text-align: center;
+	user-select: none !important;
+	-webkit-user-select: none !important;
+	color: #fff;
+	border-radius: 4px !important;
+	border: 1px solid #0b4a99;
+	background: #0b4a99;
+}
+
+.buttonMainDiv button:hover,
+.mailconfirmationclass button:hover {
+	background-color: #0b4a99 !important;
+	border-radius: 8px !important;
+	transition: .3s ease-in-out;
+	color: #fff !important;
+}
+
+.mailconfirmationclass button:hover {
+	background-color: #0b4a99 !important;
+	border-radius: 8px !important;
+	transition: .3s ease-in-out;
+	color: #fff !important;
+}
+
+.integralStepFormDiv .paymentDetailsCost button:hover {
+	background-color: #0b4a99 !important;
+	border-radius: 8px !important;
+	transition: .3s ease-in-out;
+	color: #fff !important;
+}
+
+.paymentFeatureSpan {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/*___________________________________________*/
+
+.mailconfirmationclass .form-group {
+	text-align: initial;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.inputBoxMainDiv .retry {
+	text-align: end;
+	margin-top: 10px;
+	opacity: 0.8;
+}
+
+.BillingInformationClass .paymentFeatureSpan {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/*Queries for iPad Air*/
+/*payment Successful page css/*/
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.paymentSuccessfulMaiWrapper {
+	/* width: 400px; */
+	/* height: auto; */
+	/* margin: 3% auto; */
+	/* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
+	font-family: 'Rubik', sans-serif;
+}
+
+.paymentSuccessfulMaiWrapper .paymentSuccessfulPageInnerMainDiv {
+	display: flex;
+	flex-direction: column;
+}
+
+.paymentSuccessfulMaiWrapper .paymentSuccessfulPageInnerMainDiv .showStatusDiv {
+	height: 250px;
+	width: 100%;
+	border-bottom: 1px solid #fff;
+	/* background-color: #77b43f; */
+	background-color: #fff;
+
+}
+
+.paymentSuccessfulMaiWrapper .paymentSuccessfulPageInnerMainDiv .showStatusImgDiv img {
+	width: 100px;
+	margin-top: 155px;
+}
+
+.paymentSuccessfulMaiWrapper .paymentSuccessfulPageInnerMainDiv .paymentTextClass {
+	text-align: center;
+	color: #0b4a99;
+	/* color: #f3523a; */
+}
+
+.paymentSuccessfulPageInnerMainDiv .showStatusImgDiv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.paymentSucc_Discription_Div {}
+
+.paymentSuccessfulMaiWrapper .paymentSuccessfulPageInnerMainDiv .paymentStatusDis_Div {
+	text-align: center;
+	/* color: #fff; */
+}
+
+.paymentSuccessfulMaiWrapper .paymentSuccessfulPageInnerMainDiv .paymentStatusDis_Div .paymentButtonClass button {
+	padding: 16px 25px;
+	font-weight: 600;
+	background: #77b43f;
+	/* background-color: #0b4a99; */
+	border-radius: 12px;
+	width: 200px;
+	border: none;
+	margin: 30px 10px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 21px !important;
+}
+
+.RightContainer .secondRow .secondRowLeftSide .sendOTPDiv {
+	border: 1px solid #0b4a99;
+	padding: 3px 8px;
+	color: #fff;
+	background-color: #0b4a99;
+	width: 20%;
+	border-radius: 5px;
+}
+
+
+.paymentSuccessfulMaiWrapper .paymentSuccessfulPageInnerMainDiv .showStatusImgDiv {
+	animation: paymentStatusAnimation 1s ease-in-out infinite alternate;
+}
+
+@keyframes paymentStatusAnimation {
+	0% {
+		transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+	}
+
+	100% {
+		transform: scale(1.05);
+		-webkit-transform: scale(1.05);
+	}
+}
+
+/* progress bar css*/
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container {
+	position: relative;
+	border-bottom: 2px solid #0b4a99;
+	padding: 2px 9px;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress {
+	display: flex;
+	position: relative;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* gap: 10px;*/
+	position: relative;
+	flex: 1;
+}
+
+
+
+
+
+
+
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper.step-active:first-child:after {
+	content: " ";
+	left: 55%;
+	width: 90%;
+	height: 6px;
+	background-color: #4BB543;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper:first-child:after {
+	position: absolute;
+	content: " ";
+	left: 55%;
+	width: 90%;
+	height: 6px;
+	background-color: #c7c7c7;
+	top: 13px;
+	align-self: center;
+}
+
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper:last-child:before {
+	position: absolute;
+	content: " ";
+	left: -44%;
+	width: 88%;
+	height: 6px;
+	background-color: #c7c7c7;
+	top: 13px;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper.step-active:last-child:before {
+	position: absolute;
+	content: " ";
+	left: -46%;
+	width: 92%;
+	height: 6px;
+	background-color: #4BB543;
+	top: 13px;
+}
+
+
+
+
+
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper .step-icon {
+	background-color: #fff;
+	border: 1px solid #0b4aff;
+	width: 34px;
+	height: 34px;
+	padding: 3px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper .step-icon img {
+	width: 20px;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper .step-contactDetailsImg {
+	background-image: url(../images/ContactDetailsW.png);
+	/* background: no-repeat; */
+	background-position: 44%;
+	background-size: 72%;
+	background-repeat: no-repeat;
+	background-color: #0b4a99;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper .step-billingInfoImg {
+	background-image: url(../images/billinginformatioW.png);
+	background-position: 70%;
+	background-size: 72%;
+	background-repeat: no-repeat;
+	background-color: #0b4a99;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper .billingInfo-progress {
+	background-image: url(../images/billinginformatio.png);
+	background-position: 70% !important;
+	background-size: 72% !important;
+	background-repeat: no-repeat !important;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper .step-CheckOutImg {
+	background-image: url(../images/CheckOut_paymentW.png);
+	background-position: 69%;
+	background-size: 66%;
+	background-repeat: no-repeat;
+	background-color: #0b4a99;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper .checkout-progress {
+	background-image: url(../images/CheckOut_payment.png);
+	background-position: 69% !important;
+	background-size: 66% !important;
+	background-repeat: no-repeat !important;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper .step-contactDetailsImg.step-active {
+	background-image: url(../images/ContactDetailsW.png) !important;
+	background-position: 44% !important;
+	background-size: 72% !important;
+	background-repeat: no-repeat !important;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper .step-billingInfoImg.step-active {
+	background-image: url(../images/billinginformatioW.png) !important;
+	background-position: 70% !important;
+	background-size: 72% !important;
+	background-repeat: no-repeat !important;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper .step-CheckOutImg.step-active {
+	background-image: url(../images/CheckOut_paymentW.png) !important;
+	background-position: 69% !important;
+	background-size: 66% !important;
+	background-repeat: no-repeat !important;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper .step-icon.step-active {
+	background-image: url(../images/formfilled.png) !important;
+	background: #4BB543;
+	width: 34px;
+	height: 34px;
+	padding: 3px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	border: 1px solid #4BB543;
+	/* text-align: right; */
+	justify-content: center;
+	color: #fff;
+	background-position: 52% !important;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress {
+	display: flex;
+	position: relative;
+	padding: 10px 0 4px;
+}
+
+/*.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress:before{
+   position:absolute;
+   content:" ";
+   left: 20px;
+   width: 89%;
+   height: 6px;
+   background-color:#0b4a99;
+   top: 13px;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress:after{
+    position:absolute;
+   content:" ";
+   left: 20px;
+   width: 89%;
+   height: 6px;
+   background-color:#0b4a99;
+   top: 13px;
+}*/
+
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress-start {
+	position: absolute;
+	display: inline-block;
+	/* background: #c7c7c7; */
+	width: 20px;
+	height: 20px;
+	top: 8px;
+	border-radius: 10px;
+}
+
+
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress-start:before {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	/* background-color:#0b4a99; */
+	top: 5px;
+	left: 5.1px;
+	border-radius: 10px;
+}
+
+.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress-end.step-active:before {
+	content: "";
+	position: absolute;
+	width: 110px;
+	height: 6px;
+	background-color: #0b4a99;
+	top: 7px;
+	left: -109px;
+	/* border-radius:10px; */
+	display: inline-block;
+}
+
+
+/* New basic layout CSS*/
+
+.pageContainer .RightContainer .firstRow .textLevelCLS,
+.pageContainer .RightContainer .firstRow .listLevelCLS {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 0px;
+	position: relative;
+}
+
+.pageContainer .RightContainer .firstRow .customDiv {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/* padding-top: 10px; */
+	gap: 6px;
+}
+
+.pageContainer .RightContainer .firstRow .customDiv i {
+	margin-top: 30px;
+	background: #b58e14;
+	border-radius: 40px;
+	align-self: center;
+	padding: 5px 5px;
+	color: #fff;
+}
+
+.pageContainer .RightContainer .firstRow .customDiv button {
+	/* display:flex; */
+	/* flex-direction:row; */
+	/* align-items: center; */
+	/* margin-top: 39px; */
+	align-self: end;
+	border-radius: 5px;
+	padding: 6px 8px;
+	background: #0b4a99;
+	color: #fff;
+	border: none;
+	margin: inherit;
+}
+
+.pageContainer .RightContainer .firstRow .customDiv .EmailFeildForm {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 0px;
+	position: relative;
+}
+
+.pageContainer .RightContainer .firstRow .customDiv .EmailFeildForm input {
+	width: 100%;
+}
+
+.pageContainer .RightContainer .firstRow .textLevelCLS .PhoneNumberInputs .CountryCode {
+	width: 13%;
+}
+
+.pageContainer .RightContainer .firstRow .textLevelCLS .PhoneNumberInputs .CountryNumber {
+	width: 87%;
+}
+
+.pageContainer .RightContainer .firstRow .textLevelCLS .PhoneNumberInputs {
+	display: flex;
+	gap: 10px;
+	width: 100%;
+}
+
+
+.pageContainer .RightContainer .firstRow .listLevelCLS select {
+	padding: 4px 10px;
+	outline: none;
+	border: 1px solid #c7c7c7;
+	border-radius: 5px;
+}
+
+
+.scbscriptionClass .RightContainer .formWrapper .customDiv .otpVerificationContaniner {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 22px;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.scbscriptionClass .RightContainer .formWrapper .customDiv .otpVerificationContaniner .otpVerifyContainer {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	align-items: center;
+	/* margin-top: 34px; */
+	justify-content: space-evenly;
+	/* width: 50%; */
+}
+
+/*.scbscriptionClass .RightContainer .formWrapper .customDiv .otpVerificationContaniner .otpVerifyContainer .otpEnterDiv{
+    width:100%;
+}*/
+
+.scbscriptionClass .RightContainer .formWrapper .customDiv .otpVerificationContaniner .otpVerifyContainer .otpVerify,
+.scbscriptionClass .RightContainer .formWrapper .customDiv .otpVerificationContaniner .otpVerifyContainer .RevertbacktEmailDiv {
+	border: 1px solid #0b4aff;
+	padding: 2px 10px;
+	border-radius: 5px;
+	background-color: #0b4aff;
+	color: #fff;
+	cursor: pointer;
+}
+
+.otpVerifyContainer i {
+	margin-top: 0px !important;
+	background: #00ff00 !important;
+	border-radius: 40px !important;
+	align-self: center !important;
+	padding: 5px 5px !important;
+	color: #fff !important;
+}
+
+.billingInfoInnerContainer .subscriptionPlansIncludes .features tbody tr:nth-child(2n) {
+	background-color: #61b2b229;
+}
+
+.billingInfoInnerContainer .subscriptionPlansIncludes {
+	margin-top: 10px;
+}
+
+/* .billingInfoInnerContainer .subscriptionHeader{
+    border-bottom:2px solid #0b4aff;
+} */
+
+.billingInfoInnerContainer .recommendedAddonContainer .recommended tbody tr:nth-child(2n) {
+	background-color: #61b2b229;
+}
+
+.planSection .plansList {
+	/* overflow-y: scroll; */
+	/* height: 279px; */
+	overflow-y: auto;
+	height: 279px;
+	height: calc(100vh - 127px);
+	padding-right: 3px;
+}
+
+
+.scbscriptionClass .RightContainer .formWrapper .processPaymentDivCLS button {
+	border: 0;
+	border-radius: 8px !important;
+	box-shadow: rgba(0, 0, 0, .3) -2 2px 2px;
+	box-sizing: border-box;
+	cursor: pointer !important;
+	font-family: Montserrat, sans-serif !important;
+	font-size: 1em !important;
+	padding: 7px 15px;
+	text-align: center;
+	user-select: none !important;
+	-webkit-user-select: none !important;
+	border: 1px solid #044cbc;
+}
+
+.scbscriptionClass .RightContainer .formWrapper .processPaymentDivCLS {
+	text-align: right
+}
+
+.subTitleClass:before {
+	content: "\f067";
+}
+
+.subTitleClass:before {
+	font-family: 'FontAwesome';
+	margin-right: 10px;
+}
+
+
+.scbscriptionClass .RightContainer .formWrapper .features .subFeatureTextDiv {
+	display: flex;
+	justify-content: space-around;
+}
+
+.scbscriptionClass .RightContainer .formWrapper .features .subFeatureTextDiv .subFeatureTextSpan,
+.scbscriptionClass .RightContainer .formWrapper .features .subFeatureTextDiv .subFeatureText {
+	flex: 1;
+}
+
+.scbscriptionClass .RightContainer .formWrapper .features .subFeatureTextDiv .subFeatureAmount {
+	flex: 0.33;
+}
+
+.scbscriptionClass .RightContainer .features del,
+.scbscriptionClass .RightContainer .recommended del {
+	color: red;
+	font-weight: 600;
+}
+
+.billingInfoInnerContainer td input[disabled] {
+	opacity: 10 !important;
+}
+
+.recommendedAddonContainer td .totalPerDesCol {
+	color: #0b4a99;
+	font-weight: 600;
+}
+
+.scbscriptionClass .RightContainer .recommended .totalAmountCol {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.leftSideContainer .planSection .textRecommendBreif {
+	font-size: 12px;
+	font-weight: 600;
+	padding: 4px;
+	background: rgba(234, 244, 253, 0.8);
+
+}
+
+
+
+@media (min-width: 390px) and (max-width: 767px) {
+
+	.containerWrapper .leftSideContainer .logoHeader {
+		text-align: center;
+	}
+
+	.containerWrapper {
+		display: flex;
+		flex-direction: column;
+		padding: 10px 13px;
+		border: 2px solid #c5c5c5;
+		border-radius: 10px;
+		margin: 20px;
+		/* justify-content: center; */
+		box-shadow: 1px 2px 42px 12px rgba(0, 0, 0, .1);
+		width: 100%;
+	}
+
+	.leftSideContainer {
+		width: 100% !important;
+	}
+
+	.RightContainer {
+		width: 100% !important;
+	}
+
+	.scbscriptionClass .containerWrapper .RightContainer .progress-container {
+		position: relative;
+		border-bottom: 1px solid #f1f1f1;
+		padding: 2px 9px;
+		/* background: #0b4a99; */
+	}
+
+	.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		/* gap: 10px; */
+		position: relative;
+		flex: 1;
+	}
+
+	.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper:last-child:before {
+		left: -33% !important;
+		width: 64% !important;
+	}
+
+	.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper:first-child:after {
+		left: 70% !important;
+	}
+
+	.firstRow {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.pageContainer .RightContainer .firstRow .textLevelCLS,
+	.pageContainer .RightContainer .firstRow .listLevelCLS {
+		width: 100% !important;
+	}
+
+	.RightContainer .formWrapper .firstRow .checkListLevelCLS {
+		width: 100% !important;
+	}
+
+	.RightContainer .formWrapper .checkoutBtns {
+		margin-top: 10px;
+	}
+
+	.scbscriptionClass .RightContainer .formWrapper .processPaymentDivCLS {
+		text-align: center !important;
+	}
+
+}
+
+/*@media (min-width: 490px) and (max-width: 767px){
+    .scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper:first-child:after{
+            left: 64% !important;
+    }
+    
+    .scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper:last-child:before{
+    left: -35% !important;
+    width: 70% !important;
+    }
+}*/
+
+@media screen and (max-width: 768px) {
+	.pageContainer .RightContainer .firstRow .customDiv button {
+		margin-top: 15px !important;
+	}
+
+	.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper:first-child:after {
+		left: 63% !important;
+	}
+
+	.scbscriptionClass .containerWrapper .RightContainer .progress-container .step-progress .step-wrapper:last-child:before {
+		left: -36% !important;
+		width: 73% !important;
+	}
+}
+
+
+
+
+
+.RightContainer .rightContainerFirstDiv {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	gap: 10px;
+	padding: 0 20px 10px;
+	justify-content: space-between;
+	position: relative;
+	border-radius: 5px;
+}
+
+.RightContainer .rightContainerthirdDiv {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	gap: 10px;
+	padding: 10px 20px;
+	justify-content: space-between;
+	position: relative;
+}
+
+.RightContainer .rightContainerSecondDiv {}
+
+.RightContainer .rightContainerthirdDiv .checkListLevelCLS {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 0px;
+	position: relative;
+}
+
+.RightContainer .rightContainerFirstDiv .textLevelCLS {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 0px;
+	position: relative;
+}
+
+.RightContainer .rightContainermainDiv {
+	/*gap: 10px;*/
+}
+
+.RightContainer .rightContainerFirstMainDiv .rightContainerFirstErrorDiv {
+	text-align: center;
+	color: red;
+}
+
+.RightContainer .rightContainerSecondMainDiv .rightContainerSecondErrorDiv {
+	text-align: center;
+	color: red;
+}
+
+.RightContainer .rightContainerthirdMainDiv .rightContainerthirdErrorDiv {
+	text-align: center;
+	color: red;
+}
+
+.RightContainer .rightContainerMainspan {
+	font-weight: 600;
+	font-size: 18px;
+	padding-left: 20px;
+	/* width: fit-content; */
+	/* background: aliceblue; */
+	color: #0b4a99;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+.firstRow .DropDownCountry {
+	width: 100% !important;
+}
+
+.rightContainerSecondDiv .firstRow .country-select .country-list {
+	width: 540px !important;
+}
+
+
+.country-select .defult_flag {
+	width: 20px !important;
+	height: 15px !important;
+	/* -webkit-box-shadow: 0px 0px 1px 0px #888 !important; */
+	box-shadow: none;
+	background-image: url(../images/countriesDefultFlag.png) !important;
+	background-repeat: no-repeat !important;
+	/* background-color: #dbdbdb !important; */
+	background-size: 15px !important;
+	background-position: 1px 0px !important;
+	border: none !important;
+	overflow: visible !important;
+}
+
+.rightContainermainDiv .subscriptionPlansIncludes .totalPerDesCol {
+	color: #0b4a99;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.rightContainermainDiv .subscriptionPlansIncludes .subFeatureAmountDis {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.rightContainermainDiv .subscriptionPlansIncludes .subFeatureCurrencySpan {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.subscriptionTotalAmount {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+
+.subFeaturesLeftAboutImg,
+.subFeaturesLeftVideoImg {
+	width: 12px;
+	margin: 2px;
+	cursor: pointer;
+}
+
+.subFeaturesLeftGifImg {
+	width: 16px;
+	margin: 3px;
+	cursor: pointer;
+}
+
+.RightContainer .downBtnField {
+	padding-left: 146px;
+	padding-right: 146px;
+	padding-top: 10px;
+}
+
+.leftSideContainer .subFeaturesLeftAboutspan {
+	display: flex;
+	align-items: center;
+}
+
+
+.total-price-main-div .payment-Coupon-Code-Main-Div {
+	width: 50%;
+	border-right: 2px solid;
+}
+
+.total-price-main-div .payment-Coupon-Code-Main-Div .payment-coupon-code-Div {
+	align-items: center;
+	text-align: center;
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.payment-Coupon-Code-Main-Div .payment-dis-main-div {
+	display: flex;
+	height: 32px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.payment-dis-input-div {
+	display: flex;
+	align-items: center;
+}
+
+.payment-Coupon-Code-Main-Div .discount-code-ip {
+	height: 30px;
+	border: 2px dashed #0a30c5 !important;
+	padding: 0 10px;
+}
+
+.payment-Coupon-Code-Main-Div .btn-coupon {
+	margin: 0 5px;
+	padding: 0 6px;
+	width: 65px;
+	border: 1px solid #0071c5 !important;
+	height: 30px;
+	color: #0071c5;
+	background: #f1f1f1;
+}
+
+.payment-Coupon-Code-Main-Div .payment-dis-text-div {
+	width: 30%
+}
+
+.payment-Coupon-Code-Main-Div .payment-dis-text-span .payment-dis-text-del {
+	color: red;
+	font-size: 16px;
+	font-weight: 600
+}
+
+.payment-Coupon-Code-Main-Div .payment-dis-text-span .payment-dis-text-first {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.payment-Coupon-Code-Main-Div .payment-dis-text-span .payment-dis-text-second {
+	font-size: 16px;
+	font-weight: 600;
+	color: #0b4a99;
+}
+
+.payment-Coupon-Code-Main-Div .payment-dis-text-span .payment-dis-negetive-span {
+	font-size: 16px;
+	font-weight: 600;
+	margin-left: 60%;
+	text-align: center;
+}
+
+.payment-Coupon-Code-Main-Div .currencyType {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.payment-Coupon-Code-Main-Div .payment-dis-input-div .error-msg-dis {
+	color: red;
+	margin: 45px 6px 3px 35px;
+	position: absolute;
+}
+
+.payment-Coupon-Code-Main-Div .payment-dis-text-span .payment-dis-text-closeBr {
+	margin-left: 2%;
+}
+
+.subcriptionUserNameClass {
+	color: darkblue;
+}
+
+.subscriptionPlansIncludes span.subFeatureText {
+	padding-left: 10px;
+}
+
+.subscriptionPlansIncludes .subFeatureAmount {
+	margin-left: 3px;
+}
+
+.pageContainer .RightContainer .firstRow .customDiv button:focus {
+	box-shadow: none;
+	border: none;
+	outline: 0;
+}
+
+input[type="checkbox"] {
+	box-shadow: none;
+}
+
+.required_Mand_label::after {
+    content: "*";
+    color: red; 
+    margin-left: 3px;
+    font-size: 1em; 
+    font-weight: bold; 
+}
+
+.termsConditionsClassId ul li span{
+	font-size:14px;
+	font-weight:600;
+	color:#000;
+}
+.termsConditionsClassId ul li{
+	font-size:14px;
+	color:#000;
+}
+
+.RightContainer .subscriptionHeader {
+    text-align: center;
+    padding-top: 6px;
+    color: #0b4a99;
+}
+
+.otpVerifyContainer #invalidOtpClearIcon i{
+	color: #ffffff !important;
+}
+.pageContainer .RightContainer .firstRow .customDiv i.fa-check{
+	color:#ffffff;
+	background:green;
+	margin-top: 20px !important;
+}
+.pageContainer .RightContainer .firstRow .customDiv i.fa-times{
+	color:#ffffff;
+	background:#ff0000 !important;
+	margin-top: 0px !important;
+}
+.EmailTextDiv span {
+    color: #f00;
+}
+.EmailTextDiv {
+    right: 0;
+}

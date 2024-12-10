@@ -1,0 +1,2555 @@
+/*
+.eLeaveprofileDiv {
+    padding-right: 2px;
+    padding-left: 2px;
+    font-family: segeo-ui,-apple-system,Roboto,Helvetica Neue,sans-serif;
+}
+
+.eLeaveprofileDiv .row {
+    margin-right: -2px;
+    margin-left: -2px;
+}
+
+.eLeaveprofileDiv .col-md-3,
+.eLeaveprofileDiv .col-md-4,
+.eLeaveprofileDiv .col-md-12,
+.eLeaveprofileDiv .col-md-6,
+.eLeaveprofileDiv .col-md-9,
+.eLeaveprofileDiv .col-md-7,
+.eLeaveprofileDiv .col-md-5,
+.eLeaveprofileDiv .col-md-2,
+.eLeaveprofileDiv .col-md-10 {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.eLeaveprofileDiv .card {
+    border: 1px solid #ddd;
+}
+
+
+
+
+
+.eLeaveprofileDiv .pliticalProfile-img .file {
+    position: relative;
+    overflow: visible;
+    */
+/* margin-top: -16%; *//*
+
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+
+.eLeaveprofileDiv .pliticalProfile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.eLeaveprofileDiv .profile-head h5 {
+    color: #0067ff;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    margin-bottom: 4px;
+}
+
+.eLeaveprofileDiv .profile-head h6 {
+    color: #ca1719;
+}
+
+.eLeaveprofileDiv .profile-edit-btn {
+    border: none;
+    border-radius: 10pxs;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #f1f1f1;
+    cursor: pointer;
+    background: #0b4a99;
+}
+
+.eLeaveprofileDiv .proile-rating {
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+
+.eLeaveprofileDiv .proile-rating span {
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.eLeaveprofileDiv .profile-head {
+    border: 1px solid #f1f1f1;
+    padding: 5px;
+    text-align: center;
+    */
+/* margin: 0 auto;
+    width: 70%; *//*
+
+}
+
+.eLeaveprofileDiv .profile-head .nav-tabs {
+    margin-bottom: 5%;
+}
+
+.eLeaveprofileDiv .profile-head .nav-tabs .nav-link {
+    font-weight: 600;
+    border: none;
+}
+
+.eLeaveprofileDiv .profile-head .nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 2px solid #0062cc;
+}
+
+.eLeaveprofileDiv .profile-work {
+    padding: 14%;
+    margin-top: -15%;
+}
+
+.eLeaveprofileDiv .profile-work p {
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.eLeaveprofileDiv .profile-work a {
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.eLeaveprofileDiv .profile-work ul {
+    list-style: none;
+}
+
+.eLeaveprofileDiv .profile-tab label {
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.eLeaveprofileDiv .profile-tab p {
+    font-weight: 600;
+    color: #0062cc;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.eLeaveprofileDiv .file .edit-icon img {
+    width: 20px;
+}
+
+.eLeaveprofileDiv .file .edit-icon {
+    float: right;
+}
+
+.eLeaveprofileDiv .file .change {
+    float: left;
+}
+
+.eLeaveprofileDiv .tab-content {
+    padding: 4px;
+}
+
+.eLeaveprofileDiv .default{
+    padding: 5px;
+    background-color: #f57ec6;
+    border-radius: inherit;
+}
+.eLeaveprofileDiv .trs{
+    padding: 5px;
+    background-color: #f57ec6;
+    border-radius: inherit;
+}
+.eLeaveprofileDiv .bjp{
+    padding: 5px;
+    background-color: #f97b21; 
+    border-radius: inherit;
+}
+
+
+.eLeaveprofileDiv .card-header .card-title{
+    color: #fff;
+}
+
+.eLeaveprofileDiv .card-body {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.eLeaveprofileDiv .card-title {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.eLeaveprofileDiv .comapnyName {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: #0b4a99;
+}
+
+.editPopupmodal .applyChangesbutton span {
+    float: right;
+}
+
+.editPopupmodal .modal-header .btn {
+    padding: 4px;
+    background: none;
+    border: 2px solid #ffffff;
+    color: #fff;
+    border-radius: 3px;
+    padding-left: 5px;
+    font-size: 14px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    margin-right: 10px;
+}
+
+.editPopupmodal .modal-dialog {
+    max-width: 1000px;
+    margin: 4.75rem auto;
+}
+
+.editPopupmodal .modal-header {
+    padding: 5px;
+    background-image: linear-gradient(to right, #0b4a99 0%, #cb1618 100%);
+    color: #fff;
+}
+
+.editPopupmodal .form-control {
+    padding: 2px;
+}
+
+.editPopupmodal label {
+    margin-bottom: 5px;
+}
+
+.editPopupmodal select.form-control {
+    height: 30px !important;
+    font-size: 12px;
+}
+
+.editPopupmodal .modal-content .row img {
+    width: 70px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.editPopupmodal .modal-content button.close {
+    padding: 5px;
+}
+
+.editPopupmodal .form-group {
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.editPopupmodal h5 {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.profile-head p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.Desig p {
+    margin-bottom: 1px;
+}
+
+.Desig_h6 {
+    text-align: left;
+    border-top: 2px solid #67315b;
+    */
+/* margin-top: 5px; *//*
+
+}
+
+.another_cls {
+    float: right;
+}
+
+.Plo_prot {
+    text-align: center;
+}
+
+
+*/
+/* .merge_col first {
+    padding-left: 5px;
+    padding-right: 5px;
+} *//*
+
+
+.accord #accordion .card {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.accord #accordion .card .card-header a {
+    color: #fff;
+}
+
+.accord #accordion .card .card-header a:hover {
+    color: #fff;
+}
+
+#accordion .card-header a.card-link:after {
+    content: '\2212';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+#accordion .card-header a.collapsed:after {
+    content: '\002B';
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+*/
+/* .active:after {
+    content: "\2212";
+} *//*
+
+
+
+*/
+/* Santhosh Edits Starts Here 24-05-2022 *//*
+
+
+
+.firstDxpSplitterData .searchedDxpFirstSearchResults .dxpUserBasedTemplateClass:after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    z-index: -1;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+
+.firstDxpSplitterData .dxpUserBasedTemplateClass .dxpUserBasedTemplateSpanClass{
+    padding-left: 8px;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+}
+
+.eLeaveprofileDiv .card{
+    border-radius: inherit;
+}
+.eLeaveprofileDiv .card .card-header h5:after{
+    content: inherit;
+    background-color: inherit;
+}
+
+
+.eLeaveprofileDiv .media-body .innerBodyContent{
+    padding: 4px;
+}
+.firstDxpSplitterData{
+    overflow-y: auto !important; 
+}
+
+
+.profileBioData .table tr td:first-child{
+    font-weight: bold;
+}
+
+.profileBioData .table {
+    margin-bottom: inherit; 
+}
+.eLeaveprofileDiv .table-bordered th img {
+    width: 30%;
+}
+.personalDetailscard .card-header .card-title{
+    text-align: center;
+}
+.personalDetailscard .card-body .form-control{
+    height: 27px;
+    font-size: 12px;
+    background-color: rgba(234,244,253,0.8);
+}
+.personalDetailscard .card-body .jqx-widget-content {
+    background-color: rgba(234,244,253,0.8);
+}
+.personalDetailscard .card-body .jqx-combobox-state-normal{
+    height: 13px !important;
+    width: 148px !important;
+}
+
+.detailedInfo .table-responsive tr:first-child th{
+    border: none;
+}
+.selectDropdownSpan .personalDetailscard .card-header{
+    display: flex;
+    align-items: center;
+}
+.selectDropdownSpan .personalDetailscard .card-header .dxpSocialMediaImage{
+    margin-right: 5px;
+}
+
+*/
+/* Santhosh Edits Ends Here 24-05-2022 *//*
+
+
+
+*/
+/* Santhosh Edits Starts Here for 08-06-2022 *//*
+
+.personalDetailscard .card-header .card-link{
+    color: #fff;
+}
+
+.eLeaveprofileDiv .inc{
+    padding: 5px;
+    */
+/*background-color: green;*//*
+
+    background: linear-gradient(307deg, rgba(19,136,8,1) 0%, rgba(255,255,255,1) 45%, rgba(255,153,51,1) 99%);
+    border-radius: inherit;
+}
+
+.eLeaveprofileDiv .aimim{
+    padding: 5px;
+    background: linear-gradient(307deg, rgba(2,136,60,1) 100%, rgba(24,209,61,1) 0%);
+    border-radius: inherit;
+}
+.eLeaveprofileDiv .media{
+    margin: 5px 0px;
+    display: inherit;
+}
+.eLeaveprofileDiv .media .politicalProfileImgDiv{
+    text-align: center;
+}
+.eLeaveprofileDiv .media img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #3a81e9;
+    padding: 2px;
+}
+.eLeaveprofileDiv .media-body h4{
+    font-size: 16px;
+    margin-bottom: 6px;
+    width: 100%;    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+.eLeaveprofileDiv .media-body p{
+    margin-bottom: 4px;
+    text-align: center;
+}
+.politicalsocialIcons {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+.politicalsocialIcons ul{
+    display: flex;
+    margin: 0;
+}
+.politicalsocialIcons li {
+    flex-grow: 0.2;
+    flex-basis: 0;
+}
+.eLeaveprofileDiv .inc .card-title, .eLeaveprofileDiv .inc .card-link{
+    color: #333;
+}
+.politicalsocialIcons li a {
+    padding: 5px 6px;
+    border: 1px solid #0b4a99;
+    border-radius: 50%;
+    font-size: 11px;
+}
+.firstDxpSplitterData .searchedDxpFirstSearchResults .dxpUserBasedTemplateClass .dxpUserImgSpanClass img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 1px solid #3a81e9;
+}
+.firstDxpSplitterData .searchedDxpFirstSearchResults .dxpUserBasedTemplateClass{
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    background-color: #f1f1f1;
+    background-image: linear-gradient(#f1f1f1,#ebe9e9);
+    margin-bottom: 1px;
+}
+.searchedDxpFirstSearchResults .searchIconsFirstSplitterList {
+    position: sticky;    
+}
+.compareFilters .card-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+*/
+/*.compareFilters .card-body .selectDrpDwn select{
+    width: 215px;
+}*//*
+
+
+.compareFilters .card-body .cmpreBtn button{
+
+    */
+/*margin: inherit;*//*
+
+    */
+/*padding: 4px;*//*
+
+}
+
+*/
+/* Santhosh Edits Starts Ends for 08-06-2022 *//*
+
+.personalDetailscard .cmpreBtn button{
+    background: #3a81e9 !important;
+    border: 1px solid #3a81e9;
+    font-size: 10px;
+    border-radius: 4px !important;
+
+}
+.personalDetailscard .cmpreBtn button:hover{
+    background: #00186a !important;
+    border: 1px solid #00186a;
+    font-size: 10px;
+    border-radius: 4px !important;
+}
+
+*/
+/*profileTemplate 09-06-22*//*
+
+.detailedInfo img {
+    width: 60px;
+    height: 60px;
+    */
+/* float: right; *//*
+
+    border-radius: 50%;
+    padding: 2px;
+    border: 1px solid #ddd;
+}
+.analytic-modal .table-responsive {
+    max-height: 430px;
+}
+.analytic-modal .table-bordered tbody th{
+    font-size: 12px;
+}
+.analytic-modal .modal-content .modal-header{
+    padding: 5px;
+} 
+.analytic-modal .column .card-header{
+    padding: 1px;
+    border: 1px solid #d1d1d1;
+}
+.analytic-modal .column .card-header .dxpSocialMediaImage img{
+    width: 20px; 
+}
+.analytic-modal .modal-footer{
+    padding: 5px;
+}
+.analytic-modal .column .card .card-header {
+    background: #0b4a99;
+    color: #fff;
+}
+.analytic-modal .column .card .card-title{
+    color: #fff;
+}
+.analytic-modal .modal-body-scroll .card .TRS{
+    background-color: #0b4a99;
+}
+.analytic-modal .modal-body-scroll .card .INC{
+    background: linear-gradient(307deg, rgba(19,136,8,1) 0%, rgba(255,255,255,1) 45%, rgba(255,153,51,1) 99%);
+}
+.analytic-modal .modal-body-scroll .card .AIMIM{
+    background: linear-gradient(307deg, rgba(2,136,60,1) 100%, rgba(24,209,61,1) 0%);
+}
+.analytic-modal .modal-body-scroll .card .BJP{
+    background-color: #f97b21; 
+}
+
+.personalDetailscard .card .card-header{  
+    padding: 6px;
+}
+.personalDetailscard .card {
+    border-radius: 8px;    
+}
+*/
+/* 24-06-2022 SANK*//*
+
+.analytic-modal .modal-body{
+    padding: 8px;
+}
+.analytic-modal .modal-body .container-fluid{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.analytic-modal .modal-header h4{
+    font-size: 18px;
+}
+*/
+/* 24-06-2022 by SANK*//*
+
+*/
+/*profileTemplate 09-06-22*//*
+
+.visionDXPProfileUserChartCountBtn
+{
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+    margin-left: 20px;
+
+}
+*/
+/* Santhosh Css Changes Starts here on 09-06-2022 *//*
+
+.popUpChartView {
+    position: relative;
+}
+.popUpChartView .popUpThreeDotsImg{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.popUpChartView .popUpThreeDotsImg img{
+    width: 12px;
+    height: inherit;
+}
+
+*/
+/* Santhosh Css Changes Ends here on 09-06-2022 *//*
+
+
+.analytic-modal{
+    min-width: 80rem !important;
+    margin: 10px auto !important;
+    padding-top: inherit !important;
+}
+
+*/
+/* Date Filter Css Starts Here by SANK*//*
+
+.profileBioDetailedData .calendarFlex{
+    display: flex;
+    align-items: center;
+}
+.profileBioDetailedData .calendarFlex .form-group{
+    margin-bottom: 1rem;
+    flex-basis: 50%;
+    flex-grow: 1;
+    gap: 17px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+}
+.profileBioDetailedData .calendarFlex .form-group label{
+    margin-top: inherit;
+    position: inherit;
+    top: inherit;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+*/
+/* Date Filter Css Ends Here by SANK*//*
+
+
+*/
+/* Santhoah Vertical Tabs Css Starts Here 10-06-2022 for the Social Media Section *//*
+
+
+*/
+/* Candidate Analysis Verticle Tabs Changes 22-07-2022 *//*
+
+.profileBioDetailedData .verticleSocialMediaTabs{
+    position: relative;
+}
+*/
+/* Candidate Analysis Verticle Tabs Changes 22-07-2022*//*
+
+
+.verticleSocialMediaTabs .tab{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #ccc;
+    width: 5%;
+    */
+/*height: 100%;*//*
+
+}
+
+
+*/
+/* Style the buttons inside the tab *//*
+
+.verticleSocialMediaTabs .tab button {
+    color: black;
+    padding: 6px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    margin: inherit;
+    background-color: inherit;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+*/
+/* Change background color of buttons on hover *//*
+
+.verticleSocialMediaTabs  .tab button:hover {
+    background-color: rgba(234,244,253,0.8);
+    border: inherit !important;
+    margin-bottom: inherit;
+}
+
+
+*/
+/* Create an active/current "tab button" class *//*
+
+*/
+/*.verticleSocialMediaTabs  .tab button.active {
+    background-color: #d0e1f9;
+}*//*
+
+.verticleSocialMediaTabs .tab button.active {
+    z-index: 0;
+    background-color: #3a81e9;
+    background-image: linear-gradient(#3a81e9,#3a81e9);
+    color: #fff;
+}
+
+
+
+*/
+/* Style the tab content *//*
+
+.verticleSocialMediaTabs .tabcontentSingle {
+    float: left;
+    padding: 0px 1px;
+    border: 1px solid #ccc;
+    width: 95%;
+    border-left: none;
+    margin-left: 5%;
+    */
+/*height: 100%;*//*
+
+}
+
+.verticleSocialMediaTabs .dxpSocialMediaImage img{
+    width: 22px;
+}
+.verticleSocialMediaTabs .dxpSocialMediaTitle{
+    margin-left: 8px;
+    font-size: 14px;
+    */
+/*color: #fff;*//*
+
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+
+
+
+
+
+*/
+/* Santhoah Vertical Tabs Css Ends Here 10-06-2022 for the Social Media Section *//*
+
+.personalDetailscard .card-header .card-link {
+    display: flex;
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+.dxpsocialMediaImageClass{    
+    float: right;
+    position: absolute;
+    top: -2px;
+    right: 1px;
+
+}
+.dxpYearImageClass{
+    width: 25px;
+}
+.dxpSocialImageClass {
+    width: 16px !important;
+}
+
+*/
+/* Changes 20-06-2022 by SANK *//*
+
+
+.eLeaveprofileDiv .profileBioDetailedData .card-header{
+    padding: 6px;
+    background-color: rgba(234,244,253,0.8);
+}
+.eLeaveprofileDiv .profileBioDetailedData .card-header h5{
+    font-weight: inherit;
+    font-size: 14px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.eLeaveprofileDiv .profileBioDetailedData .card-header .card-title{
+    color: #333;
+}
+.eLeaveprofileDiv .profileBioDetailedData .card-header .card-link span{
+    display: inherit;
+    font-size: 14px;
+} 
+*/
+/* Changes 20-06-2022 by SANK *//*
+
+
+*/
+/*updated compare form 21-06-2022 starts*//*
+
+
+.comparePopUpMainContent .tabV {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 15%;
+    height: 100%;
+}
+
+
+.comparePopUpMainContent .tabV button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.comparePopUpMainContent .tabV button:hover {
+    background-color: #ddd;
+}
+
+*/
+/*.comparePopUpMainContent .tabV button.active {
+    background-color: #ccc;
+}*//*
+
+.comparePopUpMainContent .tabV button.active {
+    color: #120e63;
+    background-image: linear-gradient(#acc8ee 40%,#9a9cee 60%);
+    background-color: #2C3E50;
+}
+
+.comparePopUpMainContent .tabcontentCompare {
+    float: left;
+    padding: 0px 3px;
+    border: 1px solid #ccc;
+    width: 85%;
+    border-left: none;
+}
+
+.comparePopUpMainContent .dxpsocialCompareIcon img {
+    width: 22px;
+}
+
+.comparePopUpMainContent .dxpSocialCompareTitle {
+    margin-left: 8px;
+    font-size: 14px;
+    */
+/* color: #fff; *//*
+
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+
+.comparePopUpMainContent .tabcontentCompare .compareprofilePhoto {
+    text-align: center;
+    background: #f97b21
+}
+
+.comparePopUpMainContent .tabcontentCompare .compareprofilePhoto img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 1px solid #ddd;
+}
+.comparePopUpMainContent .tabcontentCompare .compareprofilePhoto .dxpCandidateCompName h6{
+    margin-bottom: 0;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.comparePopUpMainContent .compareContentMain {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    cursor: pointer;
+}
+.comparePopUpMainContent .compareContentMain::-webkit-scrollbar {
+    */
+/*width: 5px;*//*
+
+    height: 10px;
+}
+*/
+/*.comparePopUpMainContent .compareContentMain:hover::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}*//*
+
+
+.comparePopUpMainContent .compareContentMain .profileCardCompare {
+    flex-basis: 33%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin: 3px;
+}
+
+.comparePopUpMainContent .compareContentMain .trs,
+.innerSocialContent .trs,
+.innerSocialContent .aimim,
+.innerSocialContent .inc {
+    background-color: #f57ec6;
+    color: #fff;
+}
+
+.comparePopUpMainContent .compareContentMain .inc {
+    background: linear-gradient(307deg, rgba(19, 136, 8, 1) 0%, rgba(255, 255, 255, 1) 45%, rgba(255, 153, 51, 1) 99%);
+    color: #fff;
+}
+
+.comparePopUpMainContent .compareContentMain .aimim {
+    background-color: green;
+    color: #fff;
+}
+
+.comparePopUpMainContent .table th,
+.comparePopUpMainContent .table td {
+    padding: 5px;
+    font-size: 13px;
+}
+.comparePopUpMainContent .table td {
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.comparePopUpMainContent .compareprofileInfo table{
+    width: 100%;
+}
+
+.comparePopUpMainContent .tabV button{
+    margin: inherit;
+}
+
+
+*/
+/* Horizontal Tabs Css Starts Here *//*
+
+
+*/
+/* Style the tab *//*
+
+.innerSocialContent .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    */
+/*background-color: #f1f1f1;*//*
+
+}
+
+*/
+/* Style the buttons inside the tab *//*
+
+.innerSocialContent .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px;
+    transition: 0.3s;
+    font-size: 17px;
+    background-color: #ddd;
+}
+
+*/
+/* Change background color of buttons on hover *//*
+
+.innerSocialContent .tab button:hover {
+    background-color: #ddd;
+}
+
+*/
+/* Create an active/current tablink class *//*
+
+.innerSocialContent .tab button.active {
+    background-color: #014a8b;
+    color: #fff;
+}
+
+*/
+/* Style the tab content *//*
+
+.innerSocialContent .tabcontentCompareHorizontal{
+    display: none;
+    padding: 6px 6px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+*/
+/* Horizontal Tabs Css Ends Here *//*
+
+
+*/
+/* Count Bar Css Starts Here *//*
+
+.countBar {
+    width: 100%;
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.countBar .skills {
+    text-align: right;
+    margin-right: 4px;
+    color: white;
+    font-size: 13px;
+}
+
+.followerscount {
+    width: 60%;
+    background-color: #04AA6D;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.tweetscount {
+    width: 90%;
+    background-color: rgb(86, 86, 245);
+    height: 20px;
+    border-radius: 10px;
+}
+
+.likescount {
+    background-color: rgb(245, 152, 59);
+    border-radius: 10px;
+}
+
+.socialcountsLabels {
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.innerSocialContent .profileCardCompare {
+    padding: 4px;
+}
+
+.innerSocialContent .compareprofilePhoto {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ddd;
+}
+
+.innerSocialContent .socialCountMain {
+    padding: 4px;
+}
+
+*/
+/* Count Bar Css Starts Here *//*
+
+.countBar {
+    width: 100%;
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.countBar .skills {
+    text-align: right;
+    margin-right: 4px;
+    color: white;
+    font-size: 13px;
+}
+
+.followerscount {
+    width: 60%;
+    background-color: #04AA6D;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.tweetscount {
+    width: 90%;
+    background-color: rgb(86, 86, 245);
+    height: 20px;
+    border-radius: 10px;
+}
+
+.likescount {
+    background-color: rgb(245, 152, 59);
+    border-radius: 10px;
+}
+
+.socialcountsLabels {
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+
+.innerSocialContent .profileCardCompare {
+    padding: 4px;
+}
+
+.innerSocialContent .compareprofilePhoto {
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ddd;
+}
+
+.innerSocialContent .socialCountMain {
+    padding: 4px;
+}
+.Followings {
+    margin-bottom: 10px;
+}
+.Followings{
+    font-size: 14px;
+    padding: 4px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.Result{
+    padding: 4px;
+}
+.Result .sentimentTitle h6{
+    font-size: 13px;
+}
+.Result .sentimentProgressDiv{
+    margin-bottom: 5px;
+    height: 12px;
+    background: #f1f1f1;
+    border-radius: 5px;
+}
+.Result .sentimentProgressDiv .Neutral{
+    background-color: #5bc0de;
+}
+.Result .sentimentProgressDiv .Positive{
+    background-color: #5cb85c;
+}
+.Result .sentimentProgressDiv .Negative{
+    background-color: #d9534f;
+}
+
+.defaultResults .Neutral, .defaultResults .Positive, .defaultResults .Negative{
+    background-color: inherit !important;
+    color: #000; 
+    font-weight: inherit !important;
+}
+
+
+.Result .sentimentProgressDiv .progress-bar{
+    height: 12px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 2px;
+    font-weight: bold;
+}
+
+.Result .sentimentLabel h6{
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+
+
+.Re_Tweet,
+.Tweet_Like,
+.Tweet_share {
+    margin-left: 30px;
+}
+.Followings .Twit_follow {
+    margin-right: 25px;
+}
+.Re_Tweets,
+.Tweet_Likes,
+.Tweet_shares {
+    margin-right: 25px;
+}
+.tables .space {
+    width: 110px;
+}
+.Twit_Followers{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.Twit_Followers>div{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.Twit_Followers>div h6{
+    margin-bottom: 0;
+}
+.Twit_Followers .badge-secondary{
+    color: #fff;
+    background-color: #6c757d;
+    margin-left: 10px;
+}
+.Twit_Likes, .video_Likes, .facebook_Likes{
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+    width: 80%;
+}
+.Twit_Likes .countsDiv, .video_Likes .countsDiv, .facebook_Likes .countsDiv{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.Twit_Likes .countsDiv .countIcon, .video_Likes .countsDiv .countIcon, .facebook_Likes .countsDiv .countIcon{
+    padding-right: 5px;
+}
+*/
+/*updated compare form 21-06-2022 end*//*
+
+.eLeaveprofileDiv .profileBioDetailedData, .compareFilters .card{
+    min-height: 70px;
+}
+
+
+*/
+/*more profile data css changes on 24-06-2022 starts by RajaSekhar*//*
+
+.dxpProfileMoreDataApndClass .card-header {
+    position: relative;
+}
+.dxpProfileMoreDataApndClass .dxpViewCloseUser{    
+    position: absolute;
+    top: 3px; 
+    right: 3px;
+    font-weight: 600;
+    font-size: 12px; 
+    cursor: pointer;
+    color: #fff;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    padding: 2px 5px; 
+}
+.innerSocialContent .tab button{
+    background-color: #c7e0f4;   
+    border-radius: 5px 5px 0 0;
+    color: #014a8b;
+    margin: inherit; 
+    margin-right: 2px;
+}
+*/
+/*.innerSocialContent .tab button:hover{
+    background-color: #c7e0f4 !important;
+    color: #014a8b !important;
+    border-radius: 5px 5px 0 0;
+    margin: inherit;
+    margin-right: 2px;
+}*//*
+
+*/
+/*more profile data css changes on 24-06-2022 ends by RajaSekhar*//*
+
+
+
+*/
+/* Political Candidates Search List Count Css Starts Here by SANK 27-06-2022*//*
+
+.searchedDxpFirstSearchResults .dxpUserCountClass {
+    padding: 10px;
+    position: sticky;
+    background-color: #f1f1f1;
+    z-index: 0;
+    background-color: #f1f1f1;
+    background-image: linear-gradient(#f1f1f1,#ebe9e9);
+    margin-bottom: 1px;
+}
+
+.searchedDxpFirstSearchResults .dxpUserCountClass:after{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: calc(100% - 4px);
+    height: 50%;
+    z-index: -1;
+    background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+.dxpUserCountClasscandidateList .totalcandidatesparty{
+    letter-spacing: 1.2px;
+    font-size: 14px;
+}
+.dxpUserCountClasscandidateList .listcount{
+    float: right;
+    font-weight: 600;
+}
+
+*/
+/* Political Candidates Search List Count Css Ends Here by SANK 27-06-2022*//*
+
+
+
+#twitterCompare .profileCardCompare{
+    min-height: 406px;
+}
+#youtubeCompare .profileCardCompare {
+    min-height: 377px;
+}
+.Devices, .Users, .HashTags, .MediaChannels, .PositiveY, .NegativeY, .NewsTitles,.NewsMediaName, .Sad, .Angry, .Disgust, .Neutral, .Surprised, .Audio, .Happy{
+    margin-right: 0px;
+    margin-left: 0px;
+    */
+/*padding: 3px;*//*
+
+    border-bottom: 1px solid #f1f1f1;
+}
+.Devices .col-6, .Users .col-6, .HashTags .col-6, .MediaChannels .col-6, .PositiveY .col-6, .NegativeY .col-6, .NewsTitles .col-6, .NewsMediaName .col-6, .Sad .col-6, .Angry .col-6, .Disgust .col-6, .Neutral .col-6, .Surprised .col-6, .Audio .col-6, .Happy .col-6{
+    padding-left: inherit;
+    padding-right: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Survey .Positive, .Survey .Negative, .Survey .Neutral{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 3px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.Survey .Positive .col-6, .Survey .Negative .col-6, .Survey .Neutral .col-6{
+    padding-left: inherit;
+    padding-right: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.showPopupdialogBox .modal-body{
+    overflow: auto;
+}
+
+
+*/
+/* Profile Candidate Location  Css 05-07-2022*//*
+
+.candidateConstituency {
+    position: relative;
+}
+.candidateConstituency p{
+    margin-bottom: inherit;
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.candidateConstituency span img{
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    cursor: pointer;
+}
+.candidateLocation, .moreProfileData{
+    padding-top: inherit !important;
+}
+.candidateLocation .modal-xl{
+    margin: 30px auto;
+}
+.candidateLocation .modal-body,.candidateLocation .modal-footer, .moreProfileData .modal-footer{
+    padding: 4px;
+}
+.dxpProfileMoreDetails{
+    padding: 4px;
+    width: 100%;
+}
+.dxpProfileMoreDetails .dxpProfilePinClass img{
+    float: right;
+}
+.firstDxpSplitterData .searchedDxpFirstSearchResults .dxpUserBasedTemplateClass.activeClass{
+    position: relative;
+    z-index: 0;
+    background-color: #3a81e9;
+    background-image: linear-gradient(#3a81e9,#3a81e9);
+    color: #fff;
+    font-weight: 600;
+}
+
+
+*/
+/* Profile Candidate Location  Css 05-07-2022*//*
+
+
+*/
+/* Compare NewChannel and NewsPaper Card Design 06-07-2022 *//*
+
+#newsPaperCompare .dxpUserNewsPaperCompare {
+    min-height: 313px;
+}
+#newsChannelCompare .dxpUserNewsChannelCompare {
+    min-height: 313px;
+}
+*/
+/* Compare NewChannel and NewsPaper Card Design 06-07-2022 *//*
+
+
+
+.constituencyTabContent p{
+    font-size: 13px;
+    margin-bottom: inherit;
+    line-height: 22px;
+    text-align: justify;
+    padding: 4px;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+*/
+/* Calendar buttons css changes starts by Rajasekhar on 14-07-2022*//*
+
+.tabcontentSingle .fc-toolbar-chunk .fc-button-group .fc-today-button {
+    border: inherit !important;
+    margin-bottom: inherit !important;
+}
+.tabcontentSingle .fc-toolbar-chunk .fc-today-button {
+    border: inherit !important;
+    margin-bottom: inherit !important;
+}
+.tabcontentSingle .fc-toolbar-chunk .fc-button-group button{
+    border: inherit !important;
+    margin-bottom: inherit !important;
+}
+*/
+/* Calendar buttons css changes starts by Rajasekhar on 14-07-2022*//*
+
+
+
+
+*/
+/*new profile css 19-07-2022*//*
+
+.singleProfileCardsViewMain {
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+.singleProfileCardsViewMain .row {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+
+*/
+/*Candidate analysis social medias cards css starts by Rajasekhar on 22-07-2022*//*
+
+
+.singleProfileCardsViewMain .Followers, .Retweet, .HashTags{        
+    background-color: rgba(234,244,253,0.8);    
+}
+.singleProfileCardsViewMain .DeviceSource{        
+    background-color: #3a81e9; 
+    font-size: 14px;
+}
+.singleProfileCardsViewMain .DeviceSource .media .media-body h3{ 
+    font-size: 14px;
+}
+.tabcontentSingle .sentimentAnalysis0, .sentimentAnalysis2{        
+    background-color: rgba(234,244,253,0.8); 
+}
+.tabcontentSingle .sentimentAnalysis1{        
+    background-color: rgba(234,244,253,0.8);    
+}
+*/
+/*Candidate analysis social medias cards css ends by Rajasekhar on 22-07-2022*//*
+
+
+
+
+.singleProfileCardsViewMain .singleinnerCard .card-body {
+    padding: 4px;
+}
+
+.singlesentimentResultsMain .singlesentimentInnerCard, .singlesentimentAnalysisMain .singlesentimentInnerCard{
+    margin-bottom: 10px;
+    box-shadow: 0 10px 40px 0 rgb(62 57 107 / 7%), 0 2px 9px 0 rgb(62 57 107 / 6%);
+}
+.singleProfileCardsViewMain .singlesentimentInnerCard .card-body{
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sentimentTitleName h4{
+    font-size: 12px;
+    color: #333;
+    margin-bottom: inherit;
+    font-weight: 600;
+    text-align: center;
+}
+.totalPercentage{ 
+    font-size: 15px;
+    color: #333;
+}
+
+
+.sentimentProgress {
+    width: 60px;
+    height: 60px;
+    background: none;
+    position: relative;
+    margin: 0 auto;
+}
+
+.sentimentProgress::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 6px solid #eee;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sentimentProgress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.sentimentProgress .sentimentProgress-left {
+    left: 0;
+}
+
+.sentimentProgress .sentimentProgress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+
+.sentimentProgress .sentimentProgress-left .sentimentProgress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+
+.sentimentProgress .sentimentProgress-right {
+    right: 0;
+}
+
+.sentimentProgress .sentimentProgress-right .sentimentProgress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+}
+
+.sentimentProgress .sentimentProgress-value {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.singleProfileCardsViewMain .media{
+    margin: inherit;
+}
+.singleProfileCardsViewMain .media .media-body h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.sentimentResultsTitle{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+*/
+/*new profile css 19-07-2022*//*
+
+
+.intelCollabaMainName{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 204px;
+}
+.intelCollabaSubName{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.intsenseTHeader{
+    background-color: #0067ff;
+}
+.intsenseYHeader{
+    background-color: red; 
+}
+.intsenseNPHeader{
+    background-color: graytext; 
+}
+.intsenseNCHeader{
+    background-color: graytext; 
+}
+
+*/
+/*candidate new analysis*//*
+
+.candidateAnalysisDataMainDiv {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    margin-bottom: 10px;
+    ;border-bottom: 1px solid #f1f1f1;
+}
+
+.candidateAnalysisDataMainDiv .singleinnerCard {
+    display: flex;
+    align-items: center;
+    */
+/*padding: 4px;*//*
+
+    margin: 2px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.candidateAnalysisDataMainDiv .singleinnerCard .candidatesocialTitleImage img {
+    width: 22px;
+}
+
+.candidateAnalysisDataMainDiv .singleinnerCard .candidatesocialTitleImage {
+    margin-right: 6px;
+}
+
+.candidateAnalysisDataMainDiv .singleinnerCard .candidateCountValue {
+    font-size: 17px;
+}
+.candidateDeviceSource{
+    margin-bottom: 10px;
+    padding: 4px;  
+    border-bottom: 1px solid #f1f1f1;
+}
+.candidateDeviceSource .singleinnerCard{
+    display: flex;
+    align-items: center;
+}
+.candidateDeviceSource .singleinnerCard .candidatesocialTitleImage{
+    margin-right: 6px; 
+}
+.candidateDeviceSource .singleinnerCard .candidateCountValue{
+    font-weight: 600;
+}
+.candidateDeviceSource .candidatesocialTitleImage img{
+    width: 22px;    
+}
+.sentimentAnalysisComments {
+    display: flex;
+    align-items: center;
+}
+.sentimentAnalysisComments .card{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+*/
+/*candidate new analysis*//*
+
+
+
+*/
+/*sidebuttons*//*
+
+.listofFilters li{
+    padding: 3px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.listofFilters li:nth-child{
+    border-bottom: none;
+}
+.listofFilters li img{
+    width: 20px; 
+}
+
+.list-group{
+    float: right;
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 10%;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+*/
+/*sidebuttons*//*
+
+
+
+.showSentimentComments .modal-body{
+    overflow-y: scroll;
+    height: 300px;
+}
+.lineChartOptionsData .modal-body{
+    overflow-y: scroll;
+    height: 500px;
+}
+.ic-maximize{
+    max-width: 100% !important;
+    flex: auto !important;
+}
+.ic-maximize .card-body{
+    max-height: 100% !important;
+}
+.ic-maximize .list-group{
+    max-width: 30px;
+}
+.dxpProfileMoreDataApndClass .partyAIMIM{
+    background-color: rgba(2,136,60,1);
+}
+.dxpProfileMoreDataApndClass .partyBJP{
+    background-color: #f97b21; 
+}
+.dxpProfileMoreDataApndClass .partyINC{
+    background: linear-gradient(307deg, rgba(19,136,8,1) 0%, rgba(255,255,255,1) 45%, rgba(255,153,51,1) 99%);
+}
+*/
+/* Voice Emotions Css Starts Here By Somnath Singh 10-08-2022*//*
+
+.voiceemotionInnerContent .singleProfileCardsViewMain .candidateAnalysisDataMainDiv {
+    display: inherit;
+    align-items: inherit;
+    padding: 4px;
+    margin-bottom: 5px;
+    border-bottom: inherit; 
+}
+.voiceemotionInnerContent .singleProfileCardsViewMain .candidateAnalysisDataMainDiv .audioTitles p{
+    font-size: 14px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: inherit;
+}
+.voiceemotionInnerContent .singleProfileCardsViewMain .emojiDivClass {
+    display: flex;
+    align-items: center;  
+    padding-bottom: 4px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.voiceemotionInnerContent .singleProfileCardsViewMain .emojiDivClass .voiceEmotionsTimeClass{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.voiceemotionInnerContent .singleProfileCardsViewMain .emojiDivClass .candidateCountValue{
+    margin-left: 5px;
+}
+.voiceemotionInnerContent .singleProfileCardsViewMain .emojiDivClass .candidatesocialTitleImage img{
+    width: 22px;
+}
+
+
+.faceEmotionInnerContent .singleProfileCardsViewMain .candidateAnalysisDataMainDiv {
+    display: inherit;
+    align-items: inherit;
+    padding: 4px;
+    margin-bottom: 5px;
+    border-bottom: inherit; 
+}
+.faceEmotionInnerContent .singleProfileCardsViewMain .candidateAnalysisDataMainDiv .audioTitles p{
+    font-size: 14px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: inherit;
+}
+.faceEmotionInnerContent .singleProfileCardsViewMain .emojiDivClass {
+    display: flex;
+    align-items: center;  
+    padding-bottom: 4px;
+    border-bottom: 1px solid #f1f1f1;
+}
+.faceEmotionInnerContent .singleProfileCardsViewMain .emojiDivClass .voiceEmotionsTimeClass{
+    flex-basis: 0;
+    flex-grow: 1;
+}
+.faceEmotionInnerContent .singleProfileCardsViewMain .emojiDivClass .candidateCountValue{
+    margin-left: 5px;
+}
+.faceEmotionInnerContent .singleProfileCardsViewMain .emojiDivClass .candidatesocialTitleImage img{
+    width: 22px;
+}
+*/
+/* Voice Emotions Css Ends Here *//*
+
+
+.sentimentAnalysisComments .media img{
+    width: 30px;
+    height: inherit;
+    border-radius: inherit;
+    border: inherit;
+    padding: inherit;
+}
+.sentimentAnalysisComments .media .positiveTextClass{
+    color: #00c60b;
+    text-transform: capitalize;
+}
+.sentimentAnalysisComments .media .media-body span{
+    font-size: 13px;
+    font-weight: 600; 
+}
+.sentimentAnalysisComments .media .negativeTextClass{
+    color: #fc0203;
+    text-transform: capitalize; 
+}
+.sentimentAnalysisComments .media .neutralTextClass{
+    color: #f99800;
+    text-transform: capitalize;
+}
+
+
+.border-Positive{
+    color: #00c60b !important;
+}
+.border-Negative{
+    color: #fc0203 !important;
+}
+.border-Neutral{
+    color: #f99800 !important;
+}
+
+*/
+/* date dropdown for seven days start*//*
+
+.selectDateHeader{
+    display: flex;
+    align-items: center;
+}
+.tweetsCountMainDiv{ 
+    display: flex;
+    align-items: center;
+}
+.tweetsCountMainDiv .tweetsCountLabel{
+    font-weight: 600;
+} 
+.isDateWiseDataSelectClass{
+    width: 30%;
+    text-align: center;
+}
+.selectDateHeader .tweetsCountMainDiv{
+    width: 30%;
+}
+.selectDateHeader .tweetsCountMainDiv .tweetsCountValue{
+    margin-right: 10%;
+}
+.selectDateHeader .tweetsCountMainDiv .tweetsCountLabel{
+    margin-right: 5px;
+}
+.isDateWiseDataSelectClass .isDateDropdownBoxClass{
+    height: 25px;
+}
+*/
+/* date dropdown for seven days end*//*
+
+
+*/
+/*dropdown for description start*//*
+
+.isdropdown {
+    position: relative;
+    display: inline-block;
+}
+.isdropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.isdropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; 
+}
+.isdropdown:hover .isdropdown-content {
+    display: block;
+}
+*/
+/*dropdown for description end*//*
+
+
+.faceEmotionDataMainDiv .card{
+    padding: 4px;
+    margin-bottom: 10px; 
+    border: 2px solid #00acee;
+}
+.faceEmotionDataMainDiv .card .media-right img{
+    width: 100px !important;
+}
+.faceEmotionDataMainDiv .card .media-body .dxpSocialImageClass{
+    width: 22px !important;
+}
+.faceEmotionDataMainDiv .card .media-body .Twit_Likes{
+    width: 100%;
+    border-bottom: inherit;
+}
+.faceEmotionDataMainDiv .card .media-body .media-heading{
+    margin-bottom: inherit;
+    border-bottom: 1px solid #f1f1f1; 
+    padding-bottom: 2px;
+    font-weight: 600; 
+}
+
+.dataDxpSplitterShowFullImageOnPopup {
+    padding-top: inherit !important;
+} 
+.dataDxpSplitterShowFullImageOnPopup .modal-body, .dataDxpSplitterShowFullImageOnPopup .modal-header, .dataDxpSplitterShowFullImageOnPopup .modal-footer{
+    padding-top: inherit !important;
+    padding: 4px !important;
+}
+.dataDxpSplitterShowFullImageOnPopup .modal-header h4{
+    font-size: 16px;
+}
+.fc-header-toolbar .fc-toolbar-chunk .btn-group button{
+    margin-right: 4px;
+    margin-bottom: inherit !important;
+    border-radius: 4px !important;
+    padding: 2px 10px;
+}
+#calendarFullTwi{
+    height: 400px;
+}
+.modal-header {
+   background-color: rgb(162 192 237);
+    color: #000;
+    padding: 4px;
+}
+
+.dataDxpSplitterValue .modal-header .modal-title {
+margin-left: 16px;
+}
+
+.dataDxpSplitterValue .modal-dialog .modal-content .modal-body #showUserCostForm .integralStepFormDiv .integralStepForm .btn-primary {
+background-color: #fff !important;
+    color: #0b4a99 !important;
+    font-weight: 700;
+    border-radius: 8px !important;
+}
+.modal-footer{
+    padding: 4px;
+}
+.modal-header button.close span[aria-hidden="true"]{
+    font-weight: 100;
+    font-size: 25px !important;
+    color: #fff;
+}
+ 
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .compareFilters .card-body {
+        display: block;
+        align-items: center;
+    }
+    .compareFilters .selectDrpDwn{
+        width: 100% !important;
+    }
+    .compareFilters .card-body .cmpreBtn{
+        margin-top: 2px;
+        text-align: center;
+    }
+    .eLeaveprofileDiv .profileBioDetailedData .card-header h5{
+        font-size: 12px;
+    }
+    .searchResultsDiv .ac-items .media-body p{
+        width: 170px;
+    }
+    .searchMainWrap .has-search .searchResultsDiv{
+        width: 80%;
+    }
+    .dxpPageWrapper{
+        margin-top: 54px;
+    }
+    .intelliSenseSelectBoxClass, .homePageFilters .filterLabels{
+        font-size: 12px;
+    }
+    .isHomePageFilters, .intelliSenseHomePageOptions{
+        border-right: inherit;
+    }
+
+    .signupBody{
+        position: relative; 
+        background-image: url(../images/signupbg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover !important;
+    }
+
+    .wizard-v1-content {
+        width: 300px !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+    }
+
+    .Maintitle .titleSignup {
+        font-size: 14px;
+        margin-left: 2px;
+    }
+    .form-row .form-holder input {
+        height: 23px !important;
+        font-size: 12px !important;
+    }
+    .verify_account_position{
+        position: absolute;
+        right: 0.8rem;
+        top: 30px !important;
+    }
+    .form-register .content {
+        padding: 30px 5px 30px 5px;
+    }
+    .signupLogo .pilogcloudLogo {
+        width: 150px !important;
+    }
+
+    .signupLogo .home_img {
+        width: 20px !important;
+    }
+
+    .verify_account_position {
+        position: absolute !important;
+        right: 0.1rem !important;
+        top: 2.8rem !important;
+    }
+
+    .otp_status {
+        font-size: 11px !important;
+    }
+
+    #verifyOtpBtn {   
+        font-size: 12px !important;
+    }
+    .footer{
+        position: inherit !important;
+        bottom: inherit !important;
+    }
+    .footer .text-right p{
+        padding: 1px !important;
+    }
+    */
+/* Edits for the signup Css  19-09-2022*//*
+
+    .wizard-v1-content .wizard-form .actions ul li .btn-primary{
+        font-size: 12px;
+    }
+    .otp_textbox_div{
+        align-items: inherit !important;
+    }
+    .email_status{
+        font-size: 12px;
+        margin-bottom: inherit;
+    }
+    #verifyOtpBtn {
+        margin-top: inherit !important;
+        width: 60px;
+    }
+    .ConstituencySection .tab {
+        display: flex;
+        width: 100% !important;
+        height: inherit !important;
+    }
+
+    .ConstituencySection .tab button {
+        overflow: visible !important;
+    }
+    .ConstituencySection .constituencyTabContent {
+        width: 100% !important;
+    }
+
+    .ConstituencySection .constituencyTabContent .table td, .ConstituencySection .constituencyTabContent .table th {
+        padding: 5px !important;
+    }
+
+    .isAcLevelTrs {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+    */
+/*    .constituencyTabContent p {
+            overflow-y: scroll !important;
+        }*//*
+
+    .ConstituencySection .tab button {
+        padding: 10px 5px !important;
+    }
+    */
+/* Edits for the signup Css  19-09-2022*//*
+
+
+    */
+/* Candidate Analysis 22-09-20222 by SANK *//*
+
+    .verticleSocialMediaTabs .tab{
+        position: inherit !important;
+        top: inherit !important;
+        left: inherit !important;
+        border: 1px solid #ccc;
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        overflow-x: auto;
+    }
+    .verticleSocialMediaTabs .tabcontentSingle{
+        float: inherit !important;
+        padding: 0px 1px;
+        border: 1px solid #ccc;
+        width: 100% !important;
+        border-left: none;
+        margin-left: inherit !important;
+    }
+    .selectDateHeader{
+        display: block !important;
+        align-items: inherit !important;
+    }
+    .isDateWiseDataSelectClass, .isDateWiseDataSelectClass .isDateDropdownBoxClass{
+        width: 100% !important;
+    }
+    .eLeaveprofileDiv .profileBioDetailedData .card-header .card-link span{
+        font-size: 12px !important;
+    }
+    .tweetsCountMainDiv{
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+
+    .sentimentAnalysisComments{
+        display: block !important;
+        align-items: inherit !important; 
+    }
+
+    .singleProfileCardsViewMain .col-12{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .candidatesocialTitleImage img{
+        width: 16px !important;
+    }
+    .candidateCountValue{
+        font-size: 10px !important;
+    }
+    .candidateAnalysisDataMainDiv {
+        justify-content: space-between;
+    }
+    .profileBioDetailedData .calendarFlex{
+        display: block !important;
+        align-items: inherit !important;
+    }
+    .profileBioDetailedData .calendarFlex .form-control{ 
+        height: 27px !important;
+    }
+    .sentimentResultsTitle{
+        font-size: 12px !important;
+    }
+    .fc-header-toolbar .fc-toolbar-chunk .btn-group button{
+        margin-right: 4px;
+        margin-bottom: inherit !important;
+        border-radius: 4px !important;
+        padding: 2px 10px;
+    }
+    .fc-toolbar-title{
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1224px)  {
+    .compareFilters .card-body {
+        display: block;
+        align-items: center;
+    }
+    .compareFilters .selectDrpDwn{
+        width: 100% !important;
+    }
+    .compareFilters .card-body .cmpreBtn{
+        margin-top: 2px;
+        text-align: center;
+    }
+    .eLeaveprofileDiv .profileBioDetailedData .card-header h5{
+        font-size: 12px;
+    }
+    .searchResultsDiv .ac-items .media-body p{
+        width: 240px;
+    }
+    .verticleSocialMediaTabs .dxpSocialMediaImage img{
+        width: 16px;
+    }
+    .intelliSenseSelectBoxClass, .homePageFilters .filterLabels{
+        font-size: 12px;
+    }
+} 
+
+*/
+/**//*
+
+.isScoreCarsChartMainClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    */
+/*padding: 8px;*//*
+
+    */
+/*background: #00acee;*//*
+
+    border: 1px solid #d1d1d1;
+    box-shadow: rgb(0 0 0 / 15%) 0px 3px 8px;
+}
+
+
+.isScoreCarsChartMainClass .partyListListMainDataClass .jqx-fill-state-normal-energyblue{
+    background-color: #fff !important; 
+}
+.isScoreCarsChartMainClass .candidatesListListMainDataClass .jqx-fill-state-normal-energyblue{
+    background-color: #fff !important; 
+}
+.calendarScoreCardFlex {
+    display: flex;
+}
+.calendarScoreCardFlex .scoreCardsfromDate, .calendarScoreCardFlex .scoreCardstoDate{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-bottom: inherit;
+    */
+/*margin-left: 3px;*//*
+
+}
+*/
+/*.calendarScoreCardFlex .scoreCardsfromDate{
+    margin-right: 20px; 
+}*//*
+
+.calendarScoreCardFlex .fromDate, .calendarScoreCardFlex .toDate { 
+    */
+/*margin-right: 6px;*//*
+
+    font-weight: 600;
+    font-size: 14px;
+    color: #000;
+}
+.calendarScoreCardFlex .fromInputSpan, .calendarScoreCardFlex .toInputSpan{
+    width: 100%;
+}
+.dataDxpSplitterValueScoreCard .modal-body{
+    padding-top: 4px;
+}
+.dataDxpSplitterValueScoreCard {
+    padding-top: 0px !important; 
+}
+*/
+/**//*
+
+.isSideMenuListOfValuesClass{
+    display:flex;
+    align-items: center;
+}
+.isSideMenuListOfValuesClass .menuSubClickLink{
+    margin-left: 5px;
+}
+
+*/
+/*Analytics modal dialog box css starts here by Rajasekhar on 14-09-2022*//*
+
+
+.dataDxpSplitterValueScoreCard .modal-body {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.isScoreCarsChartMainClass {
+    margin-left: -1px;
+    margin-right: -1px;
+}
+.isScoreCarsChartMainClass {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.isScoreCarsChartMainClass .partyListListMainDataClass {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.isScoreCarsChartMainClass .candidatesListListMainDataClass{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.isScoreCarsChartMainClass .calendarScoreCardFlex {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.isScoreCarsChartMainClass .partyListListMainDataClass .jqx-dropdownlist{
+    height: 18px !important;
+    font-size: 12px;
+    margin: 4px 0px;
+    border-radius: 4px;
+}
+.isScoreCarsChartMainClass .partyListListMainDataClass select{
+    height: 28px;
+    padding: 4px;
+    border-radius: 2px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.isScoreCarsChartMainClass .candidatesListListMainDataClass .jqx-dropdownlist{
+    height: 18px !important;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.isScoreCarsChartMainClass .candidatesListListMainDataClass .candidatesDataName {
+    font-size: 12px;
+}
+
+.toInputSpan input{
+    font-size: 12px;
+    margin: 0px 1px;
+}
+.fromInputSpan input{
+    font-size: 12px;
+}
+
+*/
+/*Analytics modal dialog box css ends here by Rajasekhar on 14-09-2022*//*
+
+
+*/
+/*voice emotion analysis starts*//*
+
+.AllEmojiGroup .list-group{
+    float: inherit;
+    position: inherit;
+    top: inherit;
+    right: inherit;
+    width: 100%;
+    background: inherit;
+    border: 1px solid #ddd; 
+
+}
+.AllEmojiGroup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.AllEmojiGroup .emotionalDataDivMain{
+    width: 50%;
+}
+
+.list-group-img{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+*/
+/*voice emotion analysis starts*//*
+
+*/
+/*.isFaceEmotionDetailsClass .Twit_Likes, .video_Likes, .facebook_Likes{
+    padding: 22px; 
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}*//*
+
+.isFaceEmotionDetailsClass .dxpSocialImageClass{
+    width: 30px !important;
+}
+.isCardBodyImageAndDataClass {
+    display: flex;
+}
+
+.isFaceEmotionCandidateClass {
+    width: 30px !important;
+    height: auto!important;
+    border: none !important;
+}
+
+.isFaceEmotionCandidateImageClass {    
+    height: 100px !important;
+}
+
+.isFaceEmotionMainCondClass{
+    margin-top: 30px !important;
+}
+.countsImg{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+} 
+.faceEmoctionAllEmageRecord{
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.faceEmotionInnerContentCard{
+   height: 300px;
+    overflow-y: scroll; 
+}
+
+
+.innerFunctionDefinationTable .table-bordered thead tr {
+    background: cornflowerblue;
+    color: #f1f1f1;
+}
+.innerFunctionDefinationTable .card .card-header {
+	background: cornflowerblue;
+    padding: 0px;
+    padding-left: 10px;
+    
+   
+}
+
+.innerFunctionDefinationTable .card-header h5{
+	
+    color:#f1f1f1 !important;
+}
+.PlanTitle {
+	color:#212529;
+}
+
+
+.innerFunctionDefinationTable .table-bordered {
+	width:100%; 
+	border-collapse:collapse;
+}
+
+.innerFunctionDefinationTable .table-bordered td {
+	padding:7px;;
+	
+}
+.innerFunctionDefinationTable .table-bordered tr {
+	background: red;
+}
+
+.innerFunctionDefinationTable .table-bordered tr:nth-child(odd){ 
+		background: #b8d1f3;
+	}
+
+.innerFunctionDefinationTable .table-bordered tr:nth-child(even){
+		background: #dae5f4;
+	}
+.innerFunctionDefinationTable .table>thead>tr>th {
+	color:#f1f1f1;
+	font-family:sans-serif;
+	font-weight:700;
+	font-size:15px;
+	background:cornflowerblue;
+	padding:11px;
+	}
+.definationFunctionUseCases .card .card-header .card-body {
+	background:#dae5f4 !important;
+}
+
+
+
+.definationFunctionUseCases h6{
+	padding: 6px !important;
+	background-color:#dce3e5;
+	border-radius:6px;
+	color:#212529;
+}
+
+ 
+
+
+.dataDxpSplitterValue .definationFunctionUseCases .innerFunctionDefinationTable{
+	position: relative;
+	height: 250px;
+	overflow-y: auto;
+}
+
+.dataDxpSplitterValue .definationFunctionUseCases .card .card-header,
+	.dataDxpSplitterValue .definationFunctionUseCases .card .card-body, .dsKnowledgeBaseID .card .card-header, .dsKnowledgeBaseID .card .card-body{
+	padding: 11px;
+}
+
+
+.dataDxpSplitterValue .definationFunctionUseCases .card .card-header, .dsKnowledgeBaseID .card .card-header{
+	background-color: cornflowerblue;
+	color: #fff;
+}
+
+.dataDxpSplitterValue .definationFunctionUseCases .innerFunctionDefinationTable table thead
+	{
+	position: sticky;
+	top: 0;
+}
+
+.dsKnowledgeBaseID .innerFunctionDefinationTable {
+	position: relative;
+	height: 500px;
+	overflow-y: auto;
+}
+
+.dsKnowledgeBaseID .innerFunctionDefinationTable table thead {
+	position: sticky;
+	top: 0;
+}
+.definationFunctionUseCases .card .card-header h5 {
+	color:#fff;
+}*/
