@@ -280,10 +280,10 @@ public class IVisionTransformProcessJobComponentsService {
 									}
 
 								} else if (iconType != null && "API".equalsIgnoreCase(iconType)) {
-									String stagingTable = (String) operator.get("tableName");
-									((List) request.getAttribute("stagingTablesList")).add(stagingTable);
-									request.setAttribute("stagingTablesList",
-											request.getAttribute("stagingTablesList"));
+//									String stagingTable = (String) operator.get("tableName");
+//									((List) request.getAttribute("stagingTablesList")).add(stagingTable);
+//									request.setAttribute("stagingTablesList",
+//											request.getAttribute("stagingTablesList"));
 									processAPIComponentJob(request, (String) operatorId, operators, flowchartData,
 											jobId);
 
@@ -689,10 +689,10 @@ public class IVisionTransformProcessJobComponentsService {
 									}
 
 								} else if (iconType != null && "API".equalsIgnoreCase(iconType)) {
-									String stagingTable = (String) operator.get("tableName");
-									((List) request.getAttribute("stagingTablesList")).add(stagingTable);
-									request.setAttribute("stagingTablesList",
-											request.getAttribute("stagingTablesList"));
+//									String stagingTable = (String) operator.get("tableName");
+//									((List) request.getAttribute("stagingTablesList")).add(stagingTable);
+//									request.setAttribute("stagingTablesList",
+//											request.getAttribute("stagingTablesList"));
 									processAPIComponentJob(request, (String) operatorId, operators, flowchartData,
 											jobId);
 
@@ -8601,22 +8601,26 @@ public class IVisionTransformProcessJobComponentsService {
 			    throw new IllegalStateException("Unexpected response format: " + responseBody.getClass().getName());
 			}
 			List<Object[]> dataList = new ArrayList<>();
-			List columnsList = new ArrayList();
-			int itr = 0;
+			Set<String> columnSet = new LinkedHashSet<>();
 
-			for (LinkedHashMap rowMap : responseList) {
-				Object[] rowData = new Object[rowMap.size()];
-				if (itr == 0) {
-					columnsList = new ArrayList(rowMap.keySet());
-				}
+			// Collect all unique keys for columnsList
+			for (LinkedHashMap<String, Object> rowMap : responseList) {
+			    columnSet.addAll(rowMap.keySet());
+			}
 
-				int i = 0;
-				for (Object key : rowMap.keySet()) {
-					rowData[i] = String.valueOf(rowMap.get(key));
-					i++;
-				}
-				dataList.add(rowData);
-				itr++;
+			// Convert the columnSet to a list to preserve order
+			List<String> columnsList = new ArrayList<>(columnSet);
+
+			// Create dataList with consistent columns
+			for (LinkedHashMap<String, Object> rowMap : responseList) {
+			    Object[] rowData = new Object[columnsList.size()];
+			    
+			    for (int i = 0; i < columnsList.size(); i++) {
+			        String key = columnsList.get(i);
+			        rowData[i] = rowMap.getOrDefault(key, null); // Fill with null if the key is missing
+			    }
+			    
+			    dataList.add(rowData);
 			}
 
 			fromDataList = dataList;
@@ -8625,6 +8629,7 @@ public class IVisionTransformProcessJobComponentsService {
 			// resultObject.put("simpleColumnsList", columnsList);
 			JSONObject tooperator = (JSONObject) operators.get(operatorId);
 			String toTableName = (String) tooperator.get("tableName");
+			System.out.println(toTableName);
 			JSONObject toConnObj = (JSONObject) tooperator.get("connObj");
 			if (toConnObj != null && !toConnObj.isEmpty()) {
 				toConnection = componentUtilities.getConnection(toConnObj);
@@ -8656,7 +8661,7 @@ public class IVisionTransformProcessJobComponentsService {
 				try {
 					componentUtilities.processETLLog((String) request.getSession(false).getAttribute("ssUsername"),
 							(String) request.getSession(false).getAttribute("ssOrgId"),
-							"Processed " + insertCount + " Records", "INFO", 20, "Y", jobId);
+							"Processed " + insertCount + " Records Into " + toTableName + " ", "INFO", 20, "Y", jobId);
 				} catch (Exception ex) {
 				}
 
